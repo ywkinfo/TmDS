@@ -1,0 +1,4048 @@
+[
+  {
+    "id": "제1절-결정계-심판",
+    "title": "제1절 결정계 심판",
+    "chapterTitle": "제3장 특허심판의 종류",
+    "partTitle": "제1편 특허심판 일반",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "6",
+    "pageStart": 34,
+    "pageEnd": 35,
+    "pageLabelStart": "6",
+    "pageLabelEnd": "7",
+    "hasImage": false,
+    "excerpt": "특허심판은 결정계 심판과 당사자계 심판으로 구분되는데, 결정계 심판은 당사자가 대립구 조를 취하지 않고 청구인만 존재하는 심판이고, 당사자계 심판은 이미 설정된 권리에 관한 분 쟁이 발생하여 당사자가 대립된 구조를 취하는 심판이다. 그리고 심판절차 이외의 절차로서 특허(실용신안등록)취…"
+  },
+  {
+    "id": "제2절-당사자계-심판",
+    "title": "제2절 당사자계 심판",
+    "chapterTitle": "제3장 특허심판의 종류",
+    "partTitle": "제1편 특허심판 일반",
+    "categories": [
+      "party"
+    ],
+    "pageLabel": "8",
+    "pageStart": 36,
+    "pageEnd": 36,
+    "pageLabelStart": "8",
+    "pageLabelEnd": "8",
+    "hasImage": false,
+    "excerpt": "당사자계 심판이란 청구인과 피청구인이 존재하고 양 당사자가 서로 대립하는 구조를 취하 는 심판을 말한다. 1. 무효심판 o 특허의 무효심판(특§133), 실용신안등록의 무효심판(실§31, 구실§49), 디자인등록의 무효심판 (디§121), 상표등록의 무효심판(상§117) ※ 제15편…"
+  },
+  {
+    "id": "제3절-특허실용신안등록취소신청",
+    "title": "제3절 특허(실용신안등록)취소신청",
+    "chapterTitle": "제3장 특허심판의 종류",
+    "partTitle": "제1편 특허심판 일반",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "9",
+    "pageStart": 37,
+    "pageEnd": 38,
+    "pageLabelStart": "9",
+    "pageLabelEnd": "9",
+    "hasImage": false,
+    "excerpt": "특허(실용신안등록)취소신청이란 누구든지 특허권(실용신안권)의 설정등록일로부터 등록공 고일 후 6개월이 되는 날까지 그 특허(실용신안등록)가 취소이유에 해당하는 경우에 특허심판 원장에게 신청하는 제도이다(특§132의2, 실§30의2). 기존의 결정계 심판과는 달리 참가제도 (보조참가)가…"
+  },
+  {
+    "id": "제1절-심판번호-부여",
+    "title": "제1절 심판번호 부여",
+    "chapterTitle": "제2장 심판청구서 접수 후 절차 (심판정책과)",
+    "partTitle": "제2편 심판서류의 접수 심판관지정 및 열람",
+    "categories": [
+      "party",
+      "procedure"
+    ],
+    "pageLabel": "16",
+    "pageStart": 44,
+    "pageEnd": 44,
+    "pageLabelStart": "16",
+    "pageLabelEnd": "16",
+    "hasImage": false,
+    "excerpt": "심판청구서가 접수된 때는 심판정책과는 아래와 같은 절차를 밟는다. 제1절 심판번호 부여 심판원장(심판정책과)이 심판청구서를 수리한 때에는 심판번호를 부여하고 합의체를 구성할 심판관을 지정한다(특시칙§58, 실시칙§17①, 디시칙§72, 상시칙§62). 수리는 제출서류를 유효한 행위로…"
+  },
+  {
+    "id": "제2절-심판서류-처리",
+    "title": "제2절 심판서류 처리",
+    "chapterTitle": "제2장 심판청구서 접수 후 절차 (심판정책과)",
+    "partTitle": "제2편 심판서류의 접수 심판관지정 및 열람",
+    "categories": [
+      "party",
+      "procedure"
+    ],
+    "pageLabel": "16",
+    "pageStart": 44,
+    "pageEnd": 44,
+    "pageLabelStart": "16",
+    "pageLabelEnd": "16",
+    "hasImage": false,
+    "excerpt": "심판청구서가 접수된 때는 심판정책과는 아래와 같은 절차를 밟는다. 제1절 심판번호 부여 심판원장(심판정책과)이 심판청구서를 수리한 때에는 심판번호를 부여하고 합의체를 구성할 심판관을 지정한다(특시칙§58, 실시칙§17①, 디시칙§72, 상시칙§62). 수리는 제출서류를 유효한 행위로…"
+  },
+  {
+    "id": "제3절-심판처리부-기재",
+    "title": "제3절 심판처리부 기재",
+    "chapterTitle": "제2장 심판청구서 접수 후 절차 (심판정책과)",
+    "partTitle": "제2편 심판서류의 접수 심판관지정 및 열람",
+    "categories": [
+      "party",
+      "procedure"
+    ],
+    "pageLabel": "17",
+    "pageStart": 45,
+    "pageEnd": 45,
+    "pageLabelStart": "17",
+    "pageLabelEnd": "17",
+    "hasImage": false,
+    "excerpt": "심판정책과는 특허넷에 다음 사항을 입력한다. ① 청구연월일, 심판종류, 대상 출원 및 등록권리, 사건의 명칭 ② 심판장, 주심 및 부심심판관의 성명과 지정 또는 변경년월일 ③ 당사자변경, 대리인의 선임 및 해임, 참가신청, 상표등록이의신청 또는 정정에 대한 이 의신청이 있는 경우 그…"
+  },
+  {
+    "id": "제4절-등록원부-예고등록의뢰",
+    "title": "제4절 등록원부 예고등록의뢰",
+    "chapterTitle": "제2장 심판청구서 접수 후 절차 (심판정책과)",
+    "partTitle": "제2편 심판서류의 접수 심판관지정 및 열람",
+    "categories": [
+      "party",
+      "procedure"
+    ],
+    "pageLabel": "17",
+    "pageStart": 45,
+    "pageEnd": 45,
+    "pageLabelStart": "17",
+    "pageLabelEnd": "17",
+    "hasImage": false,
+    "excerpt": "제3절 심판처리부 기재 심판정책과는 특허넷에 다음 사항을 입력한다. ① 청구연월일, 심판종류, 대상 출원 및 등록권리, 사건의 명칭 ② 심판장, 주심 및 부심심판관의 성명과 지정 또는 변경년월일 ③ 당사자변경, 대리인의 선임 및 해임, 참가신청, 상표등록이의신청 또는 정정에 대한 이…"
+  },
+  {
+    "id": "제5절-서류철-대출의뢰",
+    "title": "제5절 서류철 대출의뢰",
+    "chapterTitle": "제2장 심판청구서 접수 후 절차 (심판정책과)",
+    "partTitle": "제2편 심판서류의 접수 심판관지정 및 열람",
+    "categories": [
+      "party",
+      "procedure"
+    ],
+    "pageLabel": "17",
+    "pageStart": 45,
+    "pageEnd": 45,
+    "pageLabelStart": "17",
+    "pageLabelEnd": "17",
+    "hasImage": false,
+    "excerpt": "제3절 심판처리부 기재 심판정책과는 특허넷에 다음 사항을 입력한다. ① 청구연월일, 심판종류, 대상 출원 및 등록권리, 사건의 명칭 ② 심판장, 주심 및 부심심판관의 성명과 지정 또는 변경년월일 ③ 당사자변경, 대리인의 선임 및 해임, 참가신청, 상표등록이의신청 또는 정정에 대한 이…"
+  },
+  {
+    "id": "제6절-심판관-지정",
+    "title": "제6절 심판관 지정",
+    "chapterTitle": "제2장 심판청구서 접수 후 절차 (심판정책과)",
+    "partTitle": "제2편 심판서류의 접수 심판관지정 및 열람",
+    "categories": [
+      "party",
+      "procedure"
+    ],
+    "pageLabel": "17",
+    "pageStart": 45,
+    "pageEnd": 45,
+    "pageLabelStart": "17",
+    "pageLabelEnd": "17",
+    "hasImage": false,
+    "excerpt": "제3절 심판처리부 기재 심판정책과는 특허넷에 다음 사항을 입력한다. ① 청구연월일, 심판종류, 대상 출원 및 등록권리, 사건의 명칭 ② 심판장, 주심 및 부심심판관의 성명과 지정 또는 변경년월일 ③ 당사자변경, 대리인의 선임 및 해임, 참가신청, 상표등록이의신청 또는 정정에 대한 이…"
+  },
+  {
+    "id": "제7절-심판관지정-변경-통지서의-작성-및-통지",
+    "title": "제7절 심판관지정 변경 통지서의 작성 및 통지",
+    "chapterTitle": "제2장 심판청구서 접수 후 절차 (심판정책과)",
+    "partTitle": "제2편 심판서류의 접수 심판관지정 및 열람",
+    "categories": [
+      "party",
+      "procedure"
+    ],
+    "pageLabel": "18",
+    "pageStart": 46,
+    "pageEnd": 46,
+    "pageLabelStart": "18",
+    "pageLabelEnd": "18",
+    "hasImage": false,
+    "excerpt": "분야로 이루어진 그룹 내에 속한 심판관들 사이에서 무작위로 지정한다. 심판관 지정시 심판 장, 주심 및 부심 심판관의 성명과 지정연월일을 기재하고, 심판원장의 결재를 받는다. 심판관 지정변경의 경우에도 위와 같다. 2. 특허기술그룹 설명서 제출이 있는 경우의 심판관 지정 특허기술그룹…"
+  },
+  {
+    "id": "제8절-방식심리",
+    "title": "제8절 방식심리",
+    "chapterTitle": "제2장 심판청구서 접수 후 절차 (심판정책과)",
+    "partTitle": "제2편 심판서류의 접수 심판관지정 및 열람",
+    "categories": [
+      "party",
+      "procedure"
+    ],
+    "pageLabel": "18",
+    "pageStart": 46,
+    "pageEnd": 46,
+    "pageLabelStart": "18",
+    "pageLabelEnd": "18",
+    "hasImage": false,
+    "excerpt": "분야로 이루어진 그룹 내에 속한 심판관들 사이에서 무작위로 지정한다. 심판관 지정시 심판 장, 주심 및 부심 심판관의 성명과 지정연월일을 기재하고, 심판원장의 결재를 받는다. 심판관 지정변경의 경우에도 위와 같다. 2. 특허기술그룹 설명서 제출이 있는 경우의 심판관 지정 특허기술그룹…"
+  },
+  {
+    "id": "제9절-심판청구서-부본송달",
+    "title": "제9절 심판청구서 부본송달",
+    "chapterTitle": "제2장 심판청구서 접수 후 절차 (심판정책과)",
+    "partTitle": "제2편 심판서류의 접수 심판관지정 및 열람",
+    "categories": [
+      "party",
+      "procedure"
+    ],
+    "pageLabel": "19",
+    "pageStart": 47,
+    "pageEnd": 47,
+    "pageLabelStart": "19",
+    "pageLabelEnd": "19",
+    "hasImage": false,
+    "excerpt": "심판청구서가 접수되면, 심판청구서의 부본을 상대방에게 송달(별지 4-4 서식)하여 답변서 를 제출할 기회를 부여한다(특§147②, 실§33, 디§134①, 상§133①). 1. 당사자계 심판사건 심판청구서의 부본을 상대방에게 송달할 때에는 다음의 절차를 밟는다. ① 청구서정본에『위 심…"
+  },
+  {
+    "id": "제10절-답변서-수리",
+    "title": "제10절 답변서 수리",
+    "chapterTitle": "제2장 심판청구서 접수 후 절차 (심판정책과)",
+    "partTitle": "제2편 심판서류의 접수 심판관지정 및 열람",
+    "categories": [
+      "party",
+      "procedure"
+    ],
+    "pageLabel": "20",
+    "pageStart": 48,
+    "pageEnd": 48,
+    "pageLabelStart": "20",
+    "pageLabelEnd": "20",
+    "hasImage": false,
+    "excerpt": "〔구실용신안법 제56조(2006. 3. 3. 법률 제7872호로 개정되기 이전의 것), 디자인보호법 제 127 제1항, 상표법 제126조 제3항〕의 규정에 의하여 위와 같이 청구되었음을 통지합니다.』 라고 기재한 기안문을 작성하고 심판장의 결재를 받는다. 3. 특허(실용신안등록)취소신…"
+  },
+  {
+    "id": "제11절-의견서-등의-취급",
+    "title": "제11절 의견서 등의 취급",
+    "chapterTitle": "제2장 심판청구서 접수 후 절차 (심판정책과)",
+    "partTitle": "제2편 심판서류의 접수 심판관지정 및 열람",
+    "categories": [
+      "party",
+      "procedure"
+    ],
+    "pageLabel": "20",
+    "pageStart": 48,
+    "pageEnd": 48,
+    "pageLabelStart": "20",
+    "pageLabelEnd": "20",
+    "hasImage": false,
+    "excerpt": "〔구실용신안법 제56조(2006. 3. 3. 법률 제7872호로 개정되기 이전의 것), 디자인보호법 제 127 제1항, 상표법 제126조 제3항〕의 규정에 의하여 위와 같이 청구되었음을 통지합니다.』 라고 기재한 기안문을 작성하고 심판장의 결재를 받는다. 3. 특허(실용신안등록)취소신…"
+  },
+  {
+    "id": "제12절-심결-인증-및-등본-송달",
+    "title": "제12절 심결 인증 및 등본 송달",
+    "chapterTitle": "제2장 심판청구서 접수 후 절차 (심판정책과)",
+    "partTitle": "제2편 심판서류의 접수 심판관지정 및 열람",
+    "categories": [
+      "party",
+      "procedure"
+    ],
+    "pageLabel": "21",
+    "pageStart": 49,
+    "pageEnd": 50,
+    "pageLabelStart": "21",
+    "pageLabelEnd": "22",
+    "hasImage": false,
+    "excerpt": "② 방식이 적합한 경우에는 상대방에게 부본을 등기우편으로 송달하거나 정보통신망을 이 용하여 통지한다. ③ 방식이 적합하지 아니한 경우에는 심판장의 지시를 받아 보완 또는 보정하게 한다. ④ 증거물이 제출된 때에는 특허넷의 증거물 관리에 전산입력한 후 심판부에 이관한다. 2. 심리 종결…"
+  },
+  {
+    "id": "제13절-심결의-확정절차",
+    "title": "제13절 심결의 확정절차",
+    "chapterTitle": "제2장 심판청구서 접수 후 절차 (심판정책과)",
+    "partTitle": "제2편 심판서류의 접수 심판관지정 및 열람",
+    "categories": [
+      "party",
+      "procedure"
+    ],
+    "pageLabel": "23",
+    "pageStart": 51,
+    "pageEnd": 51,
+    "pageLabelStart": "23",
+    "pageLabelEnd": "23",
+    "hasImage": false,
+    "excerpt": "1. 송달일자 확인 ①특별송달우편물 우편송달통지서는 스캔하여 특허넷의 심판이력에 입력한다. ② 특별송달우편물 우편송달통지서가 오지 아니할 경우에는 우체국에 등기번호로 조회한다. ③ 온라인 송달로 발송되었으나 송달받을 자가 4일이내(공휴일, 토요일 제외) 확인하지 않은 경우는 우편으로…"
+  },
+  {
+    "id": "제1절-증거물-등의-관리",
+    "title": "제1절 증거물 등의 관리",
+    "chapterTitle": "제5장 증거물 등 보관물의 관리 및 반환",
+    "partTitle": "제2편 심판서류의 접수 심판관지정 및 열람",
+    "categories": [
+      "party",
+      "evidence",
+      "procedure"
+    ],
+    "pageLabel": "29",
+    "pageStart": 57,
+    "pageEnd": 57,
+    "pageLabelStart": "29",
+    "pageLabelEnd": "29",
+    "hasImage": false,
+    "excerpt": "증거물 등이라 함은 특허심판원이 심판사건에 관하여 법령의 규정에 의해 보관하는 다음 중 어느 하나에 해당하는 문서나 그 밖의 물건을 말하며, 보관 중인 증거물 등에 대하여는 제출한 당사자 또는 송부한 제3자에게서 소유권 등 권리가 유보된다(특허심판 증거조사 사무 규정§2). ◦당사자가…"
+  },
+  {
+    "id": "제2절-증거물-등의-반환",
+    "title": "제2절 증거물 등의 반환",
+    "chapterTitle": "제5장 증거물 등 보관물의 관리 및 반환",
+    "partTitle": "제2편 심판서류의 접수 심판관지정 및 열람",
+    "categories": [
+      "party",
+      "evidence",
+      "procedure"
+    ],
+    "pageLabel": "30",
+    "pageStart": 58,
+    "pageEnd": 58,
+    "pageLabelStart": "30",
+    "pageLabelEnd": "30",
+    "hasImage": false,
+    "excerpt": "심판방식 심사관보는 전자문서첨부서류 등 물건제출서 및 증거물 등에 대한 방식심사가 완 료되면 이를 증거물보관실 등에 보관하고, 해당사건의 주심 심판관에게 관련 사실을 즉시 알 려야 한다(특허심판 증거조사 사무규정§46②). 주심 심판관은 심판이 종료되면 심결문 등본 발송의뢰와 동시에…"
+  },
+  {
+    "id": "제1절-방식심리-결함-및-유형별-처리",
+    "title": "제1절 방식심리 결함 및 유형별 처리",
+    "chapterTitle": "제3장 방식심사에 따른 조치",
+    "partTitle": "제3편 방식심사 등",
+    "categories": [
+      "criteria",
+      "procedure"
+    ],
+    "pageLabel": "40",
+    "pageStart": 68,
+    "pageEnd": 68,
+    "pageLabelStart": "40",
+    "pageLabelEnd": "40",
+    "hasImage": false,
+    "excerpt": "방식심사 결과 절차로서의 형태는 갖추었으나 절차의 본질적인 요건을 갖추지 못하여 그 법적 효과를 인정할 수 없는 하자로 보정으로서도 치유할 수 없는 사항은 반려(불수리)처분 을 하며, 반려사항에 해당되지는 아니하지만 절차상 하자가 있는 경우에는 기간을 정하여 보 정을 명한다(특§141…"
+  },
+  {
+    "id": "제2절-방식심리",
+    "title": "제2절 방식심리",
+    "chapterTitle": "제3장 방식심사에 따른 조치",
+    "partTitle": "제3편 방식심사 등",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "41",
+    "pageStart": 69,
+    "pageEnd": 71,
+    "pageLabelStart": "41",
+    "pageLabelEnd": "43",
+    "hasImage": false,
+    "excerpt": "방식심사 결과, 반려사항에 해당되지는 아니하지만 절차상 하자가 있는 경우에는 기간을 정 하여 보정을 명한다(특§141, 실§33, 디§128, 상§127). 1. 보정명령의 절차 ① 심판정책과는 심판청구에 따라 청구서 등의 방식을 심사하고 위반 또는 의문이 있는 사 항을 발견한 때에는…"
+  },
+  {
+    "id": "제3절-적법성심리",
+    "title": "제3절 적법성심리",
+    "chapterTitle": "제3장 방식심사에 따른 조치",
+    "partTitle": "제3편 방식심사 등",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "44",
+    "pageStart": 72,
+    "pageEnd": 72,
+    "pageLabelStart": "44",
+    "pageLabelEnd": "44",
+    "hasImage": false,
+    "excerpt": "4. 결정각하문 사례 가. 보정기간이 경과된 경우 청구인은 이 사건 심판을 청구함에 있어 심판청구서에 청구의 이유를 기재하지 아니 하였는바, 이에 심판장은 기간을 정하여 그 흠의 보정을 명하였음에도 불구하고 지정된 기간(2000. 00. 00.)이 지난 현재까지 이를 보정하지 아니하였…"
+  },
+  {
+    "id": "제4절-심판청구서류-등의-반려불수리",
+    "title": "제4절 심판청구서류 등의 반려(불수리)",
+    "chapterTitle": "제3장 방식심사에 따른 조치",
+    "partTitle": "제3편 방식심사 등",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "45",
+    "pageStart": 73,
+    "pageEnd": 77,
+    "pageLabelStart": "45",
+    "pageLabelEnd": "49",
+    "hasImage": false,
+    "excerpt": "④ 당사자적격이 없는 자의 심판청구, 즉 공유자 중의 일부만을 심판의 당사자로 하거나 (2019.1.30. 이후 보정가능) 이해관계 없는 자가 한 심판청구 ⑤ 일사부재리에 위반된 경우 ⑥ 특허심판원에 이미 계속 중인 사건에 대한 동일한 심판청구(민소§259 준용) ⑦ 심판청구시에는 적…"
+  },
+  {
+    "id": "제5절-심판서류-등의-반환",
+    "title": "제5절 심판서류 등의 반환",
+    "chapterTitle": "제3장 방식심사에 따른 조치",
+    "partTitle": "제3편 방식심사 등",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "50",
+    "pageStart": 78,
+    "pageEnd": 78,
+    "pageLabelStart": "50",
+    "pageLabelEnd": "50",
+    "hasImage": false,
+    "excerpt": "이유통지의 대상이 된 서류의 내용을 변경하고자 하는 것은 허용되지 아니한다. 심판원장(심판정책과)은 청구인 등으로부터 반려요청을 받은 때, 청구인 등이 소명기간 이 내에 소명서 또는 반려요청서를 제출하지 아니하거나 제출한 소명의 내용이 이유 없다고 인 정되는 때에는 소명기간이 종료된…"
+  },
+  {
+    "id": "제6절-절차의-무효처분",
+    "title": "제6절 절차의 무효처분",
+    "chapterTitle": "제3장 방식심사에 따른 조치",
+    "partTitle": "제3편 방식심사 등",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "50",
+    "pageStart": 78,
+    "pageEnd": 79,
+    "pageLabelStart": "50",
+    "pageLabelEnd": "51",
+    "hasImage": false,
+    "excerpt": "이유통지의 대상이 된 서류의 내용을 변경하고자 하는 것은 허용되지 아니한다. 심판원장(심판정책과)은 청구인 등으로부터 반려요청을 받은 때, 청구인 등이 소명기간 이 내에 소명서 또는 반려요청서를 제출하지 아니하거나 제출한 소명의 내용이 이유 없다고 인 정되는 때에는 소명기간이 종료된…"
+  },
+  {
+    "id": "제7절-서류의-제출명령",
+    "title": "제7절 서류의 제출명령",
+    "chapterTitle": "제3장 방식심사에 따른 조치",
+    "partTitle": "제3편 방식심사 등",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "52",
+    "pageStart": 80,
+    "pageEnd": 81,
+    "pageLabelStart": "52",
+    "pageLabelEnd": "53",
+    "hasImage": false,
+    "excerpt": "절차의 보정명령을 받은 자가 무효처분을 취소 받고자 하는 경우에는 특허법 시행규칙 별 지 제10호 서식에 의한 기간경과구제신청서에 기간경과이유를 증명할 수 있는 서류 1통, 대 리인의 경우 그 대리권을 증명하는 서류 1통을 첨부하여 심판원장에게 제출하여야 한다(특 시칙§17, 실시칙§…"
+  },
+  {
+    "id": "제1절-개요",
+    "title": "제1절 개요",
+    "chapterTitle": "제2장 심판관의 제척 및 기피",
+    "partTitle": "제4편 심판관,제척,기피등",
+    "categories": [
+      "party"
+    ],
+    "pageLabel": "70",
+    "pageStart": 98,
+    "pageEnd": 98,
+    "pageLabelStart": "70",
+    "pageLabelEnd": "70",
+    "hasImage": false,
+    "excerpt": "제4편 심판관, 제척, 기피 등 제2장 심판관의 제척 및 기피 제1절 개요 심판의 공정성을 유지하기 위하여 심판관이 담당하는 구체적인 사건과 인적․ 물적으로 특수 한 관계가 있는 경우에 그 사건의 직무집행에서 배제되는 제도를 심판관의 제척․ 기피․ 회피라 한다. 심판원장은 각 심판사건…"
+  },
+  {
+    "id": "제2절-제척",
+    "title": "제2절 제척",
+    "chapterTitle": "제2장 심판관의 제척 및 기피",
+    "partTitle": "제4편 심판관,제척,기피등",
+    "categories": [
+      "party"
+    ],
+    "pageLabel": "70",
+    "pageStart": 98,
+    "pageEnd": 104,
+    "pageLabelStart": "70",
+    "pageLabelEnd": "76",
+    "hasImage": false,
+    "excerpt": "제4편 심판관, 제척, 기피 등 제2장 심판관의 제척 및 기피 제1절 개요 심판의 공정성을 유지하기 위하여 심판관이 담당하는 구체적인 사건과 인적․ 물적으로 특수 한 관계가 있는 경우에 그 사건의 직무집행에서 배제되는 제도를 심판관의 제척․ 기피․ 회피라 한다. 심판원장은 각 심판사건…"
+  },
+  {
+    "id": "제3절-기피",
+    "title": "제3절 기피",
+    "chapterTitle": "제2장 심판관의 제척 및 기피",
+    "partTitle": "제4편 심판관,제척,기피등",
+    "categories": [
+      "party"
+    ],
+    "pageLabel": "77",
+    "pageStart": 105,
+    "pageEnd": 108,
+    "pageLabelStart": "77",
+    "pageLabelEnd": "80",
+    "hasImage": false,
+    "excerpt": "1. 기피원인(특§150) 기피원인은 심판관에게 심판의 공정을 기대하기 어려운 사정이 있는 경우이다. 심판의 공정 을 기대하기 어려운 사정이 있는 때라 함은 건전한 상식을 가진 보통인의 판단에 비추어 재 판관과 사건과의 관계로 보아 불공정한 심판을 하지나 않을까 하는 염려를 당사자에게…"
+  },
+  {
+    "id": "제4절-제척-기피-신청사건의-심판서류의-처리",
+    "title": "제4절 제척 기피 신청사건의 심판서류의 처리",
+    "chapterTitle": "제2장 심판관의 제척 및 기피",
+    "partTitle": "제4편 심판관,제척,기피등",
+    "categories": [
+      "party",
+      "procedure"
+    ],
+    "pageLabel": "81",
+    "pageStart": 109,
+    "pageEnd": 110,
+    "pageLabelStart": "81",
+    "pageLabelEnd": "82",
+    "hasImage": false,
+    "excerpt": "제척 또는 기피신청이 서면으로 된 때 또는 구술심리 중에 구두로 행하여졌을 때 심판정책 과는 다음에 정한 바에 따라 신속히 심판기록을 작성하는 등의 절차를 밟는다. ① 제척 및 기피의 신청이 있을 때에는 심판원장은 즉시 심판의 절차중지를 명하고(별지 4-19 서식에 따른 심판당사자에게…"
+  },
+  {
+    "id": "제1절-당사자의-확정",
+    "title": "제1절 당사자의 확정",
+    "chapterTitle": "제2장 심판 당사자",
+    "partTitle": "제5편 심판의 당사자 대리인 참가인",
+    "categories": [
+      "party"
+    ],
+    "pageLabel": "88",
+    "pageStart": 116,
+    "pageEnd": 116,
+    "pageLabelStart": "88",
+    "pageLabelEnd": "88",
+    "hasImage": false,
+    "excerpt": "당사자를 확정하는 것은 심결을 누구에 대하여 할 것인가를 식별하는 것 뿐만 아니라, 심판 관의 제척(특§148), 기피(특§150), 회피(특§153의2), 심판절차의 중단 또는 중지(특§20 내지 §24) 등의 문제도 이에 따라 결정되는 것이고, 당사자능력, 절차능력, 당사자적격 등…"
+  },
+  {
+    "id": "제2절-당사자에-관한-심판청구요건",
+    "title": "제2절 당사자에 관한 심판청구요건",
+    "chapterTitle": "제2장 심판 당사자",
+    "partTitle": "제5편 심판의 당사자 대리인 참가인",
+    "categories": [
+      "party",
+      "criteria",
+      "procedure"
+    ],
+    "pageLabel": "88",
+    "pageStart": 116,
+    "pageEnd": 116,
+    "pageLabelStart": "88",
+    "pageLabelEnd": "88",
+    "hasImage": false,
+    "excerpt": "제1절 당사자의 확정 당사자를 확정하는 것은 심결을 누구에 대하여 할 것인가를 식별하는 것 뿐만 아니라, 심판 관의 제척(특§148), 기피(특§150), 회피(특§153의2), 심판절차의 중단 또는 중지(특§20 내지 §24) 등의 문제도 이에 따라 결정되는 것이고, 당사자능력, 절…"
+  },
+  {
+    "id": "제3절-당사자-능력",
+    "title": "제3절 당사자 능력",
+    "chapterTitle": "제2장 심판 당사자",
+    "partTitle": "제5편 심판의 당사자 대리인 참가인",
+    "categories": [
+      "party"
+    ],
+    "pageLabel": "89",
+    "pageStart": 117,
+    "pageEnd": 118,
+    "pageLabelStart": "89",
+    "pageLabelEnd": "90",
+    "hasImage": false,
+    "excerpt": "당사자능력이라 함은 절차의 주체가 될 수 있는 능력이고, 원칙적으로 권리능력을 가진 자 는 당사자능력이 있다. 한편, 권리능력을 갖지 아니한 사단 또는 재단으로서 대표자 또는 관리인이 정하여진 경우 에는 그 사단 또는 재단의 이름으로 출원심사청구, 이의신청, 심판청구 등 일정절차에 한…"
+  },
+  {
+    "id": "제4절-권리능력",
+    "title": "제4절 권리능력",
+    "chapterTitle": "제2장 심판 당사자",
+    "partTitle": "제5편 심판의 당사자 대리인 참가인",
+    "categories": [
+      "party"
+    ],
+    "pageLabel": "91",
+    "pageStart": 119,
+    "pageEnd": 123,
+    "pageLabelStart": "91",
+    "pageLabelEnd": "95",
+    "hasImage": false,
+    "excerpt": "1. 의의 권리능력이란 특허법에 의해 부여되는 일반적인 권리·의무의 주체가 될 수 있는 지위 또는 자격을 말한다. 권리능력에 관해서는 특허법에서 특별히 규정한 외국인의 경우를 제외하고는 민법의 규정이 유추 적용된다. 내국인의 경우에는 자연인과 법인에 대해서는 권리능력이 인정된다. 외국…"
+  },
+  {
+    "id": "제5절-절차능력",
+    "title": "제5절 절차능력",
+    "chapterTitle": "제2장 심판 당사자",
+    "partTitle": "제5편 심판의 당사자 대리인 참가인",
+    "categories": [
+      "party",
+      "procedure"
+    ],
+    "pageLabel": "96",
+    "pageStart": 124,
+    "pageEnd": 124,
+    "pageLabelStart": "96",
+    "pageLabelEnd": "96",
+    "hasImage": false,
+    "excerpt": "- 시립대학의 경우 :「○○특별(광역)시(○○대학총장)」 제5절 절차능력 절차능력이라 함은 당사자로서 스스로 절차를 밟는데 필요한 능력이다. 특허법에는 미성년자, 피한정후견인, 피성년후견인(특§3, 실§3, 디§4, 상§4) 및 재외자 (특§5)에 대하여는 절차능력을 제한하는 취지의…"
+  },
+  {
+    "id": "제6절-당사자적격",
+    "title": "제6절 당사자적격",
+    "chapterTitle": "제2장 심판 당사자",
+    "partTitle": "제5편 심판의 당사자 대리인 참가인",
+    "categories": [
+      "party"
+    ],
+    "pageLabel": "97",
+    "pageStart": 125,
+    "pageEnd": 128,
+    "pageLabelStart": "97",
+    "pageLabelEnd": "100",
+    "hasImage": false,
+    "excerpt": "위에 대한 위임사항을 특기하고 있는 경우에만 가능한 것으로 본다. 제6절 당사자적격 1. 의의 당사자적격이라 함은 청구로서 주장된 특정 권리관계에 관하여 당사자로서 절차를 밟고 심 결을 받는데 필요한 자격을 말하며, 특별한 경우에는 파산관재인 등도 당사자적격이 있다. 당사자적격은 특정…"
+  },
+  {
+    "id": "제1절-당사자-표시에-관하여-형식적-흠이-있는-경우",
+    "title": "제1절 당사자 표시에 관하여 형식적 흠이 있는 경우",
+    "chapterTitle": "제3장 당사자에 관한 심리유형별 처리",
+    "partTitle": "제5편 심판의 당사자 대리인 참가인",
+    "categories": [
+      "party"
+    ],
+    "pageLabel": "101",
+    "pageStart": 129,
+    "pageEnd": 129,
+    "pageLabelStart": "101",
+    "pageLabelEnd": "101",
+    "hasImage": false,
+    "excerpt": "당사자에 관한 심리는 청구의 당부에 관한 본안심리에 앞서 행하여지는 것이고, 당사자에 관하여 심판청구서 방식요건의 흠이 있는 경우에는 다음과 같이 처리한다. 제1절 당사자 표시에 관하여 형식적 흠이 있는 경우 심판청구서에 당사자 기재가 없거나(특§140①, §140조2①, 실§33,…"
+  },
+  {
+    "id": "제2절-당사자-요건에-흠이-있는-경우",
+    "title": "제2절 당사자 요건에 흠이 있는 경우",
+    "chapterTitle": "제3장 당사자에 관한 심리유형별 처리",
+    "partTitle": "제5편 심판의 당사자 대리인 참가인",
+    "categories": [
+      "party",
+      "criteria"
+    ],
+    "pageLabel": "102",
+    "pageStart": 130,
+    "pageEnd": 132,
+    "pageLabelStart": "102",
+    "pageLabelEnd": "104",
+    "hasImage": false,
+    "excerpt": "o 특허심판원이 원고들에게 반드시 공동으로 거절사정 불복심판을 청구하여야 한다고 안내하여야 할 의무가 있다고 할 수 없고, 또한 특허법 제141조 제1항은, 제140조 제1항․ 제3항 내지 제5 항 또는 제140조의2 제1항의 규정에 위반되는 경우와 제82조의 규정에 의한 수수료를 납…"
+  },
+  {
+    "id": "제3절-당사자에-관한-보정을-할-수-있는-사례",
+    "title": "제3절 당사자에 관한 보정을 할 수 있는 사례",
+    "chapterTitle": "제3장 당사자에 관한 심리유형별 처리",
+    "partTitle": "제5편 심판의 당사자 대리인 참가인",
+    "categories": [
+      "party",
+      "case",
+      "procedure"
+    ],
+    "pageLabel": "105",
+    "pageStart": 133,
+    "pageEnd": 133,
+    "pageLabelStart": "105",
+    "pageLabelEnd": "105",
+    "hasImage": false,
+    "excerpt": "1. 결정계 심판(정정심판 제외) ① 청구인의 보정이 청구서 전체의 취지나 청구서의 첨부서류상 청구인의 표시 또는 출원 서상 출원인의 표시로 보아 이와 동일인으로 정정하려는 경우 ② 청구인의 보정이 심판청구서상의 청구인의 표시로 보아 동일인은 아니나 다음에 해당하 는 경우 o 출원인변…"
+  },
+  {
+    "id": "제4절-당사자에-관한-판례",
+    "title": "제4절 당사자에 관한 판례",
+    "chapterTitle": "제3장 당사자에 관한 심리유형별 처리",
+    "partTitle": "제5편 심판의 당사자 대리인 참가인",
+    "categories": [
+      "party",
+      "case"
+    ],
+    "pageLabel": "106",
+    "pageStart": 134,
+    "pageEnd": 136,
+    "pageLabelStart": "106",
+    "pageLabelEnd": "108",
+    "hasImage": false,
+    "excerpt": "2. 당사자계 심판(정정심판 포함) ① 당사자의 보정이 청구서 전체의 취지나 청구서의 첨부서류상 당사자의 표시로 보아 이와 동일인으로 정정하려는 경우 ② 당사자의 보정이 심판청구서상의 당사자의 표시로 보아 동일인은 아니나 다음에 해당하 는 경우 o 특허(실용·디자인·상표)권 명의변경…"
+  },
+  {
+    "id": "제1절-개요-2",
+    "title": "제1절 개요",
+    "chapterTitle": "제4장 공동심판청구인",
+    "partTitle": "제5편 심판의 당사자 대리인 참가인",
+    "categories": [
+      "party"
+    ],
+    "pageLabel": "109",
+    "pageStart": 137,
+    "pageEnd": 137,
+    "pageLabelStart": "109",
+    "pageLabelEnd": "109",
+    "hasImage": false,
+    "excerpt": "공동심판에 관한 것은 당사자적격이나 이해관계 문제와도 관련되지만, 여기서는 청구인 또 는 피청구인이 2명 이상인 경우의 심판사건을 모두 포함하는 것으로 하고 참가인에 관한 것 은 별도로 취급한다. 구특허법(1946. 10. 15)에는 소위 공동심판에 대한 직접적인 명문규정은 없었고,…"
+  },
+  {
+    "id": "제2절-공동심판-청구요건을-위반한-사건의-처리",
+    "title": "제2절 공동심판 청구요건을 위반한 사건의 처리",
+    "chapterTitle": "제4장 공동심판청구인",
+    "partTitle": "제5편 심판의 당사자 대리인 참가인",
+    "categories": [
+      "party",
+      "criteria",
+      "procedure"
+    ],
+    "pageLabel": "110",
+    "pageStart": 138,
+    "pageEnd": 139,
+    "pageLabelStart": "110",
+    "pageLabelEnd": "111",
+    "hasImage": false,
+    "excerpt": "한편, 동일한 특허권에 관한 무효심판 또는 권리범위 확인심판을 청구하는 자가 2인 이상 이 있을 때는 그 전원이 공동으로 심판을 청구할 수 있다는 특§139①의 규정은 민사소송법에 서 말하는 유사필수적 공동소송에 상당하는 것으로 보아야 할 것이고, 심결이 있은 후 1인이 라도 심결취소…"
+  },
+  {
+    "id": "제3절-공동심판청구와-관련된-판례",
+    "title": "제3절 공동심판청구와 관련된 판례",
+    "chapterTitle": "제4장 공동심판청구인",
+    "partTitle": "제5편 심판의 당사자 대리인 참가인",
+    "categories": [
+      "party",
+      "case",
+      "procedure"
+    ],
+    "pageLabel": "112",
+    "pageStart": 140,
+    "pageEnd": 140,
+    "pageLabelStart": "112",
+    "pageLabelEnd": "112",
+    "hasImage": false,
+    "excerpt": "3. 2009. 1. 30. 이후에 청구된 심판사건 결정계 심판에서 누락된 청구인을 추가하는 보정 또는 당사자계 심판에서 누락된 청구인인 특허(실용·디자인·상표)권자를 추가하는 보정은 요지변경이 아니다(특§140②, 특§140의2②, 실§33, 상§125②, 상§126②, 디§126②…"
+  },
+  {
+    "id": "제1절-개요-3",
+    "title": "제1절 개요",
+    "chapterTitle": "제5장 대리인",
+    "partTitle": "제5편 심판의 당사자 대리인 참가인",
+    "categories": [
+      "party"
+    ],
+    "pageLabel": "113",
+    "pageStart": 141,
+    "pageEnd": 146,
+    "pageLabelStart": "113",
+    "pageLabelEnd": "118",
+    "hasImage": false,
+    "excerpt": "1. 의의 대리라 함은 대리인이 자신이 하는 법률행위가 본인을 위하여 하는 것임을 표시하여(현명주 의) 대리인이 하는 법률행위의 효과가 직접 본인에게 귀속되는 제도이다. 소송법상 대리인이라 함은 당사자의 이름으로 소송행위를 하거나 소송행위를 받는 제3자이 다. 대리인의 행위는 당사자…"
+  },
+  {
+    "id": "제2절-대리를-할-수-있는-자",
+    "title": "제2절 대리를 할 수 있는 자",
+    "chapterTitle": "제5장 대리인",
+    "partTitle": "제5편 심판의 당사자 대리인 참가인",
+    "categories": [
+      "party"
+    ],
+    "pageLabel": "119",
+    "pageStart": 147,
+    "pageEnd": 147,
+    "pageLabelStart": "119",
+    "pageLabelEnd": "119",
+    "hasImage": false,
+    "excerpt": "11. 대리와 구별하여야 할 제도 가. 대표 법인의 대표기관의 행위에 의하여 법인이 직접 권리․ 의무를 취득하는 점에서 대표는 대리 와 비슷하다. 그러나 대표기관은 법인과 서로 대립하는 지위에 서는 것이 아니고, 그의 행위 는 법 이론상 그대로 법인의 행위로 보게 되는 관계에 있다.…"
+  },
+  {
+    "id": "제3절-특허법인",
+    "title": "제3절 특허법인",
+    "chapterTitle": "제5장 대리인",
+    "partTitle": "제5편 심판의 당사자 대리인 참가인",
+    "categories": [
+      "party"
+    ],
+    "pageLabel": "120",
+    "pageStart": 148,
+    "pageEnd": 148,
+    "pageLabelStart": "120",
+    "pageLabelEnd": "120",
+    "hasImage": false,
+    "excerpt": "1. 의의 특허법인이란 변리사법 제6조의3의 규정에 의거, 변리사가 변리 업무를 조직적·전문적으로 행하기 위하여 3명 이상의 변리사를 구성원으로 하여 설립한 법인을 말한다. 2. 특허법인의 업무집행 방법(변§6의6) 변리사법 제6의3 및 동 시행령 제14조 제1항의 규정에 의하여 설립…"
+  },
+  {
+    "id": "제4절-법정대리인",
+    "title": "제4절 법정대리인",
+    "chapterTitle": "제5장 대리인",
+    "partTitle": "제5편 심판의 당사자 대리인 참가인",
+    "categories": [
+      "party"
+    ],
+    "pageLabel": "120",
+    "pageStart": 148,
+    "pageEnd": 149,
+    "pageLabelStart": "120",
+    "pageLabelEnd": "121",
+    "hasImage": false,
+    "excerpt": "제3절 특허법인 1. 의의 특허법인이란 변리사법 제6조의3의 규정에 의거, 변리사가 변리 업무를 조직적·전문적으로 행하기 위하여 3명 이상의 변리사를 구성원으로 하여 설립한 법인을 말한다. 2. 특허법인의 업무집행 방법(변§6의6) 변리사법 제6의3 및 동 시행령 제14조 제1항의 규…"
+  },
+  {
+    "id": "제5절-위임대리인",
+    "title": "제5절 위임대리인",
+    "chapterTitle": "제5장 대리인",
+    "partTitle": "제5편 심판의 당사자 대리인 참가인",
+    "categories": [
+      "party"
+    ],
+    "pageLabel": "122",
+    "pageStart": 150,
+    "pageEnd": 150,
+    "pageLabelStart": "122",
+    "pageLabelEnd": "122",
+    "hasImage": false,
+    "excerpt": "5. 법정대리인의 지위 법정대리인은 당사자 본인이 아니기 때문에 법관의 제척, 재판적을 정하는 표준이 되지 아 니하며, 판결의 효력인 기판력, 집행력도 받지 않기 때문에 당사자와는 다르다. 법정대리인의 표시는 소장이나 판결의 필수적 기재사항이다. 법정대리인을 신문할 때에는 당사자 본인…"
+  },
+  {
+    "id": "제6절-지정대리인",
+    "title": "제6절 지정대리인",
+    "chapterTitle": "제5장 대리인",
+    "partTitle": "제5편 심판의 당사자 대리인 참가인",
+    "categories": [
+      "party"
+    ],
+    "pageLabel": "123",
+    "pageStart": 151,
+    "pageEnd": 151,
+    "pageLabelStart": "123",
+    "pageLabelEnd": "123",
+    "hasImage": false,
+    "excerpt": "그 취하, 제132조의17의 규정에 의한 심판청구 또는 복대리인의 선임을 할 수 없다(특§6). 한편, 본인 사망후의 대리인의 대리행위는 그 권리의 승계인을 위한 것임을 표시하여야 한다. o 제소단계에서의 소송대리인의 대리권 존부는 소송요건으로서 법원의 직권조사사항이고, 이와 같은 직…"
+  },
+  {
+    "id": "제7절-특허관리인",
+    "title": "제7절 특허관리인",
+    "chapterTitle": "제5장 대리인",
+    "partTitle": "제5편 심판의 당사자 대리인 참가인",
+    "categories": [
+      "party"
+    ],
+    "pageLabel": "124",
+    "pageStart": 152,
+    "pageEnd": 152,
+    "pageLabelStart": "124",
+    "pageLabelEnd": "124",
+    "hasImage": false,
+    "excerpt": "3. 결정계 심결취소소송 사건의 소송수행자 지정 거절결정이나 취소결정에 대한 심판 또는 보정각하결정에 대한 심판의 심결이나 결정에 대한 소제기나 상고제기에 있어서 소송수행자를 지정할 필요가 있을 때에는 해당 심결의 주심심판관 1 인, 송무과의 전담소송수행자 1인, 심사국의 담당심사관…"
+  },
+  {
+    "id": "제8절-복대리인",
+    "title": "제8절 복대리인",
+    "chapterTitle": "제5장 대리인",
+    "partTitle": "제5편 심판의 당사자 대리인 참가인",
+    "categories": [
+      "party"
+    ],
+    "pageLabel": "125",
+    "pageStart": 153,
+    "pageEnd": 154,
+    "pageLabelStart": "125",
+    "pageLabelEnd": "126",
+    "hasImage": false,
+    "excerpt": "1. 의의 복대리라 함은 대리인이 자기의 권한 내의 행위를 행하게 하기 위하여 자기의 명의로 다시 대리인을 선임하여 본인을 대리하도록 하는 것이며 이와 같이 대리인에 의하여 선임된 본인 의 대리인을 복대리인이라 한다. 복임권이라 함은 복대리인을 선임하는 권한을 말하며 당연히 대리권의…"
+  },
+  {
+    "id": "제9절-무권대리",
+    "title": "제9절 무권대리",
+    "chapterTitle": "제5장 대리인",
+    "partTitle": "제5편 심판의 당사자 대리인 참가인",
+    "categories": [
+      "party"
+    ],
+    "pageLabel": "127",
+    "pageStart": 155,
+    "pageEnd": 156,
+    "pageLabelStart": "127",
+    "pageLabelEnd": "128",
+    "hasImage": false,
+    "excerpt": "1. 의의 무권대리란 대리인이라고 칭하고 행위를 하는 자가 정당한 대리권을 갖고 있지 아니한 경 우를 말한다. 2. 무권대리 행위의 추인 대리권이 없는 자가 밟은 절차는 절차를 밟을 능력이 있는 본인 또는 법정대리인이 추인할 수 있다(특§7의2, 실§3, 디§9, 상§9). ① 절차를…"
+  },
+  {
+    "id": "제10절-대리인의-유무와-심판절차",
+    "title": "제10절 대리인의 유무와 심판절차",
+    "chapterTitle": "제5장 대리인",
+    "partTitle": "제5편 심판의 당사자 대리인 참가인",
+    "categories": [
+      "party",
+      "procedure"
+    ],
+    "pageLabel": "129",
+    "pageStart": 157,
+    "pageEnd": 158,
+    "pageLabelStart": "129",
+    "pageLabelEnd": "130",
+    "hasImage": false,
+    "excerpt": "1. 대리인이 있는 경우 대리권을 증명하는 서면(특§7, 실§3, 디§8, 상§8)(이하 서면이라 한다)의 유무를 확인하고, 그 서면이 적정하지 아니한 경우 또는 서면이 결여된 경우에는 그 보정을 명한다(특§46, 실 §11, 디§47, 상§39). 대리인(특허관리인 포함)은 보정의…"
+  },
+  {
+    "id": "제11절-대리권을-증명하는-서면",
+    "title": "제11절 대리권을 증명하는 서면",
+    "chapterTitle": "제5장 대리인",
+    "partTitle": "제5편 심판의 당사자 대리인 참가인",
+    "categories": [
+      "party"
+    ],
+    "pageLabel": "131",
+    "pageStart": 159,
+    "pageEnd": 160,
+    "pageLabelStart": "131",
+    "pageLabelEnd": "132",
+    "hasImage": false,
+    "excerpt": "1. 개요 민사소송법에서 대리권수여의 방식은 자유이며 말로나 서면으로 할 수 있으나 대리권의 존 재와 범위는 서면으로 증명하지 않으면 안되므로(민소§89①) 서면으로 하는 것이 보통이다. 소송 진행 중에 대리권의 존재를 다투는 것을 미연에 방지하기 위해서이다. 소송위임에 의한 소송대리…"
+  },
+  {
+    "id": "제12절-특허관리인이-없는-경우의-절차",
+    "title": "제12절 특허관리인이 없는 경우의 절차",
+    "chapterTitle": "제5장 대리인",
+    "partTitle": "제5편 심판의 당사자 대리인 참가인",
+    "categories": [
+      "party",
+      "procedure"
+    ],
+    "pageLabel": "133",
+    "pageStart": 161,
+    "pageEnd": 161,
+    "pageLabelStart": "133",
+    "pageLabelEnd": "133",
+    "hasImage": false,
+    "excerpt": "1. 특허관리인에 의하지 아니하고 절차를 밟은 경우 ① 청구인의 경우 국내에 주소 또는 영업소를 가지고 있지 않은 자(이하 “재외자”라 한다)의 절차는 특허관 리인에 의하지 아니하면 아니된다. 다만, 재외자가 국내에 체재하는 경우에는 그러하지 아니하다(특§5①, 실§3, 디§6①, 상…"
+  },
+  {
+    "id": "제13절-대리인이-사망한-경우의-취급",
+    "title": "제13절 대리인이 사망한 경우의 취급",
+    "chapterTitle": "제5장 대리인",
+    "partTitle": "제5편 심판의 당사자 대리인 참가인",
+    "categories": [
+      "party"
+    ],
+    "pageLabel": "134",
+    "pageStart": 162,
+    "pageEnd": 162,
+    "pageLabelStart": "134",
+    "pageLabelEnd": "134",
+    "hasImage": false,
+    "excerpt": "1. 대리인 사망의 경우 대리권은 소멸되므로(민§127) 해당사건의 대리인이 사망한 후에 행한 심결 또는 결정에는 심판청구인 또는 피심판청구인의 성명 및 주소만 기재하고 사망에 의하여 대리권이 소멸한 대리인의 성명 및 주소를 기재하지 아니한다. 2. 대리인이 사망한 경우의 절차 ① 법…"
+  },
+  {
+    "id": "제14절-심판-진행-중의-대리인-수임-등의-절차",
+    "title": "제14절 심판 진행 중의 대리인 수임 등의 절차",
+    "chapterTitle": "제5장 대리인",
+    "partTitle": "제5편 심판의 당사자 대리인 참가인",
+    "categories": [
+      "party",
+      "procedure"
+    ],
+    "pageLabel": "134",
+    "pageStart": 162,
+    "pageEnd": 162,
+    "pageLabelStart": "134",
+    "pageLabelEnd": "134",
+    "hasImage": false,
+    "excerpt": "제13절 대리인이 사망한 경우의 취급 1. 대리인 사망의 경우 대리권은 소멸되므로(민§127) 해당사건의 대리인이 사망한 후에 행한 심결 또는 결정에는 심판청구인 또는 피심판청구인의 성명 및 주소만 기재하고 사망에 의하여 대리권이 소멸한 대리인의 성명 및 주소를 기재하지 아니한다. 2…"
+  },
+  {
+    "id": "제15절-대리인이-사망한-경우-복대리인의-지위-및-취급",
+    "title": "제15절 대리인이 사망한 경우 복대리인의 지위 및 취급",
+    "chapterTitle": "제5장 대리인",
+    "partTitle": "제5편 심판의 당사자 대리인 참가인",
+    "categories": [
+      "party"
+    ],
+    "pageLabel": "135",
+    "pageStart": 163,
+    "pageEnd": 163,
+    "pageLabelStart": "135",
+    "pageLabelEnd": "135",
+    "hasImage": false,
+    "excerpt": "대리인이 특허법인의 구성원이 되거나 특허법인의 소속변리사가 되어 그 특허법인을 복대 리인으로 선임하고자 하는 경우에는 특허법인의 설립인가서와 복대리인 선임확인서[특허법 시 행규칙 별지 제2호서식의 기재요령 제7호 참조]를 첨부하여 해당 신고서를 심판원장에게 제 출하여야 한다. 확 인…"
+  },
+  {
+    "id": "제16절-법률구조제도",
+    "title": "제16절 법률구조제도",
+    "chapterTitle": "제5장 대리인",
+    "partTitle": "제5편 심판의 당사자 대리인 참가인",
+    "categories": [
+      "party"
+    ],
+    "pageLabel": "136",
+    "pageStart": 164,
+    "pageEnd": 165,
+    "pageLabelStart": "136",
+    "pageLabelEnd": "137",
+    "hasImage": false,
+    "excerpt": "1. 국선대리인 2019. 1. 8. 개정 특허법 등은 국선대리인 규정을 신설하여, 산업재산권 심판에서 국선대리 인 선임 근거를 마련하고, 국선대리인이 선임된 당사자에 대하여 심판 절차와 관련된 수수료 를 감면할 수 있도록 하였다(특§139조의2, 실§33, 디§125조의2, 상§12…"
+  },
+  {
+    "id": "제1절-참가의-종류-및-요건",
+    "title": "제1절 참가의 종류 및 요건",
+    "chapterTitle": "제6장 참가인",
+    "partTitle": "제5편 심판의 당사자 대리인 참가인",
+    "categories": [
+      "party",
+      "criteria"
+    ],
+    "pageLabel": "138",
+    "pageStart": 166,
+    "pageEnd": 167,
+    "pageLabelStart": "138",
+    "pageLabelEnd": "139",
+    "hasImage": false,
+    "excerpt": "1. 참가의 의의 참가라 함은 심판의 계속 중에 제3자가 심판당사자의 일방에 참여하여 그 심판절차를 수행 하는 것을 말한다(특§155, 실§33, 디§143, 상§142). 특허무효 등에 관한 심판에 의한 분쟁의 해결은 심판당사자간에 상대적으로 이루어지는 것 이 통상이므로 제3자가 이…"
+  },
+  {
+    "id": "제2절-참가가-허용되는-심판-소송",
+    "title": "제2절 참가가 허용되는 심판 소송",
+    "chapterTitle": "제6장 참가인",
+    "partTitle": "제5편 심판의 당사자 대리인 참가인",
+    "categories": [
+      "party"
+    ],
+    "pageLabel": "140",
+    "pageStart": 168,
+    "pageEnd": 169,
+    "pageLabelStart": "140",
+    "pageLabelEnd": "141",
+    "hasImage": false,
+    "excerpt": "으로 심판을 청구할 수 있는데(특§139①), 이와 같이 공동으로 심판을 청구할 수 있는 자는 당사자참가를 할 수 있다. (2) 대상물의 동일 대상물이 동일한 것이어야 한다. 예를 들면 2이상의 발명을 포함하는 특허의 경우에는 이미 계속 중인 심판의 대상이 동일 특허 중에서 동일발명에…"
+  },
+  {
+    "id": "제3절-참가신청인의-이해관계-판단",
+    "title": "제3절 참가신청인의 이해관계 판단",
+    "chapterTitle": "제6장 참가인",
+    "partTitle": "제5편 심판의 당사자 대리인 참가인",
+    "categories": [
+      "party",
+      "criteria",
+      "procedure"
+    ],
+    "pageLabel": "142",
+    "pageStart": 170,
+    "pageEnd": 170,
+    "pageLabelStart": "142",
+    "pageLabelEnd": "142",
+    "hasImage": false,
+    "excerpt": "참가인은 심판결과에 대하여 이해관계를 갖는 것이 필요하다(특§155③, 실§33, 디§143③, 상§142③). 특§155①,③의 이해관계를 가진 자라 함은 심판의 결과 여하에 따라서 그 심판의 대상으로 되어 있는 특허권에 대한 법률적 지위 또는 신청인과 청구인, 피청구인간의 법률관계…"
+  },
+  {
+    "id": "제4절-참가인이-할-수-있는-심판절차",
+    "title": "제4절 참가인이 할 수 있는 심판절차",
+    "chapterTitle": "제6장 참가인",
+    "partTitle": "제5편 심판의 당사자 대리인 참가인",
+    "categories": [
+      "party",
+      "procedure"
+    ],
+    "pageLabel": "142",
+    "pageStart": 170,
+    "pageEnd": 170,
+    "pageLabelStart": "142",
+    "pageLabelEnd": "142",
+    "hasImage": false,
+    "excerpt": "제3절 참가신청인의 이해관계 판단 참가인은 심판결과에 대하여 이해관계를 갖는 것이 필요하다(특§155③, 실§33, 디§143③, 상§142③). 특§155①,③의 이해관계를 가진 자라 함은 심판의 결과 여하에 따라서 그 심판의 대상으로 되어 있는 특허권에 대한 법률적 지위 또는 신청…"
+  },
+  {
+    "id": "제5절-참가의-효력",
+    "title": "제5절 참가의 효력",
+    "chapterTitle": "제6장 참가인",
+    "partTitle": "제5편 심판의 당사자 대리인 참가인",
+    "categories": [
+      "party",
+      "criteria"
+    ],
+    "pageLabel": "143",
+    "pageStart": 171,
+    "pageEnd": 171,
+    "pageLabelStart": "143",
+    "pageLabelEnd": "143",
+    "hasImage": false,
+    "excerpt": "2. 피참가인의 심판절차와의 관계 당사자참가(특§155①)의 참가인은 이미 심판청구되어 있는 심판에 참가하고 있지만 별도로 심판을 청구할 수 있는 당사자적격을 가지며 임의로 공동으로 심판을 청구하는 대신 청구인 으로서 참가하고 있는 것이므로 청구 취지의 범위내에서 피참가인의 행위와 모…"
+  },
+  {
+    "id": "제6절-참가의-신청-또는-취하",
+    "title": "제6절 참가의 신청 또는 취하",
+    "chapterTitle": "제6장 참가인",
+    "partTitle": "제5편 심판의 당사자 대리인 참가인",
+    "categories": [
+      "party",
+      "procedure"
+    ],
+    "pageLabel": "144",
+    "pageStart": 172,
+    "pageEnd": 172,
+    "pageLabelStart": "144",
+    "pageLabelEnd": "144",
+    "hasImage": false,
+    "excerpt": "3. 참가인에 대한 중단, 중지 참가인에 대하여 심판절차의 중단 또는 중지의 사유(특§20, §23, 실§3, 디§22, 디§25, 상§22, 상§25)가 발생한 때는 심판절차 자체가 정지된다(특§155⑤). 4. 참가의 소멸 참가불허가의 결정이 있는 때, 심결이 확정된 때, 참가신청…"
+  },
+  {
+    "id": "제7절-참가허부의-결정",
+    "title": "제7절 참가허부의 결정",
+    "chapterTitle": "제6장 참가인",
+    "partTitle": "제5편 심판의 당사자 대리인 참가인",
+    "categories": [
+      "party",
+      "procedure"
+    ],
+    "pageLabel": "145",
+    "pageStart": 173,
+    "pageEnd": 173,
+    "pageLabelStart": "145",
+    "pageLabelEnd": "145",
+    "hasImage": false,
+    "excerpt": "3. 참가의 취하 가. 취하의 시기 참가의 취하(특시칙§69③)의 시기는 심판청구의 취하(특§161①)에 준하여 심결이 확정될 때 까지는 심판청구의 어느 단계에서도 인정된다. 나. 참가취하의 조건 참가의 신청 또는 취하는 그것에 의하여 피참가인 및 그 상대방의 이익을 해하는 것은 아…"
+  },
+  {
+    "id": "제8절-참가신청과-심판청구의-취하-등",
+    "title": "제8절 참가신청과 심판청구의 취하 등",
+    "chapterTitle": "제6장 참가인",
+    "partTitle": "제5편 심판의 당사자 대리인 참가인",
+    "categories": [
+      "party",
+      "procedure"
+    ],
+    "pageLabel": "146",
+    "pageStart": 174,
+    "pageEnd": 176,
+    "pageLabelStart": "146",
+    "pageLabelEnd": "147",
+    "hasImage": false,
+    "excerpt": "2. 참가허부의 결정 참가의 요건은 직권조사사항이다. 참가허부결정시에는 참가신청의 이유와 이것에 대한 의견서 내용을 검토한다. 참가허부는 당사자 참가의 경우에는 신청인의 당사자 적격유무, 보조참가의 경우에는 이해관계의 유무에 따라 판단한다. 3. 참가허부결정의 서식 참가허부결정의 기재…"
+  },
+  {
+    "id": "제1절-개요-4",
+    "title": "제1절 개요",
+    "chapterTitle": "제2장 제출 증거에 대한 방식심리(심사)",
+    "partTitle": "제9편 증거조사",
+    "categories": [
+      "evidence"
+    ],
+    "pageLabel": "222",
+    "pageStart": 250,
+    "pageEnd": 250,
+    "pageLabelStart": "222",
+    "pageLabelEnd": "222",
+    "hasImage": false,
+    "excerpt": "증거방법 즉 증거조사의 대상이 되는 유형물로서는 증인, 감정인, 당사자본인, 서증의 문 서, 검증물 등이 있다. 증거제출 및 철회는 심리종결시까지 할 수 있다. 심리종결을 통지한 후에도 당사자 또는 참 가인의 심리재개신청이 있으면, 심판장은 심리를 재개할 수 있다(특§162④, 디§1…"
+  },
+  {
+    "id": "제2절-증거방법별-방식심사-요령",
+    "title": "제2절 증거방법별 방식심사 요령",
+    "chapterTitle": "제2장 제출 증거에 대한 방식심리(심사)",
+    "partTitle": "제9편 증거조사",
+    "categories": [
+      "evidence"
+    ],
+    "pageLabel": "222",
+    "pageStart": 250,
+    "pageEnd": 258,
+    "pageLabelStart": "222",
+    "pageLabelEnd": "230",
+    "hasImage": false,
+    "excerpt": "제1절 개요 증거방법 즉 증거조사의 대상이 되는 유형물로서는 증인, 감정인, 당사자본인, 서증의 문 서, 검증물 등이 있다. 증거제출 및 철회는 심리종결시까지 할 수 있다. 심리종결을 통지한 후에도 당사자 또는 참 가인의 심리재개신청이 있으면, 심판장은 심리를 재개할 수 있다(특§16…"
+  },
+  {
+    "id": "제1절-증거조사의-직접심리주의와-간접주의",
+    "title": "제1절 증거조사의 직접심리주의와 간접주의",
+    "chapterTitle": "제3장 증거조사 일반",
+    "partTitle": "제9편 증거조사",
+    "categories": [
+      "evidence",
+      "procedure"
+    ],
+    "pageLabel": "231",
+    "pageStart": 259,
+    "pageEnd": 259,
+    "pageLabelStart": "231",
+    "pageLabelEnd": "231",
+    "hasImage": false,
+    "excerpt": "증거에 의한 심증형성과정은 일반적으로 증거신청→채택여부결정→증거조사실시→실시결과 에 따른 심증형성의 순서로 진행된다. 특허법 제157조 제2항에서 증거조사 및 증거보전에 관 한 사항은 민사소송법의 관련 규정을 준용하도록 하고 있다. 제1절 증거조사의 직접심리주의와 간접주의 특허심판원이…"
+  },
+  {
+    "id": "제2절-증거조사의-준비절차",
+    "title": "제2절 증거조사의 준비절차",
+    "chapterTitle": "제3장 증거조사 일반",
+    "partTitle": "제9편 증거조사",
+    "categories": [
+      "evidence",
+      "procedure"
+    ],
+    "pageLabel": "231",
+    "pageStart": 259,
+    "pageEnd": 260,
+    "pageLabelStart": "231",
+    "pageLabelEnd": "232",
+    "hasImage": false,
+    "excerpt": "증거에 의한 심증형성과정은 일반적으로 증거신청→채택여부결정→증거조사실시→실시결과 에 따른 심증형성의 순서로 진행된다. 특허법 제157조 제2항에서 증거조사 및 증거보전에 관 한 사항은 민사소송법의 관련 규정을 준용하도록 하고 있다. 제1절 증거조사의 직접심리주의와 간접주의 특허심판원이…"
+  },
+  {
+    "id": "제3절-증거조사의-구체적-절차",
+    "title": "제3절 증거조사의 구체적 절차",
+    "chapterTitle": "제3장 증거조사 일반",
+    "partTitle": "제9편 증거조사",
+    "categories": [
+      "evidence",
+      "procedure"
+    ],
+    "pageLabel": "233",
+    "pageStart": 261,
+    "pageEnd": 266,
+    "pageLabelStart": "233",
+    "pageLabelEnd": "238",
+    "hasImage": false,
+    "excerpt": "1. 증거 및 증거조사신청서의 제출 심판의 청구서, 답변서 기타 심판에 대하여 심판원에 제출하는 서면에는 필요한 증빙자료를 첨부하고 증거 물건이 있는 때는 그것을 첨부하여야 한다(특시칙§63①, 실시칙§17①, 디시칙 §75①, 상시칙§63①). 증빙자료가 서면인 때에는 그 등본을,…"
+  },
+  {
+    "id": "제1절-개요-5",
+    "title": "제1절 개요",
+    "chapterTitle": "제4장 증인신문",
+    "partTitle": "제9편 증거조사",
+    "categories": [
+      "evidence"
+    ],
+    "pageLabel": "239",
+    "pageStart": 267,
+    "pageEnd": 267,
+    "pageLabelStart": "239",
+    "pageLabelEnd": "239",
+    "hasImage": false,
+    "excerpt": "1. 의의 증인의 증언으로부터 증거자료를 얻는 증거조사를 증인신문이라 한다. 증인이라 함은 과거 에 경험한 사실을 심판원에 보고할 것을 명령받은 제3자이다. 증인은 경험사실을 보고하는 자이지 결코 자기의견이나 상상한 바를 진술하는 자일 수 없다. 특별한 학식과 경험을 기초로 하여 얻은…"
+  },
+  {
+    "id": "제2절-증인신문-진행요령",
+    "title": "제2절 증인신문 진행요령",
+    "chapterTitle": "제4장 증인신문",
+    "partTitle": "제9편 증거조사",
+    "categories": [
+      "evidence",
+      "procedure"
+    ],
+    "pageLabel": "240",
+    "pageStart": 268,
+    "pageEnd": 289,
+    "pageLabelStart": "240",
+    "pageLabelEnd": "261",
+    "hasImage": false,
+    "excerpt": "나. 진술의무 신문에 대해 증언할 의무를 진술의무라 한다. 증인은 심판장이 허가하지 않은 한 서류에 의 하여 진술하지 못하고(민소§3313)), 심판장은 필요하다고 인정한 때에는 증인에게 문자를 손 수 쓰게 하거나 그 밖의 필요한 행위를 하게 할 수 있다(민소§3304)). 증인은 ①…"
+  },
+  {
+    "id": "제3절-증인신문-시-주의사항",
+    "title": "제3절 증인신문 시 주의사항",
+    "chapterTitle": "제4장 증인신문",
+    "partTitle": "제9편 증거조사",
+    "categories": [
+      "evidence"
+    ],
+    "pageLabel": "262",
+    "pageStart": 290,
+    "pageEnd": 293,
+    "pageLabelStart": "262",
+    "pageLabelEnd": "265",
+    "hasImage": false,
+    "excerpt": "1. 심판장의 지휘 심판장은 증인신문을 원활히 행하기 위하여 직권(보충)신문을 포함하여 심판정내에서의 지 휘를 적절히 행하도록 노력하여야 한다. 심판정내에서 사진촬영, 속기, 녹음, 녹화 또는 방송 을 하려면 심판장의 허가를 얻어야 한다. 2. 허용되지 않는 질문 심판장은 증인에 대하…"
+  },
+  {
+    "id": "제1절-의의-및-범위석명권",
+    "title": "제1절 의의 및 범위(석명권)",
+    "chapterTitle": "제12장 심문",
+    "partTitle": "제9편 증거조사",
+    "categories": [
+      "evidence",
+      "criteria"
+    ],
+    "pageLabel": "324",
+    "pageStart": 352,
+    "pageEnd": 354,
+    "pageLabelStart": "324",
+    "pageLabelEnd": "326",
+    "hasImage": false,
+    "excerpt": "1. 심문20) 심문이라 함은 일반적으로 어떤 사항 또는 문제에 관하여 진술하게 하는 것으로 질문과 같 은 의미이며, 특히 납득할 수 있도록 상세하게 진술하도록 하는 의미가 포함되어 있다. 심판장은 심판에 관하여 당사자를 심문(審問)할 수 있다(특§147③, 실§33, 디§134③,…"
+  },
+  {
+    "id": "제2절-명령-심문-통지",
+    "title": "제2절 명령 심문 통지",
+    "chapterTitle": "제12장 심문",
+    "partTitle": "제9편 증거조사",
+    "categories": [
+      "evidence",
+      "procedure"
+    ],
+    "pageLabel": "327",
+    "pageStart": 355,
+    "pageEnd": 357,
+    "pageLabelStart": "327",
+    "pageLabelEnd": "329",
+    "hasImage": false,
+    "excerpt": "심판장 명의로 당사자 및 사건관계자에 대하여 하는 심판절차 중 법령에 정해진 심결 및 결정 이외의 것은 그 목적에 따라서 당사자에게 지시하여 응답을 하게 하는 명령ㆍ심문 및 단순히 알게 하는 통지로 나누어지며, 이것에 관한 내용을 발송할 때는 각각 다음과 같이 취 급한다. 1. 명령ㆍ…"
+  },
+  {
+    "id": "제1절-구술심리-일반",
+    "title": "제1절 구술심리 일반",
+    "chapterTitle": "제1장 구술심리",
+    "partTitle": "제10편 심리관련 제도",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "333",
+    "pageStart": 361,
+    "pageEnd": 365,
+    "pageLabelStart": "333",
+    "pageLabelEnd": "337",
+    "hasImage": false,
+    "excerpt": "가. 개요 1. 의의 심판이 청구되었을 때 특별한 사정이 없는 한 심리가 진행된다. 심리는 심결을 내리는데 기 초가 되는 자료를 수집하기 위한 심판의 가장 핵심적인 절차로, 양 당사자의 공격ㆍ방어 뿐만 아니라 심판부의 소송운영 및 당사자의 신청에 대한 사실인정 등을 가리킨다. 심리의…"
+  },
+  {
+    "id": "제2절-구술심리기일의-준비",
+    "title": "제2절 구술심리기일의 준비",
+    "chapterTitle": "제1장 구술심리",
+    "partTitle": "제10편 심리관련 제도",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "338",
+    "pageStart": 366,
+    "pageEnd": 376,
+    "pageLabelStart": "338",
+    "pageLabelEnd": "348",
+    "hasImage": false,
+    "excerpt": "가. 대상사건 및 개최장소 1. 대상사건 심판장은 당사자계 사건에 대하여는 구술심리를 행하여야 한다(심판사무취급규정§39의2①). 다만, 아래 중 어느 하나에 해당하는 경우에는 그러하지 아니하다. ① 심판청구서 부본 송달 후 답변서 미제출 사건 ② 구술심리 기일 전 심판청구가 취하 또…"
+  },
+  {
+    "id": "제3절-구술심리기일의-진행",
+    "title": "제3절 구술심리기일의 진행",
+    "chapterTitle": "제1장 구술심리",
+    "partTitle": "제10편 심리관련 제도",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "349",
+    "pageStart": 377,
+    "pageEnd": 400,
+    "pageLabelStart": "349",
+    "pageLabelEnd": "372",
+    "hasImage": false,
+    "excerpt": "증인신문 없이 구술심리만을 진행하는 경우, 증인신문과 함께 구술심리를 진행하는 경우로 나누어 살펴본다. 가. 증인신문이 없는 경우의 구술심리 1. 구술심리의 순서 가) 개정(開廷) 심판합의체가 입장하면 심판사무관은 심판정 내 출석자 및 방청인을 모두 기립하게 하고, 심판합의체가 배석…"
+  },
+  {
+    "id": "제4절-구술심리기일의-종결",
+    "title": "제4절 구술심리기일의 종결",
+    "chapterTitle": "제1장 구술심리",
+    "partTitle": "제10편 심리관련 제도",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "373",
+    "pageStart": 401,
+    "pageEnd": 406,
+    "pageLabelStart": "373",
+    "pageLabelEnd": "378",
+    "hasImage": false,
+    "excerpt": "구술심리기일이 종결되면, 구술심리에 참여한 심판사무관은 심리의 요지 및 그 밖에 필요한 사항을 기재한 조서(별지 3-4 서식)를 작성한다(특§154). 구술심리기일에 심판장이 보충할 서류의 제출기일을 지정한 경우, 양 당사자는 구술심리에 서 심판장이 석명을 구한 내용, 제출 요청한 자…"
+  },
+  {
+    "id": "제1절-심판사건-설명회-일반",
+    "title": "제1절 심판사건 설명회 일반",
+    "chapterTitle": "제2장 심판사건 설명회",
+    "partTitle": "제10편 심리관련 제도",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "379",
+    "pageStart": 407,
+    "pageEnd": 408,
+    "pageLabelStart": "379",
+    "pageLabelEnd": "380",
+    "hasImage": false,
+    "excerpt": "1. 제도 취지 심판관이 특허취소신청·심판에 관한 절차를 밟는 자 또는 그 대리인과 만나서(온라인 영상 또는 전화 포함) 기술·상표·디자인의 쟁점사항 등을 설명함으로써 심판절차의 투명성과 공정성 을 보장하고, 심리의 촉진을 도모함을 목적으로 한다. 2. 심판사건 설명회(이하‘설명회’)…"
+  },
+  {
+    "id": "제2절-구술심리와의-차이점",
+    "title": "제2절 구술심리와의 차이점",
+    "chapterTitle": "제2장 심판사건 설명회",
+    "partTitle": "제10편 심리관련 제도",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "381",
+    "pageStart": 409,
+    "pageEnd": 413,
+    "pageLabelStart": "381",
+    "pageLabelEnd": "385",
+    "hasImage": false,
+    "excerpt": "특허취소신청은 사건의 특성상 특허권자와는 특허권자 일방만이 참석하는 설명회를 개최하고, 취소신청인과는 필요할 경우 면담으로 대신하는 것이 바람직하다. 7. 설명회기록서의 작성 및 교부 심판관은 심판사건 설명회를 개최한 경우에는 심판사건 설명회 결과보고서(심판사건 설명회 등 운영규정 별…"
+  },
+  {
+    "id": "제1절-개요-6",
+    "title": "제1절 개요",
+    "chapterTitle": "제1장 심판청구의 취하",
+    "partTitle": "제11편 취하, 포기, 심리종결, 합의",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "393",
+    "pageStart": 421,
+    "pageEnd": 421,
+    "pageLabelStart": "393",
+    "pageLabelEnd": "393",
+    "hasImage": false,
+    "excerpt": "1. 의의 심판청구의 취하는 심판의 일부 또는 전부를 철회하는 의사표시이다. 심판청구를 취하하면 그 청구가 없었던 것과 동일한 상태로 돌아가기 때문에 후일에 이르러 동일한 청구취지로 같 은 피청구인에 대하여 다시 심판을 청구할 수 있다. 2. 관련 규정 o 특허법 제161조(심판청구의…"
+  },
+  {
+    "id": "제2절-심판청구의-취하에-관한-절차",
+    "title": "제2절 심판청구의 취하에 관한 절차",
+    "chapterTitle": "제1장 심판청구의 취하",
+    "partTitle": "제11편 취하, 포기, 심리종결, 합의",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "394",
+    "pageStart": 422,
+    "pageEnd": 426,
+    "pageLabelStart": "394",
+    "pageLabelEnd": "398",
+    "hasImage": false,
+    "excerpt": "취하서가 접수된 때에는 다음 절차에 따라 처리한다. 1. 심판청구 취하서의 접수 가. 신청인 심판청구인 또는 당사자참가인이 제출할 수 있다. 나. 제출 시기 취하서는 심결 확정일 전까지 제출할 수 있다. 다. 제출처 심판청구 취하서는 그 사건이 계류 중인 특허심판원(특허심판원장 또는…"
+  },
+  {
+    "id": "제3절-취하가-인정된-후의-절차",
+    "title": "제3절 취하가 인정된 후의 절차",
+    "chapterTitle": "제1장 심판청구의 취하",
+    "partTitle": "제11편 취하, 포기, 심리종결, 합의",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "399",
+    "pageStart": 427,
+    "pageEnd": 427,
+    "pageLabelStart": "399",
+    "pageLabelEnd": "399",
+    "hasImage": false,
+    "excerpt": "1. 처리절차 당사자계 심판에 대하여는 심판청구취하통지서(별지 4-25 서식 등), 심판청구취하통보서 (별지 4-26 서식 등)를 작성하고 당사자, 참가인 또는 참가신청을 하였으나 그 신청이 거부 된 자 및 특허청(산업재산등록과)에 이를 통지한다. ※ 예고등록이 되어 있지 아니한 사건…"
+  },
+  {
+    "id": "제4절-심판청구의-일부취하",
+    "title": "제4절 심판청구의 일부취하",
+    "chapterTitle": "제1장 심판청구의 취하",
+    "partTitle": "제11편 취하, 포기, 심리종결, 합의",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "400",
+    "pageStart": 428,
+    "pageEnd": 428,
+    "pageLabelStart": "400",
+    "pageLabelEnd": "400",
+    "hasImage": false,
+    "excerpt": "3. 모형․ 견본․ 증거물 등의 반환 심판청구 취하로 모형․ 견본․ 증거물 등을 더 이상 유치(留置)할 필요가 없는 경우에는 제2 편 제5장 제2절을 참고하여 처리한다. 4. 심판청구취하의 효력을 다투는 절차(심판사무취급규정§26) 심판장은 당사자가 심판청구의 취하가 부존재 또는 무효…"
+  },
+  {
+    "id": "제5절-취하사건의-부실권리의-존속방지를-위한-처리",
+    "title": "제5절 취하사건의 부실권리의 존속방지를 위한 처리",
+    "chapterTitle": "제1장 심판청구의 취하",
+    "partTitle": "제11편 취하, 포기, 심리종결, 합의",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "401",
+    "pageStart": 429,
+    "pageEnd": 430,
+    "pageLabelStart": "401",
+    "pageLabelEnd": "402",
+    "hasImage": false,
+    "excerpt": "② 디자인등록의 무효에 대하여는 일부취하를 할 수 없다. 다만, 복수디자인등록의 경우에 는 일부취하가 가능하다. ③ 지정상품이 2이상 있는 경우의 거절결정에 대한 심판, 상표등록 또는 지정상품 추가등 록의 무효심판, 상표권의 존속기간갱신등록의 무효심판, 상품분류전환등록의 무효심판은 지…"
+  },
+  {
+    "id": "제1절-심리진행상황안내-통지",
+    "title": "제1절 심리진행상황안내 통지",
+    "chapterTitle": "제2장 심판청구의 포기",
+    "partTitle": "제11편 취하, 포기, 심리종결, 합의",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "404",
+    "pageStart": 432,
+    "pageEnd": 432,
+    "pageLabelStart": "404",
+    "pageLabelEnd": "404",
+    "hasImage": false,
+    "excerpt": "1. 의의 심판장은 당사자에게 사건이 성숙되어 심리가 곧 종결되므로, 추가 심판서류의 제출은 정 해진 기한까지만 가능함을 심리진행상황안내 통지를 통해 안내한다. 심리진행상황안내 통지에는 ①종결예정 사실, ②증거제출 기한, ③기한도과 후 제출된 서류 는 각하될 수 있음을 명확히 기재한다…"
+  },
+  {
+    "id": "제2절-심리종결통지-및-심리재개",
+    "title": "제2절 심리종결통지 및 심리재개",
+    "chapterTitle": "제2장 심판청구의 포기",
+    "partTitle": "제11편 취하, 포기, 심리종결, 합의",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "405",
+    "pageStart": 433,
+    "pageEnd": 434,
+    "pageLabelStart": "405",
+    "pageLabelEnd": "406",
+    "hasImage": false,
+    "excerpt": "5. 심리종결보류결정 심리종결예정시기를 통지하더라도 심판장은 당사자의 신청에 따라 심리진행상황안내 통 지에서 정한 서류제출 기한으로부터 2개월 내에서 심리종결을 보류할 수 있다. 보류신청은 절차의 공정성을 기하기 위해 당사자 일방이 상대방의 동의를 얻어 심리종결보류신청서를 제출한 사건…"
+  },
+  {
+    "id": "제3절-적시제출주의",
+    "title": "제3절 적시제출주의",
+    "chapterTitle": "제2장 심판청구의 포기",
+    "partTitle": "제11편 취하, 포기, 심리종결, 합의",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "407",
+    "pageStart": 435,
+    "pageEnd": 441,
+    "pageLabelStart": "407",
+    "pageLabelEnd": "413",
+    "hasImage": true,
+    "excerpt": "※ 심리종결통지서와 심결의 등본을 동일자로 발송하더라도 위법이라 할 수 없으나, 심결은 심리종결통지일의 다음날부터 하되 심리종결통지일로부터 20일을 경과하지 않아야 한다 (심판사무취급규정§77의2). 제3절 적시제출주의 1. 도입 취지 및 의의 기존에는 심판절차에서 주장・증거의 제출시…"
+  },
+  {
+    "id": "제1절-심결분류-및-판결분류-개요",
+    "title": "제1절 심결분류 및 판결분류 개요",
+    "chapterTitle": "제3장 심결분류",
+    "partTitle": "제12편 심 결",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "430",
+    "pageStart": 458,
+    "pageEnd": 458,
+    "pageLabelStart": "430",
+    "pageLabelEnd": "430",
+    "hasImage": false,
+    "excerpt": "심결분류 및 판결분류는 심결 등을 사건의 종류 및 심결 등에서 주로 논의되는 사항(이하 ‘판시사항’이라 한다)의 내용과 심결 등의 주문 및 기술, 물품, 상품의 분류(구분) 등의 구별 에 따라 분류하기 위한 표지이다. 심결분류 및 판결분류는 7자리로 되는『기본분류』와 기본분류 다음에…"
+  },
+  {
+    "id": "제2절-심결분류-및-판결분류-구성",
+    "title": "제2절 심결분류 및 판결분류 구성",
+    "chapterTitle": "제3장 심결분류",
+    "partTitle": "제12편 심 결",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "430",
+    "pageStart": 458,
+    "pageEnd": 460,
+    "pageLabelStart": "430",
+    "pageLabelEnd": "432",
+    "hasImage": false,
+    "excerpt": "제1절 심결분류 및 판결분류 개요 심결분류 및 판결분류는 심결 등을 사건의 종류 및 심결 등에서 주로 논의되는 사항(이하 ‘판시사항’이라 한다)의 내용과 심결 등의 주문 및 기술, 물품, 상품의 분류(구분) 등의 구별 에 따라 분류하기 위한 표지이다. 심결분류 및 판결분류는 7자리로…"
+  },
+  {
+    "id": "제3절-심결분류표",
+    "title": "제3절 심결분류표",
+    "chapterTitle": "제3장 심결분류",
+    "partTitle": "제12편 심 결",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "433",
+    "pageStart": 461,
+    "pageEnd": 478,
+    "pageLabelStart": "433",
+    "pageLabelEnd": "450",
+    "hasImage": false,
+    "excerpt": "기 본 분 류 보 조 분 류 사건의 종류 (4자리) 판시사항 (3자리) 제 1 제 2 제 3 산업재산 권의 종류 심급의 종류 심판․ 재판의 종류 주 문 I P C 디자인분류 상품분류 심결취소파기환송․ 심급 Ⓟ 1 80 121 - Y (B65H) Ⓤ 1 11 130 - Y (A44B)…"
+  },
+  {
+    "id": "제4절-심결분류-및-판결분류의-사용요령",
+    "title": "제4절 심결분류 및 판결분류의 사용요령",
+    "chapterTitle": "제3장 심결분류",
+    "partTitle": "제12편 심 결",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "451",
+    "pageStart": 479,
+    "pageEnd": 482,
+    "pageLabelStart": "451",
+    "pageLabelEnd": "454",
+    "hasImage": false,
+    "excerpt": "(3) 통상소송, 가처분, 재심판결『주문』 지법판결 고법판결 대 법 원 판 결 침해다(인용) Y 원판결취소(자판) YWZ 고법판결파기환송 YWZW 고법판결유지 YWZZ 원판결유지 YZ 고법판결파기환송 YZW 고법판결유지 YZZ 침해아니다(기각) Z 원판결취소(자판) ZWY 고법판결파기…"
+  },
+  {
+    "id": "제2절-주문의-기재례",
+    "title": "제2절 주문의 기재례",
+    "chapterTitle": "제9장 주문의 표시방법",
+    "partTitle": "제12편 심 결",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "473",
+    "pageStart": 501,
+    "pageEnd": 513,
+    "pageLabelStart": "473",
+    "pageLabelEnd": "485",
+    "hasImage": false,
+    "excerpt": "1. 각하심결 이 사건 심판청구를 각하한다. 심판비용은 청구인이 부담한다. 2. 거절결정에 대한 심판 가. 원결정을 취소하고 환송하는 경우 원결정을 취소하고 이 사건 출원을 특허청 심사관에게 보내어 다시 심사에 부친다. 나. 원결정을 취소하고 자판할 경우 (1) 일반적인 경우 원결정을…"
+  },
+  {
+    "id": "제1절-의의",
+    "title": "제1절 의의",
+    "chapterTitle": "제1장 서류의 송달",
+    "partTitle": "제13편 송달, 기간, 절차정지, 승계",
+    "categories": [
+      "timing",
+      "procedure"
+    ],
+    "pageLabel": "491",
+    "pageStart": 519,
+    "pageEnd": 519,
+    "pageLabelStart": "491",
+    "pageLabelEnd": "491",
+    "hasImage": false,
+    "excerpt": "서류의 송달은 심판청구인, 피청구인, 참가인, 취소신청인 등에게 해당 사건에 관한 서류의 내용을 알리기 위하여 일정한 방식으로 서류를 교부하는 절차를 말한다. 한편, 서류의 통지도 그 목적이나 법률적 효과의 발생에 있어서는 송달과 동일하다 하겠으 나 무방식이라는 점에서 송달과 구별된다…"
+  },
+  {
+    "id": "제2절-서류-송달-방법",
+    "title": "제2절 서류 송달 방법",
+    "chapterTitle": "제1장 서류의 송달",
+    "partTitle": "제13편 송달, 기간, 절차정지, 승계",
+    "categories": [
+      "timing",
+      "procedure"
+    ],
+    "pageLabel": "492",
+    "pageStart": 520,
+    "pageEnd": 523,
+    "pageLabelStart": "492",
+    "pageLabelEnd": "495",
+    "hasImage": false,
+    "excerpt": "[ 관련 판례] o 심판관의 서명날인이 빠졌을 때에는 위법이며 그 송달은 무효가 된다(대법원 1957. 3. 23. 선 고 4289민상558 판결). o 2 이상의 심판청구 사건이 병합심결로 종결된 경우에는 하나의 심결이 되어 일체로 취급되므 로, 심판등본송달서의 심판번호란에 각각의…"
+  },
+  {
+    "id": "제3절-송달대상-서류",
+    "title": "제3절 송달대상 서류",
+    "chapterTitle": "제1장 서류의 송달",
+    "partTitle": "제13편 송달, 기간, 절차정지, 승계",
+    "categories": [
+      "timing",
+      "criteria",
+      "procedure"
+    ],
+    "pageLabel": "496",
+    "pageStart": 524,
+    "pageEnd": 526,
+    "pageLabelStart": "496",
+    "pageLabelEnd": "498",
+    "hasImage": false,
+    "excerpt": "1. 특별송달 대상서류 심판장은 심결 또는 결정이 있는 때에는 그 등본을 ‘당사자, 참가인 및 심판에 참가신청을 하였으나 그 신청이 거부된 자’에게 특별송달우편으로 송달하여야 한다(특§162⑥, 특시령§18 【판례: 공시송달 방법】 o 피심판청구인에 대하여 청구서 사본을 등록원부상의…"
+  },
+  {
+    "id": "제4절-재외자에-대한-서류-송달절차",
+    "title": "제4절 재외자에 대한 서류 송달절차",
+    "chapterTitle": "제1장 서류의 송달",
+    "partTitle": "제13편 송달, 기간, 절차정지, 승계",
+    "categories": [
+      "timing",
+      "procedure"
+    ],
+    "pageLabel": "499",
+    "pageStart": 527,
+    "pageEnd": 527,
+    "pageLabelStart": "499",
+    "pageLabelEnd": "499",
+    "hasImage": false,
+    "excerpt": "나. 의견서를 제출할 기회가 부여되는 서류 ① 특§132조의13 규정에 의한 특허취소신청의 취소의견제출통지서 ② 특§136조 규정에 의한 정정의견제출통지서 ③ 특§156조 규정에 의한 참가신청 부본송달에 대한 의견제출 ④ 특§157⑤, 실§33, 디§145⑤, 상§144⑤의 규정에 직…"
+  },
+  {
+    "id": "제5절-특허심판원이-발송하는-서류의-수신인",
+    "title": "제5절 특허심판원이 발송하는 서류의 수신인",
+    "chapterTitle": "제1장 서류의 송달",
+    "partTitle": "제13편 송달, 기간, 절차정지, 승계",
+    "categories": [
+      "timing",
+      "procedure"
+    ],
+    "pageLabel": "500",
+    "pageStart": 528,
+    "pageEnd": 529,
+    "pageLabelStart": "500",
+    "pageLabelEnd": "501",
+    "hasImage": false,
+    "excerpt": "송달의 수신인은 원칙적으로 송달을 받는 자가 된다(특시령§18④, 실시령§9, 디시령§8④, 상시령§18④). 대리인이 있는 경우에는 대리인을, 복대리인이 있는 경우에는 복대리인을 수신인으로 한다. 송달을 받을 자가 무능력자인 경우에는 법정대리인에게 송달하여야 한다(특시령§18⑤, 실…"
+  },
+  {
+    "id": "제1절-기간의-종류",
+    "title": "제1절 기간의 종류",
+    "chapterTitle": "제2장 기간의 계산",
+    "partTitle": "제13편 송달, 기간, 절차정지, 승계",
+    "categories": [
+      "timing",
+      "criteria",
+      "procedure"
+    ],
+    "pageLabel": "502",
+    "pageStart": 530,
+    "pageEnd": 534,
+    "pageLabelStart": "502",
+    "pageLabelEnd": "506",
+    "hasImage": false,
+    "excerpt": "특허법에 규정된 기간에는 법정기간, 지정기간 및 부가기간이 있다. 법정기간은 산업재산권에 관한 법률 또는 이에 근거한 명령에 의하여 정하여진 기간을 말 한다. 지정기간은 출원․ 청구 기타의 절차를 밟은 자에 대하여 특허청장․ 특허심판원장․ 심판장 또 는 심사관이 산업재산권에 관한 법률…"
+  },
+  {
+    "id": "제2절-기간의-계산",
+    "title": "제2절 기간의 계산",
+    "chapterTitle": "제2장 기간의 계산",
+    "partTitle": "제13편 송달, 기간, 절차정지, 승계",
+    "categories": [
+      "timing",
+      "procedure"
+    ],
+    "pageLabel": "507",
+    "pageStart": 535,
+    "pageEnd": 536,
+    "pageLabelStart": "507",
+    "pageLabelEnd": "508",
+    "hasImage": false,
+    "excerpt": "1. 원칙 기간의 초일은 이를 산입하지 아니한다. 다만, 그 기간이 오전 0시부터 시작될 때에는 초일 을 산입한다(특§14제1호, 실§3, 디§16제1호, 상§16제1호). 기간을 월 또는 년으로 정한 때에는 역(曆)에 의하여 계산한다(특§14제2호, 실§3, 디§16제2호, 상§16…"
+  },
+  {
+    "id": "제3절-심판절차와-관련된-법정기간",
+    "title": "제3절 심판절차와 관련된 법정기간",
+    "chapterTitle": "제2장 기간의 계산",
+    "partTitle": "제13편 송달, 기간, 절차정지, 승계",
+    "categories": [
+      "timing",
+      "procedure"
+    ],
+    "pageLabel": "509",
+    "pageStart": 537,
+    "pageEnd": 537,
+    "pageLabelStart": "509",
+    "pageLabelEnd": "509",
+    "hasImage": false,
+    "excerpt": "[예] 1월 1일, 2일이 공휴일인 경우 11.1 11.2 (2개월) 1.1 1.2 1.3 (1개월) 1.31 2.1 보정요구서 발송 지정기간 기 산 일 (당초의 기간) 지정기간 말 일 보정서 제출말일 (연장기간) 지정기간 말 일 공휴일이지만 지정기간 연장신청서 기산일 제3절 심판절차…"
+  },
+  {
+    "id": "제4절-심판절차와-관련된-지정기간",
+    "title": "제4절 심판절차와 관련된 지정기간",
+    "chapterTitle": "제2장 기간의 계산",
+    "partTitle": "제13편 송달, 기간, 절차정지, 승계",
+    "categories": [
+      "timing",
+      "procedure"
+    ],
+    "pageLabel": "510",
+    "pageStart": 538,
+    "pageEnd": 538,
+    "pageLabelStart": "510",
+    "pageLabelEnd": "510",
+    "hasImage": false,
+    "excerpt": "1. 심판에 관한 지정기간 특§46(실§11, 디§47, 상§39) 또는 특§141①(실§33, 디§128①, 상§127①)의 규정에 의하여 심판원장 또는 심판장이 정할 수 있는 절차의 보정기간은 1개월 이내로 하고, 특§63(실§14, 디§63, 상§55)의 규정에 의한 의견제출기간…"
+  },
+  {
+    "id": "제5절-부가기간의-지정",
+    "title": "제5절 부가기간의 지정",
+    "chapterTitle": "제2장 기간의 계산",
+    "partTitle": "제13편 송달, 기간, 절차정지, 승계",
+    "categories": [
+      "timing",
+      "procedure"
+    ],
+    "pageLabel": "511",
+    "pageStart": 539,
+    "pageEnd": 540,
+    "pageLabelStart": "511",
+    "pageLabelEnd": "512",
+    "hasImage": false,
+    "excerpt": "2. 지정기간의 연장 지정기간은 특허법 제15조 제2항(실§3, 디§17, 상§17)의 규정에 의거하여 모두 연장이 가능 하다. 특허심판원장 또는 심판장이 관련 법령에 의하여 지정하는 지정기간의 연장기간은 1개월 이내로 한다. 지정기간에 대한 연장신청이 있는 경우에는 불가피성을 소명한…"
+  },
+  {
+    "id": "제6절-답변서-등의-부본-송달시-기간지정에-대한-절차",
+    "title": "제6절 답변서 등의 부본 송달시 기간지정에 대한 절차",
+    "chapterTitle": "제2장 기간의 계산",
+    "partTitle": "제13편 송달, 기간, 절차정지, 승계",
+    "categories": [
+      "timing",
+      "procedure"
+    ],
+    "pageLabel": "513",
+    "pageStart": 541,
+    "pageEnd": 541,
+    "pageLabelStart": "513",
+    "pageLabelEnd": "513",
+    "hasImage": false,
+    "excerpt": "심판장은 청구서 부본의 송달에 대하여 피청구인으로부터 답변서 또는 정정청구서 (이하 「답변서 등」이라고 한다)를 수리한 때에는 그 부본을 청구인에게 송달하여야 하고(특§147②, 실§33, 디§134②, 상§133②), 필요한 경우 당사자를 심문할 수 있다(특§147③, 실§33, 디…"
+  },
+  {
+    "id": "제1절-개요-8",
+    "title": "제1절 개요",
+    "chapterTitle": "제3장 절차의 정지 및 승계",
+    "partTitle": "제13편 송달, 기간, 절차정지, 승계",
+    "categories": [
+      "timing",
+      "procedure"
+    ],
+    "pageLabel": "514",
+    "pageStart": 542,
+    "pageEnd": 542,
+    "pageLabelStart": "514",
+    "pageLabelEnd": "514",
+    "hasImage": false,
+    "excerpt": "절차의 정지라 함은 일정한 사유가 발생하여 그 일체의 절차가 법률상 진행되지 않는 상태 를 말한다. 정지는 법률상의 효과를 수반하며, 정지 중에 행하여진 특허청․ 심판원 및 당사자의 절차는 당사자 쌍방 또는 상대방과의 관계에서 무효임을 원칙으로 하고 기간의 진행도 정지된다. 정 지에는…"
+  },
+  {
+    "id": "제2절-절차의-중단사유",
+    "title": "제2절 절차의 중단사유",
+    "chapterTitle": "제3장 절차의 정지 및 승계",
+    "partTitle": "제13편 송달, 기간, 절차정지, 승계",
+    "categories": [
+      "timing",
+      "criteria",
+      "procedure"
+    ],
+    "pageLabel": "515",
+    "pageStart": 543,
+    "pageEnd": 545,
+    "pageLabelStart": "515",
+    "pageLabelEnd": "517",
+    "hasImage": false,
+    "excerpt": "중단이라 함은 당사자 중 어느 한쪽 당사자의 사망 또는 소멸, 기타 절차를 밟는 자의 교체 필요성이 생긴 경우에 당사자 보호를 위한 정지를 말한다. 다음의 경우 절차를 중단한다. 다만, 절차를 밟을 것을 위임받은 대리인이 있는 경우에는 그러하지 아니하다(특§20, 실§3, 디§22,…"
+  },
+  {
+    "id": "제3절-중단된-절차의-수계",
+    "title": "제3절 중단된 절차의 수계",
+    "chapterTitle": "제3장 절차의 정지 및 승계",
+    "partTitle": "제13편 송달, 기간, 절차정지, 승계",
+    "categories": [
+      "timing",
+      "procedure"
+    ],
+    "pageLabel": "518",
+    "pageStart": 546,
+    "pageEnd": 547,
+    "pageLabelStart": "518",
+    "pageLabelEnd": "519",
+    "hasImage": false,
+    "excerpt": "1. 관련 규정(특§22, 실§3, 디§23, 상§23) 특허법 제22조 (수계신청) ① 제20조의 규정에 의하여 중단된 절차에 관한 수계신청은 상대방도 할 수 있다. ② 특허청장 또는 심판장은 제20조의 규정에 의하여 중단된 절차에 관한 수계신청이 있는 때에 는 이를 상대방에게 통지…"
+  },
+  {
+    "id": "제4절-절차의-중지",
+    "title": "제4절 절차의 중지",
+    "chapterTitle": "제3장 절차의 정지 및 승계",
+    "partTitle": "제13편 송달, 기간, 절차정지, 승계",
+    "categories": [
+      "timing",
+      "procedure"
+    ],
+    "pageLabel": "520",
+    "pageStart": 548,
+    "pageEnd": 549,
+    "pageLabelStart": "520",
+    "pageLabelEnd": "521",
+    "hasImage": false,
+    "excerpt": "1. 관련 규정(특§23, 실§3, 디§25, 상§25) 특허법 제23조(절차의 중지) ① 특허청장 또는 심판관이 천재지변이나 그 밖의 불가피한 사유로 그 직무를 수행할 수 없을 때에는 특허청 또는 특허심판원에 계속 중인 절차는 그 사유가 없어질 때까지 중지된다. ② 당사자에게 일정하…"
+  },
+  {
+    "id": "제5절-중단-중지의-효력",
+    "title": "제5절 중단 중지의 효력",
+    "chapterTitle": "제3장 절차의 정지 및 승계",
+    "partTitle": "제13편 송달, 기간, 절차정지, 승계",
+    "categories": [
+      "timing",
+      "criteria",
+      "procedure"
+    ],
+    "pageLabel": "522",
+    "pageStart": 550,
+    "pageEnd": 551,
+    "pageLabelStart": "522",
+    "pageLabelEnd": "523",
+    "hasImage": false,
+    "excerpt": "3. 절차 중지 통지 심판장은 절차 중지를 할 때는 절차중지통지서를 청구인, 피청구인, 참가인, 특허취소신청인, 권리자 등에게 통지한다(별지 4-19 서식). 만약 구술심리 기일, 심판사건 설명회, 면담 등이 예 정된 경우, 이를 함께 취소 또는 연기 통지하는 것이 바람직하다. 4.…"
+  },
+  {
+    "id": "제6절-절차의-승계-속행",
+    "title": "제6절 절차의 승계 속행",
+    "chapterTitle": "제3장 절차의 정지 및 승계",
+    "partTitle": "제13편 송달, 기간, 절차정지, 승계",
+    "categories": [
+      "timing",
+      "procedure"
+    ],
+    "pageLabel": "524",
+    "pageStart": 552,
+    "pageEnd": 553,
+    "pageLabelStart": "524",
+    "pageLabelEnd": "525",
+    "hasImage": false,
+    "excerpt": "1. 절차 효력의 승계 특허권자 또는 특허에 관한 권리를 가진 자가 밟은 절차 또는 그 자에 대하여 밟은 절차의 효력은 그 특허권 또는 특허에 관한 권리의 승계인에게 미친다(특§18, 실§3, 디§20, 상§20). 이 경우 특§38⑤, 실§11, 디§57④, 상§48③의 규정에 따라…"
+  },
+  {
+    "id": "제7절-심판-및-재심청구기간의-특례절차의-추후보완",
+    "title": "제7절 심판 및 재심청구기간의 특례(절차의 추후보완)",
+    "chapterTitle": "제3장 절차의 정지 및 승계",
+    "partTitle": "제13편 송달, 기간, 절차정지, 승계",
+    "categories": [
+      "timing",
+      "procedure"
+    ],
+    "pageLabel": "526",
+    "pageStart": 554,
+    "pageEnd": 556,
+    "pageLabelStart": "526",
+    "pageLabelEnd": "528",
+    "hasImage": false,
+    "excerpt": "1. 관련 규정 (특§17, 실§3, 디§19, 상§19) 특허법 제17조(절차의 추후 보완) 특허에 관한 절차를 밟은 자가 책임질 수 없는 사유로 인하여9) 제132조의1710)의 규정에 의한 심판의 청구기간, 제180조제1항의 규정에 의한 재심의 청구기간을 준수할 수 없을 때에는…"
+  },
+  {
+    "id": "제1절-청구인-및-피청구인",
+    "title": "제1절 청구인 및 피청구인",
+    "chapterTitle": "제4장 권리범위 확인심판 청구",
+    "partTitle": "제14편 권리범위 확인심판",
+    "categories": [
+      "party",
+      "criteria",
+      "procedure"
+    ],
+    "pageLabel": "537",
+    "pageStart": 565,
+    "pageEnd": 565,
+    "pageLabelStart": "537",
+    "pageLabelEnd": "537",
+    "hasImage": false,
+    "excerpt": "1. 청구인 현행 권리범위 확인심판의 청구인은 특허권자, 전용실시권자 또는 이해관계인이다. 권리범 위 확인심판제도를 도입한 이후 구특허법에서는 청구인을 이해관계인으로만 포괄적으로 규정 하여 오다가, 1990. 1. 13. 개정 법률에서 특허권자를 명시하였고, 2006. 3. 3. 개정…"
+  },
+  {
+    "id": "제2절-청구방식",
+    "title": "제2절 청구방식",
+    "chapterTitle": "제4장 권리범위 확인심판 청구",
+    "partTitle": "제14편 권리범위 확인심판",
+    "categories": [
+      "criteria",
+      "procedure"
+    ],
+    "pageLabel": "538",
+    "pageStart": 566,
+    "pageEnd": 567,
+    "pageLabelStart": "538",
+    "pageLabelEnd": "539",
+    "hasImage": true,
+    "excerpt": "권리범위 확인심판을 청구하고자 하는 자는 심판청구서에 당사자 및 대리인의 성명과 주소, 심판사건, 청구취지 및 청구이유를 기재하고(특§140), 확인대상발명의 설명서 및 도면을 첨부 하여야 한다(특§140③). 적극적 권리범위확인심판의 경우 당사자 성명 란에 권리자인 청구인이 피청구인…"
+  },
+  {
+    "id": "제1절-개요-9",
+    "title": "제1절 개요",
+    "chapterTitle": "제5장 권리범위 확인심판의 심리",
+    "partTitle": "제14편 권리범위 확인심판",
+    "categories": [
+      "criteria"
+    ],
+    "pageLabel": "540",
+    "pageStart": 568,
+    "pageEnd": 568,
+    "pageLabelStart": "540",
+    "pageLabelEnd": "540",
+    "hasImage": false,
+    "excerpt": "권리범위 확인심판의 심리방식은 서면심리를 원칙으로 하되, 당사자의 신청 또는 심판부의 직권에 의해 구술심리를 병행할 수 있다. 권리범위 확인심판은 직권심리주의를 취하고 있기는 하나, 민사소송과 논리적 구조를 같이하여 당사자가 심결의 기초가 되는 사실과 증거의 수집 을 책임지도록 하고…"
+  },
+  {
+    "id": "제2절-권리가-소멸된-경우의-처리",
+    "title": "제2절 권리가 소멸된 경우의 처리",
+    "chapterTitle": "제5장 권리범위 확인심판의 심리",
+    "partTitle": "제14편 권리범위 확인심판",
+    "categories": [
+      "criteria",
+      "procedure"
+    ],
+    "pageLabel": "541",
+    "pageStart": 569,
+    "pageEnd": 569,
+    "pageLabelStart": "541",
+    "pageLabelEnd": "541",
+    "hasImage": false,
+    "excerpt": "②와 관련하여 심결시 기준으로 해당 권리가 소멸하면 심판관 합의체는 심결각하하여야 한 다. 적극적 권리범위 확인심판에서 권리 대 권리이고, 이용관계에 해당하지 아니하면, 심판관 합의체는 심결각하하여야 한다. ④와 관련하여 확인대상발명(고안)의 설명서(도면)에 청구항과 대비될 정도로 특…"
+  },
+  {
+    "id": "제3절-확인대상발명고안의-특정",
+    "title": "제3절 확인대상발명(고안)의 특정",
+    "chapterTitle": "제5장 권리범위 확인심판의 심리",
+    "partTitle": "제14편 권리범위 확인심판",
+    "categories": [
+      "criteria"
+    ],
+    "pageLabel": "542",
+    "pageStart": 570,
+    "pageEnd": 577,
+    "pageLabelStart": "542",
+    "pageLabelEnd": "549",
+    "hasImage": false,
+    "excerpt": "o 실용신안권의 권리범위확인심판의 청구는 현존하는 실용신안권의 범위를 확정하려는데 그 목적 이 있으므로, 일단 적법하게 발생한 실용신안권이라 할지라도 그 권리가 소멸된 이후에는 그에 대한 권리범위확인을 구할 이익이 없어진다(대법원 2007. 3. 29. 선고 2006후3595 판결).…"
+  },
+  {
+    "id": "제4절-확인대상발명의-보정",
+    "title": "제4절 확인대상발명의 보정",
+    "chapterTitle": "제5장 권리범위 확인심판의 심리",
+    "partTitle": "제14편 권리범위 확인심판",
+    "categories": [
+      "criteria",
+      "procedure"
+    ],
+    "pageLabel": "550",
+    "pageStart": 578,
+    "pageEnd": 583,
+    "pageLabelStart": "550",
+    "pageLabelEnd": "555",
+    "hasImage": false,
+    "excerpt": "o 확인대상발명의 구성이 기능, 효과, 성질 등의 이른바 기능적 표현으로 기재되어 있는 경우에 는, 그 발명이 속하는 기술분야에서 통상의 지식을 가진 사람(이하 ‘통상의 기술자’라고 한다)이 확인대상발명의 설명서나 도면 등의 기재와 기술상식을 고려하여 그 구성의 기술적 의미를 명 확하…"
+  },
+  {
+    "id": "제5절-확인대상발명의-실시여부",
+    "title": "제5절 확인대상발명의 실시여부",
+    "chapterTitle": "제5장 권리범위 확인심판의 심리",
+    "partTitle": "제14편 권리범위 확인심판",
+    "categories": [
+      "criteria"
+    ],
+    "pageLabel": "556",
+    "pageStart": 584,
+    "pageEnd": 589,
+    "pageLabelStart": "556",
+    "pageLabelEnd": "561",
+    "hasImage": false,
+    "excerpt": "1. 소극적 권리범위 확인심판에서 확인대상발명의 실시여부 가. 확인대상발명의 실시여부에 따른 확인의 이익 소극적 권리범위 확인심판에서는 청구인이 실제로 실시하고 있는 발명 뿐 아니라 현재 실 시하고 있지 않으나 장래에 실시예정인 발명을 확인대상발명으로 특정하여 청구한 경우에도 확인의…"
+  },
+  {
+    "id": "제6절-심결문에-확인대상발명의-기재",
+    "title": "제6절 심결문에 확인대상발명의 기재",
+    "chapterTitle": "제5장 권리범위 확인심판의 심리",
+    "partTitle": "제14편 권리범위 확인심판",
+    "categories": [
+      "criteria",
+      "procedure"
+    ],
+    "pageLabel": "562",
+    "pageStart": 590,
+    "pageEnd": 590,
+    "pageLabelStart": "562",
+    "pageLabelEnd": "562",
+    "hasImage": false,
+    "excerpt": "권리범위 확인심판의 심결문에는 원칙적으로 확인대상발명의 설명서 및 필요한 도면을 첨 부하도록 한다. 다만 확인대상발명의 설명서 및 필요한 도면을 첨부하지 아니하여도 심결문만 으로 그 확인대상발명의 내용이 특정되고 확인될 수 있는 경우에는 첨부하지 아니한다. 권리범위 확인심판에서 심결문…"
+  },
+  {
+    "id": "제7절-특허발명의-권리범위에-대한-판단",
+    "title": "제7절 특허발명의 권리범위에 대한 판단",
+    "chapterTitle": "제5장 권리범위 확인심판의 심리",
+    "partTitle": "제14편 권리범위 확인심판",
+    "categories": [
+      "criteria"
+    ],
+    "pageLabel": "562",
+    "pageStart": 590,
+    "pageEnd": 593,
+    "pageLabelStart": "562",
+    "pageLabelEnd": "565",
+    "hasImage": false,
+    "excerpt": "제6절 심결문에 확인대상발명의 기재 권리범위 확인심판의 심결문에는 원칙적으로 확인대상발명의 설명서 및 필요한 도면을 첨 부하도록 한다. 다만 확인대상발명의 설명서 및 필요한 도면을 첨부하지 아니하여도 심결문만 으로 그 확인대상발명의 내용이 특정되고 확인될 수 있는 경우에는 첨부하지 아…"
+  },
+  {
+    "id": "제8절-직권주의-한계심리범위",
+    "title": "제8절 직권주의 한계(심리범위)",
+    "chapterTitle": "제5장 권리범위 확인심판의 심리",
+    "partTitle": "제14편 권리범위 확인심판",
+    "categories": [
+      "criteria",
+      "procedure"
+    ],
+    "pageLabel": "566",
+    "pageStart": 594,
+    "pageEnd": 594,
+    "pageLabelStart": "566",
+    "pageLabelEnd": "566",
+    "hasImage": false,
+    "excerpt": "o 균등관계에 해당하는 경우(97후2200, 2002후1102, 2002후1027, 2001후171, 2007후3806, 2012후1132, 2013다14361, 2012후443, 2010후67, 2010마183, 2009다46712, 2006다 35308, 2015후2327, 201…"
+  },
+  {
+    "id": "제9절-소극적-권리범위-확인심판에서-청구에-다툼이-없는-경우의-처리",
+    "title": "제9절 소극적 권리범위 확인심판에서 청구에 다툼이 없는 경우의 처리",
+    "chapterTitle": "제5장 권리범위 확인심판의 심리",
+    "partTitle": "제14편 권리범위 확인심판",
+    "categories": [
+      "criteria",
+      "procedure"
+    ],
+    "pageLabel": "567",
+    "pageStart": 595,
+    "pageEnd": 595,
+    "pageLabelStart": "567",
+    "pageLabelEnd": "567",
+    "hasImage": false,
+    "excerpt": "“속하지 아니한다”는 소극적 권리범위 확인심판 청구사건에 있어서, 피청구인이 청구인의 주장에 대하여 다투지 아니할 경우, 당사자의 다툼이 없으므로 이해관계가 없는 것으로 모두 각하하여야 하는 것이라는 견해도 있으나, 다투지 않는 것이 명백한 경우를 제외하고는 본안 에 들어가 심리를 하…"
+  },
+  {
+    "id": "제10절-기타",
+    "title": "제10절 기타",
+    "chapterTitle": "제5장 권리범위 확인심판의 심리",
+    "partTitle": "제14편 권리범위 확인심판",
+    "categories": [
+      "criteria"
+    ],
+    "pageLabel": "568",
+    "pageStart": 596,
+    "pageEnd": 596,
+    "pageLabelStart": "568",
+    "pageLabelEnd": "568",
+    "hasImage": false,
+    "excerpt": "소극적 권리범위확인심판에서는 현재 실시하는 것만이 아니라 장래 실시 예정인 것도 심판대상으 로 삼을 수 있다. 그러나 당사자 사이에 심판청구인이 현재 실시하고 있는 기술이 특허권의 권리 범위에 속하는지에 관하여만 다툼이 있을 뿐이고, 심판청구인이 장래 실시할 예정이라고 주장하 면서 심…"
+  },
+  {
+    "id": "제1절-심결-주문",
+    "title": "제1절 심결 주문",
+    "chapterTitle": "제6장 권리범위 확인심판의 심결",
+    "partTitle": "제14편 권리범위 확인심판",
+    "categories": [
+      "criteria",
+      "procedure"
+    ],
+    "pageLabel": "569",
+    "pageStart": 597,
+    "pageEnd": 598,
+    "pageLabelStart": "569",
+    "pageLabelEnd": "570",
+    "hasImage": false,
+    "excerpt": "1. 특허, 실용신안 가. 소극적 권리범위 확인심판 (1) 확인대상발명은 특허(실용신안등록) 제00호의 권리범위에 속하지 아니한다. (이 사건 심판청구 를 기각한다.) (2) 심판비용은 피청구인(청구인)이 부담한다. 나. 적극적 권리범위 확인심판 (1) 확인대상발명은 특허(실용신안등록…"
+  },
+  {
+    "id": "제2절-심결의-법적-효력",
+    "title": "제2절 심결의 법적 효력",
+    "chapterTitle": "제6장 권리범위 확인심판의 심결",
+    "partTitle": "제14편 권리범위 확인심판",
+    "categories": [
+      "criteria",
+      "procedure"
+    ],
+    "pageLabel": "571",
+    "pageStart": 599,
+    "pageEnd": 600,
+    "pageLabelStart": "571",
+    "pageLabelEnd": "571",
+    "hasImage": false,
+    "excerpt": "권리범위 확인심판의 법적 효력에 대해 이를 긍정하는 견해와 특허침해소송 등에서 사법적 판단을 받기 위한 보조적 수단으로서 단순한 감정적(鑑定的) 성질을 가지는 것으로 보아 부정 하는 견해가 있다. 그러나 ① 특허발명의 권리범위에 관한 심판관의 심결은 그 위법여부에 대해 사법적 판단 을…"
+  },
+  {
+    "id": "제1절-청구인-및-피청구인-2",
+    "title": "제1절 청구인 및 피청구인",
+    "chapterTitle": "제4장 권리범위 확인심판 청구",
+    "partTitle": "제14-1편 디자인권의 권리범위 확인심판",
+    "categories": [
+      "party",
+      "criteria",
+      "procedure"
+    ],
+    "pageLabel": "580",
+    "pageStart": 608,
+    "pageEnd": 608,
+    "pageLabelStart": "580",
+    "pageLabelEnd": "580",
+    "hasImage": false,
+    "excerpt": "1. 청구인 현행 권리범위 확인심판의 청구인은 디자인권자, 전용실시권자 또는 이해관계인이다. 이해 관계인은 디자인권의 권리범위가 확인됨에 따라 이익을 얻거나 손해를 면하는 자를 말한다. 권리범위 확인심판제도를 도입한 이후 구의장법에서는 청구인을 이해관계인으로만 포괄적으 로 규정하여 오…"
+  },
+  {
+    "id": "제2절-청구방식-2",
+    "title": "제2절 청구방식",
+    "chapterTitle": "제4장 권리범위 확인심판 청구",
+    "partTitle": "제14-1편 디자인권의 권리범위 확인심판",
+    "categories": [
+      "criteria",
+      "procedure"
+    ],
+    "pageLabel": "581",
+    "pageStart": 609,
+    "pageEnd": 610,
+    "pageLabelStart": "581",
+    "pageLabelEnd": "582",
+    "hasImage": false,
+    "excerpt": "제 14 -1 편 제4장 권리범위 확인심판 청구 2. 피청구인 권리범위 확인심판의 피청구인은 심판청구의 유형에 따라 정해진다. 일반적으로 적극적 권 리범위 확인심판에서의 피청구인은 디자인을 무단히 실시하고 있는 자이고, 소극적 권리범위 확인심판에서의 피청구인은 디자인권자이다. o 권리…"
+  },
+  {
+    "id": "제1절-개요-10",
+    "title": "제1절 개요",
+    "chapterTitle": "제5장 권리범위 확인심판의 심리",
+    "partTitle": "제14-1편 디자인권의 권리범위 확인심판",
+    "categories": [
+      "criteria"
+    ],
+    "pageLabel": "583",
+    "pageStart": 611,
+    "pageEnd": 611,
+    "pageLabelStart": "583",
+    "pageLabelEnd": "583",
+    "hasImage": false,
+    "excerpt": "제 14 -1 편 제5장 권리범위 확인심판의 심리 제1절 개요 권리범위 확인심판의 심리방식은 서면심리를 원칙으로 하되, 당사자의 신청 또는 심판부의 직권에 의해 구술심리를 병행할 수 있다. 권리범위 확인심판은 직권심리주의를 취하고 있기는 하나, 민사소송과 논리적 구조를 같이하여 당사자…"
+  },
+  {
+    "id": "제2절-권리범위-확인심판의-심리-순서",
+    "title": "제2절 권리범위 확인심판의 심리 순서",
+    "chapterTitle": "제5장 권리범위 확인심판의 심리",
+    "partTitle": "제14-1편 디자인권의 권리범위 확인심판",
+    "categories": [
+      "criteria",
+      "procedure"
+    ],
+    "pageLabel": "583",
+    "pageStart": 611,
+    "pageEnd": 611,
+    "pageLabelStart": "583",
+    "pageLabelEnd": "583",
+    "hasImage": false,
+    "excerpt": "제 14 -1 편 제5장 권리범위 확인심판의 심리 제1절 개요 권리범위 확인심판의 심리방식은 서면심리를 원칙으로 하되, 당사자의 신청 또는 심판부의 직권에 의해 구술심리를 병행할 수 있다. 권리범위 확인심판은 직권심리주의를 취하고 있기는 하나, 민사소송과 논리적 구조를 같이하여 당사자…"
+  },
+  {
+    "id": "제3절-권리가-소멸된-경우의-처리",
+    "title": "제3절 권리가 소멸된 경우의 처리",
+    "chapterTitle": "제5장 권리범위 확인심판의 심리",
+    "partTitle": "제14-1편 디자인권의 권리범위 확인심판",
+    "categories": [
+      "criteria",
+      "procedure"
+    ],
+    "pageLabel": "584",
+    "pageStart": 612,
+    "pageEnd": 612,
+    "pageLabelStart": "584",
+    "pageLabelEnd": "584",
+    "hasImage": false,
+    "excerpt": "o 대법원은 권리범위 확인심판에서 등록의장과 대비되는 의장이 등록의장의 의장등록출원 전에 그 의장이 속하는 분야에서 통상의 지식을 가진 자가 국내에서 널리 알려진 형상ㆍ모양ㆍ색채 또는 이들의 결합에 의하여 용이하게 창작할 수 있는 것인 때에는 등록의장과 대비할 것도 없 이 그 권리범위…"
+  },
+  {
+    "id": "제4절-확인대상디자인의-특정",
+    "title": "제4절 확인대상디자인의 특정",
+    "chapterTitle": "제5장 권리범위 확인심판의 심리",
+    "partTitle": "제14-1편 디자인권의 권리범위 확인심판",
+    "categories": [
+      "criteria"
+    ],
+    "pageLabel": "585",
+    "pageStart": 613,
+    "pageEnd": 615,
+    "pageLabelStart": "585",
+    "pageLabelEnd": "587",
+    "hasImage": false,
+    "excerpt": "제 14 -1 편 제5장 권리범위 확인심판의 심리 제4절 확인대상디자인의 특정 1. 의의 확인대상디자인이라 함은 권리범위 확인심판에 있어서 등록디자인과 대비되는 디자인을 말 한다. 한편, 적극적 권리범위 확인심판에서 피청구인은 자신이 실제로 실시하는 디자인은 청 구인이 제출한 확인대상…"
+  },
+  {
+    "id": "제5절-확인대상디자인의-보정",
+    "title": "제5절 확인대상디자인의 보정",
+    "chapterTitle": "제5장 권리범위 확인심판의 심리",
+    "partTitle": "제14-1편 디자인권의 권리범위 확인심판",
+    "categories": [
+      "criteria",
+      "procedure"
+    ],
+    "pageLabel": "588",
+    "pageStart": 616,
+    "pageEnd": 619,
+    "pageLabelStart": "588",
+    "pageLabelEnd": "591",
+    "hasImage": false,
+    "excerpt": "예를 들면 등록디자인과 대비되는 확인대상디자인의 실제 대상물이 복수개인 경우이거나, 실 제 대상물이 1개라고 하더라도 그 구성이 서로 다른 물품을 기재한 경우에는 1개가 되도록 석명을 요구한다. 확인대상디자인과 대비되는 디자인권이 여러 개인 경우에도 보정을 명한다. 위의 사항은 피청구…"
+  },
+  {
+    "id": "제6절-확인대상디자인의-실시여부",
+    "title": "제6절 확인대상디자인의 실시여부",
+    "chapterTitle": "제5장 권리범위 확인심판의 심리",
+    "partTitle": "제14-1편 디자인권의 권리범위 확인심판",
+    "categories": [
+      "criteria"
+    ],
+    "pageLabel": "592",
+    "pageStart": 620,
+    "pageEnd": 623,
+    "pageLabelStart": "592",
+    "pageLabelEnd": "595",
+    "hasImage": false,
+    "excerpt": "1. 소극적 권리범위 확인심판에서 확인대상디자인의 실시여부 가. 확인대상디자인의 실시여부에 따른 확인의 이익 소극적 권리범위 확인심판에서는 청구인이 실제로 실시하고 있는 디자인 뿐 아니라 현재 실시하고 있지 않으나 장래에 실시예정인 디자인을 확인대상디자인으로 특정하여 청구한 경 우에도…"
+  },
+  {
+    "id": "제7절-심결문에-확인대상디자인의-기재",
+    "title": "제7절 심결문에 확인대상디자인의 기재",
+    "chapterTitle": "제5장 권리범위 확인심판의 심리",
+    "partTitle": "제14-1편 디자인권의 권리범위 확인심판",
+    "categories": [
+      "criteria",
+      "procedure"
+    ],
+    "pageLabel": "596",
+    "pageStart": 624,
+    "pageEnd": 624,
+    "pageLabelStart": "596",
+    "pageLabelEnd": "596",
+    "hasImage": false,
+    "excerpt": "(2) 피청구인이 확인대상디자인의 실시여부에 대해 다투는 경우 심판관은 청구인에게 심문서를 발송하여 피청구인의 주장에 대한 의견을 제출하도록 요구하여 양 당사자의 주장을 청취한 후, 피청구인이 확인대상디자인을 실시한 적도 없으며 현재 실시하고 있지도 않는다고 판단되는 경우에는 심판청구…"
+  },
+  {
+    "id": "제8절-등록디자인의-권리범위에-대한-판단",
+    "title": "제8절 등록디자인의 권리범위에 대한 판단",
+    "chapterTitle": "제5장 권리범위 확인심판의 심리",
+    "partTitle": "제14-1편 디자인권의 권리범위 확인심판",
+    "categories": [
+      "criteria"
+    ],
+    "pageLabel": "597",
+    "pageStart": 625,
+    "pageEnd": 626,
+    "pageLabelStart": "597",
+    "pageLabelEnd": "598",
+    "hasImage": false,
+    "excerpt": "제 14 -1 편 제5장 권리범위 확인심판의 심리 권리범위 확인심판에서 심결문에 확인대상디자인을 정확히 기재하는 것은 등록디자인의 권 리범위를 확정하는 것만큼 중요한 것이며, 따라서 별지로 첨부되는 확인대상디자인의 도면은 주문이나 이유의 일부를 이루는 것이므로 그 자체가 정연하게 작성…"
+  },
+  {
+    "id": "제9절-직권주의-한계심리범위",
+    "title": "제9절 직권주의 한계(심리범위)",
+    "chapterTitle": "제5장 권리범위 확인심판의 심리",
+    "partTitle": "제14-1편 디자인권의 권리범위 확인심판",
+    "categories": [
+      "criteria",
+      "procedure"
+    ],
+    "pageLabel": "599",
+    "pageStart": 627,
+    "pageEnd": 627,
+    "pageLabelStart": "599",
+    "pageLabelEnd": "599",
+    "hasImage": false,
+    "excerpt": "제 14 -1 편 제5장 권리범위 확인심판의 심리 받아들여 다른 구성요소와 결합함으로써 전체로서는 등록디자인과 유사하지 아니한 별개 의 디자인으로 성립하나, 등록디자인이 그 디자인에서 본질적 특성을 훼손함이 없이 독립 성을 유지하여 다른 구성요소들과 구별되고 이 디자인을 실시하게 되면…"
+  },
+  {
+    "id": "제10절-소극적-권리범위-확인심판에서-청구에-다툼이-없는-경우의-처리",
+    "title": "제10절 소극적 권리범위 확인심판에서 청구에 다툼이 없는 경우의 처리",
+    "chapterTitle": "제5장 권리범위 확인심판의 심리",
+    "partTitle": "제14-1편 디자인권의 권리범위 확인심판",
+    "categories": [
+      "criteria",
+      "procedure"
+    ],
+    "pageLabel": "600",
+    "pageStart": 628,
+    "pageEnd": 628,
+    "pageLabelStart": "600",
+    "pageLabelEnd": "600",
+    "hasImage": false,
+    "excerpt": "“속하지 아니한다”는 소극적 권리범위 확인심판 청구사건에 있어서, 피청구인이 청구인의 주장에 대하여 다투지 아니할 경우, 당사자의 다툼이 없으므로 이해관계가 없는 것으로 모두 각하하여야 하는 것이라는 견해도 있으나, 다투지 않는 것이 명백한 경우를 제외하고는 본안 에 들어가 심리를 하…"
+  },
+  {
+    "id": "제11절-기타",
+    "title": "제11절 기타",
+    "chapterTitle": "제5장 권리범위 확인심판의 심리",
+    "partTitle": "제14-1편 디자인권의 권리범위 확인심판",
+    "categories": [
+      "criteria"
+    ],
+    "pageLabel": "601",
+    "pageStart": 629,
+    "pageEnd": 630,
+    "pageLabelStart": "601",
+    "pageLabelEnd": "602",
+    "hasImage": false,
+    "excerpt": "제 14 -1 편 제5장 권리범위 확인심판의 심리 소극적 권리범위 확인심판에 있어, ① 피청구인(권리자)이 과거 경고 등 권리행사를 하지 않았고 심판에서도 방어를 하지 아니한 때 또는 ② 피청구인(권리자)이 과거 경고 등 권리행 사를 하였으나 심판의 대상인 확인대상디자인에 대해서 다투…"
+  },
+  {
+    "id": "제1절-심결-주문-2",
+    "title": "제1절 심결 주문",
+    "chapterTitle": "제6장 권리범위 확인심판의 심결",
+    "partTitle": "제14-1편 디자인권의 권리범위 확인심판",
+    "categories": [
+      "criteria",
+      "procedure"
+    ],
+    "pageLabel": "603",
+    "pageStart": 631,
+    "pageEnd": 635,
+    "pageLabelStart": "603",
+    "pageLabelEnd": "607",
+    "hasImage": false,
+    "excerpt": "제 14 -1 편 제6장 권리범위 확인심판의 심결 제1절 심결 주문 1. 소극적 권리범위 확인심판 가. 인용 (1) 이 사건 등록디자인과 확인대상디자인이 비유사한 경우 1. 확인대상디자인의 도면에 기재된 ‘000(물품의 명칭)’ 디자인은 디자인등록 제000호의 권리범위 에 속하지 아니…"
+  },
+  {
+    "id": "제2절-심결의-법적-효력-2",
+    "title": "제2절 심결의 법적 효력",
+    "chapterTitle": "제6장 권리범위 확인심판의 심결",
+    "partTitle": "제14-1편 디자인권의 권리범위 확인심판",
+    "categories": [
+      "criteria",
+      "procedure"
+    ],
+    "pageLabel": "608",
+    "pageStart": 636,
+    "pageEnd": 636,
+    "pageLabelStart": "608",
+    "pageLabelEnd": "608",
+    "hasImage": false,
+    "excerpt": "권리범위 확인심판의 법적 효력에 대해 이를 긍정하는 견해와 특허침해소송 등에서 사법적 판단을 받기 위한 보조적 수단으로서 단순한 감정적(鑑定的) 성질을 가지는 것으로 보아 부정 하는 견해가 있다. 그러나 ① 등록디자인의 권리범위에 관한 심판관의 심결은 그 위법여부에 대해 사법적 판 단…"
+  },
+  {
+    "id": "제1절-의의-및-연혁",
+    "title": "제1절 의의 및 연혁",
+    "chapterTitle": "제1장 개요",
+    "partTitle": "제14-2편 상표권의 권리범위 확인심판",
+    "categories": [
+      "criteria"
+    ],
+    "pageLabel": "611",
+    "pageStart": 639,
+    "pageEnd": 639,
+    "pageLabelStart": "611",
+    "pageLabelEnd": "611",
+    "hasImage": false,
+    "excerpt": "제 14 -2 편 제14-2편 상표권의 권리범위 확인심판 제1장 개요 제1절 의의 및 연혁 1. 의의 상표권의 권리범위 확인심판이란 등록된 상표를 중심으로 어느 특정의 상표(확인대상표장) 가 등록상표의 권리범위에 속하는지 여부를 확인하는 심판이다. 이는 제3자가 사용 중이거나 사용 계…"
+  },
+  {
+    "id": "제2절-권리범위-확인심판의-종류",
+    "title": "제2절 권리범위 확인심판의 종류",
+    "chapterTitle": "제1장 개요",
+    "partTitle": "제14-2편 상표권의 권리범위 확인심판",
+    "categories": [
+      "criteria"
+    ],
+    "pageLabel": "612",
+    "pageStart": 640,
+    "pageEnd": 640,
+    "pageLabelStart": "612",
+    "pageLabelEnd": "612",
+    "hasImage": false,
+    "excerpt": "그리고 2016. 2. 29. 전부 개정된 현행 상표법은, 등록상표의 지정상품이 둘 이상 있는 경 우에는 지정상품마다 권리범위 확인심판을 청구할 수 있도록 규정하였다(상§121). 제2절 권리범위 확인심판의 종류 청구의 취지에 따라 적극적 권리범위 확인심판과 소극적 권리범위 확인심판으…"
+  },
+  {
+    "id": "제1절-법적-성격",
+    "title": "제1절 법적 성격",
+    "chapterTitle": "제2장 권리범위 확인심판의 법적 성격",
+    "partTitle": "제14-2편 상표권의 권리범위 확인심판",
+    "categories": [
+      "criteria"
+    ],
+    "pageLabel": "613",
+    "pageStart": 641,
+    "pageEnd": 641,
+    "pageLabelStart": "613",
+    "pageLabelEnd": "613",
+    "hasImage": false,
+    "excerpt": "제 14 -2 편 제2장 권리범위 확인심판의 법적 성격 제1절 법적 성격 형식적 측면에서 보면, 권리범위 확인심판은 청구인이 심판 대상물인 상표권과 확인대상표 장 사이의 권리관계에 대한 확인을 구하여 그로부터 발생하는 상표권침해금지 및 손해배상청 구권 등의 법률상 이익을 얻으려는 것으…"
+  },
+  {
+    "id": "제2절-판단의-대상",
+    "title": "제2절 판단의 대상",
+    "chapterTitle": "제2장 권리범위 확인심판의 법적 성격",
+    "partTitle": "제14-2편 상표권의 권리범위 확인심판",
+    "categories": [
+      "criteria"
+    ],
+    "pageLabel": "613",
+    "pageStart": 641,
+    "pageEnd": 642,
+    "pageLabelStart": "613",
+    "pageLabelEnd": "614",
+    "hasImage": false,
+    "excerpt": "제 14 -2 편 제2장 권리범위 확인심판의 법적 성격 제1절 법적 성격 형식적 측면에서 보면, 권리범위 확인심판은 청구인이 심판 대상물인 상표권과 확인대상표 장 사이의 권리관계에 대한 확인을 구하여 그로부터 발생하는 상표권침해금지 및 손해배상청 구권 등의 법률상 이익을 얻으려는 것으…"
+  },
+  {
+    "id": "제3절-침해소송과의-관계",
+    "title": "제3절 침해소송과의 관계",
+    "chapterTitle": "제2장 권리범위 확인심판의 법적 성격",
+    "partTitle": "제14-2편 상표권의 권리범위 확인심판",
+    "categories": [
+      "criteria"
+    ],
+    "pageLabel": "615",
+    "pageStart": 643,
+    "pageEnd": 645,
+    "pageLabelStart": "615",
+    "pageLabelEnd": "617",
+    "hasImage": false,
+    "excerpt": "제 14 -2 편 제2장 권리범위 확인심판의 법적 성격 제3절 침해소송과의 관계 상표권의 권리범위 확인심판은 현존하는 등록상표와 확인대상표장을 대비하여 상표권의 효 력이 미치는 객관적 범위를 명확히 하는 것이고, 특정인이 확인대상표장을 사용하는 것이 상 표권자의 상표권을 침해하였는지…"
+  },
+  {
+    "id": "제1절-청구인-및-피청구인-3",
+    "title": "제1절 청구인 및 피청구인",
+    "chapterTitle": "제3장 권리범위 확인심판의 청구",
+    "partTitle": "제14-2편 상표권의 권리범위 확인심판",
+    "categories": [
+      "party",
+      "criteria",
+      "procedure"
+    ],
+    "pageLabel": "618",
+    "pageStart": 646,
+    "pageEnd": 646,
+    "pageLabelStart": "618",
+    "pageLabelEnd": "618",
+    "hasImage": false,
+    "excerpt": "1. 청구인 권리범위 확인심판의 청구인은 상표권자, 전용사용권자 또는 이해관계인이다. 권리범위 확인심판의 청구는, 1949. 11. 28. 제정된 상표법은 ‘이해관계자와 심사관’이 할 수 있도록 하였다가, 1973. 2. 8. 전부 개정된 상표법은 ‘이해관계인’만이, 1990. 1.…"
+  },
+  {
+    "id": "제2절-청구-기간-및-대상상표권이-소멸된-경우",
+    "title": "제2절 청구 기간 및 대상(상표권이 소멸된 경우)",
+    "chapterTitle": "제3장 권리범위 확인심판의 청구",
+    "partTitle": "제14-2편 상표권의 권리범위 확인심판",
+    "categories": [
+      "timing",
+      "criteria",
+      "procedure"
+    ],
+    "pageLabel": "619",
+    "pageStart": 647,
+    "pageEnd": 648,
+    "pageLabelStart": "619",
+    "pageLabelEnd": "620",
+    "hasImage": true,
+    "excerpt": "제 14 -2 편 제3장 권리범위 확인심판의 청구 2. 피청구인 권리범위 확인심판의 피청구인은, 일반적으로 적극적 권리범위 확인심판에서는 확인대상표 장을 무단히 사용하고 있는 자이고, 소극적 권리범위 확인심판에서는 상표등록원부에 기재된 권리자이다. 제2절 청구 기간 및 대상(상표권이…"
+  },
+  {
+    "id": "제3절-청구방식",
+    "title": "제3절 청구방식",
+    "chapterTitle": "제3장 권리범위 확인심판의 청구",
+    "partTitle": "제14-2편 상표권의 권리범위 확인심판",
+    "categories": [
+      "criteria",
+      "procedure"
+    ],
+    "pageLabel": "621",
+    "pageStart": 649,
+    "pageEnd": 649,
+    "pageLabelStart": "621",
+    "pageLabelEnd": "621",
+    "hasImage": false,
+    "excerpt": "제 14 -2 편 제3장 권리범위 확인심판의 청구 제3절 청구방식 권리범위 확인심판을 청구하고자 하는 자는 심판청구서에 당사자 및 대리인의 성명과 주소, 심판사건, 청구취지 및 청구이유를 기재하고(상§125①), 등록상표와 대비할 수 있는 상표견본 및 그 사용상품목록을 첨부하여야 한다…"
+  },
+  {
+    "id": "제4절-확인대상표장의-특정",
+    "title": "제4절 확인대상표장의 특정",
+    "chapterTitle": "제3장 권리범위 확인심판의 청구",
+    "partTitle": "제14-2편 상표권의 권리범위 확인심판",
+    "categories": [
+      "criteria"
+    ],
+    "pageLabel": "622",
+    "pageStart": 650,
+    "pageEnd": 652,
+    "pageLabelStart": "622",
+    "pageLabelEnd": "624",
+    "hasImage": false,
+    "excerpt": "1. 의의 등록상표의 보호범위는 상표등록출원서에 기재된 표장과 지정상품에 의해 결정되고(상 §91), 권리범위 확인심판은 상표권의 효력이 미치는 객관적 범위를 확정짓는 것이므로, 법 률상 분쟁을 즉시 확정할 만한 구체적인 이익을 필요로 한다. 따라서 확인대상표장은 실제 사용하는 표장…"
+  },
+  {
+    "id": "제5절-확인대상표장의-보정이-요지변경에-해당하는-경우",
+    "title": "제5절 확인대상표장의 보정이 요지변경에 해당하는 경우",
+    "chapterTitle": "제3장 권리범위 확인심판의 청구",
+    "partTitle": "제14-2편 상표권의 권리범위 확인심판",
+    "categories": [
+      "criteria",
+      "procedure"
+    ],
+    "pageLabel": "625",
+    "pageStart": 653,
+    "pageEnd": 653,
+    "pageLabelStart": "625",
+    "pageLabelEnd": "625",
+    "hasImage": false,
+    "excerpt": "제 14 -2 편 제3장 권리범위 확인심판의 청구 2. 확인대상표장이 복수인 경우의 취급 권리범위 확인심판 청구 1건에 관련하여 확인대상표장은 1개이어야 한다. 다만, 하나의 확인대상표장에 복수의 사용례가 기재될 수 있으나, 사용례들은 모두 등록상 표와 대비하여 속부 여부가 달라지지…"
+  },
+  {
+    "id": "제6절-권리-대-권리의-권리범위-확인심판의-인정-여부",
+    "title": "제6절 권리 대 권리의 권리범위 확인심판의 인정 여부",
+    "chapterTitle": "제3장 권리범위 확인심판의 청구",
+    "partTitle": "제14-2편 상표권의 권리범위 확인심판",
+    "categories": [
+      "criteria"
+    ],
+    "pageLabel": "626",
+    "pageStart": 654,
+    "pageEnd": 657,
+    "pageLabelStart": "626",
+    "pageLabelEnd": "629",
+    "hasImage": false,
+    "excerpt": "권리 대 권리의 권리범위 확인심판은 등록상표의 권리자가 다른 등록상표의 권리자를 상대 로 청구하는 심판을 말한다. 이에 대한 적법성(인정) 여부는 적극적 권리범위 확인심판과 소 극적 권리범위 확인심판에서 각기 다르다. 1. 적극적 권리범위 확인심판(불인정) 후출원에 의하여 등록된 상표…"
+  },
+  {
+    "id": "제1절-개요-11",
+    "title": "제1절 개요",
+    "chapterTitle": "제4장 권리범위 확인심판의 심리",
+    "partTitle": "제14-2편 상표권의 권리범위 확인심판",
+    "categories": [
+      "criteria"
+    ],
+    "pageLabel": "630",
+    "pageStart": 658,
+    "pageEnd": 658,
+    "pageLabelStart": "630",
+    "pageLabelEnd": "630",
+    "hasImage": false,
+    "excerpt": "권리범위 확인심판의 심리방식은 서면심리를 원칙으로 하되, 당사자의 신청 또는 심판부의 직권에 의해 구술심리를 병행할 수 있다. 권리범위 확인심판은 직권심리주의를 취하고 있기는 하나, 민사소송과 논리적 구조를 같이하여 당사자가 심결의 기초가 되는 사실과 증거의 수집 을 책임지도록 하고…"
+  },
+  {
+    "id": "제2절-적용법규",
+    "title": "제2절 적용법규",
+    "chapterTitle": "제4장 권리범위 확인심판의 심리",
+    "partTitle": "제14-2편 상표권의 권리범위 확인심판",
+    "categories": [
+      "criteria"
+    ],
+    "pageLabel": "630",
+    "pageStart": 658,
+    "pageEnd": 659,
+    "pageLabelStart": "630",
+    "pageLabelEnd": "631",
+    "hasImage": false,
+    "excerpt": "제1절 개요 권리범위 확인심판의 심리방식은 서면심리를 원칙으로 하되, 당사자의 신청 또는 심판부의 직권에 의해 구술심리를 병행할 수 있다. 권리범위 확인심판은 직권심리주의를 취하고 있기는 하나, 민사소송과 논리적 구조를 같이하여 당사자가 심결의 기초가 되는 사실과 증거의 수집 을 책임…"
+  },
+  {
+    "id": "제3절-확인대상표장의-사용과-확인의-이익",
+    "title": "제3절 확인대상표장의 사용과 확인의 이익",
+    "chapterTitle": "제4장 권리범위 확인심판의 심리",
+    "partTitle": "제14-2편 상표권의 권리범위 확인심판",
+    "categories": [
+      "criteria"
+    ],
+    "pageLabel": "632",
+    "pageStart": 660,
+    "pageEnd": 663,
+    "pageLabelStart": "632",
+    "pageLabelEnd": "635",
+    "hasImage": false,
+    "excerpt": "권리범위 확인심판은 등록상표의 기술적 범위를 기초로 하여 구체적으로 문제가 된 확인대 상표장에 효력이 미치는지의 확인을 목적으로 하는 것으로서 민사소송에서의 확인의 소와 유 사한 심판이다. 따라서 권리범위 확인심판을 청구함에 있어서는 확인대상표장과의 관계에서 법률상 분쟁 을 즉시 확정…"
+  },
+  {
+    "id": "제4절-소극적-권리범위-확인심판에서-권리범위-속부에-다툼-없는-경우의-확인의-이익과-그-처리",
+    "title": "제4절 소극적 권리범위 확인심판에서 권리범위 속부에 다툼 없는 경우의 확인의 이익과 그 처리",
+    "chapterTitle": "제4장 권리범위 확인심판의 심리",
+    "partTitle": "제14-2편 상표권의 권리범위 확인심판",
+    "categories": [
+      "criteria",
+      "procedure"
+    ],
+    "pageLabel": "636",
+    "pageStart": 664,
+    "pageEnd": 664,
+    "pageLabelStart": "636",
+    "pageLabelEnd": "636",
+    "hasImage": false,
+    "excerpt": "1. 문제의 소재 등록상표에 관한 권리범위 확인심판은 확인대상표장이 등록상표의 권리범위에 속하는지 여 부에 대하여 분쟁이 있거나 분쟁이 생길 염려가 있는 경우에 등록상표의 권리범위를 확인하 여 위와 같은 법적 불안을 제거하고자 하는 제도이다. 따라서 당사자들 사이에 권리범위의 속부에…"
+  },
+  {
+    "id": "제5절-권리범위-속부-판단본안-판단",
+    "title": "제5절 권리범위 속부 판단(본안 판단)",
+    "chapterTitle": "제4장 권리범위 확인심판의 심리",
+    "partTitle": "제14-2편 상표권의 권리범위 확인심판",
+    "categories": [
+      "criteria"
+    ],
+    "pageLabel": "637",
+    "pageStart": 665,
+    "pageEnd": 672,
+    "pageLabelStart": "637",
+    "pageLabelEnd": "644",
+    "hasImage": false,
+    "excerpt": "제 14 -2 편 제4장 권리범위 확인심판의 심리 이 경우 본안 심리 결과 ‘속하지 아니한다’고 심결하는 때에도(청구인 승소) 심판비용은 청 구인에게 부담시킨다. 다. 피청구인(권리자)으로부터 아무런 대응이 없는 경우 당사자 간에 과거에 동일 대상물로 다툰 사실이 없고, 피청구인으로부…"
+  },
+  {
+    "id": "제6절-직권심리주의와-한계-등",
+    "title": "제6절 직권심리주의와 한계 등",
+    "chapterTitle": "제4장 권리범위 확인심판의 심리",
+    "partTitle": "제14-2편 상표권의 권리범위 확인심판",
+    "categories": [
+      "criteria",
+      "procedure"
+    ],
+    "pageLabel": "645",
+    "pageStart": 673,
+    "pageEnd": 674,
+    "pageLabelStart": "645",
+    "pageLabelEnd": "646",
+    "hasImage": false,
+    "excerpt": "제 14 -2 편 제4장 권리범위 확인심판의 심리 제6절 직권심리주의와 한계 등 심판에서는 당사자 또는 참가인이 신청하지 아니한 이유에 대해서도 의견진술기회를 주고 심리할 수 있다(상§146①). 이 규정은 공익적인 견지에서 필요한 경우에 당사자가 주장하지 아니한 사실에 관하여도 직권…"
+  },
+  {
+    "id": "제1절-심결-주문-3",
+    "title": "제1절 심결 주문",
+    "chapterTitle": "제5장 권리범위 확인심판의 심결",
+    "partTitle": "제14-2편 상표권의 권리범위 확인심판",
+    "categories": [
+      "criteria",
+      "procedure"
+    ],
+    "pageLabel": "647",
+    "pageStart": 675,
+    "pageEnd": 675,
+    "pageLabelStart": "647",
+    "pageLabelEnd": "647",
+    "hasImage": false,
+    "excerpt": "제 14 -2 편 제5장 권리범위 확인심판의 심결 제1절 심결 주문 1. 각하심결 이 사건 심판청구를 각하한다. 심판비용은 청구인이 부담한다. 2. 지정상품 일부를 특정하지 않고 청구한 경우(지정상품 전부 대상 청구) 가. 적극적 권리범위 확인심판 1-1. 확인대상표장은 상표등록 제○…"
+  },
+  {
+    "id": "제2절-심결의-법적-효력-3",
+    "title": "제2절 심결의 법적 효력",
+    "chapterTitle": "제5장 권리범위 확인심판의 심결",
+    "partTitle": "제14-2편 상표권의 권리범위 확인심판",
+    "categories": [
+      "criteria",
+      "procedure"
+    ],
+    "pageLabel": "648",
+    "pageStart": 676,
+    "pageEnd": 676,
+    "pageLabelStart": "648",
+    "pageLabelEnd": "648",
+    "hasImage": false,
+    "excerpt": "권리범위 확인심판의 심결이 확정되면 확인대상표장이 등록상표의 권리범위에 속하는지 여 부가 공적으로 확인된다. 그리고 권리범위 확인심판의 심결이 확정되었을 경우에는 그 사건에 대해서는 누구든지 같 은 사실 및 같은 증거에 의하여 다시 심판을 청구할 수 없다(일사부재리). 확정된 심결이…"
+  },
+  {
+    "id": "제1절-심판청구대상",
+    "title": "제1절 심판청구대상",
+    "chapterTitle": "제2장 무효심판의 대상과 무효원인",
+    "partTitle": "제15편 무효심판",
+    "categories": [
+      "criteria",
+      "procedure"
+    ],
+    "pageLabel": "654",
+    "pageStart": 682,
+    "pageEnd": 682,
+    "pageLabelStart": "654",
+    "pageLabelEnd": "654",
+    "hasImage": false,
+    "excerpt": "무효심판의 청구대상은 행정처분으로 등록된 권리이다(특§133, 실§31). 특허․ 실용신안은 청구항이 2이상인 때에는 청구항마다 무효심판을 청구할 수 있다. 또한 특허권․ 실용신안권이 소멸된 후에도 이를 청구할 수 있다. ※ 청구범위에 기재된 2 이상의 발명에 관한 무효심판의 계속 중…"
+  },
+  {
+    "id": "제2절-무효원인",
+    "title": "제2절 무효원인",
+    "chapterTitle": "제2장 무효심판의 대상과 무효원인",
+    "partTitle": "제15편 무효심판",
+    "categories": [
+      "criteria"
+    ],
+    "pageLabel": "654",
+    "pageStart": 682,
+    "pageEnd": 687,
+    "pageLabelStart": "654",
+    "pageLabelEnd": "659",
+    "hasImage": false,
+    "excerpt": "제1절 심판청구대상 무효심판의 청구대상은 행정처분으로 등록된 권리이다(특§133, 실§31). 특허․ 실용신안은 청구항이 2이상인 때에는 청구항마다 무효심판을 청구할 수 있다. 또한 특허권․ 실용신안권이 소멸된 후에도 이를 청구할 수 있다. ※ 청구범위에 기재된 2 이상의 발명에 관한…"
+  },
+  {
+    "id": "제1절-청구인",
+    "title": "제1절 청구인",
+    "chapterTitle": "제5장 무효심판의 당사자",
+    "partTitle": "제15편 무효심판",
+    "categories": [
+      "party",
+      "procedure"
+    ],
+    "pageLabel": "661",
+    "pageStart": 689,
+    "pageEnd": 689,
+    "pageLabelStart": "661",
+    "pageLabelEnd": "661",
+    "hasImage": false,
+    "excerpt": "1. 2017. 3. 1. 이후 또는 2006. 9. 30. 이전에 등록된 특허, 2017. 3. 1. 이후 등록되거나 2006. 9. 30. 이전에 출원된 실용신안 이해관계인 또는 심사관만이 청구인이 될 수 있다(특§133①, 디§121①/구디§68①, 상§117 ①). 이해관계가…"
+  },
+  {
+    "id": "제2절-피청구인",
+    "title": "제2절 피청구인",
+    "chapterTitle": "제5장 무효심판의 당사자",
+    "partTitle": "제15편 무효심판",
+    "categories": [
+      "party",
+      "procedure"
+    ],
+    "pageLabel": "662",
+    "pageStart": 690,
+    "pageEnd": 691,
+    "pageLabelStart": "662",
+    "pageLabelEnd": "663",
+    "hasImage": false,
+    "excerpt": "실§31①단서). 그러나, 등록공고일 후 3개월이 경과된 때에는 이해관계인 및 심사관만이 청구 인이 될 수 있다(특§133①, 실§31①). 이해관계가 없을 경우에는 그 청구는 부적법한 것으로서 각하되며, 이해관계에 대한 판단기 준은 심결시이다. 제2절 피청구인 1. 피청구인은 특허권…"
+  },
+  {
+    "id": "제1절-청구가능시기",
+    "title": "제1절 청구가능시기",
+    "chapterTitle": "제6장 무효심판의 청구시기",
+    "partTitle": "제15편 무효심판",
+    "categories": [
+      "timing",
+      "procedure"
+    ],
+    "pageLabel": "664",
+    "pageStart": 692,
+    "pageEnd": 692,
+    "pageLabelStart": "664",
+    "pageLabelEnd": "664",
+    "hasImage": false,
+    "excerpt": "특허권의 설정등록 후라면 특허권이 소멸된 후에도 무효심판을 청구할 수 있다(특 §133②, 실§31). 다만, 심결에 의하여 특허가 무효로 된 때는 그러하지 아니하다. 이 경우라 도 특례로서 특허가 특§133①4(특허된 후 그 특정권자가 제25조에 따라 특허권을 누릴 수 없 는 자로…"
+  },
+  {
+    "id": "제2절-무효심판청구의-제척기간",
+    "title": "제2절 무효심판청구의 제척기간",
+    "chapterTitle": "제6장 무효심판의 청구시기",
+    "partTitle": "제15편 무효심판",
+    "categories": [
+      "timing",
+      "procedure"
+    ],
+    "pageLabel": "664",
+    "pageStart": 692,
+    "pageEnd": 693,
+    "pageLabelStart": "664",
+    "pageLabelEnd": "665",
+    "hasImage": false,
+    "excerpt": "제1절 청구가능시기 특허권의 설정등록 후라면 특허권이 소멸된 후에도 무효심판을 청구할 수 있다(특 §133②, 실§31). 다만, 심결에 의하여 특허가 무효로 된 때는 그러하지 아니하다. 이 경우라 도 특례로서 특허가 특§133①4(특허된 후 그 특정권자가 제25조에 따라 특허권을 누…"
+  },
+  {
+    "id": "제1절-심판청구서-제출",
+    "title": "제1절 심판청구서 제출",
+    "chapterTitle": "제7장 무효심판의 청구 및 방식심리",
+    "partTitle": "제15편 무효심판",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "666",
+    "pageStart": 694,
+    "pageEnd": 694,
+    "pageLabelStart": "666",
+    "pageLabelEnd": "666",
+    "hasImage": false,
+    "excerpt": "1. 청구서의 제출 무효심판청구에 있어서 청구인은 특§140(실§33)에서 정하는 방식 요건을 충족시키는 특시 칙 별지 34호 서식에 따른 청구서를 제출하여야 하며, 이러한 청구서는 특§28에 규정된 특허 청 또는 심판원에 제출하는 서류에 해당한다. 한편, 청구서 및 첨부서류의 제출에…"
+  },
+  {
+    "id": "제2절-방식심리-2",
+    "title": "제2절 방식심리",
+    "chapterTitle": "제7장 무효심판의 청구 및 방식심리",
+    "partTitle": "제15편 무효심판",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "667",
+    "pageStart": 695,
+    "pageEnd": 695,
+    "pageLabelStart": "667",
+    "pageLabelEnd": "667",
+    "hasImage": false,
+    "excerpt": "1. 보정명령 및 결정각하 심판장은 무효심판청구서가 특허법 제140조 제1항의 규정에 위반하고 있는 경우는 보정을 명하고(특§141①, 실§33) 이에 응하지 아니하는 경우에는 결정으로서 그 청구서를 각하한다 (특§141②, 실§33). 결정각하는 서면으로 하여야 하며 그 이유를 붙여…"
+  },
+  {
+    "id": "제3절-심판청구서의-보정",
+    "title": "제3절 심판청구서의 보정",
+    "chapterTitle": "제7장 무효심판의 청구 및 방식심리",
+    "partTitle": "제15편 무효심판",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "667",
+    "pageStart": 695,
+    "pageEnd": 695,
+    "pageLabelStart": "667",
+    "pageLabelEnd": "667",
+    "hasImage": false,
+    "excerpt": "제2절 방식심리 1. 보정명령 및 결정각하 심판장은 무효심판청구서가 특허법 제140조 제1항의 규정에 위반하고 있는 경우는 보정을 명하고(특§141①, 실§33) 이에 응하지 아니하는 경우에는 결정으로서 그 청구서를 각하한다 (특§141②, 실§33). 결정각하는 서면으로 하여야 하며…"
+  },
+  {
+    "id": "제4절-심판청구의-이유-보충에-대한-취급",
+    "title": "제4절 『심판청구의 이유』보충에 대한 취급",
+    "chapterTitle": "제7장 무효심판의 청구 및 방식심리",
+    "partTitle": "제15편 무효심판",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "667",
+    "pageStart": 695,
+    "pageEnd": 695,
+    "pageLabelStart": "667",
+    "pageLabelEnd": "667",
+    "hasImage": false,
+    "excerpt": "제2절 방식심리 1. 보정명령 및 결정각하 심판장은 무효심판청구서가 특허법 제140조 제1항의 규정에 위반하고 있는 경우는 보정을 명하고(특§141①, 실§33) 이에 응하지 아니하는 경우에는 결정으로서 그 청구서를 각하한다 (특§141②, 실§33). 결정각하는 서면으로 하여야 하며…"
+  },
+  {
+    "id": "제5절-심판청구서의-송달-및-통지",
+    "title": "제5절 심판청구서의 송달 및 통지",
+    "chapterTitle": "제7장 무효심판의 청구 및 방식심리",
+    "partTitle": "제15편 무효심판",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "668",
+    "pageStart": 696,
+    "pageEnd": 696,
+    "pageLabelStart": "668",
+    "pageLabelEnd": "668",
+    "hasImage": false,
+    "excerpt": "1. 피청구인에게 심판청구서 등의 부본송달 심판장은 무효심판의 청구가 있는 때는 청구서 등의 부본을 피청구인에게 송달하고 기간을 지정하여 답변서를 제출할 기회를 주어야 한다(특§147①, 실§33). 통상 당사자 대립구조를 취하는 심판절차에서 상기와 같은 절차는 상대방의 방어권을 확보…"
+  },
+  {
+    "id": "제2절-무효심판에서의-정정청구",
+    "title": "제2절 무효심판에서의 정정청구",
+    "chapterTitle": "제8장 특허무효심판 청구에 대한 심리",
+    "partTitle": "제15편 무효심판",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "669",
+    "pageStart": 697,
+    "pageEnd": 705,
+    "pageLabelStart": "669",
+    "pageLabelEnd": "677",
+    "hasImage": false,
+    "excerpt": "제1절 답변서 및 의견서 1. 답변서 피청구인은 청구서의 부본이 송달된 때에는 지정기간 내에 답변서를 제출할 수 있다(특§147①, 실§33). 이 때 답변서의 작성은 특시칙 별지 제24호 서식에 따라 작성하여야 한다. 한편, 특 허 또는 실용신안 무효심판에 있어서는 답변서 제출기간…"
+  },
+  {
+    "id": "제3절-직권에-의한-무효의견제출통지",
+    "title": "제3절 직권에 의한 무효의견제출통지",
+    "chapterTitle": "제8장 특허무효심판 청구에 대한 심리",
+    "partTitle": "제15편 무효심판",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "678",
+    "pageStart": 706,
+    "pageEnd": 706,
+    "pageLabelStart": "678",
+    "pageLabelEnd": "678",
+    "hasImage": false,
+    "excerpt": "심판부통지서 작성시 정정청구 기간을 부여하기 위해 다음과 같이 기재한다. 【기재례】 위 심판사건들이 병합됨에 따라 특허권자에게 2020.00.00.까지 정정청구 기회를 부여한다. 상 기 기일까지 정정청구를 하지 않는 경우에는, 정정이 인정되는 정정명세서 중에서 가장 늦게 제출된 것을…"
+  },
+  {
+    "id": "제4절-심리종결과-재개",
+    "title": "제4절 심리종결과 재개",
+    "chapterTitle": "제8장 특허무효심판 청구에 대한 심리",
+    "partTitle": "제15편 무효심판",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "678",
+    "pageStart": 706,
+    "pageEnd": 706,
+    "pageLabelStart": "678",
+    "pageLabelEnd": "678",
+    "hasImage": false,
+    "excerpt": "심판부통지서 작성시 정정청구 기간을 부여하기 위해 다음과 같이 기재한다. 【기재례】 위 심판사건들이 병합됨에 따라 특허권자에게 2020.00.00.까지 정정청구 기회를 부여한다. 상 기 기일까지 정정청구를 하지 않는 경우에는, 정정이 인정되는 정정명세서 중에서 가장 늦게 제출된 것을…"
+  },
+  {
+    "id": "제5절-심리착수-순서",
+    "title": "제5절 심리착수 순서",
+    "chapterTitle": "제8장 특허무효심판 청구에 대한 심리",
+    "partTitle": "제15편 무효심판",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "678",
+    "pageStart": 706,
+    "pageEnd": 706,
+    "pageLabelStart": "678",
+    "pageLabelEnd": "678",
+    "hasImage": false,
+    "excerpt": "심판부통지서 작성시 정정청구 기간을 부여하기 위해 다음과 같이 기재한다. 【기재례】 위 심판사건들이 병합됨에 따라 특허권자에게 2020.00.00.까지 정정청구 기회를 부여한다. 상 기 기일까지 정정청구를 하지 않는 경우에는, 정정이 인정되는 정정명세서 중에서 가장 늦게 제출된 것을…"
+  },
+  {
+    "id": "제6절-심리방식",
+    "title": "제6절 심리방식",
+    "chapterTitle": "제8장 특허무효심판 청구에 대한 심리",
+    "partTitle": "제15편 무효심판",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "679",
+    "pageStart": 707,
+    "pageEnd": 707,
+    "pageLabelStart": "679",
+    "pageLabelEnd": "679",
+    "hasImage": false,
+    "excerpt": "있다(심판사무취급규정§31①). 또한 신속심판의 필요가 있다고 인정되는 사건에 대해서는 우 선심판 보다 먼저 심판할 수 있다(심판사무취급규정§31의2①). 무효심판에 대한 우선심판 및 신속심판 대상 사건에 대해서는 제7편 제4장 및 제5장을 각각 참고한다. 제6절 심리방식 심판은 구술…"
+  },
+  {
+    "id": "제7절-병합심리",
+    "title": "제7절 병합심리",
+    "chapterTitle": "제8장 특허무효심판 청구에 대한 심리",
+    "partTitle": "제15편 무효심판",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "679",
+    "pageStart": 707,
+    "pageEnd": 707,
+    "pageLabelStart": "679",
+    "pageLabelEnd": "679",
+    "hasImage": false,
+    "excerpt": "있다(심판사무취급규정§31①). 또한 신속심판의 필요가 있다고 인정되는 사건에 대해서는 우 선심판 보다 먼저 심판할 수 있다(심판사무취급규정§31의2①). 무효심판에 대한 우선심판 및 신속심판 대상 사건에 대해서는 제7편 제4장 및 제5장을 각각 참고한다. 제6절 심리방식 심판은 구술…"
+  },
+  {
+    "id": "제8절-무효심판과-정정심판이-동시계류-중인-경우의-심리",
+    "title": "제8절 무효심판과 정정심판이 동시계류 중인 경우의 심리",
+    "chapterTitle": "제8장 특허무효심판 청구에 대한 심리",
+    "partTitle": "제15편 무효심판",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "680",
+    "pageStart": 708,
+    "pageEnd": 708,
+    "pageLabelStart": "680",
+    "pageLabelEnd": "680",
+    "hasImage": false,
+    "excerpt": "3. 무효심판에 있어서 병합심리의 요건 가. 당사자 쌍방이 동일한 경우 2개의 발명(청구항1, 2)을 포함하는 특허권의 권리자 갑에 대해서 을이 먼저 청구항1 발명 에 대해서 무효심판을 청구하고 그 후 청구항2 발명에 대해서도 청구한 경우 등이 있다. 나. 당사자 일방이 동일한 경우…"
+  },
+  {
+    "id": "제1절-무효심결",
+    "title": "제1절 무효심결",
+    "chapterTitle": "제9장 무효심판의 심결",
+    "partTitle": "제15편 무효심판",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "682",
+    "pageStart": 710,
+    "pageEnd": 716,
+    "pageLabelStart": "682",
+    "pageLabelEnd": "688",
+    "hasImage": false,
+    "excerpt": "1. 주문 기재 요령 가. 인용(전부무효청구시) 1. 특허(실용신안등록) 제OO호를 무효로 한다. 2. 심판비용은 피청구인이 부담한다. 나. 일부인용(전부무효청구시) 1. 특허·실용신안등록 제00호의 청구범위 제1항을 무효로 한다. 2. 그 나머지 부분에 대한 심판청구를 기각한다. 3…"
+  },
+  {
+    "id": "제2절-무효심결의-효과",
+    "title": "제2절 무효심결의 효과",
+    "chapterTitle": "제9장 무효심판의 심결",
+    "partTitle": "제15편 무효심판",
+    "categories": [
+      "criteria",
+      "procedure"
+    ],
+    "pageLabel": "689",
+    "pageStart": 717,
+    "pageEnd": 718,
+    "pageLabelStart": "689",
+    "pageLabelEnd": "690",
+    "hasImage": false,
+    "excerpt": "(11) 전부 인용심결 · 일부 심결취소판결(특이 판결) 청구항이 10개인 특허발명의 무효심판에서 정정이 인정되고, 전부 인용심결(제1항 내지 제 10항 인용), 피청구인이 제1항 내지 제10항에 대해서 특허법원에 제소하여 특허법원이 정정 인정은 지지하지만(또는 정정 부분을 당사자가…"
+  },
+  {
+    "id": "제2절-선등록-실용신안-무효심판의-청구대상-무효원인",
+    "title": "제2절 선등록 실용신안 무효심판의 청구대상, 무효원인",
+    "chapterTitle": "제12장 선등록 실용신안의 무효심판",
+    "partTitle": "제15편 무효심판",
+    "categories": [
+      "criteria",
+      "procedure"
+    ],
+    "pageLabel": "696",
+    "pageStart": 724,
+    "pageEnd": 725,
+    "pageLabelStart": "696",
+    "pageLabelEnd": "697",
+    "hasImage": false,
+    "excerpt": "구 분 구실용신안법 ’99. 6. 30.이전 1999. 7. 1. 시행 선등록실용신안 2001. 7. 1. 시행 선등록실용신안 비 고 19. 소송부가기간 불인정 인정 좌동 원격지 거주자를 위해 심판장 재량으로 허여 20. 사위행위처벌 실용신안등록, 이의결정 또는 심결에 국한 좌동+기술…"
+  },
+  {
+    "id": "제3절-선등록-실용신안의-무효심판-청구",
+    "title": "제3절 선등록 실용신안의 무효심판 청구",
+    "chapterTitle": "제12장 선등록 실용신안의 무효심판",
+    "partTitle": "제15편 무효심판",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "698",
+    "pageStart": 726,
+    "pageEnd": 726,
+    "pageLabelStart": "698",
+    "pageLabelEnd": "698",
+    "hasImage": false,
+    "excerpt": "1. 청구의 취지 청구인이 어떠한 심결을 구하는가의 요구로서 청구의 대상인 실용신안등록이 특정되어야 한다. 통상은 ‘실용신안등록 제○○호를 무효로 한다. 심판비용은 피청구인이 부담한다 라는 심결을 구한다.’ 라고 표시된다. 2 이상의 청구항의 등록실용신안에 대하여 청구항마다 등록무 효…"
+  },
+  {
+    "id": "제4절-선등록-실용신안-무효심판-계속-중에-정정청구",
+    "title": "제4절 선등록 실용신안 무효심판 계속 중에 정정청구",
+    "chapterTitle": "제12장 선등록 실용신안의 무효심판",
+    "partTitle": "제15편 무효심판",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "698",
+    "pageStart": 726,
+    "pageEnd": 728,
+    "pageLabelStart": "698",
+    "pageLabelEnd": "699",
+    "hasImage": false,
+    "excerpt": "제3절 선등록 실용신안의 무효심판 청구 1. 청구의 취지 청구인이 어떠한 심결을 구하는가의 요구로서 청구의 대상인 실용신안등록이 특정되어야 한다. 통상은 ‘실용신안등록 제○○호를 무효로 한다. 심판비용은 피청구인이 부담한다 라는 심결을 구한다.’ 라고 표시된다. 2 이상의 청구항의 등…"
+  },
+  {
+    "id": "제1절-심판청구대상-2",
+    "title": "제1절 심판청구대상",
+    "chapterTitle": "제2장 무효심판의 대상과 무효원인",
+    "partTitle": "제15-1편 디자인등록의 무효심판",
+    "categories": [
+      "criteria",
+      "procedure"
+    ],
+    "pageLabel": "705",
+    "pageStart": 733,
+    "pageEnd": 733,
+    "pageLabelStart": "705",
+    "pageLabelEnd": "705",
+    "hasImage": false,
+    "excerpt": "제 15 -1 편 제2장 무효심판의 대상과 무효원인 제1절 심판청구대상 디자인은 기본디자인 또는 관련디자인/유사디자인에 대해 심판청구할 수 있다. 구디자인보 호법에서는 기본디자인이 무효로 되는 경우에는 그 디자인의 유사디자인도 무효로 되는데 (구디§68④), 2014. 7. 1. 시행…"
+  },
+  {
+    "id": "제2절-무효원인-2",
+    "title": "제2절 무효원인",
+    "chapterTitle": "제2장 무효심판의 대상과 무효원인",
+    "partTitle": "제15-1편 디자인등록의 무효심판",
+    "categories": [
+      "criteria"
+    ],
+    "pageLabel": "705",
+    "pageStart": 733,
+    "pageEnd": 733,
+    "pageLabelStart": "705",
+    "pageLabelEnd": "705",
+    "hasImage": false,
+    "excerpt": "제 15 -1 편 제2장 무효심판의 대상과 무효원인 제1절 심판청구대상 디자인은 기본디자인 또는 관련디자인/유사디자인에 대해 심판청구할 수 있다. 구디자인보 호법에서는 기본디자인이 무효로 되는 경우에는 그 디자인의 유사디자인도 무효로 되는데 (구디§68④), 2014. 7. 1. 시행…"
+  },
+  {
+    "id": "제1절-청구인-2",
+    "title": "제1절 청구인",
+    "chapterTitle": "제5장 무효심판의 당사자",
+    "partTitle": "제15-1편 디자인등록의 무효심판",
+    "categories": [
+      "party",
+      "procedure"
+    ],
+    "pageLabel": "707",
+    "pageStart": 735,
+    "pageEnd": 735,
+    "pageLabelStart": "707",
+    "pageLabelEnd": "707",
+    "hasImage": false,
+    "excerpt": "제 15 -1 편 제5장 무효심판의 당사자 제1절 청구인 이해관계인 또는 심사관만이 청구인이 될 수 있고(디§121①), 이해관계가 없는 자의 심판청구 는 부적법한 청구가 되기 때문에 직권으로 조사하여 심리를 판단하여야 하고, 이해관계에 대 한 유·무 판단은 심판청구시가 아닌 심결시를…"
+  },
+  {
+    "id": "제2절-피청구인-2",
+    "title": "제2절 피청구인",
+    "chapterTitle": "제5장 무효심판의 당사자",
+    "partTitle": "제15-1편 디자인등록의 무효심판",
+    "categories": [
+      "party",
+      "procedure"
+    ],
+    "pageLabel": "708",
+    "pageStart": 736,
+    "pageEnd": 737,
+    "pageLabelStart": "708",
+    "pageLabelEnd": "709",
+    "hasImage": false,
+    "excerpt": "1. 피청구인은 디자인권자 ① 진정한 디자인권자일 것 ② 신탁법에 의하여 신탁재산에 속하는 디자인권이 신탁의 등록이 된 경우의 수탁자일 것 ③ 등록원부상의 권리자를 기재하지 않은 경우, 혹은 다른 진정한 권리자가 있는 것이 판명 된 경우는 부적법한 심판청구로서 각하한다. ④ 피청구인의…"
+  },
+  {
+    "id": "제1절-청구가능시기-2",
+    "title": "제1절 청구가능시기",
+    "chapterTitle": "제6장 무효심판의 청구시기",
+    "partTitle": "제15-1편 디자인등록의 무효심판",
+    "categories": [
+      "timing",
+      "procedure"
+    ],
+    "pageLabel": "710",
+    "pageStart": 738,
+    "pageEnd": 738,
+    "pageLabelStart": "710",
+    "pageLabelEnd": "710",
+    "hasImage": false,
+    "excerpt": "디자인권의 설정등록 후라면 디자인권이 소멸된 후에도 무효심판을 청구할 수 있다(디§121 ②). 다만, 심결에 의하여 디자인권이 무효로 된 때는 그러하지 아니하다(디§121③). 이 경우 라도 특례로서 디자인이 디§121①4에 해당되어 무효가 되었을 때 이전의 것에 대해서는 청구 할…"
+  },
+  {
+    "id": "제2절-무효심판청구의-제척기간-2",
+    "title": "제2절 무효심판청구의 제척기간",
+    "chapterTitle": "제6장 무효심판의 청구시기",
+    "partTitle": "제15-1편 디자인등록의 무효심판",
+    "categories": [
+      "timing",
+      "procedure"
+    ],
+    "pageLabel": "710",
+    "pageStart": 738,
+    "pageEnd": 739,
+    "pageLabelStart": "710",
+    "pageLabelEnd": "711",
+    "hasImage": false,
+    "excerpt": "제1절 청구가능시기 디자인권의 설정등록 후라면 디자인권이 소멸된 후에도 무효심판을 청구할 수 있다(디§121 ②). 다만, 심결에 의하여 디자인권이 무효로 된 때는 그러하지 아니하다(디§121③). 이 경우 라도 특례로서 디자인이 디§121①4에 해당되어 무효가 되었을 때 이전의 것에…"
+  },
+  {
+    "id": "제1절-심판청구서-제출-2",
+    "title": "제1절 심판청구서 제출",
+    "chapterTitle": "제7장 무효심판의 청구 및 방식심리",
+    "partTitle": "제15-1편 디자인등록의 무효심판",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "712",
+    "pageStart": 740,
+    "pageEnd": 740,
+    "pageLabelStart": "712",
+    "pageLabelEnd": "712",
+    "hasImage": false,
+    "excerpt": "1. 청구서의 제출 디§126에서 무효심판을 청구하려는 자는 심판청구서를 특허심판원장에게 제출하도록 규정 하고, 그 방식 요건에 대하여서는 디자인보호법 시행규칙 제71조에서 특시칙 별지 31호 서식 에 따른 청구서를 제출토록 하고 있으며, 이러한 청구서는 디§28에 규정된 특허청 또는…"
+  },
+  {
+    "id": "제2절-방식심리-3",
+    "title": "제2절 방식심리",
+    "chapterTitle": "제7장 무효심판의 청구 및 방식심리",
+    "partTitle": "제15-1편 디자인등록의 무효심판",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "713",
+    "pageStart": 741,
+    "pageEnd": 741,
+    "pageLabelStart": "713",
+    "pageLabelEnd": "713",
+    "hasImage": false,
+    "excerpt": "제 15 -1 편 제7장 무효심판의 청구 및 방식심리 제2절 방식심리 1. 보정명령 및 결정각하 심판장은 무효심판청구서가 ⅰ) 디자인보호법 제128조 제1항(심판청구서의 기재방식)에 위 반된 경우, ⅱ) 제4조 제1항(행위능력) 또는 제7조(대리권의 범위)의 규정에 위반된 경우, ⅲ)…"
+  },
+  {
+    "id": "제3절-심판청구서의-보정-2",
+    "title": "제3절 심판청구서의 보정",
+    "chapterTitle": "제7장 무효심판의 청구 및 방식심리",
+    "partTitle": "제15-1편 디자인등록의 무효심판",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "713",
+    "pageStart": 741,
+    "pageEnd": 741,
+    "pageLabelStart": "713",
+    "pageLabelEnd": "713",
+    "hasImage": false,
+    "excerpt": "제 15 -1 편 제7장 무효심판의 청구 및 방식심리 제2절 방식심리 1. 보정명령 및 결정각하 심판장은 무효심판청구서가 ⅰ) 디자인보호법 제128조 제1항(심판청구서의 기재방식)에 위 반된 경우, ⅱ) 제4조 제1항(행위능력) 또는 제7조(대리권의 범위)의 규정에 위반된 경우, ⅲ)…"
+  },
+  {
+    "id": "제4절-심판청구의-이유-보충에-대한-취급-2",
+    "title": "제4절 『심판청구의 이유』보충에 대한 취급",
+    "chapterTitle": "제7장 무효심판의 청구 및 방식심리",
+    "partTitle": "제15-1편 디자인등록의 무효심판",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "713",
+    "pageStart": 741,
+    "pageEnd": 741,
+    "pageLabelStart": "713",
+    "pageLabelEnd": "713",
+    "hasImage": false,
+    "excerpt": "제 15 -1 편 제7장 무효심판의 청구 및 방식심리 제2절 방식심리 1. 보정명령 및 결정각하 심판장은 무효심판청구서가 ⅰ) 디자인보호법 제128조 제1항(심판청구서의 기재방식)에 위 반된 경우, ⅱ) 제4조 제1항(행위능력) 또는 제7조(대리권의 범위)의 규정에 위반된 경우, ⅲ)…"
+  },
+  {
+    "id": "제5절-심판청구서의-송달-및-통지-2",
+    "title": "제5절 심판청구서의 송달 및 통지",
+    "chapterTitle": "제7장 무효심판의 청구 및 방식심리",
+    "partTitle": "제15-1편 디자인등록의 무효심판",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "714",
+    "pageStart": 742,
+    "pageEnd": 743,
+    "pageLabelStart": "714",
+    "pageLabelEnd": "715",
+    "hasImage": false,
+    "excerpt": "1. 피청구인에게 심판청구서 등의 부본송달 심판장은 무효심판의 청구가 있는 때는 청구서 등의 부본을 피청구인에게 송달하고 기간을 지정하여 답변서를 제출할 기회를 주어야 한다(디§134). 통상 당사자 대립구조를 취하는 심판절차에서 상기와 같은 절차는 상대방의 방어권을 확보 하기 위한…"
+  },
+  {
+    "id": "제2절-직권에-의한-무효의견제출통지",
+    "title": "제2절 직권에 의한 무효의견제출통지",
+    "chapterTitle": "제8장 무효심판 청구에 대한 심리",
+    "partTitle": "제15-1편 디자인등록의 무효심판",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "716",
+    "pageStart": 744,
+    "pageEnd": 744,
+    "pageLabelStart": "716",
+    "pageLabelEnd": "716",
+    "hasImage": false,
+    "excerpt": "제1절 답변서 및 의견서 1. 답변서 피청구인은 청구서의 부본이 송달된 때에는 지정기간 내에 답변서를 제출할 수 있다(디§134 ①). 이 때 답변서를 제출하려는 자는 디시칙 별지 제1호 서식의 답변서를 특허심판원장 또는 심판장에게 제출하여야 한다(디시칙§73①). 답변서를 수리한 때…"
+  },
+  {
+    "id": "제3절-심리종결과-재개",
+    "title": "제3절 심리종결과 재개",
+    "chapterTitle": "제8장 무효심판 청구에 대한 심리",
+    "partTitle": "제15-1편 디자인등록의 무효심판",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "717",
+    "pageStart": 745,
+    "pageEnd": 745,
+    "pageLabelStart": "717",
+    "pageLabelEnd": "717",
+    "hasImage": false,
+    "excerpt": "제 15 -1 편 제8장 무효심판 청구에 대한 심리 당사자 또는 참가인이 신청하지 아니한 이유에 대한 심리의 결과를 통지할 때는 그 결과가 청구인이 신청한 심판청구의 취지범위 내이어야 한다(디§147②). 한편 심판관은 당사자, 참가인 또는 이해관계인의 신청에 의하여 또는 직권으로 증…"
+  },
+  {
+    "id": "제4절-심리착수-순서",
+    "title": "제4절 심리착수 순서",
+    "chapterTitle": "제8장 무효심판 청구에 대한 심리",
+    "partTitle": "제15-1편 디자인등록의 무효심판",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "717",
+    "pageStart": 745,
+    "pageEnd": 745,
+    "pageLabelStart": "717",
+    "pageLabelEnd": "717",
+    "hasImage": false,
+    "excerpt": "제 15 -1 편 제8장 무효심판 청구에 대한 심리 당사자 또는 참가인이 신청하지 아니한 이유에 대한 심리의 결과를 통지할 때는 그 결과가 청구인이 신청한 심판청구의 취지범위 내이어야 한다(디§147②). 한편 심판관은 당사자, 참가인 또는 이해관계인의 신청에 의하여 또는 직권으로 증…"
+  },
+  {
+    "id": "제5절-심리방식",
+    "title": "제5절 심리방식",
+    "chapterTitle": "제8장 무효심판 청구에 대한 심리",
+    "partTitle": "제15-1편 디자인등록의 무효심판",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "718",
+    "pageStart": 746,
+    "pageEnd": 746,
+    "pageLabelStart": "718",
+    "pageLabelEnd": "718",
+    "hasImage": false,
+    "excerpt": "무효심판은 심판관 3인 또는 5인이 합의체를 구성하여 심리하며, 심리는 구술심리 또는 서 면심리로 할 수 있다. 그러나 당사자가 구술심리를 신청한 때에는 서면심리만으로 결정할 수 있다고 인정되는 경우 외에는 구술심리를 해야 한다(디§142①). 심판의 심리는 행정의 일환으 로서 절차의…"
+  },
+  {
+    "id": "제6절-병합심리",
+    "title": "제6절 병합심리",
+    "chapterTitle": "제8장 무효심판 청구에 대한 심리",
+    "partTitle": "제15-1편 디자인등록의 무효심판",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "718",
+    "pageStart": 746,
+    "pageEnd": 746,
+    "pageLabelStart": "718",
+    "pageLabelEnd": "718",
+    "hasImage": false,
+    "excerpt": "제5절 심리방식 무효심판은 심판관 3인 또는 5인이 합의체를 구성하여 심리하며, 심리는 구술심리 또는 서 면심리로 할 수 있다. 그러나 당사자가 구술심리를 신청한 때에는 서면심리만으로 결정할 수 있다고 인정되는 경우 외에는 구술심리를 해야 한다(디§142①). 심판의 심리는 행정의 일…"
+  },
+  {
+    "id": "제7절-이의신청중인-권리에-대한-무효심판디자인",
+    "title": "제7절 이의신청중인 권리에 대한 무효심판(디자인)",
+    "chapterTitle": "제8장 무효심판 청구에 대한 심리",
+    "partTitle": "제15-1편 디자인등록의 무효심판",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "719",
+    "pageStart": 747,
+    "pageEnd": 748,
+    "pageLabelStart": "719",
+    "pageLabelEnd": "720",
+    "hasImage": false,
+    "excerpt": "제 15 -1 편 제8장 무효심판 청구에 대한 심리 3. 무효심판에 있어서 병합심리의 요건 가. 당사자 쌍방이 동일한 경우 복수디자인의 디자인권의 권리자 갑에 대해서 을이 먼저 M01 디자인에 대해서 무효심판을 청구하고 그 후 을이 M02 디자인에 대해서도 청구한 경우 등이 있다. 나…"
+  },
+  {
+    "id": "제1절-무효심결-2",
+    "title": "제1절 무효심결",
+    "chapterTitle": "제9장 무효심판의 심결",
+    "partTitle": "제15-1편 디자인등록의 무효심판",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "721",
+    "pageStart": 749,
+    "pageEnd": 749,
+    "pageLabelStart": "721",
+    "pageLabelEnd": "721",
+    "hasImage": false,
+    "excerpt": "제 15 -1 편 제9장 무효심판의 심결 제1절 무효심결 심판장은 사건이 심결을 할 정도로 성숙하였을 때에는 심리의 종결을 당사자와 참가인에게 알 려야 한다(디§150③). 심결은 심리종결통지를 한 날부터 20일 이내에 하여야 한다(디§150⑤). 심결은 심판사건에 대한 심판부의 종국…"
+  },
+  {
+    "id": "제2절-무효심결의-주문-기재-요령",
+    "title": "제2절 무효심결의 주문 기재 요령",
+    "chapterTitle": "제9장 무효심판의 심결",
+    "partTitle": "제15-1편 디자인등록의 무효심판",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "721",
+    "pageStart": 749,
+    "pageEnd": 750,
+    "pageLabelStart": "721",
+    "pageLabelEnd": "722",
+    "hasImage": false,
+    "excerpt": "제 15 -1 편 제9장 무효심판의 심결 제1절 무효심결 심판장은 사건이 심결을 할 정도로 성숙하였을 때에는 심리의 종결을 당사자와 참가인에게 알 려야 한다(디§150③). 심결은 심리종결통지를 한 날부터 20일 이내에 하여야 한다(디§150⑤). 심결은 심판사건에 대한 심판부의 종국…"
+  },
+  {
+    "id": "제3절-무효심결의-효과",
+    "title": "제3절 무효심결의 효과",
+    "chapterTitle": "제9장 무효심판의 심결",
+    "partTitle": "제15-1편 디자인등록의 무효심판",
+    "categories": [
+      "criteria",
+      "procedure"
+    ],
+    "pageLabel": "723",
+    "pageStart": 751,
+    "pageEnd": 751,
+    "pageLabelStart": "723",
+    "pageLabelEnd": "723",
+    "hasImage": false,
+    "excerpt": "제 15 -1 편 제9장 무효심판의 심결 (1) 결정각하 o 주 문 : 이 사건 심판청구서를 각하한다. (2) 심결각하 o 주 문 : 1. 이 사건 심판청구를 각하한다. 2. 심판비용은 청구인이 부담한다. o 청구취지 : 1. 디자인등록 제OOO호의 등록을 무효로 한다. 2. 심판비용…"
+  },
+  {
+    "id": "제1절-심판청구인",
+    "title": "제1절 심판청구인",
+    "chapterTitle": "제2장 정정심판 청구",
+    "partTitle": "제16편 정정심판",
+    "categories": [
+      "party",
+      "procedure"
+    ],
+    "pageLabel": "761",
+    "pageStart": 789,
+    "pageEnd": 789,
+    "pageLabelStart": "761",
+    "pageLabelEnd": "761",
+    "hasImage": false,
+    "excerpt": "정정심판 청구인은 특허권자(실용신안권자)이다(특§136①, 실§33, 구실§51). 전용실시권자, 질권자, 특§100④, 특§102① 및 발명진흥법§10①에 따른 통상실시권자가 있는 경 우에는 이들의 동의를 얻지 아니하면 정정심판을 청구할 수 없다(특§136⑧, 실§33). 특허권에…"
+  },
+  {
+    "id": "제2절-청구시기-및-대상",
+    "title": "제2절 청구시기 및 대상",
+    "chapterTitle": "제2장 정정심판 청구",
+    "partTitle": "제16편 정정심판",
+    "categories": [
+      "timing",
+      "criteria",
+      "procedure"
+    ],
+    "pageLabel": "761",
+    "pageStart": 789,
+    "pageEnd": 790,
+    "pageLabelStart": "761",
+    "pageLabelEnd": "762",
+    "hasImage": false,
+    "excerpt": "제1절 심판청구인 정정심판 청구인은 특허권자(실용신안권자)이다(특§136①, 실§33, 구실§51). 전용실시권자, 질권자, 특§100④, 특§102① 및 발명진흥법§10①에 따른 통상실시권자가 있는 경 우에는 이들의 동의를 얻지 아니하면 정정심판을 청구할 수 없다(특§136⑧, 실§…"
+  },
+  {
+    "id": "제3절-정정의-범위",
+    "title": "제3절 정정의 범위",
+    "chapterTitle": "제2장 정정심판 청구",
+    "partTitle": "제16편 정정심판",
+    "categories": [
+      "criteria"
+    ],
+    "pageLabel": "763",
+    "pageStart": 791,
+    "pageEnd": 798,
+    "pageLabelStart": "763",
+    "pageLabelEnd": "770",
+    "hasImage": false,
+    "excerpt": "※ (참고) 대법원 심리불속행기각 판결의 효력 발생 시기 상고심절차에 관한 특례법 제5조(판결의 특례) ① 제4조 및 「민사소송법」 제429조 본문에 따른 판결에는 이유를 적지 아니할 수 있다. ② 제1항의 판결은 선고(宣告)가 필요하지 아니하며, 상고인에게 송달됨으로써 그 효력이 생…"
+  },
+  {
+    "id": "제4절-청구의-취지-및-이유",
+    "title": "제4절 청구의 취지 및 이유",
+    "chapterTitle": "제2장 정정심판 청구",
+    "partTitle": "제16편 정정심판",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "771",
+    "pageStart": 799,
+    "pageEnd": 799,
+    "pageLabelStart": "771",
+    "pageLabelEnd": "771",
+    "hasImage": false,
+    "excerpt": "1. 청구의 취지 청구의 취지라 함은 청구인이 어떠한 심결을 요구하는지(정정내용과 범위)를 특정하는 것 이다. “청구의 취지”의 난에는 명세서 또는 도면을 정정한다는 뜻을 표시한다. 통상은 \"특허 제 000호의 명세서(도면)를 청구서에 첨부한 명세서(도면)와 같이 정정한다.\"와 같이…"
+  },
+  {
+    "id": "제5절-청구서의-첨부서류",
+    "title": "제5절 청구서의 첨부서류",
+    "chapterTitle": "제2장 정정심판 청구",
+    "partTitle": "제16편 정정심판",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "771",
+    "pageStart": 799,
+    "pageEnd": 799,
+    "pageLabelStart": "771",
+    "pageLabelEnd": "771",
+    "hasImage": false,
+    "excerpt": "제4절 청구의 취지 및 이유 1. 청구의 취지 청구의 취지라 함은 청구인이 어떠한 심결을 요구하는지(정정내용과 범위)를 특정하는 것 이다. “청구의 취지”의 난에는 명세서 또는 도면을 정정한다는 뜻을 표시한다. 통상은 \"특허 제 000호의 명세서(도면)를 청구서에 첨부한 명세서(도면)…"
+  },
+  {
+    "id": "제6절-청구서-및-정정명세서의-보정",
+    "title": "제6절 청구서 및 정정명세서의 보정",
+    "chapterTitle": "제2장 정정심판 청구",
+    "partTitle": "제16편 정정심판",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "772",
+    "pageStart": 800,
+    "pageEnd": 800,
+    "pageLabelStart": "772",
+    "pageLabelEnd": "772",
+    "hasImage": false,
+    "excerpt": "전용실시권자, 질권자, 또는 허락에 의한 통상실시권자(특§100④, 특§102①) 및 직무발명에 대한 통상실시권자(발명진흥법§10①)가 있을 때에는 이들의 동의가 있음을 증명하는 서면을 제출하여야 한다(특§136⑧, 실§33, 구실§51⑥). 제6절 청구서 및 정정명세서의 보정 1.…"
+  },
+  {
+    "id": "제1절-심리일반",
+    "title": "제1절 심리일반",
+    "chapterTitle": "제7장 거절결정불복심판 청구에 대한 심리",
+    "partTitle": "제21편 거절결정불복심판",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "896",
+    "pageStart": 924,
+    "pageEnd": 924,
+    "pageLabelStart": "896",
+    "pageLabelEnd": "896",
+    "hasImage": false,
+    "excerpt": "거절결정불복심판청구사건에 대한 심리는 서면심리를 원칙으로 한다. 심리의 착수는 심판청 구 순으로 하게 된다. 다만, 거절결정불복심판의 경우에도 우선심판 요건에 해당하는 경우는 다른 사건보다 우선하여 심판할 수 있다(제7편 참고). 제2절 보정각하결정에 대한 불복이 있는지 여부 판단 거…"
+  },
+  {
+    "id": "제2절-보정각하결정에-대한-불복이-있는지-여부-판단",
+    "title": "제2절 보정각하결정에 대한 불복이 있는지 여부 판단",
+    "chapterTitle": "제7장 거절결정불복심판 청구에 대한 심리",
+    "partTitle": "제21편 거절결정불복심판",
+    "categories": [
+      "criteria",
+      "procedure"
+    ],
+    "pageLabel": "896",
+    "pageStart": 924,
+    "pageEnd": 925,
+    "pageLabelStart": "896",
+    "pageLabelEnd": "897",
+    "hasImage": false,
+    "excerpt": "제1절 심리일반 거절결정불복심판청구사건에 대한 심리는 서면심리를 원칙으로 한다. 심리의 착수는 심판청 구 순으로 하게 된다. 다만, 거절결정불복심판의 경우에도 우선심판 요건에 해당하는 경우는 다른 사건보다 우선하여 심판할 수 있다(제7편 참고). 제2절 보정각하결정에 대한 불복이 있는…"
+  },
+  {
+    "id": "제3절-심리-대상이-되는-명세서-또는-도면",
+    "title": "제3절 심리 대상이 되는 명세서 또는 도면",
+    "chapterTitle": "제7장 거절결정불복심판 청구에 대한 심리",
+    "partTitle": "제21편 거절결정불복심판",
+    "categories": [
+      "criteria",
+      "procedure"
+    ],
+    "pageLabel": "898",
+    "pageStart": 926,
+    "pageEnd": 928,
+    "pageLabelStart": "898",
+    "pageLabelEnd": "900",
+    "hasImage": false,
+    "excerpt": "특허의 경우 2001. 2. 3. 개정법에 의해 특허출원에 대한 보정각하결정에 대한 심판 제도 가 폐지되고, 심사단계에서 행해진 보정각하결정에 대한 불복은 거절결정에 대한 심판의 청구 중에 다투도록 되었다. 따라서, 거절결정에 대한 심판에 있어서 보정각하결정 불복을 신청하는 경우와 신…"
+  },
+  {
+    "id": "제4절-거절결정이유와-기각이유가-상이한-경우",
+    "title": "제4절 거절결정이유와 기각이유가 상이한 경우",
+    "chapterTitle": "제7장 거절결정불복심판 청구에 대한 심리",
+    "partTitle": "제21편 거절결정불복심판",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "901",
+    "pageStart": 929,
+    "pageEnd": 932,
+    "pageLabelStart": "901",
+    "pageLabelEnd": "904",
+    "hasImage": true,
+    "excerpt": "보정을 각하한 때는 보정각하결정등본의 송달이 있었던 날로부터 30일을 경과한 때까지는 심결을 하여서는 아니된다(디§124, §49②). 심판청구인이 보정각하결정에 대해 결정의 취소를 구하는 소(디§166①)를 제기한 때에는 해 당 소송이 확정될 때까지 심리를 중지하여야 한다(디§124…"
+  },
+  {
+    "id": "제1절-개요-13",
+    "title": "제1절 개요",
+    "chapterTitle": "제8장 심판절차에서의 거절이유통지 및 보정",
+    "partTitle": "제21편 거절결정불복심판",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "905",
+    "pageStart": 933,
+    "pageEnd": 933,
+    "pageLabelStart": "905",
+    "pageLabelEnd": "905",
+    "hasImage": false,
+    "excerpt": "1. 특허․ 실용신안 출원 특허거절결정에 대한 심판에 관하여는 제47조 제1항 제1호․ 제2호, 같은 조 제4항, 제51조, 제63조, 제63조의2 및 제66조를 준용하므로, 특허거절결정의 이유와 다른 거절이유를 발견한 경우에 심판관은 해당 거절이유를 통지하고 상당한 기간을 정하여 의…"
+  },
+  {
+    "id": "제2절-심판단계에서-명세서-또는-도면의-보정",
+    "title": "제2절 심판단계에서 명세서 또는 도면의 보정",
+    "chapterTitle": "제8장 심판절차에서의 거절이유통지 및 보정",
+    "partTitle": "제21편 거절결정불복심판",
+    "categories": [
+      "criteria",
+      "procedure"
+    ],
+    "pageLabel": "906",
+    "pageStart": 934,
+    "pageEnd": 934,
+    "pageLabelStart": "906",
+    "pageLabelEnd": "906",
+    "hasImage": false,
+    "excerpt": "1. 특허․ 실용신안 출원 특허출원의 거절결정에 대한 심판에서는 거절결정의 이유와 다른 거절이유로 인한 의견제 출통지가 있을 때, 심판청구인은 심판청구서에 첨부된 명세서 또는 도면에 대해서 보정을 할 수 있다(특§170②, 실§33 → 특§63 → 특§47①). 심판단계에서 통지한 거…"
+  },
+  {
+    "id": "제3절-심판단계에서-보정각하-결정",
+    "title": "제3절 심판단계에서 보정각하 결정",
+    "chapterTitle": "제8장 심판절차에서의 거절이유통지 및 보정",
+    "partTitle": "제21편 거절결정불복심판",
+    "categories": [
+      "criteria",
+      "procedure"
+    ],
+    "pageLabel": "906",
+    "pageStart": 934,
+    "pageEnd": 935,
+    "pageLabelStart": "906",
+    "pageLabelEnd": "907",
+    "hasImage": false,
+    "excerpt": "제2절 심판단계에서 명세서 또는 도면의 보정 1. 특허․ 실용신안 출원 특허출원의 거절결정에 대한 심판에서는 거절결정의 이유와 다른 거절이유로 인한 의견제 출통지가 있을 때, 심판청구인은 심판청구서에 첨부된 명세서 또는 도면에 대해서 보정을 할 수 있다(특§170②, 실§33 → 특§…"
+  },
+  {
+    "id": "제1절-특허취소신청의-대상",
+    "title": "제1절 특허취소신청의 대상",
+    "chapterTitle": "제2장 특허취소신청의 대상과 취소이유",
+    "partTitle": "제24편 특허취소신청",
+    "categories": [
+      "criteria",
+      "procedure"
+    ],
+    "pageLabel": "947",
+    "pageStart": 975,
+    "pageEnd": 975,
+    "pageLabelStart": "947",
+    "pageLabelEnd": "947",
+    "hasImage": false,
+    "excerpt": "※ 특허(실용신안등록)취소신청의 대상은 2017년 3월 1일 이후 설정등록된 특허 및 실용신안 이다 (2016.2.29. 개정 특§132의2, 부칙 제10조, 실§30의2, 부칙 제10조). 청구항이 2이상인 때에는 청구항마다 취소신청을 할 수 있다. 특허권․ 실용신안권이 소멸된 후에…"
+  },
+  {
+    "id": "제2절-특허취소신청의-이유",
+    "title": "제2절 특허취소신청의 이유",
+    "chapterTitle": "제2장 특허취소신청의 대상과 취소이유",
+    "partTitle": "제24편 특허취소신청",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "947",
+    "pageStart": 975,
+    "pageEnd": 976,
+    "pageLabelStart": "947",
+    "pageLabelEnd": "948",
+    "hasImage": false,
+    "excerpt": "제1절 특허취소신청의 대상 ※ 특허(실용신안등록)취소신청의 대상은 2017년 3월 1일 이후 설정등록된 특허 및 실용신안 이다 (2016.2.29. 개정 특§132의2, 부칙 제10조, 실§30의2, 부칙 제10조). 청구항이 2이상인 때에는 청구항마다 취소신청을 할 수 있다. 특허권…"
+  },
+  {
+    "id": "제1절-특허취소신청인",
+    "title": "제1절 특허취소신청인",
+    "chapterTitle": "제4장 특허취소신청의 당사자",
+    "partTitle": "제24편 특허취소신청",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "950",
+    "pageStart": 978,
+    "pageEnd": 978,
+    "pageLabelStart": "950",
+    "pageLabelEnd": "950",
+    "hasImage": false,
+    "excerpt": "특허취소신청은 이해관계인으로 한정되지 않고「누구든지」할 수 있다(특§132의2). 구체적 으로, 자연인, 법인 및 법인이 아닌 사단 또는 재단으로서 대표자 또는 관리인이 정해져 있는 것(특§4)이 해당한다. 다만, 익명으로는 특허취소신청을 할 수 없고(특§132의4), 특허고객번 호가…"
+  },
+  {
+    "id": "제2절-특허권자",
+    "title": "제2절 특허권자",
+    "chapterTitle": "제4장 특허취소신청의 당사자",
+    "partTitle": "제24편 특허취소신청",
+    "categories": [
+      "party",
+      "procedure"
+    ],
+    "pageLabel": "950",
+    "pageStart": 978,
+    "pageEnd": 978,
+    "pageLabelStart": "950",
+    "pageLabelEnd": "950",
+    "hasImage": false,
+    "excerpt": "제1절 특허취소신청인 특허취소신청은 이해관계인으로 한정되지 않고「누구든지」할 수 있다(특§132의2). 구체적 으로, 자연인, 법인 및 법인이 아닌 사단 또는 재단으로서 대표자 또는 관리인이 정해져 있는 것(특§4)이 해당한다. 다만, 익명으로는 특허취소신청을 할 수 없고(특§132의…"
+  },
+  {
+    "id": "제3절-참가인특-132의9",
+    "title": "제3절 참가인(특§132의9)",
+    "chapterTitle": "제4장 특허취소신청의 당사자",
+    "partTitle": "제24편 특허취소신청",
+    "categories": [
+      "party",
+      "procedure"
+    ],
+    "pageLabel": "950",
+    "pageStart": 978,
+    "pageEnd": 978,
+    "pageLabelStart": "950",
+    "pageLabelEnd": "950",
+    "hasImage": false,
+    "excerpt": "제1절 특허취소신청인 특허취소신청은 이해관계인으로 한정되지 않고「누구든지」할 수 있다(특§132의2). 구체적 으로, 자연인, 법인 및 법인이 아닌 사단 또는 재단으로서 대표자 또는 관리인이 정해져 있는 것(특§4)이 해당한다. 다만, 익명으로는 특허취소신청을 할 수 없고(특§132의…"
+  },
+  {
+    "id": "제1절-특허취소신청을-할-수-있는-기간",
+    "title": "제1절 특허취소신청을 할 수 있는 기간",
+    "chapterTitle": "제5장 특허취소신청의 신청 및 취하 시기",
+    "partTitle": "제24편 특허취소신청",
+    "categories": [
+      "timing",
+      "procedure"
+    ],
+    "pageLabel": "951",
+    "pageStart": 979,
+    "pageEnd": 979,
+    "pageLabelStart": "951",
+    "pageLabelEnd": "951",
+    "hasImage": false,
+    "excerpt": "누구든지 특허권의 설정등록일부터 등록공고일 후 6개월이 되는 날까지 특허취소신청을 할 수 있다. 이 기간이 경과한 특허취소신청에 대해서는 부적법한 특허취소신청으로 그 흠을 보 정할 수 없으므로, 합의체는 결정으로 그 취소신청을 각하한다(특§132의6). 특허권 소멸 후의 특허취소신청에…"
+  },
+  {
+    "id": "제2절-특허취소신청을-취하할-수-있는-기간",
+    "title": "제2절 특허취소신청을 취하할 수 있는 기간",
+    "chapterTitle": "제5장 특허취소신청의 신청 및 취하 시기",
+    "partTitle": "제24편 특허취소신청",
+    "categories": [
+      "timing",
+      "procedure"
+    ],
+    "pageLabel": "951",
+    "pageStart": 979,
+    "pageEnd": 979,
+    "pageLabelStart": "951",
+    "pageLabelEnd": "951",
+    "hasImage": false,
+    "excerpt": "제1절 특허취소신청을 할 수 있는 기간 누구든지 특허권의 설정등록일부터 등록공고일 후 6개월이 되는 날까지 특허취소신청을 할 수 있다. 이 기간이 경과한 특허취소신청에 대해서는 부적법한 특허취소신청으로 그 흠을 보 정할 수 없으므로, 합의체는 결정으로 그 취소신청을 각하한다(특§132…"
+  },
+  {
+    "id": "제1절-특허취소신청서-제출",
+    "title": "제1절 특허취소신청서 제출",
+    "chapterTitle": "제6장 특허취소신청의 신청서 및 방식심리",
+    "partTitle": "제24편 특허취소신청",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "952",
+    "pageStart": 980,
+    "pageEnd": 980,
+    "pageLabelStart": "952",
+    "pageLabelEnd": "952",
+    "hasImage": false,
+    "excerpt": "1. 신청서의 제출 신청인은 특§132의4에서 정하는 방식 요건을 충족시키는 특시칙§57①(별지 제30호의3 서 식)에 따른 특허취소신청서를 제출하여야 한다. 2. 특허취소신청서의 기재사항 가. 특허취소신청인 및 대리인 특허취소신청인 및 대리인의 이름·명칭 및 주소를 기재해야 한다.…"
+  },
+  {
+    "id": "제2절-방식심리-4",
+    "title": "제2절 방식심리",
+    "chapterTitle": "제6장 특허취소신청의 신청서 및 방식심리",
+    "partTitle": "제24편 특허취소신청",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "953",
+    "pageStart": 981,
+    "pageEnd": 981,
+    "pageLabelStart": "953",
+    "pageLabelEnd": "953",
+    "hasImage": false,
+    "excerpt": "3) 이유 및 증거의 보정 처음부터 이유 및 증거가 완비된 신청을 하는 것이 바람직하지만, 특허취소신청이 가능한 기간 의 경과(등록공고일 후 6개월) 또는 취소이유의 통지 중 빠른 때까지 하는 보정의 경우에는 이유 및 증거의 추가· 변경이 인정된다(특§132의4②). 이유 및 증거의…"
+  },
+  {
+    "id": "제3절-특허취소신청서의-보정",
+    "title": "제3절 특허취소신청서의 보정",
+    "chapterTitle": "제6장 특허취소신청의 신청서 및 방식심리",
+    "partTitle": "제24편 특허취소신청",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "954",
+    "pageStart": 982,
+    "pageEnd": 982,
+    "pageLabelStart": "954",
+    "pageLabelEnd": "954",
+    "hasImage": false,
+    "excerpt": "3. 특허취소신청된 청구항이 정정 청구에 의해서 삭제된 경우 취소신청된 청구항의 일부가 삭제되었을 때는 신청을 각하하지 않고, 남은 청구항에 대해서 심리한다. 취소신청된 청구항의 전부가 삭제된 특허취소신청에 대해서는 취소신청의 대상이 존재하지 않게 되므로 합의체는 결정으로 특허취소신청…"
+  },
+  {
+    "id": "제4절-특허취소신청서의-송달-및-통지",
+    "title": "제4절 특허취소신청서의 송달 및 통지",
+    "chapterTitle": "제6장 특허취소신청의 신청서 및 방식심리",
+    "partTitle": "제24편 특허취소신청",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "955",
+    "pageStart": 983,
+    "pageEnd": 983,
+    "pageLabelStart": "955",
+    "pageLabelEnd": "955",
+    "hasImage": false,
+    "excerpt": "지만, 취소신청 청구항의 취하와 동일하게 취급할 수 있다는 점에서 예외적으로 취소이유가 통지되기 전까지는 요지 변경되지 않는 것으로 본다. 다. 이유와 증거의 보정 특허취소신청의 이유와 증거의 보정에 대해서는 예외적으로 그 요지를 변경하는 것이라 하 더라도 특허취소신청 기간이 경과할…"
+  },
+  {
+    "id": "제1절-개요-14",
+    "title": "제1절 개요",
+    "chapterTitle": "제7장 특허취소신청에 대한 심리",
+    "partTitle": "제24편 특허취소신청",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "956",
+    "pageStart": 984,
+    "pageEnd": 985,
+    "pageLabelStart": "956",
+    "pageLabelEnd": "957",
+    "hasImage": false,
+    "excerpt": "1. 심리 개시 (1) 심판관은 취소신청이 접수되면 심리개시일 까지 기다리지 않고 심리를 시작할 수 있으 나, 취소의견제출통지나 기각결정 등 본안심리에 대한 통지는 심리개시일 이후에 한다. 한편, 복수의 특허취소신청이 있을 때는 원칙적으로 심리를 병합하고 합의체는 모든 신청이유를 정…"
+  },
+  {
+    "id": "제2절-취소이유-통지",
+    "title": "제2절 취소이유 통지",
+    "chapterTitle": "제7장 특허취소신청에 대한 심리",
+    "partTitle": "제24편 특허취소신청",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "958",
+    "pageStart": 986,
+    "pageEnd": 986,
+    "pageLabelStart": "958",
+    "pageLabelEnd": "958",
+    "hasImage": false,
+    "excerpt": "1. 취소이유의 통지 합의체가 심리하여 특허취소신청이 이유 있다고 판단했을 때에는 특허권자 및 참가인에게 취소이유를 통지하고(별지 7-4 서식), 기간을 지정하여 의견서 제출 및 정정의 기회를 준다(특 §132의13②). 특허를 유지해야 한다고 판단했을 때는 곧바로 기각 결정을 한다.…"
+  },
+  {
+    "id": "제3절-취소이유-통지에-대한-특허권자의-대응",
+    "title": "제3절 취소이유 통지에 대한 특허권자의 대응",
+    "chapterTitle": "제7장 특허취소신청에 대한 심리",
+    "partTitle": "제24편 특허취소신청",
+    "categories": [
+      "party",
+      "procedure"
+    ],
+    "pageLabel": "958",
+    "pageStart": 986,
+    "pageEnd": 986,
+    "pageLabelStart": "958",
+    "pageLabelEnd": "958",
+    "hasImage": false,
+    "excerpt": "제2절 취소이유 통지 1. 취소이유의 통지 합의체가 심리하여 특허취소신청이 이유 있다고 판단했을 때에는 특허권자 및 참가인에게 취소이유를 통지하고(별지 7-4 서식), 기간을 지정하여 의견서 제출 및 정정의 기회를 준다(특 §132의13②). 특허를 유지해야 한다고 판단했을 때는 곧바…"
+  },
+  {
+    "id": "제4절-의견서-또는-정정-청구서-제출-후의-심리",
+    "title": "제4절 의견서 또는 정정 청구서 제출 후의 심리",
+    "chapterTitle": "제7장 특허취소신청에 대한 심리",
+    "partTitle": "제24편 특허취소신청",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "958",
+    "pageStart": 986,
+    "pageEnd": 987,
+    "pageLabelStart": "958",
+    "pageLabelEnd": "959",
+    "hasImage": false,
+    "excerpt": "제2절 취소이유 통지 1. 취소이유의 통지 합의체가 심리하여 특허취소신청이 이유 있다고 판단했을 때에는 특허권자 및 참가인에게 취소이유를 통지하고(별지 7-4 서식), 기간을 지정하여 의견서 제출 및 정정의 기회를 준다(특 §132의13②). 특허를 유지해야 한다고 판단했을 때는 곧바…"
+  },
+  {
+    "id": "제1절-개요-15",
+    "title": "제1절 개요",
+    "chapterTitle": "제8장 특허취소신청에서의 정정",
+    "partTitle": "제24편 특허취소신청",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "960",
+    "pageStart": 988,
+    "pageEnd": 988,
+    "pageLabelStart": "960",
+    "pageLabelEnd": "960",
+    "hasImage": false,
+    "excerpt": "1. 정정할 수 있는 범위 특허취소신청에서 정정은 특§136①각호, §136③④⑤에 규정된 범위 내에서 할 수 있다. 다만, 취소신청된 청구항에 대해서는 독립특허요건(정정한 후의 발명이 특허 출원시 특허를 받을 수 있을 것)을 판단하지 않고, 다른 정정 요건에 적합하면 정정을 인정한…"
+  },
+  {
+    "id": "제2절-정정-청구에-대한-심리",
+    "title": "제2절 정정 청구에 대한 심리",
+    "chapterTitle": "제8장 특허취소신청에서의 정정",
+    "partTitle": "제24편 특허취소신청",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "961",
+    "pageStart": 989,
+    "pageEnd": 989,
+    "pageLabelStart": "961",
+    "pageLabelEnd": "961",
+    "hasImage": false,
+    "excerpt": "6. 정정 청구 예고 등록 특허취소신청이 있었다는 취지의 예고 등록이 됨으로써(특등령§6), 제3자는 명세서 등의 정 정이 청구될 가능성을 예측할 수 있으므로, 정정 청구가 있었다는 취지의 예고 등록은 하지 않는다. 제2절 정정 청구에 대한 심리 1. 정정청구서의 방식 위반과 보정 정…"
+  },
+  {
+    "id": "제3절-정정청구서의-보정",
+    "title": "제3절 정정청구서의 보정",
+    "chapterTitle": "제8장 특허취소신청에서의 정정",
+    "partTitle": "제24편 특허취소신청",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "962",
+    "pageStart": 990,
+    "pageEnd": 990,
+    "pageLabelStart": "962",
+    "pageLabelEnd": "962",
+    "hasImage": false,
+    "excerpt": "특히, 특허취소신청이 제기되지 않은 청구항의 정정청구에 대해서는 독립특허요건에 적합하 지 않을 때도 정정불인정이유를 통지함에 유의한다. 제3절 정정청구서의 보정 1. 정정명세서 및 도면의 보정 및 심리 (1) 특허권자는 정정불인정이유 통지에 대응하여 정정청구서에 첨부된 정정명세서 또는…"
+  },
+  {
+    "id": "제1절-결정의-절차",
+    "title": "제1절 결정의 절차",
+    "chapterTitle": "제9장 특허취소신청에 대한 결정",
+    "partTitle": "제24편 특허취소신청",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "963",
+    "pageStart": 991,
+    "pageEnd": 991,
+    "pageLabelStart": "963",
+    "pageLabelEnd": "963",
+    "hasImage": false,
+    "excerpt": "1. 복수의 청구항에 대해 취소신청된 경우 취소신청된 모든 청구항에 대해서 청구항마다 특허를 취소 또는 기각을 결정한다. 2. 복수의 특허취소신청이 있는 경우 원칙적으로 심리는 병합되고, 특허를 취소하거나 또는 기각하는 결정을 하나의 결정서에 의 해 결정한다. 제2절 결정서에 기재해야…"
+  },
+  {
+    "id": "제2절-결정서에-기재해야-할-사항",
+    "title": "제2절 결정서에 기재해야 할 사항",
+    "chapterTitle": "제9장 특허취소신청에 대한 결정",
+    "partTitle": "제24편 특허취소신청",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "963",
+    "pageStart": 991,
+    "pageEnd": 991,
+    "pageLabelStart": "963",
+    "pageLabelEnd": "963",
+    "hasImage": false,
+    "excerpt": "제1절 결정의 절차 1. 복수의 청구항에 대해 취소신청된 경우 취소신청된 모든 청구항에 대해서 청구항마다 특허를 취소 또는 기각을 결정한다. 2. 복수의 특허취소신청이 있는 경우 원칙적으로 심리는 병합되고, 특허를 취소하거나 또는 기각하는 결정을 하나의 결정서에 의 해 결정한다. 제2…"
+  },
+  {
+    "id": "제3절-결정-이유의-기안",
+    "title": "제3절 결정 이유의 기안",
+    "chapterTitle": "제9장 특허취소신청에 대한 결정",
+    "partTitle": "제24편 특허취소신청",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "963",
+    "pageStart": 991,
+    "pageEnd": 991,
+    "pageLabelStart": "963",
+    "pageLabelEnd": "963",
+    "hasImage": false,
+    "excerpt": "제1절 결정의 절차 1. 복수의 청구항에 대해 취소신청된 경우 취소신청된 모든 청구항에 대해서 청구항마다 특허를 취소 또는 기각을 결정한다. 2. 복수의 특허취소신청이 있는 경우 원칙적으로 심리는 병합되고, 특허를 취소하거나 또는 기각하는 결정을 하나의 결정서에 의 해 결정한다. 제2…"
+  },
+  {
+    "id": "제4절-결정-결론의-기재-요령",
+    "title": "제4절 결정 결론의 기재 요령",
+    "chapterTitle": "제9장 특허취소신청에 대한 결정",
+    "partTitle": "제24편 특허취소신청",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "964",
+    "pageStart": 992,
+    "pageEnd": 994,
+    "pageLabelStart": "964",
+    "pageLabelEnd": "966",
+    "hasImage": false,
+    "excerpt": "3. 정정청구가 되었을 경우 정정청구를 인정할 때는 인정하는 취지를 결정의 주문으로 기재하는 것과 동시에 결정이유 에서 그 이유를 기재한다. 정정청구를 인정하지 않을 때는 인정하지 않는 취지를 주문에는 기재하지 않고, 결정이유에 인정하지 않는 취지 및 인정하지 않는 이유를 기재한다.…"
+  },
+  {
+    "id": "제1절-특허법원의-심결취소소송",
+    "title": "제1절 특허법원의 심결취소소송",
+    "chapterTitle": "제2장 심결취소소송",
+    "partTitle": "제26편 특허소송",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "1014",
+    "pageStart": 1042,
+    "pageEnd": 1045,
+    "pageLabelStart": "1014",
+    "pageLabelEnd": "1017",
+    "hasImage": false,
+    "excerpt": "1. 의의 심판원이 한 심결 또는 결정에 대하여 불복이 있는 때에는 특허법원에 심결 또는 결정 취 소의 소를 제기할 수 있다. 2. 관할 가. 토지관할 특허법원의 토지관할은 대한민국 전 지역으로 되어 있다. 따라서 특허심판원의 심결 또는 결정에 대한 불복을 하려는 자는 당사자의 주소가…"
+  },
+  {
+    "id": "제3절-판례",
+    "title": "제3절 판례",
+    "chapterTitle": "제2장 심결취소소송",
+    "partTitle": "제26편 특허소송",
+    "categories": [
+      "case"
+    ],
+    "pageLabel": "1019",
+    "pageStart": 1047,
+    "pageEnd": 1050,
+    "pageLabelStart": "1019",
+    "pageLabelEnd": "1022",
+    "hasImage": false,
+    "excerpt": "1. 소송의 대상 o 특허법 제120조, 제121조, 제144조의 규정에 의하면 심판관은 당사자 쌍방 또는 일방이 동일 한 2 이상의 심판에 대하여 그 심리 또는 심결의 병합을 할 수 있고, 심판은 특별한 규정이 있는 경우를 제외하고는 심결로써 이를 종결하며 항고심판의 심결을 받은 자…"
+  },
+  {
+    "id": "제1절-소장-답변서-및-상고이유서-등-소송서류의-처리",
+    "title": "제1절 소장 답변서 및 상고이유서 등 소송서류의 처리",
+    "chapterTitle": "제4장 소송서류의 처리",
+    "partTitle": "제26편 특허소송",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "1025",
+    "pageStart": 1053,
+    "pageEnd": 1053,
+    "pageLabelStart": "1025",
+    "pageLabelEnd": "1025",
+    "hasImage": false,
+    "excerpt": "특허청장을 피고(상고인․ 피상고인)로 하는 결정계사건 등의 경우, 소장․ 답변서 및 상고이 유서 등 소송서류의 부본이 특허청장에게 송달되면 송무과는 이들 서류를 접수하여 관련대장 에 기재하고 해당 사건의 주심 심판관을 거쳐 심판장에게 보고하고, 별도지시가 있을 때에는 필요한 조치를 하…"
+  },
+  {
+    "id": "제2절-판결문-및-소송관련기록서류에-대한-처리",
+    "title": "제2절 판결문 및 소송관련기록서류에 대한 처리",
+    "chapterTitle": "제4장 소송서류의 처리",
+    "partTitle": "제26편 특허소송",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "1025",
+    "pageStart": 1053,
+    "pageEnd": 1054,
+    "pageLabelStart": "1025",
+    "pageLabelEnd": "1026",
+    "hasImage": false,
+    "excerpt": "제1절 소장․ 답변서 및 상고이유서 등 소송서류의 처리 특허청장을 피고(상고인․ 피상고인)로 하는 결정계사건 등의 경우, 소장․ 답변서 및 상고이 유서 등 소송서류의 부본이 특허청장에게 송달되면 송무과는 이들 서류를 접수하여 관련대장 에 기재하고 해당 사건의 주심 심판관을 거쳐 심판장…"
+  },
+  {
+    "id": "제1절-심결이-확정된-경우기각-소취하-등",
+    "title": "제1절 심결이 확정된 경우(기각, 소취하 등)",
+    "chapterTitle": "제5장 판결선고 결과의 처리",
+    "partTitle": "제26편 특허소송",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "1027",
+    "pageStart": 1055,
+    "pageEnd": 1055,
+    "pageLabelStart": "1027",
+    "pageLabelEnd": "1027",
+    "hasImage": false,
+    "excerpt": "1. 결정계 심판 및 특허취소신청의 처리 등록원부가 있는 정정심판, 특허취소신청 또는 디자인등록 취소결정불복 사건인 경우에는 특허청 산업재산등록과에 심결확정통지를 하여 등록원부를 정리하도록 하고, 보정각하 사건은 경우에는 특허청 심사국에 심결확정통지를 한다. 만약 심결 또는 결정을 취…"
+  },
+  {
+    "id": "제2절-판결에-의하여-원심결이-취소된-경우",
+    "title": "제2절 판결에 의하여 원심결이 취소된 경우",
+    "chapterTitle": "제5장 판결선고 결과의 처리",
+    "partTitle": "제26편 특허소송",
+    "categories": [
+      "procedure"
+    ],
+    "pageLabel": "1027",
+    "pageStart": 1055,
+    "pageEnd": 1056,
+    "pageLabelStart": "1027",
+    "pageLabelEnd": "1028",
+    "hasImage": false,
+    "excerpt": "제1절 심결이 확정된 경우(기각, 소취하 등) 1. 결정계 심판 및 특허취소신청의 처리 등록원부가 있는 정정심판, 특허취소신청 또는 디자인등록 취소결정불복 사건인 경우에는 특허청 산업재산등록과에 심결확정통지를 하여 등록원부를 정리하도록 하고, 보정각하 사건은 경우에는 특허청 심사국에…"
+  }
+]

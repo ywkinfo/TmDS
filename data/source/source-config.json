@@ -1,0 +1,20 @@
+{
+  "documentTitle": "심판편람 제14판",
+  "sourcePdf": "data/source/심판편람 제14판.pdf",
+  "tocScanPageLimit": 40,
+  "slugMaxLength": 80,
+  "expectedStructure": {
+    "pageCount": 1381,
+    "level2Count": 32,
+    "level3Count": 203,
+    "level4Count": 252,
+    "outlineCount": 491
+  },
+  "imageExclusion": {
+    "minDimensionPx": 20,
+    "maxPageRepetitions": 12,
+    "excludeCoverPages": [1, 2, 3, 4],
+    "decorativePageCharCountMax": 40,
+    "decorativePageMinImageCount": 2
+  }
+}

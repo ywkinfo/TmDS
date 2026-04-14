@@ -1,0 +1,11 @@
+.pytest_cache/
+__pycache__/
+*.pyc
+
+data/source/*.pdf
+data/generated/
+
+web/node_modules/
+web/dist/
+
+책갈피-심판편람 제14판.pdf

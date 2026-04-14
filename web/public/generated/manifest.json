@@ -1,0 +1,32 @@
+{
+  "title": "심판편람 제14판",
+  "syncedAt": "2026-04-14T07:34:21.036175+00:00",
+  "fileCount": 4,
+  "imageFileCount": 42,
+  "files": [
+    {
+      "name": "toc.json",
+      "relativePath": "public/generated/toc.json",
+      "bytes": 238444,
+      "modifiedAt": "2026-04-14T07:33:57.907823+00:00"
+    },
+    {
+      "name": "document-data.json",
+      "relativePath": "public/generated/document-data.json",
+      "bytes": 3080233,
+      "modifiedAt": "2026-04-14T07:34:20.170318+00:00"
+    },
+    {
+      "name": "search-index.json",
+      "relativePath": "public/generated/search-index.json",
+      "bytes": 3209883,
+      "modifiedAt": "2026-04-14T07:34:20.191682+00:00"
+    },
+    {
+      "name": "exploration-index.json",
+      "relativePath": "public/generated/exploration-index.json",
+      "bytes": 202931,
+      "modifiedAt": "2026-04-14T07:34:20.197273+00:00"
+    }
+  ]
+}

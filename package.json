@@ -1,0 +1,22 @@
+{
+  "name": "trial-manual-reader-harness",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "content:inventory": "python -m pipeline.build_inventory",
+    "content:outline": "python -m pipeline.build_outline",
+    "content:toc": "python -m pipeline.build_toc",
+    "content:images": "python -m pipeline.build_images",
+    "content:build": "python -m pipeline.build_content",
+    "content:qa": "python -m pipeline.qa_content",
+    "content:prepare": "npm run content:inventory && npm run content:outline && npm run content:toc && npm run content:images && npm run content:build && npm run content:qa",
+    "web:sync": "python -m pipeline.sync_web_generated",
+    "web:prepare": "npm run content:prepare && npm run web:sync",
+    "web:dev": "npm --prefix web run dev -- --host 0.0.0.0 --port 4317",
+    "web:build": "npm --prefix web run build",
+    "web:test": "npm --prefix web run test",
+    "web:serve": "npm run web:build && npm --prefix web run preview -- --host 0.0.0.0 --port 4317",
+    "test:python": "python -m pytest tests/ -v",
+    "test": "npm run test:python && npm run web:test"
+  }
+}

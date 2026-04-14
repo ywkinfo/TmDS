@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "trial-manual-reader-harness"
+version = "0.1.0"
+description = "심판편람 제14판 PDF 구조화 하니스"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["pymupdf>=1.27.2"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.setuptools.packages.find]
+include = ["pipeline*"]
