@@ -30,6 +30,12 @@ exploration index, inline image asset을 재현 가능한 방식으로 생성하
 - `npm run web:build`: 정적 리더 빌드
 - `npm run test`: Python + web 테스트 실행
 
+## Deployment
+
+- GitHub Pages는 `.github/workflows/deploy-pages.yml`로 `main` push마다 자동 배포됩니다.
+- 현재 구조에서는 `web/public/generated/`에 커밋된 reader asset을 기준으로 `web/dist/`를 빌드해 배포합니다.
+- 공개 URL은 기본적으로 `https://ywkinfo.github.io/TmDS/`입니다.
+
 ## Notes
 
 - PDF 원본은 직접 수정하지 않습니다.
