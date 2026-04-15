@@ -36,6 +36,7 @@ RUNNING_HEADER_PATTERNS = (
     re.compile(r"^차$"),
 )
 FRAGMENT_HEADER_RE = re.compile(r"^(?:제|편|\d+|목|차)$")
+RIGHT_MARGIN_RUNNING_FRAGMENT_RE = re.compile(r"^(?:제|편|장|절|\d+(?:\s*-\s*\d+)?)$")
 LEADER_DOTS_RE = re.compile(r"(?:[·.]\s*){5,}")
 LINE_END_PAGE_NUMBER_RE = re.compile(r"(?:\b\d{1,4}\b|[ivxlcdm]{1,12})\)?$", re.IGNORECASE)
 ROUND_BULLET_RE = re.compile(r"^[oO](?:\s+|$)")
@@ -53,6 +54,7 @@ LIST_MARKER_RE = re.compile(
     r")(?:\s+|$)"
 )
 SENTENCE_END_RE = re.compile(r"[.!?…:]$")
+SPECIAL_HEADING_RE = re.compile(r"^(?:[\[【].+[】\]]|<\s*.+\s*>)$")
 BOUNDARY_REASONS = {
     "page-start",
     "gap",
@@ -92,6 +94,8 @@ def _classify_line_kind(line: dict[str, Any], page_width: float, page_height: fl
     text = line["text"]
     if DATE_RE.match(text):
         return "date"
+    if SPECIAL_HEADING_RE.match(str(text).strip()):
+        return "heading"
     if "원장" in text and (line["isCentered"] or (len(text) <= 24 and float(line["top"]) >= page_height * 0.8)):
         return "signature"
     if line["isCentered"] and (len(text) <= 20 or STRUCTURAL_HEADING_RE.match(text)):
@@ -230,6 +234,7 @@ def extract_page_lines(page: pymupdf.Page) -> list[dict[str, Any]]:
 
     records.sort(key=lambda item: (float(item["top"]), float(item["left"]), int(item["blockIndex"]), int(item["lineIndex"])))
     records = _prune_top_structural_duplicates(records)
+    records = _prune_right_margin_running_fragments(records, page_width=page_width)
 
     for index, record in enumerate(records):
         record["index"] = index
@@ -250,6 +255,67 @@ def _prune_top_structural_duplicates(lines: list[dict[str, Any]]) -> list[dict[s
             continue
         result.append(line)
     return result
+
+
+def _is_right_margin_running_fragment(line: dict[str, Any], page_width: float) -> bool:
+    text = str(line["text"]).strip()
+    return (
+        float(line["left"]) >= page_width - 72.0
+        and float(line["width"]) <= 44.0
+        and float(line["fontSize"]) <= 9.7
+        and RIGHT_MARGIN_RUNNING_FRAGMENT_RE.match(text) is not None
+    )
+
+
+def _prune_right_margin_running_fragments(
+    lines: list[dict[str, Any]],
+    *,
+    page_width: float,
+) -> list[dict[str, Any]]:
+    if not lines:
+        return lines
+
+    removable_indices: set[int] = set()
+    candidate_indices = [
+        index for index, line in enumerate(lines) if _is_right_margin_running_fragment(line, page_width)
+    ]
+    cluster: list[int] = []
+
+    def flush_cluster() -> None:
+        if len(cluster) < 2:
+            cluster.clear()
+            return
+
+        texts = [str(lines[index]["text"]).strip() for index in cluster]
+        has_structural_context = "편" in texts and (
+            "제" in texts or any(any(character.isdigit() for character in text) for text in texts)
+        )
+        if has_structural_context:
+            removable_indices.update(cluster)
+        cluster.clear()
+
+    for index in candidate_indices:
+        line = lines[index]
+        if not cluster:
+            cluster.append(index)
+            continue
+
+        previous = lines[cluster[-1]]
+        same_margin = abs(float(line["left"]) - float(previous["left"])) <= 8.0
+        close_gap = 0.0 <= float(line["top"]) - float(previous["top"]) <= 22.0
+        if same_margin and close_gap:
+            cluster.append(index)
+            continue
+
+        flush_cluster()
+        cluster.append(index)
+
+    flush_cluster()
+
+    if not removable_indices:
+        return lines
+
+    return [line for index, line in enumerate(lines) if index not in removable_indices]
 
 
 def _build_source_blocks(lines: list[dict[str, Any]]) -> list[dict[str, Any]]:
@@ -448,6 +514,8 @@ def _build_prose_groups(lines: list[dict[str, Any]], *, page_width: float, domin
         reason: str | None = None
         if _is_list_marker_line(str(line["text"])):
             reason = "list-marker"
+        elif SPECIAL_HEADING_RE.match(str(line["text"]).strip()):
+            reason = "style-change"
         elif style_changed:
             reason = "style-change"
         elif gap >= paragraph_gap:
@@ -565,8 +633,16 @@ def _build_list_groups(lines: list[dict[str, Any]]) -> list[dict[str, Any]]:
     current_left = 0.0
 
     for line in lines:
-        starts_entry = _is_list_marker_line(str(line["text"]))
-        continuation = current_lines and not starts_entry and float(line["left"]) >= current_left - 2.0
+        starts_entry = _is_list_marker_line(str(line["text"])) or SPECIAL_HEADING_RE.match(str(line["text"]).strip()) is not None
+        current_group_is_special_heading = bool(
+            current_lines and SPECIAL_HEADING_RE.match(str(lines[current_lines[0]]["text"]).strip()) is not None
+        )
+        continuation = (
+            current_lines
+            and not starts_entry
+            and not current_group_is_special_heading
+            and float(line["left"]) >= current_left - 2.0
+        )
 
         if not current_lines:
             current_lines = [int(line["index"])]
@@ -574,10 +650,10 @@ def _build_list_groups(lines: list[dict[str, Any]]) -> list[dict[str, Any]]:
             current_left = float(line["left"])
             continue
 
-        if starts_entry and not continuation:
+        if (starts_entry or current_group_is_special_heading) and not continuation:
             groups.append({"lineIndices": current_lines, "boundaryReason": _coerce_boundary_reason(current_reason)})
             current_lines = [int(line["index"])]
-            current_reason = "list-marker"
+            current_reason = "list-marker" if starts_entry else "style-change"
             current_left = float(line["left"])
         else:
             current_lines.append(int(line["index"]))
@@ -737,6 +813,8 @@ def _paragraph_kind(
         return page_layout_kind
     if first_line["kind"] in {"heading", "date", "signature"}:
         return str(first_line["kind"])
+    if SPECIAL_HEADING_RE.match(str(first_line["text"]).strip()):
+        return "heading"
     if ARTICLE_LINE_RE.match(str(first_line["text"])):
         return "heading"
     if _is_list_marker_line(str(first_line["text"])) and _line_font_delta(first_line, dominant_body_font) > 0.8:
@@ -752,6 +830,54 @@ def _render_group_text(
     if page_layout_kind == PAGE_LAYOUT_TABLE:
         return " | ".join(str(line["text"]) for line in sorted(group_lines, key=lambda item: (float(item["left"]), float(item["top"])))).strip()
     return " ".join(str(line["text"]) for line in group_lines).strip()
+
+
+def _default_override_boundary_reason(page_layout_kind: str, index: int) -> str:
+    if index == 0:
+        return "page-start"
+    if page_layout_kind == PAGE_LAYOUT_TABLE:
+        return "table-row"
+    if page_layout_kind == PAGE_LAYOUT_TOC:
+        return "toc-entry"
+    if page_layout_kind == PAGE_LAYOUT_LIST:
+        return "list-marker"
+    return "override"
+
+
+def _build_override_paragraphs(
+    paragraph_specs: list[Any],
+    *,
+    page_layout_kind: str,
+) -> list[dict[str, Any]]:
+    paragraphs: list[dict[str, Any]] = []
+
+    for index, spec in enumerate(paragraph_specs):
+        if isinstance(spec, str):
+            text = normalize_line(spec)
+            kind = page_layout_kind if page_layout_kind != PAGE_LAYOUT_PROSE else "body"
+            boundary_reason = _default_override_boundary_reason(page_layout_kind, index)
+        else:
+            text = normalize_line(str(spec.get("text", "")))
+            kind = str(spec.get("kind") or (page_layout_kind if page_layout_kind != PAGE_LAYOUT_PROSE else "body"))
+            boundary_reason = _coerce_boundary_reason(
+                str(spec.get("boundaryReason") or _default_override_boundary_reason(page_layout_kind, index))
+            )
+
+        if not text:
+            continue
+
+        paragraphs.append(
+            {
+                "index": len(paragraphs),
+                "text": text,
+                "sourceBlocks": [],
+                "sourceLines": [],
+                "kind": kind,
+                "boundaryReason": boundary_reason,
+            }
+        )
+
+    return paragraphs
 
 
 def _page_confidence(
@@ -796,30 +922,36 @@ def build_page_review_entry(
     line_map = {int(line["index"]): line for line in lines}
     legacy_block_to_grouped_index = {int(block["legacyBlockIndex"]): int(block["index"]) for block in source_blocks}
 
-    paragraphs: list[dict[str, Any]] = []
-    for group_index, group in enumerate(groups):
-        group_lines = [line_map[index] for index in group["lineIndices"] if index in line_map]
-        if not group_lines:
-            continue
+    if override and override.get("paragraphs"):
+        paragraphs = _build_override_paragraphs(
+            list(override.get("paragraphs", [])),
+            page_layout_kind=page_layout_kind,
+        )
+    else:
+        paragraphs = []
+        for group_index, group in enumerate(groups):
+            group_lines = [line_map[index] for index in group["lineIndices"] if index in line_map]
+            if not group_lines:
+                continue
 
-        paragraph_source_blocks = sorted(
-            {
-                legacy_block_to_grouped_index[int(line["legacyBlockIndex"])]
-                for line in group_lines
-                if int(line["legacyBlockIndex"]) in legacy_block_to_grouped_index
-            }
-        )
-        first_line = group_lines[0]
-        paragraphs.append(
-            {
-                "index": group_index,
-                "text": _render_group_text(group_lines, page_layout_kind=page_layout_kind),
-                "sourceBlocks": paragraph_source_blocks,
-                "sourceLines": [int(line["index"]) for line in group_lines],
-                "kind": _paragraph_kind(first_line, page_layout_kind=page_layout_kind, dominant_body_font=dominant_body_font),
-                "boundaryReason": _coerce_boundary_reason(str(group["boundaryReason"])),
-            }
-        )
+            paragraph_source_blocks = sorted(
+                {
+                    legacy_block_to_grouped_index[int(line["legacyBlockIndex"])]
+                    for line in group_lines
+                    if int(line["legacyBlockIndex"]) in legacy_block_to_grouped_index
+                }
+            )
+            first_line = group_lines[0]
+            paragraphs.append(
+                {
+                    "index": group_index,
+                    "text": _render_group_text(group_lines, page_layout_kind=page_layout_kind),
+                    "sourceBlocks": paragraph_source_blocks,
+                    "sourceLines": [int(line["index"]) for line in group_lines],
+                    "kind": _paragraph_kind(first_line, page_layout_kind=page_layout_kind, dominant_body_font=dominant_body_font),
+                    "boundaryReason": _coerce_boundary_reason(str(group["boundaryReason"])),
+                }
+            )
 
     merge_first_group = False
     if override and "mergeFirstGroupWithPreviousPage" in override:
@@ -830,12 +962,13 @@ def build_page_review_entry(
         previous_layout_kind = str(previous_page_context.get("pageLayoutKind") or "")
         previous_last_paragraph = str(previous_page_context.get("lastParagraphText") or "")
         first_paragraph = paragraphs[0]
-        first_line = line_map[first_paragraph["sourceLines"][0]]
+        first_line = line_map.get(first_paragraph["sourceLines"][0]) if first_paragraph["sourceLines"] else None
         merge_first_group = (
             previous_layout_kind == PAGE_LAYOUT_PROSE
             and first_paragraph["kind"] == "body"
             and _is_incomplete_paragraph(previous_last_paragraph)
             and dominant_body_font is not None
+            and first_line is not None
             and abs(float(first_line["fontSize"]) - float(dominant_body_font)) <= 0.8
             and abs(float(body_left_anchor) - float(previous_page_context.get("bodyLeftAnchor") or 0.0)) <= 6.0
             and len(previous_last_paragraph) + len(first_paragraph["text"]) <= 900

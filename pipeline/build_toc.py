@@ -134,7 +134,9 @@ def build_synthetic_parts(
                 "pageLabelStart": notes.get("pageLabelStart"),
                 "pageLabelEnd": notes.get("pageLabelEnd"),
                 "pageStart": notes["pageStart"],
-                "pageEnd": max(notes["pageEnd"], (toc_pages[0] - 1) if toc_pages else notes["pageEnd"]),
+                # Keep front-notes bounded before the detected TOC pages so reader/search
+                # content does not absorb the separate 목차 spread.
+                "pageEnd": min(notes["pageEnd"], (toc_pages[0] - 1) if toc_pages else notes["pageEnd"]),
                 "items": [],
                 "supplements": [],
             }

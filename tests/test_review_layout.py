@@ -69,6 +69,16 @@ def test_page_8_is_classified_as_list_and_keeps_entry_boundaries() -> None:
     assert "http://www.scourt.go.kr" in paragraphs[-1]["text"]
 
 
+def test_page_7_splits_explanatory_note_out_of_list_rows() -> None:
+    page7 = _entry_by_page()[7]
+    paragraphs = page7["paragraphs"]
+
+    assert page7["pageLayoutKind"] == PAGE_LAYOUT_LIST
+    assert page7["hasOverride"] is True
+    assert paragraphs[-2]["text"].startswith("가), 나), 다)")
+    assert paragraphs[-1]["text"].startswith("다시 항을 나누는 의미가 아니고")
+
+
 def test_page_20_is_classified_as_toc_without_running_header_fragments() -> None:
     page20 = _entry_by_page()[20]
     paragraphs = page20["paragraphs"]
@@ -79,6 +89,20 @@ def test_page_20_is_classified_as_toc_without_running_header_fragments() -> None
     assert all(paragraph["text"] != "심판편람(제14판)" for paragraph in paragraphs)
 
 
+def test_page_31_drops_right_margin_part_header_fragments_from_body() -> None:
+    page31 = _entry_by_page()[31]
+    paragraphs = page31["paragraphs"]
+    texts = [paragraph["text"] for paragraph in paragraphs]
+
+    assert page31["pageLayoutKind"] == PAGE_LAYOUT_PROSE
+    assert "제" not in texts
+    assert "1" not in texts
+    assert "편" not in texts
+    assert paragraphs[2]["text"].startswith("특허심판이란 특허· 실용신안· 디자인· 상표 출원에 대하여")
+    assert "분에 의해 등록된 산업재산권의 효력의 유효 여부" in paragraphs[2]["text"]
+    assert paragraphs[2]["text"].endswith("특별행정심판제도를 말한다.")
+
+
 def test_page_9_is_classified_as_table_form_and_emits_row_items() -> None:
     page9 = _entry_by_page()[9]
     paragraphs = page9["paragraphs"]
@@ -87,6 +111,18 @@ def test_page_9_is_classified_as_table_form_and_emits_row_items() -> None:
     assert page9["paragraphCount"] >= 20
     assert " | " in paragraphs[0]["text"]
     assert paragraphs[1]["boundaryReason"] == "table-row"
+    assert paragraphs[1]["text"].startswith("002 | 가합 | 민사 | 민사1심합의사건")
+    assert "068 | 준재가소 | 민사 | 민사소액사건준재심" in paragraphs[1]["text"]
+
+
+def test_page_603_drops_vertical_part_header_fragments_for_split_part_titles() -> None:
+    page603 = _entry_by_page()[603]
+    texts = [paragraph["text"] for paragraph in page603["paragraphs"]]
+
+    assert page603["pageLayoutKind"] == PAGE_LAYOUT_PROSE
+    assert "제" not in texts
+    assert "편" not in texts
+    assert "14 -1" not in texts
 
 
 def test_page_29_is_classified_as_decorative_structural() -> None:
@@ -115,6 +151,27 @@ def test_page_50_remains_prose_with_headings_and_body_blocks() -> None:
     assert paragraphs[1]["kind"] == "heading"
     assert paragraphs[2]["text"].startswith("심판장은 심결 또는 결정이 있는 때에는")
     assert paragraphs[3]["text"] == "나. 정보통신망에 의한 송달"
+
+
+def test_page_86_splits_boxed_case_heading_into_its_own_paragraph() -> None:
+    page86 = _entry_by_page()[86]
+    paragraphs = page86["paragraphs"]
+    texts = [paragraph["text"] for paragraph in paragraphs]
+
+    heading_index = texts.index("【청구이유 기재 정도에 판례】")
+    assert paragraphs[heading_index]["kind"] == "heading"
+    assert "【청구이유 기재 정도에 판례】" not in paragraphs[heading_index - 1]["text"]
+
+
+def test_page_96_splits_angle_bracket_heading_into_its_own_paragraph() -> None:
+    page96 = _entry_by_page()[96]
+    paragraphs = page96["paragraphs"]
+    texts = [paragraph["text"] for paragraph in paragraphs]
+
+    heading_index = texts.index("< 심판장 및 심판관의 직무와 권한>")
+    assert paragraphs[heading_index]["kind"] == "heading"
+    assert "< 심판장 및 심판관의 직무와 권한>" not in paragraphs[heading_index - 1]["text"]
+    assert paragraphs[heading_index + 1]["text"].startswith("심판장 및 심판관은 다음 사항을 분장한다.")
 
 
 def test_prose_pages_have_non_empty_paragraphs_without_running_header_residue() -> None:

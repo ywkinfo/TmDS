@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from pipeline.build_toc import build_outline_ranges, build_reader_parts
+from pipeline.build_toc import build_outline_ranges, build_reader_parts, build_synthetic_parts
 
 
 def test_build_reader_parts_keeps_split_parts_as_independent_parts() -> None:
@@ -33,3 +33,28 @@ def test_build_reader_parts_keeps_split_parts_as_independent_parts() -> None:
     assert len(parts) == 2
     assert parts[0]["fullTitle"] == "제14편 권리범위 확인심판"
     assert parts[1]["fullTitle"] == "제14-1편 디자인권의 권리범위 확인심판"
+
+
+def test_build_synthetic_parts_keeps_front_notes_out_of_toc_pages() -> None:
+    parts = build_synthetic_parts(
+        page_count=1381,
+        toc_pages=[11, 12],
+        level1_entries={
+            "일러두기": {
+                "pageStart": 7,
+                "pageEnd": 12,
+                "pageLabelStart": "i",
+                "pageLabelEnd": "vi",
+            }
+        },
+    )
+
+    front_notes = next(
+        chapter
+        for part in parts
+        for chapter in part["chapters"]
+        if chapter["id"] == "front-notes"
+    )
+
+    assert front_notes["pageStart"] == 7
+    assert front_notes["pageEnd"] == 10

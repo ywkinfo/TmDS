@@ -687,6 +687,13 @@ code {
   overflow: hidden;
 }
 
+.reader-article table.reader-synthetic-table {
+  margin: 0 0 1.2rem;
+  border-radius: var(--radius-md);
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: inset 0 0 0 1px rgba(67, 50, 24, 0.08);
+}
+
 .reader-table-scroll {
   max-width: 100%;
 }
@@ -695,6 +702,20 @@ code {
 .reader-article th {
   padding: var(--space-2);
   border: 1px solid rgba(67, 50, 24, 0.12);
+}
+
+.reader-article .reader-synthetic-table th,
+.reader-article .reader-synthetic-table td {
+  font-family: var(--font-ui);
+  font-size: 0.94rem;
+  line-height: 1.5;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.reader-article .reader-synthetic-table thead th {
+  background: rgba(234, 223, 201, 0.88);
+  font-weight: 700;
 }
 
 .empty-card,
