@@ -14,6 +14,18 @@ function stripRepeatedHeadingLead(html: string): string {
       return `${prefix}${paragraphText.slice(heading.length + 1)}${suffix}`;
     }
 
+    const headingIndex = paragraphText.indexOf(heading);
+    const prefixText = headingIndex > 0 ? paragraphText.slice(0, headingIndex) : "";
+    if (
+      headingIndex > 0 &&
+      headingIndex <= 80 &&
+      !/[.!?:]\s*$/.test(prefixText) &&
+      !/[.!?:]/.test(prefixText)
+    ) {
+      const afterHeading = paragraphText.slice(headingIndex + heading.length).trimStart();
+      return `${prefix}${afterHeading}${suffix}`;
+    }
+
     return match;
   });
 }

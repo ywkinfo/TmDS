@@ -19,11 +19,13 @@ export function ReaderArticle({ chapter, partChapters, activeSectionId, builtAt 
   const articleRef = useRef<HTMLElement | null>(null);
   const heroRef = useRef<HTMLElement | null>(null);
   const [isOutlineOpen, setIsOutlineOpen] = useState(() => window.matchMedia("(min-width: 62rem)").matches);
+  const [isPartGuideOpen, setIsPartGuideOpen] = useState(() => window.matchMedia("(min-width: 62rem)").matches);
 
   useEffect(() => {
     const mediaQuery = window.matchMedia("(min-width: 62rem)");
     const syncOutlineState = (): void => {
       setIsOutlineOpen(mediaQuery.matches);
+      setIsPartGuideOpen(mediaQuery.matches);
     };
 
     syncOutlineState();
@@ -33,6 +35,12 @@ export function ReaderArticle({ chapter, partChapters, activeSectionId, builtAt 
       mediaQuery.removeEventListener("change", syncOutlineState);
     };
   }, [chapter.slug]);
+
+  useEffect(() => {
+    if (activeSectionId === "part-intro") {
+      setIsPartGuideOpen(true);
+    }
+  }, [activeSectionId]);
 
   const headingDepthById = useMemo(() => {
     return new Map(chapter.headings.map((heading) => [heading.id, heading.depth]));
@@ -178,17 +186,28 @@ export function ReaderArticle({ chapter, partChapters, activeSectionId, builtAt 
           id="part-intro"
           className={`surface chapter-part-intro${activeSectionId === "part-intro" ? " is-target" : ""}`}
         >
-          <div className="section-heading compact">
-            <span className="eyebrow">Part Guide</span>
-            <h2>{chapter.partTitle}</h2>
+          <div className="outline-header">
+            <div>
+              <span className="eyebrow">Part Guide</span>
+              <h2>{chapter.partTitle}</h2>
+            </div>
+            <button
+              type="button"
+              className="outline-toggle"
+              aria-expanded={isPartGuideOpen}
+              onClick={() => setIsPartGuideOpen((current) => !current)}
+            >
+              {isPartGuideOpen ? "접기" : "펼치기"}
+            </button>
           </div>
-          <p>{partIntroContent.description || DEFAULT_PART_GUIDE_DESCRIPTION}</p>
-          {partChapters.length > 0 ? (
+          {isPartGuideOpen ? <p>{partIntroContent.description || DEFAULT_PART_GUIDE_DESCRIPTION}</p> : null}
+          {isPartGuideOpen && partChapters.length > 0 ? (
             <div className="part-intro-quick-nav" aria-label="같은 편 안의 장 이동">
               {previousChapter ? (
                 <Link to={previousChapter.sectionCatalog[0]?.routePath ?? "#"} className="part-intro-jump">
                   <span className="eyebrow">이전 장</span>
                   <strong>{previousChapter.displayTitle}</strong>
+                  <span className="part-intro-jump-summary">{compactSummary(previousChapter.summary, 80)}</span>
                 </Link>
               ) : (
                 <div className="part-intro-jump is-disabled">
@@ -208,6 +227,7 @@ export function ReaderArticle({ chapter, partChapters, activeSectionId, builtAt 
                 <Link to={nextChapter.sectionCatalog[0]?.routePath ?? "#"} className="part-intro-jump">
                   <span className="eyebrow">다음 장</span>
                   <strong>{nextChapter.displayTitle}</strong>
+                  <span className="part-intro-jump-summary">{compactSummary(nextChapter.summary, 80)}</span>
                 </Link>
               ) : (
                 <div className="part-intro-jump is-disabled">
@@ -217,7 +237,7 @@ export function ReaderArticle({ chapter, partChapters, activeSectionId, builtAt 
               )}
             </div>
           ) : null}
-          {partChapters.length > 0 ? (
+          {isPartGuideOpen && partChapters.length > 0 ? (
             <div className="part-intro-grid">
               {partChapters.map((partChapter) => {
                 const defaultEntry =
@@ -256,7 +276,7 @@ export function ReaderArticle({ chapter, partChapters, activeSectionId, builtAt 
               ))}
             </div>
           ) : null}
-          {firstPartChapter && lastPartChapter ? (
+          {isPartGuideOpen && firstPartChapter && lastPartChapter ? (
             <div className="result-meta">
               <span>
                 {formatPageRange(
@@ -273,11 +293,13 @@ export function ReaderArticle({ chapter, partChapters, activeSectionId, builtAt 
 
       <div className="surface reader-article" dangerouslySetInnerHTML={{ __html: enhancedHtml }} />
 
-      <nav className="surface chapter-pager" aria-label="같은 편 안의 장 이동">
+      {partChapters.length > 0 ? (
+        <nav className="surface chapter-pager" aria-label="같은 편 안의 장 이동">
         {previousChapter ? (
           <Link to={previousChapter.sectionCatalog[0]?.routePath ?? "#"} className="part-intro-jump">
             <span className="eyebrow">이전 장</span>
             <strong>{previousChapter.displayTitle}</strong>
+            <span className="part-intro-jump-summary">{compactSummary(previousChapter.summary, 80)}</span>
           </Link>
         ) : (
           <div className="part-intro-jump is-disabled">
@@ -295,6 +317,7 @@ export function ReaderArticle({ chapter, partChapters, activeSectionId, builtAt 
           <Link to={nextChapter.sectionCatalog[0]?.routePath ?? "#"} className="part-intro-jump">
             <span className="eyebrow">다음 장</span>
             <strong>{nextChapter.displayTitle}</strong>
+            <span className="part-intro-jump-summary">{compactSummary(nextChapter.summary, 80)}</span>
           </Link>
         ) : (
           <div className="part-intro-jump is-disabled">
@@ -302,7 +325,8 @@ export function ReaderArticle({ chapter, partChapters, activeSectionId, builtAt 
             <strong>없음</strong>
           </div>
         )}
-      </nav>
+        </nav>
+      ) : null}
     </article>
   );
 }
