@@ -9,6 +9,7 @@
     "content:images": "python -m pipeline.build_images",
     "content:build": "python -m pipeline.build_content",
     "content:qa": "python -m pipeline.qa_content",
+    "qa:prepare": "python -m pipeline.qa_prepare",
     "content:prepare": "npm run content:inventory && npm run content:outline && npm run content:toc && npm run content:images && npm run content:build && npm run content:qa",
     "web:sync": "python -m pipeline.sync_web_generated",
     "web:prepare": "npm run content:prepare && npm run web:sync",

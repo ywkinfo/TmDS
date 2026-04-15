@@ -5,18 +5,17 @@ from typing import Any
 
 from .common import (
     clean_title,
-    extract_page_text,
     load_config,
     load_generated_json,
     make_excerpt,
     normalize_bookmark_title,
     open_pdf,
-    page_text_to_paragraphs,
     paragraph_to_html,
     print_json_summary,
     write_json,
     image_to_html,
 )
+from .review_layout import build_page_review_entries
 
 
 def classify_entry(entry: dict[str, Any]) -> list[str]:
@@ -183,18 +182,11 @@ def build_page_image_map(image_manifest: dict[str, Any]) -> dict[int, list[str]]
     return page_image_map
 
 
-def collect_page_text_map(document: Any) -> dict[int, str]:
-    return {
-        page_number: extract_page_text(document.load_page(page_number - 1))
-        for page_number in range(1, document.page_count + 1)
-    }
-
-
 def render_range_html(
     *,
     page_start: int,
     page_end: int,
-    page_text_map: dict[int, str],
+    page_review_map: dict[int, dict[str, Any]],
     page_image_map: dict[int, list[str]],
     image_alt: str,
     trim_titles: tuple[str, ...] = (),
@@ -208,12 +200,24 @@ def render_range_html(
     first_paragraph_emitted = False
 
     for page_number in range(int(page_start), int(page_end) + 1):
-        paragraphs = page_text_to_paragraphs(page_text_map.get(page_number, ""))
-        for paragraph in paragraphs:
+        page_review = page_review_map.get(page_number, {})
+        for paragraph_entry in page_review.get("paragraphs", []):
+            paragraph = str(paragraph_entry.get("text", "")).strip()
+            if not paragraph:
+                continue
             if trim_titles and not first_paragraph_emitted:
                 paragraph = trim_leading_heading_noise(paragraph, *trim_titles)
                 if not paragraph:
                     continue
+            if (
+                first_paragraph_emitted
+                and paragraph_entry.get("index") == 0
+                and page_review.get("mergeFirstGroupWithPreviousPage")
+                and text_parts
+            ):
+                text_parts[-1] = f"{text_parts[-1]} {paragraph}".strip()
+                html_parts[-1] = paragraph_to_html(text_parts[-1])
+                continue
             html_parts.append(paragraph_to_html(paragraph))
             text_parts.append(paragraph)
             first_paragraph_emitted = True
@@ -240,13 +244,15 @@ def build_chapter_html(
 
 def main() -> None:
     config = load_config()
+    inventory = load_generated_json("pdf-inventory.json")
     toc = load_generated_json("toc.json")
     try:
         image_manifest = load_generated_json("image-manifest.json")
     except SystemExit:
         image_manifest = {"images": []}
     document = open_pdf(config)
-    page_text_map = collect_page_text_map(document)
+    page_review_entries = build_page_review_entries(document, inventory)
+    page_review_map = {int(entry["pageNumber"]): entry for entry in page_review_entries}
     page_image_map = build_page_image_map(image_manifest)
 
     chapters: list[dict[str, Any]] = []
@@ -301,7 +307,7 @@ def main() -> None:
             overview_html, overview_text, overview_image_count = render_range_html(
                 page_start=int(chapter["pageStart"]),
                 page_end=int(overview_page_end),
-                page_text_map=page_text_map,
+                page_review_map=page_review_map,
                 page_image_map=page_image_map,
                 image_alt=normalize_bookmark_title(chapter["fullTitle"]),
                 trim_titles=(
@@ -349,7 +355,7 @@ def main() -> None:
                 section_html, section_text, section_image_count = render_range_html(
                     page_start=int(item["pageStart"]),
                     page_end=int(item["pageEnd"]),
-                    page_text_map=page_text_map,
+                    page_review_map=page_review_map,
                     page_image_map=page_image_map,
                     image_alt=normalize_bookmark_title(item["fullTitle"]),
                     trim_titles=(

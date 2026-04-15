@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Link, Navigate, Route, Routes, useLocation, useMatch } from "react-router-dom";
 
 import { ExplorationPanel } from "./components/ExplorationPanel";
+import { QAPage } from "./components/QAPage";
 import { ReaderArticle } from "./components/ReaderArticle";
 import { TocPanel } from "./components/TocPanel";
 import { TopbarSearch } from "./components/TopbarSearch";
@@ -188,6 +189,7 @@ function ReaderShell({ data }: { data: ReaderData }): JSX.Element {
         <main className="main-panel">
           <Routes>
             <Route path="/" element={<HomePage data={data} />} />
+            <Route path="/qa/page/:pageNumber" element={<QAPage />} />
             <Route path="/chapter/:chapterSlug" element={<ChapterPage data={data} />} />
             <Route path="/chapter/:chapterSlug/:sectionId" element={<ChapterPage data={data} />} />
             <Route path="*" element={<Navigate to="/" replace />} />
