@@ -174,6 +174,13 @@ def test_page_96_splits_angle_bracket_heading_into_its_own_paragraph() -> None:
     assert paragraphs[heading_index + 1]["text"].startswith("심판장 및 심판관은 다음 사항을 분장한다.")
 
 
+def test_page_1256_strips_appendix_running_header_from_first_paragraph() -> None:
+    page1256 = _entry_by_page()[1256]
+    first_text = page1256["paragraphs"][0]["text"]
+
+    assert not first_text.startswith("부 록")
+
+
 def test_prose_pages_have_non_empty_paragraphs_without_running_header_residue() -> None:
     inventory = _page_meta_by_page()
     prose_entries = [

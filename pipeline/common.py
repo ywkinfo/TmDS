@@ -24,6 +24,7 @@ RUNNING_HEADER_PATTERNS = (
     re.compile(r"^Intellectual\s+Property\s+Trial\s+and$", re.IGNORECASE),
     re.compile(r"^Appeal\s+Board$", re.IGNORECASE),
     re.compile(r"^제\s+\d+\s+편$"),
+    re.compile(r"^부\s*록$"),
 )
 
 

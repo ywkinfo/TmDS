@@ -21,6 +21,13 @@ def _extract_section_html(chapter_html: str, section_id: str, next_section_id: s
     return section_html
 
 
+def _extract_html_between_markers(chapter_html: str, start_marker: str, end_marker: str) -> str:
+    _, _, remainder = chapter_html.partition(start_marker)
+    assert remainder
+    section_html, _, _ = remainder.partition(end_marker)
+    return section_html
+
+
 def test_classify_entry_assigns_procedure_and_party_categories() -> None:
     assert classify_entry({"sectionTitle": "제2절 참가의 신청 또는 취하", "partTitle": "제5편 심판의 당사자ㆍ대리인ㆍ참가인"}) == [
         "party",
@@ -68,6 +75,16 @@ def test_trim_leading_heading_noise_removes_repeated_part_and_chapter_titles() -
     assert cleaned == "심판청구서가 접수된 때는 심판정책과는 아래와 같은 절차를 밟는다."
 
 
+def test_trim_leading_heading_noise_handles_compact_appendix_titles() -> None:
+    cleaned = trim_leading_heading_noise(
+        "부록3. 2006년 특허법․ 실용신안법 개정내용",
+        "3. 2006년 특허법 실용신안법 개정내용",
+        "부 록",
+    )
+
+    assert cleaned == ""
+
+
 def test_table_rows_to_html_renders_synthetic_table_markup() -> None:
     rows = [
         split_table_cells("코드 | 사건 구분 | 사건 유형 | 내용"),
@@ -105,6 +122,17 @@ def test_first_chapter_document_html_excludes_fragmented_part_headers() -> None:
     assert "<p>제</p>" not in chapter["html"]
     assert "<p>1</p>" not in chapter["html"]
     assert "<p>편</p>" not in chapter["html"]
+
+
+def test_appendix_chapter_document_html_drops_duplicate_leading_title_line() -> None:
+    document_data = load_generated_json("document-data.json")
+    chapter = next(
+        chapter
+        for chapter in document_data["chapters"]
+        if chapter["slug"] == "3-2006년-특허법-실용신안법-개정내용"
+    )
+
+    assert "<p>부록3. 2006년 특허법․ 실용신안법 개정내용</p>" not in chapter["html"]
 
 
 def test_same_page_sections_are_split_without_repeating_neighbor_content() -> None:
@@ -162,3 +190,115 @@ def test_table_sections_keep_sandwiched_prose_pages_as_pdf_images() -> None:
     assert "./generated/images/table-crops/0461-1.png" in chapter["html"]
     assert "./generated/images/table-crops/0462-1.png" in chapter["html"]
     assert "./generated/images/table-crops/0463-1.png" in chapter["html"]
+
+
+def test_table_crop_absorbs_wrapped_table_rows_without_text_leak() -> None:
+    document_data = load_generated_json("document-data.json")
+    chapter = next(chapter for chapter in document_data["chapters"] if chapter["slug"] == "제2장-기간의-계산")
+    section_html = _extract_section_html(chapter["html"], "제1절-기간의-종류", "제2절-법정기간")
+
+    assert "./generated/images/table-crops/0531-1.png" in section_html
+    assert "<p>거절이유통지에 대한 의견서제출시, | 디자인일부심사에 대한 이의신청 답 | 변서 제출시, 무효심판에 대한 답변 | 서 제출시</p>" not in section_html
+
+
+def test_table_crop_absorbs_narrow_intermediate_form_rows_without_split() -> None:
+    document_data = load_generated_json("document-data.json")
+    chapter = next(chapter for chapter in document_data["chapters"] if chapter["slug"] == "제1장-구술심리")
+    section_html = _extract_section_html(chapter["html"], "제4절-구술심리기일의-종결", "제5절-심리종결과-재개")
+
+    assert "./generated/images/table-crops/0403-1.png" in section_html
+    assert "./generated/images/table-crops/0403-2.png" not in section_html
+    assert "<p>000</p>" not in section_html
+    assert "<p>특 허 심 판 원</p>" not in section_html
+    assert "<p>제 oo 부</p>" not in section_html
+    assert "<p>구 술 심 리 조 서</p>" not in section_html
+
+
+def test_table_crop_absorbs_single_column_intermediate_rows_within_same_table() -> None:
+    document_data = load_generated_json("document-data.json")
+    chapter = next(chapter for chapter in document_data["chapters"] if chapter["slug"] == "제3장-심결분류")
+    section_html = _extract_section_html(chapter["html"], "제3절-심결분류표", "제4절-심결분류-및-판결분류의-사용요령")
+
+    assert "./generated/images/table-crops/0468-1.png" in section_html
+    assert "<p>조약위반의 출원</p>" not in section_html
+    assert "<p>조약위반의 등록</p>" not in section_html
+    assert "<p>등록후의 조약위반</p>" not in section_html
+    assert "<p>610</p>" not in section_html
+    assert "<p>620</p>" not in section_html
+
+
+def test_appendix_form_pages_render_as_single_crop_without_field_label_leak() -> None:
+    document_data = load_generated_json("document-data.json")
+    chapter = next(
+        chapter
+        for chapter in document_data["chapters"]
+        if chapter["slug"] == "1-심판관계서식례-및-기재례"
+    )
+    html = chapter["html"]
+    appendix_6_1_html = _extract_html_between_markers(
+        html,
+        "./generated/images/table-crops/1236-1.png",
+        "./generated/images/table-crops/1237-1.png",
+    )
+    appendix_6_2_html = _extract_html_between_markers(
+        html,
+        "./generated/images/table-crops/1237-1.png",
+        "./generated/images/table-crops/1238-1.png",
+    )
+    appendix_6_3_html = _extract_html_between_markers(
+        html,
+        "./generated/images/table-crops/1238-1.png",
+        "./generated/images/table-crops/1239-1.png",
+    )
+    appendix_6_4_html = _extract_html_between_markers(
+        html,
+        "./generated/images/table-crops/1239-1.png",
+        "./generated/images/table-crops/1240-1.png",
+    )
+    appendix_6_5_html = _extract_html_between_markers(
+        html,
+        "./generated/images/table-crops/1240-1.png",
+        "./generated/images/table-crops/1241-1.png",
+    )
+
+    assert "./generated/images/table-crops/1239-1.png" in html
+    assert "./generated/images/table-crops/1239-2.png" not in html
+    assert "./generated/images/table-crops/1240-1.png" in html
+    assert "./generated/images/table-crops/1240-2.png" not in html
+    assert "<p>위 사실을 증명함.</p>" not in appendix_6_1_html
+    assert "<p>20 . . .</p>" not in appendix_6_1_html
+    assert "<p>특 허 심 판 원 장 삎</p>" not in appendix_6_1_html
+    assert "<p>위 사실을 증명함.</p>" not in appendix_6_2_html
+    assert "<p>20 . . .</p>" not in appendix_6_2_html
+    assert "<p>특 허 심 판 원 장 삎</p>" not in appendix_6_2_html
+    assert "<p>위 사실을 증명함.</p>" not in appendix_6_3_html
+    assert "<p>20 . . .</p>" not in appendix_6_3_html
+    assert "<p>특 허 심 판 원 장 삎</p>" not in appendix_6_3_html
+    assert "<p>청 구 인</p>" not in appendix_6_4_html
+    assert "<p>피 청 구 인</p>" not in appendix_6_4_html
+    assert "<p>위 사실을 증명함.</p>" not in appendix_6_4_html
+    assert "<p>청 구 인</p>" not in appendix_6_5_html
+    assert "<p>피청구인</p>" not in appendix_6_5_html
+    assert "<p>위 사실을 증명함.</p>" not in appendix_6_5_html
+    assert "<p>특 허 심 판 원 심 판 정 책 과 장 삎</p>" not in appendix_6_5_html
+
+
+def test_comparison_table_page_absorbs_wrapped_single_column_rows() -> None:
+    document_data = load_generated_json("document-data.json")
+    chapter = next(
+        chapter
+        for chapter in document_data["chapters"]
+        if chapter["slug"] == "제5장-정정-인정여부-판단-유형-및-사례"
+    )
+    table_window = _extract_html_between_markers(
+        chapter["html"],
+        "./generated/images/table-crops/0814-1.png",
+        "./generated/images/table-crops/0815-1.png",
+    )
+
+    assert "./generated/images/table-crops/0814-1.png" in chapter["html"]
+    assert "./generated/images/table-crops/0814-2.png" not in chapter["html"]
+    assert "./generated/images/table-crops/0814-3.png" not in chapter["html"]
+    assert "<p>하여 확장이나 변경에 해당하는지 여부를 판단)</p>" not in table_window
+    assert "<p>해당)</p>" not in table_window
+    assert "<p>위의 실질적인 변경에 해당되지 아니한다)</p>" not in table_window

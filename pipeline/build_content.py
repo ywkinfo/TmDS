@@ -158,14 +158,16 @@ def build_part_intro_content(part: dict[str, Any]) -> tuple[str, str]:
 def trim_leading_heading_noise(text: str, *titles: str) -> str:
     cleaned = text.strip()
     normalized_titles = [normalize_bookmark_title(title) for title in titles if title]
-
     def consume_matching_prefix(value: str, title: str) -> tuple[str, bool]:
         max_probe = min(len(value), len(title) + 12)
         min_probe = max(1, len(title) - 8)
+        compact_title = "".join(title.split())
 
         for end in range(max_probe, min_probe - 1, -1):
             candidate = value[:end].rstrip()
-            if normalize_bookmark_title(candidate) == title:
+            normalized_candidate = normalize_bookmark_title(candidate)
+            compact_candidate = "".join(normalized_candidate.split())
+            if normalized_candidate == title or compact_candidate == compact_title:
                 return value[end:].lstrip(), True
         return value, False
 
@@ -224,6 +226,141 @@ def band_column_cluster_count(lines: list[dict[str, Any]]) -> int:
     return len(cluster_positions(lefts, tolerance=18.0))
 
 
+def band_text_content(band: dict[str, Any]) -> str:
+    return " ".join(str(line.get("text", "")).strip() for line in band["lines"]).strip()
+
+
+def is_table_continuation_band(
+    band: dict[str, Any],
+    *,
+    current_left: float,
+    current_right: float,
+) -> bool:
+    band_left = min(float(line["bbox"][0]) for line in band["lines"])
+    band_right = max(float(line["bbox"][2]) for line in band["lines"])
+    width = max(1.0, current_right - current_left)
+    band_width = max(1.0, band_right - band_left)
+    cluster_count = band_column_cluster_count(band["lines"])
+    band_center = (band_left + band_right) / 2.0
+    current_center = (current_left + current_right) / 2.0
+    text = band_text_content(band)
+    short_band = len(text) <= 48 and band_width <= max(180.0, width * 0.5)
+
+    return (
+        (
+            cluster_count == 1
+            and band_left >= current_left - 8.0
+            and band_right <= current_right + 18.0
+            and band_width <= width * 0.55
+        )
+        or (
+            cluster_count == 1
+            and short_band
+            and band_left >= current_left - width * 0.35
+            and band_right <= current_left + width * 0.18
+        )
+        or (
+            cluster_count == 1
+            and short_band
+            and band_left >= current_left - 8.0
+            and band_right <= current_left + width * 0.22
+        )
+        or (
+            cluster_count == 1
+            and short_band
+            and abs(band_center - current_center) <= max(48.0, width * 0.2)
+        )
+        or (
+            cluster_count == 1
+            and band_left >= current_left + width * 0.12
+            and band_right <= current_right + 12.0
+            and band_width >= width * 0.35
+        )
+    )
+
+
+def detect_dense_form_region(
+    bands: list[dict[str, Any]],
+    *,
+    page_width: float,
+    table_like_indices: list[int],
+) -> dict[str, Any] | None:
+    if len(table_like_indices) < 4:
+        return None
+
+    start_band_index = table_like_indices[0]
+    end_band_index = table_like_indices[-1]
+    included_bands = bands[start_band_index : end_band_index + 1]
+    current_left = min(float(line["bbox"][0]) for band in included_bands for line in band["lines"])
+    current_right = max(float(line["bbox"][2]) for band in included_bands for line in band["lines"])
+
+    for index in range(start_band_index, end_band_index + 1):
+        if index in table_like_indices:
+            continue
+        if not is_table_continuation_band(
+            bands[index],
+            current_left=current_left,
+            current_right=current_right,
+        ):
+            return None
+
+    while start_band_index > 0:
+        previous_band = bands[start_band_index - 1]
+        previous_left = min(float(line["bbox"][0]) for line in previous_band["lines"])
+        previous_right = max(float(line["bbox"][2]) for line in previous_band["lines"])
+        previous_width = previous_right - previous_left
+        previous_center = (previous_left + previous_right) / 2.0
+        current_center = (current_left + current_right) / 2.0
+        previous_text = band_text_content(previous_band)
+        previous_gap = float(bands[start_band_index]["top"]) - float(previous_band["bottom"])
+        if (
+            previous_gap <= 32.0
+            and previous_text
+            and len(previous_text) <= 48
+            and previous_width <= max(180.0, (current_right - current_left) * 0.5)
+            and abs(previous_center - current_center) <= max(48.0, (current_right - current_left) * 0.2)
+        ):
+            start_band_index -= 1
+            continue
+        break
+
+    while end_band_index + 1 < len(bands):
+        next_band = bands[end_band_index + 1]
+        next_gap = float(next_band["top"]) - float(bands[end_band_index]["bottom"])
+        if next_gap > 50.0:
+            break
+        if not is_table_continuation_band(
+            next_band,
+            current_left=current_left,
+            current_right=current_right,
+        ):
+            break
+        end_band_index += 1
+
+    included_bands = bands[start_band_index : end_band_index + 1]
+    line_indices = {
+        int(line["index"])
+        for band in included_bands
+        for line in band["lines"]
+        if line.get("index") is not None
+    }
+    left = min(float(line["bbox"][0]) for band in included_bands for line in band["lines"])
+    top = min(float(line["bbox"][1]) for band in included_bands for line in band["lines"])
+    right = max(float(line["bbox"][2]) for band in included_bands for line in band["lines"])
+    bottom = max(float(line["bbox"][3]) for band in included_bands for line in band["lines"])
+
+    return {
+        "id": 1,
+        "lineIndices": line_indices,
+        "bbox": [
+            max(0.0, left - 12.0),
+            max(0.0, top - 12.0),
+            min(page_width, right + 12.0),
+            bottom + 12.0,
+        ],
+    }
+
+
 def detect_table_regions(page_review: dict[str, Any], *, page_width: float) -> list[dict[str, Any]]:
     source_lines = list(page_review.get("sourceLines", []))
     if not source_lines:
@@ -238,13 +375,37 @@ def detect_table_regions(page_review: dict[str, Any], *, page_width: float) -> l
     if not table_like_indices:
         return []
 
+    dense_form_region = detect_dense_form_region(
+        bands,
+        page_width=page_width,
+        table_like_indices=table_like_indices,
+    )
+    if dense_form_region is not None:
+        return [dense_form_region]
+
     groups: list[tuple[int, int]] = []
     start_index = table_like_indices[0]
     end_index = table_like_indices[0]
     for index in table_like_indices[1:]:
         previous_band = bands[end_index]
         current_band = bands[index]
-        if index - end_index <= 2 and float(current_band["top"]) - float(previous_band["bottom"]) <= 42.0:
+        included_bands = bands[start_index : end_index + 1]
+        current_left = min(float(line["bbox"][0]) for band in included_bands for line in band["lines"])
+        current_right = max(float(line["bbox"][2]) for band in included_bands for line in band["lines"])
+        intermediate_bands = bands[end_index + 1 : index]
+        intermediates_ok = all(
+            is_table_continuation_band(
+                band,
+                current_left=current_left,
+                current_right=current_right,
+            )
+            for band in intermediate_bands
+        )
+        effective_bottom = (
+            float(intermediate_bands[-1]["bottom"]) if intermediate_bands else float(previous_band["bottom"])
+        )
+
+        if float(current_band["top"]) - effective_bottom <= 42.0 and intermediates_ok:
             end_index = index
             continue
         groups.append((start_index, end_index))
@@ -262,6 +423,32 @@ def detect_table_regions(page_review: dict[str, Any], *, page_width: float) -> l
                 if previous_text.startswith("【") or previous_text.startswith("["):
                     start_band_index -= 1
 
+        while start_band_index > 0:
+            current_included_bands = bands[start_band_index : end_band_index + 1]
+            current_left = min(float(line["bbox"][0]) for band in current_included_bands for line in band["lines"])
+            current_right = max(float(line["bbox"][2]) for band in current_included_bands for line in band["lines"])
+            current_top = min(float(line["bbox"][1]) for band in current_included_bands for line in band["lines"])
+
+            previous_band = bands[start_band_index - 1]
+            previous_bottom = float(previous_band["bottom"])
+            previous_gap = current_top - previous_bottom
+            previous_lines = previous_band["lines"]
+            previous_left = min(float(line["bbox"][0]) for line in previous_lines)
+            previous_right = max(float(line["bbox"][2]) for line in previous_lines)
+            previous_width = previous_right - previous_left
+            previous_center = (previous_left + previous_right) / 2.0
+            current_center = (current_left + current_right) / 2.0
+
+            if (
+                previous_gap <= 24.0
+                and len(previous_lines) <= 2
+                and previous_width <= (current_right - current_left) * 0.65
+                and abs(previous_center - current_center) <= 36.0
+            ):
+                start_band_index -= 1
+                continue
+            break
+
         while end_band_index + 1 < len(bands):
             current_included_bands = bands[start_band_index : end_band_index + 1]
             left = min(float(line["bbox"][0]) for band in current_included_bands for line in band["lines"])
@@ -271,6 +458,14 @@ def detect_table_regions(page_review: dict[str, Any], *, page_width: float) -> l
             next_gap = float(next_band["top"]) - float(bands[end_band_index]["bottom"])
             next_left = min(float(line["bbox"][0]) for line in next_band["lines"])
             next_right = max(float(line["bbox"][2]) for line in next_band["lines"])
+
+            if next_gap <= 24.0 and is_table_continuation_band(
+                next_band,
+                current_left=left,
+                current_right=right,
+            ):
+                end_band_index += 1
+                continue
 
             # Include wrapped continuation lines that sit in the right half of the table,
             # which commonly appear as the tail of the last row in multi-column comparison tables.
@@ -366,6 +561,7 @@ def collect_range_blocks(
         page_review = page_review_map.get(page_number, {})
         table_regions = table_region_map.get(page_number, [])
         inserted_region_ids: set[int] = set()
+        ordered_region_ids = [int(region["id"]) for region in table_regions]
         for paragraph_entry in page_review.get("paragraphs", []):
             paragraph = str(paragraph_entry.get("text", "")).strip()
             if not paragraph:
@@ -404,6 +600,17 @@ def collect_range_blocks(
                 )
                 inserted_region_ids.add(matched_region_id)
 
+            suppress_html = matched_region_id is not None
+            if (
+                not suppress_html
+                and table_regions
+                and str(paragraph_entry.get("kind") or "") == "table/form"
+                and inserted_region_ids
+            ):
+                current_region_id = max(inserted_region_ids)
+                if any(region_id > current_region_id for region_id in ordered_region_ids):
+                    suppress_html = True
+
             blocks.append(
                 {
                     "type": "paragraph",
@@ -413,7 +620,7 @@ def collect_range_blocks(
                         if table_regions and matched_region_id is None and str(paragraph_entry.get("kind") or "") == "table/form"
                         else str(paragraph_entry.get("kind") or "body")
                     ),
-                    "suppressHtml": matched_region_id is not None,
+                    "suppressHtml": suppress_html,
                 }
             )
             first_paragraph_emitted = True
