@@ -10,7 +10,16 @@ from typing import Any
 
 import pymupdf
 
-from .common import DATA_DIR, GENERATED_DIR, extract_page_blocks, normalize_bookmark_title, normalize_line, parse_page_label_line
+from .common import (
+    DATA_DIR,
+    GENERATED_DIR,
+    extract_page_blocks,
+    merge_extracted_text_segments,
+    normalize_bookmark_title,
+    normalize_line,
+    parse_page_label_line,
+    repair_extracted_text_spacing,
+)
 
 
 OVERRIDES_PATH = DATA_DIR / "research" / "paragraph-overrides.json"
@@ -184,17 +193,18 @@ def extract_page_lines(page: pymupdf.Page) -> list[dict[str, Any]]:
         block_lines: list[dict[str, Any]] = []
         for line_index, line in enumerate(block.get("lines", [])):
             raw_text = "".join(str(span.get("text", "")) for span in line.get("spans", []))
-            text = normalize_line(raw_text)
-            if not text:
+            raw_line_text = normalize_line(raw_text)
+            if not raw_line_text:
                 continue
+            text = repair_extracted_text_spacing(raw_line_text)
 
             bbox = tuple(float(value) for value in line.get("bbox", block.get("bbox")))
             left, top, right, bottom = bbox
-            if parse_page_label_line(text):
+            if parse_page_label_line(raw_line_text):
                 continue
-            if top < 140 and any(pattern.match(text) for pattern in RUNNING_HEADER_PATTERNS):
+            if top < 140 and any(pattern.match(raw_line_text) for pattern in RUNNING_HEADER_PATTERNS):
                 continue
-            if top < 140 and FRAGMENT_HEADER_RE.match(text) and not text.isdigit():
+            if top < 140 and FRAGMENT_HEADER_RE.match(raw_line_text) and not raw_line_text.isdigit():
                 continue
 
             span_texts = [normalize_line(str(span.get("text", ""))) for span in line.get("spans", [])]
@@ -207,6 +217,7 @@ def extract_page_lines(page: pymupdf.Page) -> list[dict[str, Any]]:
                 "legacyBlockIndex": int(next_legacy_block_index),
                 "lineIndex": int(line_index),
                 "text": text,
+                "rawText": raw_line_text,
                 "bbox": bbox,
                 "left": left,
                 "top": top,
@@ -220,7 +231,7 @@ def extract_page_lines(page: pymupdf.Page) -> list[dict[str, Any]]:
                 "sourceSpanTexts": [value for value in span_texts if value],
             }
             if _is_small_running_structural_header(
-                text=text,
+                text=raw_line_text,
                 top=float(top),
                 font_size=float(line_record["fontSize"]),
             ):
@@ -883,7 +894,7 @@ def _render_group_text(
         ):
             return " ".join(str(line["text"]) for line in sorted(group_lines, key=lambda item: float(item["top"]))).strip()
         return " | ".join(str(line["text"]) for line in sorted(group_lines, key=lambda item: (float(item["left"]), float(item["top"])))).strip()
-    return " ".join(str(line["text"]) for line in group_lines).strip()
+    return merge_extracted_text_segments(*(str(line["text"]) for line in group_lines))
 
 
 def _default_override_boundary_reason(page_layout_kind: str, index: int) -> str:
@@ -907,11 +918,11 @@ def _build_override_paragraphs(
 
     for index, spec in enumerate(paragraph_specs):
         if isinstance(spec, str):
-            text = normalize_line(spec)
+            text = repair_extracted_text_spacing(spec)
             kind = page_layout_kind if page_layout_kind != PAGE_LAYOUT_PROSE else "body"
             boundary_reason = _default_override_boundary_reason(page_layout_kind, index)
         else:
-            text = normalize_line(str(spec.get("text", "")))
+            text = repair_extracted_text_spacing(str(spec.get("text", "")))
             kind = str(spec.get("kind") or (page_layout_kind if page_layout_kind != PAGE_LAYOUT_PROSE else "body"))
             boundary_reason = _coerce_boundary_reason(
                 str(spec.get("boundaryReason") or _default_override_boundary_reason(page_layout_kind, index))
@@ -1049,6 +1060,7 @@ def build_page_review_entry(
                 "legacyBlockIndex": int(line["legacyBlockIndex"]),
                 "lineIndex": int(line["lineIndex"]),
                 "text": str(line["text"]),
+                "rawText": str(line.get("rawText", line["text"])),
                 "bbox": [round(float(value), 1) for value in line["bbox"]],
                 "kind": str(line["kind"]),
                 "centered": bool(line["isCentered"]),

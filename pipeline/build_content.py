@@ -14,7 +14,9 @@ from .common import (
     load_config,
     load_generated_json,
     make_excerpt,
+    merge_extracted_text_segments,
     normalize_bookmark_title,
+    normalize_search_text,
     open_pdf,
     paragraph_to_html,
     print_json_summary,
@@ -582,7 +584,7 @@ def collect_range_blocks(
                 and blocks
                 and blocks[-1]["type"] == "paragraph"
             ):
-                blocks[-1]["text"] = f"{blocks[-1]['text']} {paragraph}".strip()
+                blocks[-1]["text"] = merge_extracted_text_segments(str(blocks[-1]["text"]), paragraph)
                 continue
 
             matched_region_id: int | None = None
@@ -908,7 +910,7 @@ def main() -> None:
                         "chapterTitle": normalize_bookmark_title(chapter["fullTitle"]),
                         "sectionId": "part-intro",
                         "sectionTitle": normalize_bookmark_title(part["fullTitle"]),
-                        "text": part_intro_text or normalize_bookmark_title(part["fullTitle"]),
+                        "text": normalize_search_text(part_intro_text or normalize_bookmark_title(part["fullTitle"])),
                         "excerpt": make_excerpt(part_intro_text or normalize_bookmark_title(part["fullTitle"])),
                         "entryType": "part-intro",
                         "partTitle": normalize_bookmark_title(part["fullTitle"]),
@@ -973,7 +975,7 @@ def main() -> None:
                     "chapterTitle": chapter_title,
                     "sectionId": "overview",
                     "sectionTitle": "개요",
-                    "text": cleaned_overview_text or chapter_title,
+                    "text": normalize_search_text(cleaned_overview_text or chapter_title),
                     "excerpt": overview_excerpt,
                     "entryType": "overview",
                     "partTitle": part_title,
@@ -1036,7 +1038,7 @@ def main() -> None:
                         "chapterTitle": chapter_title,
                         "sectionId": item["sectionId"],
                         "sectionTitle": section_title,
-                        "text": cleaned_section_text or section_title,
+                        "text": normalize_search_text(cleaned_section_text or section_title),
                         "excerpt": make_excerpt(cleaned_section_text or section_title),
                         "entryType": "item",
                         "partTitle": part_title,

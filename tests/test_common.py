@@ -1,6 +1,12 @@
 from __future__ import annotations
 
-from pipeline.common import strip_running_header_lines
+from pipeline.common import (
+    make_excerpt,
+    merge_extracted_text_segments,
+    normalize_search_text,
+    repair_extracted_text_spacing,
+    strip_running_header_lines,
+)
 
 
 def test_strip_running_header_lines_removes_known_boilerplate_and_fragmented_part_markers() -> None:
@@ -24,3 +30,41 @@ def test_strip_running_header_lines_removes_known_boilerplate_and_fragmented_par
         "제1장 의의",
         "특허심판이란 특허· 실용신안· 디자인· 상표 출원에 대하여",
     ]
+
+
+def test_repair_extracted_text_spacing_fixes_known_broken_compounds() -> None:
+    text = (
+        "청구인 또 는 피 청구인이 심 판 절차에 의 하여 국선대리 인을 선임하고 "
+        "그 결과를 말 한다."
+    )
+
+    assert repair_extracted_text_spacing(text) == (
+        "청구인 또는 피청구인이 심판절차에 의하여 국선대리인을 선임하고 "
+        "그 결과를 말한다."
+    )
+
+
+def test_repair_extracted_text_spacing_preserves_normal_particle_spacing() -> None:
+    assert repair_extracted_text_spacing("처분은 법률에 의하여 효력이 발생한다.") == (
+        "처분은 법률에 의하여 효력이 발생한다."
+    )
+
+
+def test_merge_extracted_text_segments_repairs_line_boundary_breaks() -> None:
+    assert merge_extracted_text_segments(
+        "이러한 특별행정심판제도를 일반 행정 심판· 소송과 달리 별도로 두고 있는 이유는 산업재",
+        "산권은 전문적인 기술내용 등을 바탕으로 준사법적인 절차를 거쳐 처리되기 때문이다.",
+    ) == (
+        "이러한 특별행정심판제도를 일반 행정심판· 소송과 달리 별도로 두고 있는 이유는 "
+        "산업재산권은 전문적인 기술내용 등을 바탕으로 준사법적인 절차를 거쳐 처리되기 때문이다."
+    )
+
+
+def test_normalize_search_text_repairs_broken_terms_across_newlines() -> None:
+    assert normalize_search_text("기간을 말\n\n한다.\n\n심판장 또\n\n는 심사관") == "기간을 말한다. 심판장 또는 심사관"
+
+
+def test_make_excerpt_repairs_broken_terms_before_truncation() -> None:
+    assert make_excerpt("등록특허를 신속히 재검토하여 하자가 있는 특\n\n허를 조기에 시정한다.", limit=80) == (
+        "등록특허를 신속히 재검토하여 하자가 있는 특허를 조기에 시정한다."
+    )

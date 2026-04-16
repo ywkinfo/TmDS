@@ -124,6 +124,16 @@ def test_first_chapter_document_html_excludes_fragmented_part_headers() -> None:
     assert "<p>편</p>" not in chapter["html"]
 
 
+def test_first_chapter_document_html_repairs_broken_korean_spacing() -> None:
+    document_data = load_generated_json("document-data.json")
+    chapter = next(chapter for chapter in document_data["chapters"] if chapter["slug"] == "제1장-의의")
+
+    assert "산업재산권은 전문적인 기술내용" in chapter["html"]
+    assert "산업재 산권" not in chapter["html"]
+    assert "행정심판· 소송" in chapter["html"]
+    assert "행정 심판" not in chapter["html"]
+
+
 def test_appendix_chapter_document_html_drops_duplicate_leading_title_line() -> None:
     document_data = load_generated_json("document-data.json")
     chapter = next(

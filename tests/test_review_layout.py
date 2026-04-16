@@ -94,14 +94,40 @@ def test_page_31_drops_right_margin_part_header_fragments_from_body() -> None:
     page31 = _entry_by_page()[31]
     paragraphs = page31["paragraphs"]
     texts = [paragraph["text"] for paragraph in paragraphs]
+    line_with_admin_appeal = next(line for line in page31["sourceLines"] if "행정 심판" in line.get("rawText", ""))
 
     assert page31["pageLayoutKind"] == PAGE_LAYOUT_PROSE
     assert "제" not in texts
     assert "1" not in texts
     assert "편" not in texts
+    assert "행정 심판" in line_with_admin_appeal["rawText"]
+    assert "행정심판" in line_with_admin_appeal["text"]
     assert paragraphs[2]["text"].startswith("특허심판이란 특허· 실용신안· 디자인· 상표 출원에 대하여")
     assert "분에 의해 등록된 산업재산권의 효력의 유효 여부" in paragraphs[2]["text"]
     assert paragraphs[2]["text"].endswith("특별행정심판제도를 말한다.")
+    assert "산업재산권은 전문적인 기술내용" in paragraphs[3]["text"]
+    assert "산업재 산권" not in paragraphs[3]["text"]
+    assert "행정심판· 소송" in paragraphs[3]["text"]
+    assert "행정 심판" not in paragraphs[3]["text"]
+
+
+def test_representative_prose_pages_repair_known_broken_spacing_patterns() -> None:
+    page137 = _entry_by_page()[137]
+    page144 = _entry_by_page()[144]
+    page164 = _entry_by_page()[164]
+
+    page137_text = "\n".join(paragraph["text"] for paragraph in page137["paragraphs"])
+    page144_text = "\n".join(paragraph["text"] for paragraph in page144["paragraphs"])
+    page164_text = "\n".join(paragraph["text"] for paragraph in page164["paragraphs"])
+
+    assert "또는 피청구인" in page137_text
+    assert "또 는" not in page137_text
+    assert "말한다." in page144_text
+    assert "말 한다" not in page144_text
+    assert "국선대리인" in page164_text
+    assert "국선대리 인" not in page164_text
+    assert "심판 절차" not in page164_text
+    assert "심판절차" in page164_text
 
 
 def test_page_9_is_classified_as_table_form_and_emits_row_items() -> None:
