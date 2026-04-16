@@ -9,7 +9,7 @@ from .common import load_generated_json, print_json_summary, write_json
 FLAG_PRIORITY = {
     "missing-table-crop": 100,
     "synthetic-table-remains": 95,
-    "multi-section-page": 85,
+    "multi-section-page": 68,
     "low-confidence": 80,
     "has-override": 75,
     "page-merge": 70,
@@ -55,7 +55,7 @@ def calculate_priority_score(page: dict[str, Any]) -> int:
         score += 8
 
     overlap_count = int(page.get("sectionOverlapCount") or 0)
-    if overlap_count >= 2:
+    if overlap_count >= 2 and set(flags) != {"multi-section-page"}:
         score += overlap_count * 4
 
     return score
