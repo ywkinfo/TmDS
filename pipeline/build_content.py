@@ -26,6 +26,11 @@ from .review_layout import build_page_review_entries
 
 TABLE_CELL_SEPARATOR_RE = re.compile(r"\s+\|\s+")
 TABLE_BODY_FIRST_CELL_RE = re.compile(r"^(?:\d{2,4}|[A-Z]{1,6}|[①-⑳⑴-⑽㈎-㈞ⓅⓊⒹⒺⓉⓈ])$")
+SPECIAL_INLINE_HEADING_RE = re.compile(r"^(?:[\[【].+[】\]]|<\s*.+\s*>)$")
+
+
+def inline_heading_to_html(paragraph: str) -> str:
+    return f'<h4 class="reader-inline-heading">{escape(paragraph)}</h4>'
 
 
 def classify_entry(entry: dict[str, Any]) -> list[str]:
@@ -674,6 +679,9 @@ def render_content_blocks(
             continue
 
         flush_pending_table()
+        if str(block.get("kind") or "") == "heading" and SPECIAL_INLINE_HEADING_RE.match(paragraph):
+            html_parts.append(inline_heading_to_html(paragraph))
+            continue
         html_parts.append(paragraph_to_html(paragraph))
 
     flush_pending_table()
@@ -1049,6 +1057,12 @@ def main() -> None:
                 if entry["chapterSlug"] == chapter["slug"] and entry["text"] and entry["entryType"] != "part-intro"
             )
             chapter_summary = make_excerpt(chapter_text or normalize_bookmark_title(chapter["fullTitle"]), limit=220)
+            overview_fallback_text = cleaned_overview_text.strip()
+            chapter_overview_fallback_html = (
+                paragraph_to_html(overview_fallback_text)
+                if overview_fallback_text and normalize_bookmark_title(overview_fallback_text) != chapter_title
+                else ""
+            )
 
             chapters.append(
                 {
@@ -1058,7 +1072,7 @@ def main() -> None:
                     "summary": chapter_summary,
                     "html": build_chapter_html(
                         chapter=chapter,
-                        chapter_overview_html=overview_html or paragraph_to_html(chapter_summary),
+                        chapter_overview_html=overview_html or chapter_overview_fallback_html,
                         section_html_parts=section_html_parts,
                     ),
                     "hasImage": chapter_has_image,

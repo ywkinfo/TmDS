@@ -135,6 +135,18 @@ def test_appendix_chapter_document_html_drops_duplicate_leading_title_line() -> 
     assert "<p>부록3. 2006년 특허법․ 실용신안법 개정내용</p>" not in chapter["html"]
 
 
+def test_chapter_overview_html_does_not_repeat_title_from_summary_fallback() -> None:
+    document_data = load_generated_json("document-data.json")
+    chapter = next(
+        chapter
+        for chapter in document_data["chapters"]
+        if chapter["slug"] == "제2장-기간의-계산"
+    )
+
+    assert '<section id="overview"><h2>제2장 기간의 계산</h2><p>제2장 기간의 계산 ' not in chapter["html"]
+    assert '<section id="제1절-기간의-종류"><h3>제1절 기간의 종류</h3>' in chapter["html"]
+
+
 def test_same_page_sections_are_split_without_repeating_neighbor_content() -> None:
     document_data = load_generated_json("document-data.json")
     chapter = next(
@@ -171,6 +183,30 @@ def test_same_page_sections_are_split_without_repeating_neighbor_content() -> No
     assert "제4절 등록원부 예고등록의뢰" not in section3_html
     assert "제7절 심판관지정" not in section6_html
     assert "심판번호 및 심판관지정의 결재가 있으면" in section7_html
+
+
+def test_boxed_callout_heading_is_preserved_as_inline_heading_markup() -> None:
+    document_data = load_generated_json("document-data.json")
+    chapter = next(
+        chapter
+        for chapter in document_data["chapters"]
+        if chapter["slug"] == "제8장-특허무효심판-청구에-대한-심리"
+    )
+
+    assert '<h4 class="reader-inline-heading">【기재례】</h4>' in chapter["html"]
+    assert '<p>【기재례】</p>' not in chapter["html"]
+
+
+def test_angle_bracket_heading_is_preserved_as_inline_heading_markup() -> None:
+    document_data = load_generated_json("document-data.json")
+    chapter = next(
+        chapter
+        for chapter in document_data["chapters"]
+        if chapter["slug"] == "제1장-심판의-주체"
+    )
+
+    assert '<h4 class="reader-inline-heading">&lt; 심판원장의 직무와 권한&gt;</h4>' in chapter["html"]
+    assert '<p>&lt; 심판원장의 직무와 권한&gt;</p>' not in chapter["html"]
 
 
 def test_complex_table_pages_render_as_pdf_page_images() -> None:
