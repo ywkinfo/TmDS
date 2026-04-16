@@ -18,8 +18,43 @@ def test_build_page_entry_overlap_counts_multi_section_pages_from_non_alias_entr
         ]
     )
 
-    assert overlap[10] == {"item::a", "item::b", "overview::overview"}
+    assert overlap[10] == {"item::a", "item::b"}
     assert overlap[11] == {"item::b"}
+
+
+def test_build_report_does_not_promote_overview_plus_single_item_to_multi_section() -> None:
+    report = build_report(
+        page_review=[
+            {
+                "pageNumber": 10,
+                "pageLabel": None,
+                "chapterSlug": "chapter-a",
+                "sectionId": "section-a",
+                "pageLayoutKind": "list",
+                "confidence": "medium",
+                "hasOverride": False,
+                "mergeFirstGroupWithPreviousPage": False,
+                "paragraphs": [],
+            }
+        ],
+        search_index=[
+            {"entryType": "overview", "sectionId": "overview", "pageStart": 10, "pageEnd": 10},
+            {"entryType": "item", "sectionId": "section-a", "pageStart": 10, "pageEnd": 10},
+        ],
+        document_data={
+            "chapters": [
+                {
+                    "slug": "chapter-a",
+                    "html": "<section></section>",
+                }
+            ]
+        },
+    )
+
+    page = report["pages"][0]
+    assert page["sectionOverlapCount"] == 1
+    assert "multi-section-page" not in page["flags"]
+    assert page["riskTier"] == "low"
 
 
 def test_detect_page_flags_marks_low_confidence_override_merge_and_crop_gaps() -> None:
@@ -42,6 +77,27 @@ def test_detect_page_flags_marks_low_confidence_override_merge_and_crop_gaps() -
     assert "page-merge" in flags
     assert "boxed-heading" in flags
     assert "missing-table-crop" in flags
+
+
+def test_detect_page_flags_ignores_angle_brackets_inside_table_rows() -> None:
+    flags = detect_page_flags(
+        {
+            "pageNumber": 1262,
+            "pageLayoutKind": "table/form",
+            "confidence": "medium",
+            "hasOverride": False,
+            "mergeFirstGroupWithPreviousPage": False,
+            "paragraphs": [
+                {"text": "[ 이의신청ㆍ무효심판ㆍ새로운 무효심판사유의 대비]"},
+                {"text": "<특허법 제69조 제1항> | <특허법 제133조 제1항> | <개정 특허법 제133조 제1항>"},
+            ],
+        },
+        section_overlap_count=0,
+        chapter_html='<section><img src="./generated/images/table-crops/1262-1.png" /></section>',
+    )
+
+    assert "boxed-heading" in flags
+    assert "angle-heading" not in flags
 
 
 def test_classify_risk_tier_promotes_high_risk_signals() -> None:

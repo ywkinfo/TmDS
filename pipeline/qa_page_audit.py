@@ -16,7 +16,7 @@ def build_page_entry_overlap(search_index: list[dict[str, Any]]) -> dict[int, se
     page_to_entries: dict[int, set[str]] = defaultdict(set)
 
     for entry in search_index:
-        if entry.get("entryType") == "search-alias":
+        if entry.get("entryType") in {"search-alias", "overview"}:
             continue
         key = f"{entry.get('entryType')}::{entry.get('sectionId')}"
         for page_number in range(int(entry["pageStart"]), int(entry["pageEnd"]) + 1):
@@ -40,6 +40,7 @@ def detect_page_flags(
 ) -> list[str]:
     flags: list[str] = []
     texts = [str(paragraph.get("text", "")).strip() for paragraph in page.get("paragraphs", [])]
+    non_table_texts = [text for text in texts if text and "|" not in text]
     page_number = int(page["pageNumber"])
     crop_prefix = f"table-crops/{page_number:04d}-"
 
@@ -53,7 +54,7 @@ def detect_page_flags(
         flags.append("page-merge")
     if any(BOXED_HEADING_RE.match(text) for text in texts if text):
         flags.append("boxed-heading")
-    if any(ANGLE_HEADING_RE.match(text) for text in texts if text):
+    if any(ANGLE_HEADING_RE.match(text) for text in non_table_texts):
         flags.append("angle-heading")
     if str(page.get("pageLayoutKind")) == "table/form" and crop_prefix not in chapter_html:
         flags.append("missing-table-crop")
