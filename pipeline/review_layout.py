@@ -194,7 +194,7 @@ def extract_page_lines(page: pymupdf.Page) -> list[dict[str, Any]]:
                 continue
             if top < 140 and any(pattern.match(text) for pattern in RUNNING_HEADER_PATTERNS):
                 continue
-            if top < 140 and FRAGMENT_HEADER_RE.match(text):
+            if top < 140 and FRAGMENT_HEADER_RE.match(text) and not text.isdigit():
                 continue
 
             span_texts = [normalize_line(str(span.get("text", ""))) for span in line.get("spans", [])]
@@ -635,13 +635,26 @@ def _build_list_groups(lines: list[dict[str, Any]]) -> list[dict[str, Any]]:
 
     for line in lines:
         starts_entry = _is_list_marker_line(str(line["text"])) or SPECIAL_HEADING_RE.match(str(line["text"]).strip()) is not None
+        previous_line = lines[current_lines[-1]] if current_lines else None
+        gap = float(line["top"]) - float(previous_line["bottom"]) if previous_line else 0.0
+        current_group_has_leader_dots = bool(
+            current_lines and _has_leader_dots(str(lines[current_lines[0]]["text"]))
+        )
         current_group_is_special_heading = bool(
             current_lines and SPECIAL_HEADING_RE.match(str(lines[current_lines[0]]["text"]).strip()) is not None
+        )
+        split_explanatory_note_after_leader_row = bool(
+            current_lines
+            and not starts_entry
+            and current_group_has_leader_dots
+            and not _has_leader_dots(str(line["text"]))
+            and gap >= 10.0
         )
         continuation = (
             current_lines
             and not starts_entry
             and not current_group_is_special_heading
+            and not split_explanatory_note_after_leader_row
             and float(line["left"]) >= current_left - 2.0
         )
 
@@ -651,10 +664,10 @@ def _build_list_groups(lines: list[dict[str, Any]]) -> list[dict[str, Any]]:
             current_left = float(line["left"])
             continue
 
-        if (starts_entry or current_group_is_special_heading) and not continuation:
+        if (starts_entry or current_group_is_special_heading or split_explanatory_note_after_leader_row) and not continuation:
             groups.append({"lineIndices": current_lines, "boundaryReason": _coerce_boundary_reason(current_reason)})
             current_lines = [int(line["index"])]
-            current_reason = "list-marker" if starts_entry else "style-change"
+            current_reason = "list-marker" if starts_entry else ("gap" if split_explanatory_note_after_leader_row else "style-change")
             current_left = float(line["left"])
         else:
             current_lines.append(int(line["index"]))
@@ -667,9 +680,42 @@ def _build_list_groups(lines: list[dict[str, Any]]) -> list[dict[str, Any]]:
 
 def _build_table_groups(lines: list[dict[str, Any]]) -> list[dict[str, Any]]:
     groups: list[dict[str, Any]] = []
-    for index, band in enumerate(_build_row_bands(lines)):
+    bands = _build_row_bands(lines)
+    index = 0
+
+    while index < len(bands):
+        band = bands[index]
         line_indices = [int(line["index"]) for line in sorted(band["lines"], key=lambda item: (float(item["left"]), float(item["top"])))]
+
+        is_wide_single_line_tail = (
+            len(band["lines"]) == 1
+            and float(band["lines"][0]["width"]) >= 240.0
+            and index > 0
+            and len(bands[index - 1]["lines"]) >= 2
+        )
+        if is_wide_single_line_tail:
+            merged_line_indices = list(line_indices)
+            end_index = index
+            while end_index + 1 < len(bands):
+                next_band = bands[end_index + 1]
+                if len(next_band["lines"]) != 1:
+                    break
+                next_line = next_band["lines"][0]
+                gap = float(next_band["top"]) - float(bands[end_index]["bottom"])
+                if float(next_line["width"]) < 240.0 or gap > 24.0:
+                    break
+                merged_line_indices.extend(
+                    int(line["index"])
+                    for line in sorted(next_band["lines"], key=lambda item: (float(item["left"]), float(item["top"])))
+                )
+                end_index += 1
+
+            groups.append({"lineIndices": merged_line_indices, "boundaryReason": "gap"})
+            index = end_index + 1
+            continue
+
         groups.append({"lineIndices": line_indices, "boundaryReason": "page-start" if index == 0 else "table-row"})
+        index += 1
     return groups
 
 
@@ -827,8 +873,15 @@ def _render_group_text(
     group_lines: list[dict[str, Any]],
     *,
     page_layout_kind: str,
+    page_width: float | None = None,
 ) -> str:
     if page_layout_kind == PAGE_LAYOUT_TABLE:
+        if (
+            page_width is not None
+            and len(group_lines) <= 3
+            and all(float(line["width"]) >= page_width * 0.45 for line in group_lines)
+        ):
+            return " ".join(str(line["text"]) for line in sorted(group_lines, key=lambda item: float(item["top"]))).strip()
         return " | ".join(str(line["text"]) for line in sorted(group_lines, key=lambda item: (float(item["left"]), float(item["top"])))).strip()
     return " ".join(str(line["text"]) for line in group_lines).strip()
 
@@ -946,7 +999,7 @@ def build_page_review_entry(
             paragraphs.append(
                 {
                     "index": group_index,
-                    "text": _render_group_text(group_lines, page_layout_kind=page_layout_kind),
+                    "text": _render_group_text(group_lines, page_layout_kind=page_layout_kind, page_width=page_width),
                     "sourceBlocks": paragraph_source_blocks,
                     "sourceLines": [int(line["index"]) for line in group_lines],
                     "kind": _paragraph_kind(first_line, page_layout_kind=page_layout_kind, dominant_body_font=dominant_body_font),
@@ -967,6 +1020,7 @@ def build_page_review_entry(
         merge_first_group = (
             previous_layout_kind == PAGE_LAYOUT_PROSE
             and first_paragraph["kind"] == "body"
+            and not _is_list_marker_line(first_paragraph["text"])
             and _is_incomplete_paragraph(previous_last_paragraph)
             and dominant_body_font is not None
             and first_line is not None

@@ -12,6 +12,7 @@ from pipeline.review_layout import (
     PAGE_LAYOUT_TABLE,
     PAGE_LAYOUT_TOC,
     RUNNING_HEADER_PATTERNS,
+    build_page_review_entry,
     build_page_review_entries,
     load_paragraph_overrides,
 )
@@ -74,7 +75,7 @@ def test_page_7_splits_explanatory_note_out_of_list_rows() -> None:
     paragraphs = page7["paragraphs"]
 
     assert page7["pageLayoutKind"] == PAGE_LAYOUT_LIST
-    assert page7["hasOverride"] is True
+    assert page7["hasOverride"] is False
     assert paragraphs[-2]["text"].startswith("가), 나), 다)")
     assert paragraphs[-1]["text"].startswith("다시 항을 나누는 의미가 아니고")
 
@@ -108,11 +109,36 @@ def test_page_9_is_classified_as_table_form_and_emits_row_items() -> None:
     paragraphs = page9["paragraphs"]
 
     assert page9["pageLayoutKind"] == PAGE_LAYOUT_TABLE
+    assert page9["hasOverride"] is False
     assert page9["paragraphCount"] >= 20
     assert " | " in paragraphs[0]["text"]
     assert paragraphs[1]["boundaryReason"] == "table-row"
     assert paragraphs[1]["text"].startswith("002 | 가합 | 민사 | 민사1심합의사건")
     assert "068 | 준재가소 | 민사 | 민사소액사건준재심" in paragraphs[1]["text"]
+
+
+def test_page_9_without_override_preserves_leading_case_codes() -> None:
+    config = load_config()
+    document = open_pdf(config)
+    page_meta = _page_meta_by_page()[9]
+
+    page9 = build_page_review_entry(
+        document.load_page(8),
+        page_meta,
+        override=None,
+        previous_page_context=None,
+    )
+    paragraphs = page9["paragraphs"]
+
+    assert page9["pageLayoutKind"] == PAGE_LAYOUT_TABLE
+    assert page9["hasOverride"] is False
+    assert paragraphs[1]["text"].startswith("002 | 가합 | 민사 | 민사1심합의사건")
+    assert "068 | 준재가소 | 민사 | 민사소액사건준재심" in paragraphs[1]["text"]
+    assert paragraphs[2]["text"].startswith("001 | 가단 | 민사 | 민사1심단독사건")
+    assert "105 | 준재나 | 민사 | 민사항소사건준재심" in paragraphs[2]["text"]
+    assert paragraphs[-1]["text"].startswith("10. 이 편람에 수록된 서식례 및 기재례는")
+    assert "행정심판규칙 등을 참고하였다." in paragraphs[-1]["text"]
+    assert " | " not in paragraphs[-1]["text"]
 
 
 def test_page_603_drops_vertical_part_header_fragments_for_split_part_titles() -> None:
@@ -123,6 +149,21 @@ def test_page_603_drops_vertical_part_header_fragments_for_split_part_titles() -
     assert "제" not in texts
     assert "편" not in texts
     assert "14 -1" not in texts
+
+
+def test_page_92_keeps_page_merge_for_continued_sentence() -> None:
+    page92 = _entry_by_page()[92]
+
+    assert page92["mergeFirstGroupWithPreviousPage"] is True
+    assert page92["paragraphs"][0]["boundaryReason"] == "page-merge"
+    assert page92["paragraphs"][0]["text"].startswith("당하는 경우")
+
+
+def test_page_1274_does_not_merge_new_numbered_item() -> None:
+    page1274 = _entry_by_page()[1274]
+
+    assert page1274["mergeFirstGroupWithPreviousPage"] is False
+    assert page1274["paragraphs"][0]["text"].startswith("5. 심사관에 의한 직권정정제도 도입")
 
 
 def test_page_29_is_classified_as_decorative_structural() -> None:
@@ -203,3 +244,5 @@ def test_prose_pages_have_non_empty_paragraphs_without_running_header_residue() 
 def test_overrides_file_no_longer_pins_preface_page() -> None:
     overrides = load_paragraph_overrides()
     assert 5 not in overrides
+    assert 7 not in overrides
+    assert 9 not in overrides
