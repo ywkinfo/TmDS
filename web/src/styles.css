@@ -332,6 +332,15 @@ code {
   color: var(--color-accent-strong);
 }
 
+.landing-link-row {
+  padding-top: var(--space-1);
+}
+
+.landing-link-row .chip-link {
+  color: var(--color-accent);
+  background: rgba(255, 255, 255, 0.84);
+}
+
 .meta-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));

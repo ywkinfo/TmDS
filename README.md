@@ -10,6 +10,7 @@ exploration index, inline image asset을 재현 가능한 방식으로 생성하
 - `data/source/source-config.json`: 입력과 구조 기준선
 - `data/research/`: 수동 보정 메모, 성능 측정 메모, QA 기록
 - `data/generated/`: 파이프라인 산출물
+- `data/notebooklm/`: NotebookLM 업로드용 Markdown 산출물
 - `pipeline/`: Python 파이프라인
 - `tests/`: Python 테스트
 - `web/`: generated JSON을 읽는 React/Vite 리더
@@ -24,6 +25,7 @@ exploration index, inline image asset을 재현 가능한 방식으로 생성하
 - `npm run content:build`: document-data, search-index, exploration-index 생성
 - `npm run content:qa`: 구조 및 coverage QA
 - `npm run content:prepare`: 전체 content pipeline 실행
+- `npm run content:notebooklm`: `content:prepare` 실행 후 NotebookLM용 Markdown(`data/notebooklm/parts/*.md`, `data/notebooklm/chapters/*.md`) 생성
 - `npm run web:sync`: generated JSON과 image asset을 `web/public/generated/`로 동기화
 - `npm run web:prepare`: content pipeline 실행 후 웹 리더 산출물 동기화
 - `npm run web:dev`: 개발 서버 실행

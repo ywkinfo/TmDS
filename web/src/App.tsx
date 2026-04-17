@@ -15,6 +15,25 @@ type LoadState =
   | { status: "error"; message: string }
   | { status: "ready"; data: ReaderData };
 
+const HOME_QUICK_LINKS = [
+  {
+    href: "https://notebooklm.google.com/notebook/c94d50f1-5567-47af-989a-efc5bc1bd830",
+    label: "NotebookLM 보조 자료",
+  },
+  {
+    href: "https://ywkinfo.github.io/TmEG/",
+    label: "상표심사기준 웹 리더",
+  },
+  {
+    href: "https://ywkinfo.github.io/glotm/",
+    label: "GloTm 운영 가이드",
+  },
+  {
+    href: "https://ywkinfo.github.io/",
+    label: "운영자 안내",
+  },
+] as const;
+
 function useBodyScrollLock(locked: boolean): void {
   useEffect(() => {
     if (!locked) {
@@ -36,15 +55,53 @@ function HomePage({ data }: { data: ReaderData }): JSX.Element {
       <section className="surface landing-hero">
         <div className="chapter-hero-copy">
           <span className="eyebrow">TmDS Reader</span>
-          <h1>심판편람 제14판 PDF를 챕터 단위로 탐색하고 읽을 수 있도록 구조화한 웹 리더입니다.</h1>
+          <h1>심판편람 제14판을 언제 어디서나 쉽게 참조할 수 있도록 구조화한 웹 리더입니다.</h1>
           <p>
-            PDF 북마크 구조를 spine으로 삼고, 인쇄 페이지 라벨과 PDF 페이지 번호를 함께 보존해
-            검색과 장/절 탐색을 안정적으로 연결합니다.
+            챕터 단위로 탐색하고 읽을 수 있도록 구성했으며, 인쇄 페이지 라벨과 PDF 페이지 번호를
+            함께 보존해 필요한 절차와 규정을 빠르게 찾아볼 수 있습니다.
           </p>
           <p>
-            `content:prepare`가 만드는 generated JSON을 그대로 읽는 리더이기 때문에, 데이터와 UI를 같은
-            워크스페이스에서 빠르게 검증할 수 있습니다.
+            특히 복잡한 심판 절차 및 관련 규정은{" "}
+            <a
+              className="landing-copy-link"
+              href="https://notebooklm.google.com/notebook/c94d50f1-5567-47af-989a-efc5bc1bd830"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Google NotebookLM 보조 자료
+            </a>
+            와 함께 활용해 보세요. 아울러{" "}
+            <a className="landing-copy-link" href="https://ywkinfo.github.io/TmEG/" target="_blank" rel="noreferrer">
+              상표심사기준 웹 리더
+            </a>
+            ,{" "}
+            <a
+              className="landing-copy-link"
+              href="https://ywkinfo.github.io/glotm/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GloTm의 Cross-Border Trademark Operating Guide
+            </a>
+            ,{" "}
+            <a className="landing-copy-link" href="https://ywkinfo.github.io/" target="_blank" rel="noreferrer">
+              사이트 운영자 안내
+            </a>
+            도 함께 확인하실 수 있습니다.
           </p>
+          <div className="chip-row landing-link-row" aria-label="주요 참고 링크">
+            {HOME_QUICK_LINKS.map((resource) => (
+              <a
+                key={resource.href}
+                href={resource.href}
+                target="_blank"
+                rel="noreferrer"
+                className="chip-link"
+              >
+                {resource.label}
+              </a>
+            ))}
+          </div>
         </div>
         <div className="meta-grid">
           <div className="meta-card">
