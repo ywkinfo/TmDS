@@ -10,6 +10,7 @@
     "content:build": "python -m pipeline.build_content",
     "content:qa": "python -m pipeline.qa_content",
     "content:notebooklm": "npm run content:prepare && python -m pipeline.build_notebooklm_sources",
+    "audit:r2-bundle": "python -m pipeline.build_r2_audit_bundle",
     "qa:page-audit": "python -m pipeline.qa_page_audit",
     "qa:review-queue": "python -m pipeline.qa_review_queue",
     "qa:review-batches": "python -m pipeline.qa_review_batches",
