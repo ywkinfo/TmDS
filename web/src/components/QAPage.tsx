@@ -42,10 +42,20 @@ type ReviewPage = {
   baseLineGap: number;
 };
 
+type AuditPage = {
+  pageNumber: number;
+  riskTier: string;
+  flags: string[];
+};
+
+type AuditReport = {
+  pages: AuditPage[];
+};
+
 type LoadState =
   | { status: "loading" }
   | { status: "missing" }
-  | { status: "ready"; pages: ReviewPage[] };
+  | { status: "ready"; pages: ReviewPage[]; auditPagesByNumber: Record<number, AuditPage> };
 
 function generatedUrl(fileName: string): string {
   return new URL(`../generated/${fileName}`, document.baseURI).toString();
@@ -60,16 +70,29 @@ export function QAPage(): JSX.Element {
   useEffect(() => {
     let cancelled = false;
 
-    fetch(generatedUrl("page-review.json"))
+    const reviewPromise = fetch(generatedUrl("page-review.json")).then((response) => {
+      if (!response.ok) {
+        throw new Error(String(response.status));
+      }
+      return response.json() as Promise<ReviewPage[]>;
+    });
+
+    const auditPromise = fetch(generatedUrl("page-audit-report.json"))
       .then((response) => {
         if (!response.ok) {
-          throw new Error(String(response.status));
+          return null;
         }
-        return response.json() as Promise<ReviewPage[]>;
+        return response.json() as Promise<AuditReport>;
       })
-      .then((pages) => {
+      .catch(() => null);
+
+    Promise.all([reviewPromise, auditPromise])
+      .then(([pages, auditReport]) => {
         if (!cancelled) {
-          setState({ status: "ready", pages });
+          const auditPagesByNumber = Object.fromEntries(
+            (auditReport?.pages ?? []).map((auditPage) => [auditPage.pageNumber, auditPage])
+          );
+          setState({ status: "ready", pages, auditPagesByNumber });
         }
       })
       .catch(() => {
@@ -96,7 +119,10 @@ export function QAPage(): JSX.Element {
       return [];
     }
     return state.pages
-      .filter((candidate) => candidate.hasOverride || candidate.confidence === "low")
+      .filter((candidate) => {
+        const auditPage = state.auditPagesByNumber[candidate.pageNumber];
+        return (auditPage?.flags.length ?? 0) > 0 || candidate.hasOverride || candidate.confidence === "low";
+      })
       .map((candidate) => candidate.pageNumber);
   }, [state]);
 
@@ -152,6 +178,8 @@ export function QAPage(): JSX.Element {
   const previousFlaggedPage = currentFlaggedIndex > 0 ? flaggedPages[currentFlaggedIndex - 1] : null;
   const nextFlaggedPage =
     currentFlaggedIndex >= 0 && currentFlaggedIndex + 1 < flaggedPages.length ? flaggedPages[currentFlaggedIndex + 1] : null;
+  const auditPage = state.status === "ready" ? state.auditPagesByNumber[page.pageNumber] ?? null : null;
+  const pageFlags = auditPage?.flags ?? [];
 
   return (
     <div className="page-stack">
@@ -170,6 +198,9 @@ export function QAPage(): JSX.Element {
             override: {page.hasOverride ? "yes" : "no"} / mergeFirstGroupWithPreviousPage:{" "}
             {page.mergeFirstGroupWithPreviousPage ? "yes" : "no"} / dominantBodyFont: {page.dominantBodyFont ?? "n/a"} / baseLineGap:{" "}
             {page.baseLineGap}
+          </p>
+          <p>
+            risk tier: {auditPage?.riskTier ?? "n/a"} / flags: {pageFlags.length > 0 ? pageFlags.join(", ") : "none"}
           </p>
         </div>
         <form className="search-form" onSubmit={handleJump}>
@@ -225,7 +256,7 @@ export function QAPage(): JSX.Element {
         )}
 
         <div className="chapter-pager-center">
-          <span className="eyebrow">저신뢰/Override</span>
+          <span className="eyebrow">Flagged Pages</span>
           <strong>{flaggedPages.length}</strong>
         </div>
 

@@ -180,6 +180,50 @@ def _line_font_delta(line: dict[str, Any], dominant_body_font: float | None) -> 
     return abs(float(line["fontSize"]) - float(dominant_body_font))
 
 
+def _should_continue_list_marker_paragraph(
+    *,
+    current_lines: list[int],
+    lines: list[dict[str, Any]],
+    current_reason: str,
+    gap: float,
+    paragraph_gap: float,
+    style_changed: bool,
+    starts_indented: bool,
+    previous_ends_sentence: bool,
+) -> bool:
+    if not current_lines or not starts_indented or style_changed or previous_ends_sentence:
+        return False
+    if gap >= paragraph_gap:
+        return False
+    first_line = lines[current_lines[0]]
+    return current_reason == "list-marker" or _is_list_marker_line(str(first_line["text"]))
+
+
+def _should_continue_statutory_reference_line(
+    *,
+    previous: dict[str, Any],
+    line: dict[str, Any],
+    gap: float,
+    paragraph_gap: float,
+    style_changed: bool,
+    starts_at_anchor: bool,
+    previous_ends_sentence: bool,
+) -> bool:
+    stripped = normalize_line(str(line["text"]))
+    previous_text = normalize_line(str(previous["text"]))
+    return bool(
+        stripped.startswith("§")
+        and not style_changed
+        and not previous_ends_sentence
+        and starts_at_anchor
+        and gap < paragraph_gap
+        and (
+            previous_text.endswith("(")
+            or ("(" in previous_text and previous_text.count("(") > previous_text.count(")"))
+        )
+    )
+
+
 def extract_page_lines(page: pymupdf.Page) -> list[dict[str, Any]]:
     page_width = float(page.rect.width)
     page_height = float(page.rect.height)
@@ -522,9 +566,28 @@ def _build_prose_groups(lines: list[dict[str, Any]], *, page_width: float, domin
             or _line_font_delta(line, dominant_body_font) > 0.8
             or _line_font_delta(previous, dominant_body_font) > 0.8
         )
+        continue_list_marker_paragraph = _should_continue_list_marker_paragraph(
+            current_lines=current_lines,
+            lines=lines,
+            current_reason=current_reason,
+            gap=gap,
+            paragraph_gap=paragraph_gap,
+            style_changed=style_changed,
+            starts_indented=starts_indented,
+            previous_ends_sentence=previous_ends_sentence,
+        )
+        continue_statutory_reference_line = _should_continue_statutory_reference_line(
+            previous=previous,
+            line=line,
+            gap=gap,
+            paragraph_gap=paragraph_gap,
+            style_changed=style_changed,
+            starts_at_anchor=starts_at_anchor,
+            previous_ends_sentence=previous_ends_sentence,
+        )
 
         reason: str | None = None
-        if _is_list_marker_line(str(line["text"])):
+        if _is_list_marker_line(str(line["text"])) and not continue_statutory_reference_line:
             reason = "list-marker"
         elif SPECIAL_HEADING_RE.match(str(line["text"]).strip()):
             reason = "style-change"
@@ -532,7 +595,7 @@ def _build_prose_groups(lines: list[dict[str, Any]], *, page_width: float, domin
             reason = "style-change"
         elif gap >= paragraph_gap:
             reason = "gap"
-        elif starts_indented:
+        elif starts_indented and not continue_list_marker_paragraph:
             reason = "indent"
         elif previous_ends_sentence and starts_at_anchor and gap > base_gap + 1.0:
             reason = "gap"

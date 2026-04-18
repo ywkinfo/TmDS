@@ -113,6 +113,7 @@ def test_front_notes_document_html_renders_case_code_section_as_page_image() -> 
     front_notes = next(chapter for chapter in document_data["chapters"] if chapter["slug"] == "front-notes")
 
     assert "./generated/images/table-crops/0009-1.png" in front_notes["html"]
+    assert 'class="reader-figure-scroll"' in front_notes["html"]
 
 
 def test_first_chapter_document_html_excludes_fragmented_part_headers() -> None:
@@ -143,6 +144,21 @@ def test_appendix_chapter_document_html_drops_duplicate_leading_title_line() -> 
     )
 
     assert "<p>부록3. 2006년 특허법․ 실용신안법 개정내용</p>" not in chapter["html"]
+
+
+def test_appendix_part_intro_generates_revision_history_search_alias() -> None:
+    search_index = load_generated_json("search-index.json")
+    alias = next(
+        entry
+        for entry in search_index
+        if entry["entryType"] == "search-alias"
+        and entry["chapterSlug"] == "1-심판관계서식례-및-기재례"
+        and entry["sectionId"] == "part-intro"
+    )
+
+    assert alias["sectionTitle"] == "개정 연혁"
+    assert "개정 연혁" in alias["text"]
+    assert alias["categories"] == ["appendix"]
 
 
 def test_chapter_overview_html_does_not_repeat_title_from_summary_fallback() -> None:

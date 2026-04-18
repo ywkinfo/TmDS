@@ -1,0 +1,1777 @@
+[
+  {
+    "label": "page-461-mobile",
+    "url": "http://localhost:4317/#/chapter/%EC%A0%9C3%EC%9E%A5-%EC%8B%AC%EA%B2%B0%EB%B6%84%EB%A5%98/%EC%A0%9C3%EC%A0%88-%EC%8B%AC%EA%B2%B0%EB%B6%84%EB%A5%98%ED%91%9C",
+    "metrics": {
+      "href": "http://localhost:4317/#/chapter/%EC%A0%9C3%EC%9E%A5-%EC%8B%AC%EA%B2%B0%EB%B6%84%EB%A5%98/%EC%A0%9C3%EC%A0%88-%EC%8B%AC%EA%B2%B0%EB%B6%84%EB%A5%98%ED%91%9C",
+      "title": "제3장 심결분류",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "body": {
+        "scrollWidth": 375,
+        "clientWidth": 375
+      },
+      "article": {
+        "scrollWidth": 349,
+        "clientWidth": 349
+      },
+      "figures": [
+        {
+          "src": "./generated/images/table-crops/0458-1.png",
+          "alt": "제1절 심결분류 및 판결분류 개요",
+          "imgRight": 244,
+          "imgWidth": 215,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/0460-1.png",
+          "alt": "제2절 심결분류 및 판결분류 구성",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/0461-1.png",
+          "alt": "제2절 심결분류 및 판결분류 구성",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/0461-2.png",
+          "alt": "제3절 심결분류표",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/0462-1.png",
+          "alt": "제3절 심결분류표",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/0463-1.png",
+          "alt": "제3절 심결분류표",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/0464-1.png",
+          "alt": "제3절 심결분류표",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/0464-2.png",
+          "alt": "제3절 심결분류표",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/0465-1.png",
+          "alt": "제3절 심결분류표",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/0466-1.png",
+          "alt": "제3절 심결분류표",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/0467-1.png",
+          "alt": "제3절 심결분류표",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/0467-2.png",
+          "alt": "제3절 심결분류표",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/0468-1.png",
+          "alt": "제3절 심결분류표",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/0469-1.png",
+          "alt": "제3절 심결분류표",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/0469-2.png",
+          "alt": "제3절 심결분류표",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/0469-3.png",
+          "alt": "제3절 심결분류표",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/0470-1.png",
+          "alt": "제3절 심결분류표",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/0471-1.png",
+          "alt": "제3절 심결분류표",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/0472-1.png",
+          "alt": "제3절 심결분류표",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/0473-1.png",
+          "alt": "제3절 심결분류표",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/0474-1.png",
+          "alt": "제3절 심결분류표",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/0475-1.png",
+          "alt": "제3절 심결분류표",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/0476-1.png",
+          "alt": "제3절 심결분류표",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/0477-1.png",
+          "alt": "제3절 심결분류표",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/0478-1.png",
+          "alt": "제3절 심결분류표",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/0479-1.png",
+          "alt": "제3절 심결분류표",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/0480-1.png",
+          "alt": "제4절 심결분류 및 판결분류의 사용요령",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        }
+      ],
+      "visibleText": "목차\nTMDS READER\n제3장 심결분류\n장 제목, 항목명, 본문 일부 검색\n제12편 심 결\n제3장 심결분류\n\n제3장 심결분류 심결분류 및 판결분류는 심결 등을 사건의 종류 및 심결 등에서 주로 논의되는 사항(이하 ‘판시사항’이라 한다)의 내용과 심결 등의 주문 및 기술, 물품, 상품의 분류(구분) 등의 구별에 따라 분류하기 위한 표지이다. 심결분류 및 판결분류는 7자리로 되는『기본분류』와 기본분류 다음에 하이픈『-』을 붙여서 접속하는 3종류의『보조분류』로 구성한다. 또한 분류표수를 읽기 쉽도록『사…\n\n페이지\np.430-454\n시작 라벨\n430\n이미지\n없음\nBUILD\n2026. 4. 18. 오전 9:38\nCHAPTER OUTLINE\n장 개요와 섹션 이동\n펼치기\nPART GUIDE\n제12편 심 결\n펼치기\n제3장 심결분류\n제1절 심결분류 및 판결분류 개요\n\n심결분류 및 판결분류는 심결 등을 사건의 종류 및 심결 등에서 주로 논의되는 사항(이하 ‘판시사항’이라 한다)의 내용과 심결 등의 주문 및 기술, 물품, 상품의 분류(구분) 등의 구별에 따라 분류하기 위한 표지이다.\n\n심결분류 및 판결분류는 7자리로 되는『기본분류』와 기본분류 다음에 하이픈『-』을 붙여서 접속하는 3종류의『보조분류』로 구성한다.\n\n또한 분류표수를 읽기 쉽도록『사건의 종류』와『판시사항』사이에는 점을 찍는다.\n\n사건의 종류는 4자리의 문자 및 숫자로 이루어지고『판시사항』은 3자리의 숫자로 되어 있다.\n\n【예 1】\n\n기본분류 보조분류\n\nⓟ 111.121 --------- Z(H01L21/00)\n\n제2절 심결분류 및 판결분류 구성\n\n심결분류와 판결분류는 대별하여『기본분류』와『보조분류』로 구성되며『기본분류』는 다 시『사건의 종류별 분류』와『판시사항별 분류』로 세분류된다.\n\n1. 기본분류\n\n기본분류는 10진법에 의하여 작성되며 7자리로 되는 문자 및 숫자로 구성된다. 이것을 다 시 사건의 종류별 분류(4자리)와 판시사항별 분류(3자리)로 세분류 한다(→【예 1】).\n\n가. 사건의 종류별 분류\n\n『사건의 종류별 분류』는 산업재산권 등의 종류, 심급의 종류 및 심판등의 종류를 문자 및 숫자로서 표시한다.\n\n【예 2】\n\nⓅ111.121―Z(H01L/00)\n\n(제1자리) 산업재산권의 종류\n\n(제2자리) 심급의 종류\n\n(제3~4자리) 심판등의 종류\n\n(1) 제1자리(산업재산권 등 종류) 제1자리는 사건의 다툼의 대상이 된 산업재산권등의 종류(특․ 실․ 디․ 상)를"
+    }
+  },
+  {
+    "label": "page-539-mobile",
+    "url": "http://localhost:4317/#/chapter/%EC%A0%9C2%EC%9E%A5-%EA%B8%B0%EA%B0%84%EC%9D%98-%EA%B3%84%EC%82%B0/%EC%A0%9C5%EC%A0%88-%EB%B6%80%EA%B0%80%EA%B8%B0%EA%B0%84%EC%9D%98-%EC%A7%80%EC%A0%95",
+    "metrics": {
+      "href": "http://localhost:4317/#/chapter/%EC%A0%9C2%EC%9E%A5-%EA%B8%B0%EA%B0%84%EC%9D%98-%EA%B3%84%EC%82%B0/%EC%A0%9C5%EC%A0%88-%EB%B6%80%EA%B0%80%EA%B8%B0%EA%B0%84%EC%9D%98-%EC%A7%80%EC%A0%95",
+      "title": "제2장 기간의 계산",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "body": {
+        "scrollWidth": 375,
+        "clientWidth": 375
+      },
+      "article": {
+        "scrollWidth": 349,
+        "clientWidth": 349
+      },
+      "figures": [
+        {
+          "src": "./generated/images/table-crops/0530-1.png",
+          "alt": "제1절 기간의 종류",
+          "imgRight": 856,
+          "imgWidth": 827,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 827,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/0531-1.png",
+          "alt": "제1절 기간의 종류",
+          "imgRight": 856,
+          "imgWidth": 827,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 827,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/0532-1.png",
+          "alt": "제1절 기간의 종류",
+          "imgRight": 871,
+          "imgWidth": 842,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 842,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/0533-1.png",
+          "alt": "제1절 기간의 종류",
+          "imgRight": 873,
+          "imgWidth": 844,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 844,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/0534-1.png",
+          "alt": "제1절 기간의 종류",
+          "imgRight": 865,
+          "imgWidth": 836,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 836,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/0535-1.png",
+          "alt": "제2절 기간의 계산",
+          "imgRight": 471,
+          "imgWidth": 442,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 442,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/0535-2.png",
+          "alt": "제2절 기간의 계산",
+          "imgRight": 511,
+          "imgWidth": 482,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 482,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/0536-1.png",
+          "alt": "제2절 기간의 계산",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/0536-2.png",
+          "alt": "제2절 기간의 계산",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/0536-3.png",
+          "alt": "제2절 기간의 계산",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/0537-1.png",
+          "alt": "제2절 기간의 계산",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/0537-2.png",
+          "alt": "제3절 심판절차와 관련된 법정기간",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/0538-1.png",
+          "alt": "제3절 심판절차와 관련된 법정기간",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/0538-2.png",
+          "alt": "제4절 심판절차와 관련된 지정기간",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        }
+      ],
+      "visibleText": "목차\nTMDS READER\n제2장 기간의 계산\n장 제목, 항목명, 본문 일부 검색\n제13편 송달, 기간, 절차정지, 승계\n제2장 기간의 계산\n\n제2장 기간의 계산 특허법에 규정된 기간에는 법정기간, 지정기간 및 부가기간이 있다. 법정기간은 산업재산권에 관한 법률 또는 이에 근거한 명령에 의하여 정하여진 기간을 말한다. 지정기간은 출원․ 청구 기타의 절차를 밟은 자에 대하여 특허청장․ 특허심판원장․ 심판장 또는 심사관이 산업재산권에 관한 법률 또는 이에 근거한 명령에 근거하여 지정하는 기간을 말한다. 부가기간은 특허심판원 심판장이…\n\n페이지\np.502-513\n시작 라벨\n502\n이미지\n없음\nBUILD\n2026. 4. 18. 오전 9:38\nCHAPTER OUTLINE\n장 개요와 섹션 이동\n펼치기\nPART GUIDE\n제13편 송달, 기간, 절차정지, 승계\n펼치기\n제2장 기간의 계산\n제1절 기간의 종류\n\n특허법에 규정된 기간에는 법정기간, 지정기간 및 부가기간이 있다.\n\n법정기간은 산업재산권에 관한 법률 또는 이에 근거한 명령에 의하여 정하여진 기간을 말\n\n한다.\n\n지정기간은 출원․ 청구 기타의 절차를 밟은 자에 대하여 특허청장․ 특허심판원장․ 심판장 또\n\n는 심사관이 산업재산권에 관한 법률 또는 이에 근거한 명령에 근거하여 지정하는 기간을 말\n\n한다.\n\n부가기간은 특허심판원 심판장이 원격 또는 교통이 불편한 지역에 있는 자에게 특허법원에\n\n소제기를 할 수 있는 기간을 재량으로 지정하여 주는 기간을 말한다.\n\n특허․ 실용․ 상표․ 디자인법의 절차 등 기간 일람표\n\n< 법정기간>\n< 지정기간>\n제2절 기간의 계산\n\n1. 원칙\n\n기간의 초일은 이를 산입하지 아니한다. 다만, 그 기간이 오전 0시부터 시작될 때에는 초일을 산입한다(특§14제1호, 실§3, 디§16제1호, 상§16제1호).\n\n기간을 월 또는 년으로 정한 때에는 역(曆)에 의하여 계산한다(특§14제2호, 실§3, 디§16제2호, 상§16제2호).\n\n월 또는 년의 처음부터 기간을 기산하지 아니하는 때에는 최후의 월 또는 년에서 그 기산일에 해당하는 날의 전일로 기간이 만료한다. 다만, 월 또는 년으로 정한 경우에 최종의 월에 해당 일이 없을 때에는 월의 말일로 기간이 만료한다(특§14제3호 실§3, 디§16제3호, 상§16제3호).\n\n기간의 말일이 공휴일(근로자의 날 제정에 관한 법률에 의한 근로자의 날, 토요일을 포함)에 해당하는 때의 기간3)은 그 다음날로 만"
+    }
+  },
+  {
+    "label": "appendix-intro-mobile",
+    "url": "http://localhost:4317/#/chapter/1-%EC%8B%AC%ED%8C%90%EA%B4%80%EA%B3%84%EC%84%9C%EC%8B%9D%EB%A1%80-%EB%B0%8F-%EA%B8%B0%EC%9E%AC%EB%A1%80/part-intro",
+    "metrics": {
+      "href": "http://localhost:4317/#/chapter/1-%EC%8B%AC%ED%8C%90%EA%B4%80%EA%B3%84%EC%84%9C%EC%8B%9D%EB%A1%80-%EB%B0%8F-%EA%B8%B0%EC%9E%AC%EB%A1%80/part-intro",
+      "title": "1. 심판관계서식례 및 기재례",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "body": {
+        "scrollWidth": 375,
+        "clientWidth": 375
+      },
+      "article": {
+        "scrollWidth": 349,
+        "clientWidth": 349
+      },
+      "figures": [
+        {
+          "src": "./generated/images/c60c30dc0eea.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 462,
+          "imgWidth": 433,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 433,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1089-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 979,
+          "imgWidth": 950,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 950,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1091-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1093-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1095-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1097-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1098-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1099-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1100-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1101-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1102-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1103-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1103-2.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1104-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1105-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1105-2.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1106-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1106-2.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1107-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1108-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1109-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1110-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1111-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1113-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1113-2.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1114-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1115-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1115-2.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1116-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1117-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1117-2.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1118-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1119-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1121-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1122-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1123-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1123-2.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1124-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1125-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1125-2.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1126-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1127-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1128-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1129-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1133-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1136-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1136-2.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1138-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1139-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1141-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1143-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1144-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1145-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1147-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1149-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1154-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1155-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1155-2.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1156-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1157-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1158-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1159-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1160-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1161-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1163-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1165-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1165-2.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1167-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1169-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1173-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1175-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1177-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1181-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1183-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1187-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1189-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1191-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1195-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1199-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1203-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1204-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1207-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1208-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1208-2.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1208-3.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1208-4.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1209-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1211-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1213-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1217-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1225-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1227-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1229-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1229-2.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1230-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1230-2.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1230-3.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1231-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1233-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1235-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1236-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1237-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1238-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1239-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1240-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1241-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1241-2.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1241-3.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1245-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1245-2.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        },
+        {
+          "src": "./generated/images/table-crops/1246-1.png",
+          "alt": "1. 심판관계서식례 및 기재례",
+          "imgRight": 29,
+          "imgWidth": 0,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 317,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        }
+      ],
+      "visibleText": "목차\nTMDS READER\n1. 심판관계서식례 및 기재례\n장 제목, 항목명, 본문 일부 검색\n부 록\n1. 심판관계서식례 및 기재례\n\n부 록 개정 연혁 개정내용 이 편은 다음 장으로 구성됩니다. 1. 심판관계서식례 및 기재례 (p.1059) / 2. 2001년 시행 산업재산권법 개정내용 (p.1219) / 3. 2006년 특허법 실용신안법 개정내용 (p.1225) / 4. 2009. 7 .1 시행 특허법 실용신안법 개정내용 (p.1239) / 5. 2009. 7 .1 시행 디자인보호법 개정내용 (p.1255) / 6. 2…\n\n페이지\np.1059-1218\n시작 라벨\n1059\n이미지\n1개 포함\nBUILD\n2026. 4. 18. 오전 9:38\nCHAPTER OUTLINE\n장 개요와 섹션 이동\n펼치기\nPART GUIDE\n부 록\n접기\n\n이 편은 다음 장으로 구성됩니다.\n\n이전 장\n없음\n현재 위치\n1 / 11\n다음 장\n2. 2001년 시행 산업재산권법 개정내용\n1.\n1. 심판관계서식례 및 기재례\n현재 장\n부 록 개정 연혁 개정내용 이 편은 다음 장으로 구성됩니다\np.1059-1218\n2. 2001년 시행 산업재산권법 개정내용\n1.\np.1219-1224\n3. 2006년 특허법 실용신안법 개정내용\nⅠ.\np.1225-1237\n4. 2009. 7 .1 시행 특허법 실용신안법 개정내용\n1.\np.1239-1254\n5. 2009. 7 .1 시행 디자인보호법 개정내용\n1.\np.1255-1268\n6. 2014. 7 .1 시행 디자인보호법 개정내용\n1.\np.1269-1275\n7. 2016. 9. 1. 시행 상표법 개정내용\n7.\np.1277-1282\n8. 2017. 3. 1. 시행 특허법 실용신안법 개정내용\n8.\np.1283-1292\n9. 2017∼2020년 시행 산업재산권법 개정내용\n1.\np.1293-1304\n10. 2021∼2023년 시행 산업재산권법 개정내용\n1.\np.1305-1325\n11. 산업재산권법의 조문별 적용 기준일 안내\nⅠ.\np.1327-1344\np.1059-1344\n1. 심판관계서식례 및 기재례\n\n▣ 심판관계서식례 및 기재례 목차 ▣ 1. 심 결 서 식\n\n1-1 특허․ 실용신안등록의 무효심결······································································· 1069\n\n1-1-2 디자인등록의 무효심결······································"
+    }
+  },
+  {
+    "label": "front-notes-mobile",
+    "url": "http://localhost:4317/#/chapter/front-notes",
+    "metrics": {
+      "href": "http://localhost:4317/#/chapter/front-notes",
+      "title": "일러두기",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "body": {
+        "scrollWidth": 375,
+        "clientWidth": 375
+      },
+      "article": {
+        "scrollWidth": 349,
+        "clientWidth": 349
+      },
+      "figures": [
+        {
+          "src": "./generated/images/table-crops/0009-1.png",
+          "alt": "일러두기",
+          "imgRight": 875,
+          "imgWidth": 846,
+          "wrapperClass": "reader-figure-scroll",
+          "wrapperClientWidth": 317,
+          "wrapperScrollWidth": 846,
+          "wrapperOverflowX": "auto",
+          "figureWidth": 317
+        }
+      ],
+      "visibleText": "목차\nTMDS READER\n일러두기\n장 제목, 항목명, 본문 일부 검색\n전면부\n일러두기\n\n1. 이 편람은 심판업무의 능률제고와 전문성 확보를 통하여 심판의 공정과 신속을 기함을 목적으로 한다. 2. 이 편람은 법령해석에 깊이 개입하는 것은 되도록 피하고 심리에 근거와 결론을 유도하는데 참고가 되는 자료 등 심판업무에 관한 기본적인 사항들을 필요에 따라 쉽게 참고할 수 있도록 배려하였다. 따라서 표제대로 어디까지나 편람이고 법령의 유권해석이나 확정적인 방침은 아니고, 사안에 따라…\n\n페이지\np.i-vi\n시작 라벨\ni\n이미지\n없음\nBUILD\n2026. 4. 18. 오전 9:38\nCHAPTER OUTLINE\n장 개요와 섹션 이동\n펼치기\nPART GUIDE\n전면부\n펼치기\n일러두기\n\n1. 이 편람은 심판업무의 능률제고와 전문성 확보를 통하여 심판의 공정과 신속을 기함을 목적으로 한다.\n\n2. 이 편람은 법령해석에 깊이 개입하는 것은 되도록 피하고 심리에 근거와 결론을 유도하는데 참고가 되는 자료 등 심판업무에 관한 기본적인 사항들을 필요에 따라 쉽게 참고할 수 있도록 배려하였다. 따라서 표제대로 어디까지나 편람이고 법령의 유권해석이나 확정적인 방침은 아니고, 사안에 따라 이론이 있을 수 있다.\n\n3. 이 편람에는 심리에 특히 참고가 되는 학설, 판례, 심결례 및 사례 등에 의거 하여 정하여진 심판의 방침, 실체심리에 직접 관계되는 법령 및 예규, 심판사무의 절차 등을 수록하였다.\n\n4. 이 편람은 1978년 발간에 이은 1984년, 1991년, 1998년, 1999년, 2001년, 2004년, 2006년, 2009년, 2011년, 2014년, 2017년, 2021년 개정판 이후 새로운 판례와 산업재산권 4법 및 하위법령, 심판관련규정 제․ 개정 내용을 수정․ 보완하였다.\n\n5. 이 편람은 대분류(편)-중분류(장)-소분류(절)의 형식으로 집필되었으며, 주제별로 27편으로 구성되어 있고 대분류의 배열순서는 대체로 심판업무의 처리순서에 따라 분류하였다.\n\n6. 소분류의 배열은 대분류의 관계사항 중 그 중요도와 실무상 이용의 빈도 등을 고려하여 배열 분류하였다.\n\n7. 이 편람에서 설명의 항을 나누는 경우의 분류기호는 다음과 같이 사용한다.\n\n1, 2, 3 ······················ 제1차의 분류\n\n가, 나, 다 ····················· 분항 1, 2, 3 ·······················"
+    }
+  }
+]

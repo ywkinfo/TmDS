@@ -19,6 +19,90 @@ HYPHEN_LABEL_RE = re.compile(r"^-\s*([ivxlcdm]+|\d{1,4})\s*-$", re.IGNORECASE)
 WHITESPACE_RE = re.compile(r"\s+")
 SLUG_SANITIZE_RE = re.compile(r"[^0-9A-Za-z가-힣-]+")
 STRUCTURAL_HEADING_RE = re.compile(r"^제\s*[\d-]+\s*(?:편|장|절)\b")
+HANGUL_TOKEN_RE = re.compile(r"^[가-힣]+$")
+KOREAN_LINE_BOUNDARY_TOKEN = "\uE000"
+KOREAN_LINE_BOUNDARY_RE = re.compile(
+    rf"([가-힣]{{1,6}}){re.escape(KOREAN_LINE_BOUNDARY_TOKEN)}([가-힣]{{1,10}})"
+)
+STATUTORY_REFERENCE_LINE_BOUNDARY_RE = re.compile(
+    rf"([0-9A-Za-z가-힣]+){re.escape(KOREAN_LINE_BOUNDARY_TOKEN)}(§[0-9A-Za-z().-]+)"
+)
+KOREAN_BOUNDARY_SUFFIX_TOKENS = frozenset(
+    {
+        "가",
+        "게",
+        "고",
+        "과",
+        "는",
+        "니",
+        "다",
+        "도",
+        "를",
+        "로",
+        "만",
+        "며",
+        "면",
+        "서",
+        "에",
+        "와",
+        "은",
+        "을",
+        "의",
+        "이",
+    }
+)
+KOREAN_BOUNDARY_SUFFIX_PREFIXES = frozenset(
+    {
+        "로서",
+        "로써",
+        "로부터",
+        "에게",
+        "에게서",
+        "에서",
+        "에는",
+        "으로",
+        "으로서",
+        "으로써",
+        "으로부터",
+    }
+)
+KOREAN_LEFT_STANDALONE_TOKENS = frozenset(
+    {
+        "각",
+        "그",
+        "및",
+        "이",
+        "장",
+        "저",
+        "제",
+        "절",
+        "쪽",
+        "편",
+        "한",
+    }
+)
+KOREAN_COMPOUND_HEAD_TOKENS = frozenset({"감", "부", "사"})
+KOREAN_RIGHT_STANDALONE_TOKENS = frozenset(
+    {
+        "것",
+        "그",
+        "등",
+        "바",
+        "수",
+        "시",
+        "장",
+        "저",
+        "점",
+        "절",
+        "전",
+        "쪽",
+        "편",
+        "후",
+        "호",
+    }
+)
+KOREAN_COMPOUND_TAIL_TOKENS = frozenset({"관", "인"})
+KOREAN_PARTICLE_ENDINGS = frozenset({"가", "는", "도", "를", "로", "와", "은", "을", "의", "이", "에", "과"})
 BROKEN_TEXT_PATTERNS: tuple[tuple[re.Pattern[str], str], ...] = (
     (re.compile(r"산업재\s+산권"), "산업재산권"),
     (re.compile(r"특별행정\s+심판"), "특별행정심판"),
@@ -109,6 +193,88 @@ def normalize_line(value: str) -> str:
     return WHITESPACE_RE.sub(" ", str(value).replace("\x00", " ")).strip()
 
 
+def _is_hangul_token(value: str) -> bool:
+    return bool(value) and HANGUL_TOKEN_RE.fullmatch(value) is not None
+
+
+def _looks_like_statutory_reference_linebreak_residue_pair(left: str, right: str) -> bool:
+    left_token = normalize_line(left)
+    right_token = normalize_line(right)
+    return bool(left_token) and bool(right_token) and right_token.startswith("§")
+
+
+def _starts_with_korean_boundary_suffix(value: str) -> bool:
+    return value in KOREAN_BOUNDARY_SUFFIX_TOKENS or value in KOREAN_BOUNDARY_SUFFIX_PREFIXES
+
+
+def _looks_like_korean_linebreak_residue_pair(left: str, right: str) -> bool:
+    left_token = normalize_line(left)
+    right_token = normalize_line(right)
+    if not (_is_hangul_token(left_token) and _is_hangul_token(right_token)):
+        return False
+
+    if len(left_token) + len(right_token) > 8:
+        return False
+    if _starts_with_korean_boundary_suffix(right_token):
+        return left_token not in KOREAN_LEFT_STANDALONE_TOKENS
+    if (
+        len(right_token) >= 2
+        and right_token[0] in KOREAN_COMPOUND_TAIL_TOKENS
+        and _starts_with_korean_boundary_suffix(right_token[1:])
+    ):
+        return left_token not in KOREAN_LEFT_STANDALONE_TOKENS
+    if (
+        len(left_token) >= 2
+        and right_token.startswith("자")
+        and _starts_with_korean_boundary_suffix(right_token[1:])
+    ):
+        return True
+    if left_token.endswith("으") and right_token.startswith("로"):
+        return True
+    if left_token in KOREAN_LEFT_STANDALONE_TOKENS or right_token in KOREAN_RIGHT_STANDALONE_TOKENS:
+        return False
+    if len(left_token) >= 2 and left_token[-1] in KOREAN_PARTICLE_ENDINGS:
+        return False
+    if left_token in KOREAN_COMPOUND_HEAD_TOKENS and len(right_token) >= 3:
+        return True
+    if right_token in KOREAN_COMPOUND_TAIL_TOKENS:
+        return True
+    return False
+
+
+def _repair_korean_line_boundary_spacing(value: str) -> str:
+    repaired = str(value)
+    while True:
+        updated = KOREAN_LINE_BOUNDARY_RE.sub(
+            lambda match: (
+                f"{match.group(1)}{match.group(2)}"
+                if _looks_like_korean_linebreak_residue_pair(match.group(1), match.group(2))
+                else f"{match.group(1)} {match.group(2)}"
+            ),
+            repaired,
+        )
+        if updated == repaired:
+            break
+        repaired = updated
+    return repaired.replace(KOREAN_LINE_BOUNDARY_TOKEN, " ")
+
+
+def _repair_statutory_reference_line_boundary_spacing(value: str) -> str:
+    return STATUTORY_REFERENCE_LINE_BOUNDARY_RE.sub(r"\1\2", str(value))
+
+
+def contains_korean_linebreak_residue(value: str | None) -> bool:
+    normalized = normalize_line(value or "")
+    if not normalized:
+        return False
+    tokens = normalized.split()
+    return any(
+        _looks_like_korean_linebreak_residue_pair(left, right)
+        or _looks_like_statutory_reference_linebreak_residue_pair(left, right)
+        for left, right in zip(tokens, tokens[1:])
+    )
+
+
 def repair_extracted_text_spacing(value: str) -> str:
     repaired = normalize_line(value)
     previous = None
@@ -124,7 +290,11 @@ def merge_extracted_text_segments(*segments: str) -> str:
     parts = [normalize_line(segment) for segment in segments if normalize_line(segment)]
     if not parts:
         return ""
-    return repair_extracted_text_spacing(" ".join(parts))
+    return repair_extracted_text_spacing(
+        _repair_korean_line_boundary_spacing(
+            _repair_statutory_reference_line_boundary_spacing(KOREAN_LINE_BOUNDARY_TOKEN.join(parts))
+        )
+    )
 
 
 def normalize_space(value: str | None) -> str:
@@ -309,6 +479,8 @@ def paragraph_to_html(paragraph: str) -> str:
 def image_to_html(relative_path: str, alt: str) -> str:
     return (
         '<figure class="reader-figure">'
+        '<div class="reader-figure-scroll">'
         f'<img src="./generated/{escape(relative_path)}" alt="{escape(alt)}" loading="lazy" />'
+        "</div>"
         "</figure>"
     )

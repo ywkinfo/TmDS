@@ -1,15 +1,18 @@
 from __future__ import annotations
 
+import json
 import re
 from collections import Counter, defaultdict
+from pathlib import Path
 from typing import Any
 
-from .common import load_generated_json, print_json_summary, write_json
+from .common import ROOT_DIR, contains_korean_linebreak_residue, load_generated_json, print_json_summary, write_json
 
 
 BOXED_HEADING_RE = re.compile(r"^[\[【].+[】\]]$")
 ANGLE_HEADING_RE = re.compile(r"^<\s*.+\s*>$")
 FRAGMENT_PARAGRAPH_RE = re.compile(r"^(?:제|편|\d+)$")
+WEB_GENERATED_DIR = ROOT_DIR / "web" / "public" / "generated"
 
 
 def build_page_entry_overlap(search_index: list[dict[str, Any]]) -> dict[int, set[str]]:
@@ -56,6 +59,13 @@ def detect_page_flags(
         flags.append("boxed-heading")
     if any(ANGLE_HEADING_RE.match(text) for text in non_table_texts):
         flags.append("angle-heading")
+    if any(contains_korean_linebreak_residue(text) for text in texts if text) or any(
+        next_text.startswith("§")
+        and "(" in previous_text
+        and previous_text.count("(") > previous_text.count(")")
+        for previous_text, next_text in zip(texts, texts[1:])
+    ):
+        flags.append("korean-linebreak-residue")
     if str(page.get("pageLayoutKind")) == "table/form" and crop_prefix not in chapter_html:
         flags.append("missing-table-crop")
     if "table-crops/" in chapter_html and "reader-synthetic-table" in chapter_html:
@@ -79,8 +89,11 @@ def classify_risk_tier(page: dict[str, Any], flags: list[str]) -> str:
         return "high"
 
     if page_layout_kind == "list" and (
-        "boxed-heading" in flags or "angle-heading" in flags
+        "boxed-heading" in flags or "angle-heading" in flags or "korean-linebreak-residue" in flags
     ):
+        return "medium"
+
+    if "korean-linebreak-residue" in flags:
         return "medium"
 
     if page_layout_kind == "decorative/structural":
@@ -140,6 +153,7 @@ def build_report(
         "mergePages": [page["pageNumber"] for page in pages if "page-merge" in page["flags"]],
         "boxedHeadingPages": [page["pageNumber"] for page in pages if "boxed-heading" in page["flags"]],
         "angleHeadingPages": [page["pageNumber"] for page in pages if "angle-heading" in page["flags"]],
+        "koreanLinebreakResiduePages": [page["pageNumber"] for page in pages if "korean-linebreak-residue" in page["flags"]],
         "tableFormPagesMissingCrop": [page["pageNumber"] for page in pages if "missing-table-crop" in page["flags"]],
         "pagesWithSyntheticTablesRemaining": [page["pageNumber"] for page in pages if "synthetic-table-remains" in page["flags"]],
         "structuralFragmentPages": [page["pageNumber"] for page in pages if "structural-fragment-paragraph" in page["flags"]],
@@ -167,6 +181,13 @@ def build_report(
     }
 
 
+def sync_page_audit_to_web(report: dict[str, Any], *, target_dir: Path = WEB_GENERATED_DIR) -> Path:
+    target_dir.mkdir(parents=True, exist_ok=True)
+    target = target_dir / "page-audit-report.json"
+    target.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    return target
+
+
 def main() -> None:
     page_review = load_generated_json("page-review.json")
     search_index = load_generated_json("search-index.json")
@@ -178,10 +199,12 @@ def main() -> None:
         document_data=document_data,
     )
     target = write_json("page-audit-report.json", report)
+    web_target = sync_page_audit_to_web(report)
     print_json_summary(
         "page-audit",
         {
             "target": str(target),
+            "webTarget": str(web_target),
             "pageCount": report["summary"]["pageCount"],
             "highRiskPageCount": report["summary"]["riskCounts"].get("high", 0),
             "multiSectionPageCount": len(report["flaggedPages"]["multiSectionPages"]),

@@ -1,0 +1,588 @@
+{
+  "front_preface": [
+    {
+      "via": "search-index",
+      "chapterSlug": "front-preface",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 5,
+      "pageEnd": 6,
+      "matchedTerm": "머리말"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "front-preface",
+      "title": "머리말",
+      "pageStart": 5,
+      "pageEnd": 6,
+      "matchedTerm": "머리말"
+    }
+  ],
+  "front_notes": [
+    {
+      "via": "search-index",
+      "chapterSlug": "front-notes",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 7,
+      "pageEnd": 10,
+      "matchedTerm": "일러두기"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "front-notes",
+      "title": "일러두기",
+      "pageStart": 7,
+      "pageEnd": 10,
+      "matchedTerm": "일러두기"
+    }
+  ],
+  "toc": [],
+  "part_intro": [
+    {
+      "via": "search-index",
+      "chapterSlug": "제1장-의의",
+      "sectionId": "part-intro",
+      "sectionTitle": "제1편 특허심판 일반",
+      "entryType": "part-intro",
+      "pageStart": 29,
+      "pageEnd": 30,
+      "matchedTerm": "제1편 특허심판 일반"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "제1장-의의",
+      "title": "제1장 의의",
+      "pageStart": 31,
+      "pageEnd": 31,
+      "matchedTerm": "제1편 특허심판 일반"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제1장-증거",
+      "sectionId": "part-intro",
+      "sectionTitle": "제9편 증거조사",
+      "entryType": "part-intro",
+      "pageStart": 245,
+      "pageEnd": 246,
+      "matchedTerm": "제9편 증거조사"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "제1장-증거",
+      "title": "제1장 증거",
+      "pageStart": 247,
+      "pageEnd": 249,
+      "matchedTerm": "제9편 증거조사"
+    }
+  ],
+  "revision_history": [],
+  "legend": [],
+  "appendix": [
+    {
+      "via": "search-index",
+      "chapterSlug": "제1장-개요-6",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 787,
+      "pageEnd": 788,
+      "matchedTerm": "부록"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "1-심판관계서식례-및-기재례",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 1087,
+      "pageEnd": 1246,
+      "matchedTerm": "부록"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "2-2001년-시행-산업재산권법-개정내용",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 1247,
+      "pageEnd": 1252,
+      "matchedTerm": "부록"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "3-2006년-특허법-실용신안법-개정내용",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 1253,
+      "pageEnd": 1266,
+      "matchedTerm": "부록"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "4-2009-7-1-시행-특허법-실용신안법-개정내용",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 1267,
+      "pageEnd": 1282,
+      "matchedTerm": "부록"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "5-2009-7-1-시행-디자인보호법-개정내용",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 1283,
+      "pageEnd": 1296,
+      "matchedTerm": "부록"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "6-2014-7-1-시행-디자인보호법-개정내용",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 1297,
+      "pageEnd": 1304,
+      "matchedTerm": "부록"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "7-2016-9-1-시행-상표법-개정내용",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 1305,
+      "pageEnd": 1310,
+      "matchedTerm": "부록"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "8-2017-3-1-시행-특허법-실용신안법-개정내용",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 1311,
+      "pageEnd": 1320,
+      "matchedTerm": "부록"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "9-2017-2020년-시행-산업재산권법-개정내용",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 1321,
+      "pageEnd": 1332,
+      "matchedTerm": "부록"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "10-2021-2023년-시행-산업재산권법-개정내용",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 1333,
+      "pageEnd": 1354,
+      "matchedTerm": "부록"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "11-산업재산권법의-조문별-적용-기준일-안내",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 1355,
+      "pageEnd": 1372,
+      "matchedTerm": "부록"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "제1장-개요-6",
+      "title": "제1장 개요",
+      "pageStart": 787,
+      "pageEnd": 788,
+      "matchedTerm": "부록"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "1-심판관계서식례-및-기재례",
+      "title": "1. 심판관계서식례 및 기재례",
+      "pageStart": 1087,
+      "pageEnd": 1246,
+      "matchedTerm": "부록"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "2-2001년-시행-산업재산권법-개정내용",
+      "title": "2. 2001년 시행 산업재산권법 개정내용",
+      "pageStart": 1247,
+      "pageEnd": 1252,
+      "matchedTerm": "부록"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "3-2006년-특허법-실용신안법-개정내용",
+      "title": "3. 2006년 특허법 실용신안법 개정내용",
+      "pageStart": 1253,
+      "pageEnd": 1266,
+      "matchedTerm": "부록"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "4-2009-7-1-시행-특허법-실용신안법-개정내용",
+      "title": "4. 2009. 7 .1 시행 특허법 실용신안법 개정내용",
+      "pageStart": 1267,
+      "pageEnd": 1282,
+      "matchedTerm": "부록"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "5-2009-7-1-시행-디자인보호법-개정내용",
+      "title": "5. 2009. 7 .1 시행 디자인보호법 개정내용",
+      "pageStart": 1283,
+      "pageEnd": 1296,
+      "matchedTerm": "부록"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "6-2014-7-1-시행-디자인보호법-개정내용",
+      "title": "6. 2014. 7 .1 시행 디자인보호법 개정내용",
+      "pageStart": 1297,
+      "pageEnd": 1304,
+      "matchedTerm": "부록"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "7-2016-9-1-시행-상표법-개정내용",
+      "title": "7. 2016. 9. 1. 시행 상표법 개정내용",
+      "pageStart": 1305,
+      "pageEnd": 1310,
+      "matchedTerm": "부록"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "8-2017-3-1-시행-특허법-실용신안법-개정내용",
+      "title": "8. 2017. 3. 1. 시행 특허법 실용신안법 개정내용",
+      "pageStart": 1311,
+      "pageEnd": 1320,
+      "matchedTerm": "부록"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "9-2017-2020년-시행-산업재산권법-개정내용",
+      "title": "9. 2017∼2020년 시행 산업재산권법 개정내용",
+      "pageStart": 1321,
+      "pageEnd": 1332,
+      "matchedTerm": "부록"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "10-2021-2023년-시행-산업재산권법-개정내용",
+      "title": "10. 2021∼2023년 시행 산업재산권법 개정내용",
+      "pageStart": 1333,
+      "pageEnd": 1354,
+      "matchedTerm": "부록"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "11-산업재산권법의-조문별-적용-기준일-안내",
+      "title": "11. 산업재산권법의 조문별 적용 기준일 안내",
+      "pageStart": 1355,
+      "pageEnd": 1372,
+      "matchedTerm": "부록"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "5-2009-7-1-시행-디자인보호법-개정내용",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 1283,
+      "pageEnd": 1296,
+      "matchedTerm": "부 칙"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "6-2014-7-1-시행-디자인보호법-개정내용",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 1297,
+      "pageEnd": 1304,
+      "matchedTerm": "부 칙"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "5-2009-7-1-시행-디자인보호법-개정내용",
+      "title": "5. 2009. 7 .1 시행 디자인보호법 개정내용",
+      "pageStart": 1283,
+      "pageEnd": 1296,
+      "matchedTerm": "부 칙"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "6-2014-7-1-시행-디자인보호법-개정내용",
+      "title": "6. 2014. 7 .1 시행 디자인보호법 개정내용",
+      "pageStart": 1297,
+      "pageEnd": 1304,
+      "matchedTerm": "부 칙"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제2장-일사부재리",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 184,
+      "pageEnd": 192,
+      "matchedTerm": "부칙"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제3장-중복심판청구-금지",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 193,
+      "pageEnd": 196,
+      "matchedTerm": "부칙"
+    }
+  ],
+  "reconsideration_deadline": [],
+  "fta_gi": [
+    {
+      "via": "search-index",
+      "chapterSlug": "제3장-심결분류",
+      "sectionId": "제3절-심결분류표",
+      "sectionTitle": "제3절 심결분류표",
+      "entryType": "item",
+      "pageStart": 461,
+      "pageEnd": 478,
+      "matchedTerm": "지리적 표시"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제4장-권리범위-확인심판의-심리",
+      "sectionId": "제5절-권리범위-속부-판단본안-판단",
+      "sectionTitle": "제5절 권리범위 속부 판단(본안 판단)",
+      "entryType": "item",
+      "pageStart": 665,
+      "pageEnd": 672,
+      "matchedTerm": "지리적 표시"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제1장-의의-및-관련-규정",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 757,
+      "pageEnd": 758,
+      "matchedTerm": "지리적 표시"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제5장-무효심판의-청구대상-및-무효원인",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 767,
+      "pageEnd": 769,
+      "matchedTerm": "지리적 표시"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제7장-무효사유-존부의-판단기준-시",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 774,
+      "pageEnd": 776,
+      "matchedTerm": "지리적 표시"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제2장-지정상품추가등록-상표권존속기간갱신등록-상품분류전환등록의-무효심판",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 843,
+      "pageEnd": 848,
+      "matchedTerm": "지리적 표시"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제1장-상표권자의-부정사용으로-인한-상표등록취소심판-상-119-1",
+      "sectionId": "part-intro",
+      "sectionTitle": "제19편 상표등록취소심판",
+      "entryType": "part-intro",
+      "pageStart": 849,
+      "pageEnd": 851,
+      "matchedTerm": "지리적 표시"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제8장-단체표장의-등록취소심판상-119-7-가목-나목-다목",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 888,
+      "pageEnd": 889,
+      "matchedTerm": "지리적 표시"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제9장-지리적-표시-단체표장의-등록취소심판상-119-8",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 890,
+      "pageEnd": 891,
+      "matchedTerm": "지리적 표시"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제10장-증명표장의-등록취소심판상-119-9",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 892,
+      "pageEnd": 894,
+      "matchedTerm": "지리적 표시"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제5장-거절이유",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 911,
+      "pageEnd": 916,
+      "matchedTerm": "지리적 표시"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제4장-요지변경-기준",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 952,
+      "pageEnd": 963,
+      "matchedTerm": "지리적 표시"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "9-2017-2020년-시행-산업재산권법-개정내용",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 1321,
+      "pageEnd": 1332,
+      "matchedTerm": "지리적 표시"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "11-산업재산권법의-조문별-적용-기준일-안내",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 1355,
+      "pageEnd": 1372,
+      "matchedTerm": "지리적 표시"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "제4장-권리범위-확인심판의-심리",
+      "title": "제4장 권리범위 확인심판의 심리",
+      "pageStart": 658,
+      "pageEnd": 674,
+      "matchedTerm": "지리적 표시"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "제1장-의의-및-관련-규정",
+      "title": "제1장 의의 및 관련 규정",
+      "pageStart": 757,
+      "pageEnd": 758,
+      "matchedTerm": "지리적 표시"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "제5장-무효심판의-청구대상-및-무효원인",
+      "title": "제5장 무효심판의 청구대상 및 무효원인",
+      "pageStart": 767,
+      "pageEnd": 769,
+      "matchedTerm": "지리적 표시"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "제7장-무효사유-존부의-판단기준-시",
+      "title": "제7장 무효사유 존부의 판단기준 시",
+      "pageStart": 774,
+      "pageEnd": 776,
+      "matchedTerm": "지리적 표시"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "제1장-상표권자의-부정사용으로-인한-상표등록취소심판-상-119-1",
+      "title": "제1장 상표권자의 부정사용으로 인한 상표등록취소심판 (상§119①1)",
+      "pageStart": 852,
+      "pageEnd": 858,
+      "matchedTerm": "지리적 표시"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "제8장-단체표장의-등록취소심판상-119-7-가목-나목-다목",
+      "title": "제8장 단체표장의 등록취소심판(상§119①7 가목 나목 다목)",
+      "pageStart": 888,
+      "pageEnd": 889,
+      "matchedTerm": "지리적 표시"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "제9장-지리적-표시-단체표장의-등록취소심판상-119-8",
+      "title": "제9장 지리적 표시 단체표장의 등록취소심판(상§119①8)",
+      "pageStart": 890,
+      "pageEnd": 891,
+      "matchedTerm": "지리적 표시"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "제10장-증명표장의-등록취소심판상-119-9",
+      "title": "제10장 증명표장의 등록취소심판(상§119①9)",
+      "pageStart": 892,
+      "pageEnd": 894,
+      "matchedTerm": "지리적 표시"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "제5장-거절이유",
+      "title": "제5장 거절이유",
+      "pageStart": 911,
+      "pageEnd": 916,
+      "matchedTerm": "지리적 표시"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "제4장-요지변경-기준",
+      "title": "제4장 요지변경 기준",
+      "pageStart": 952,
+      "pageEnd": 963,
+      "matchedTerm": "지리적 표시"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "9-2017-2020년-시행-산업재산권법-개정내용",
+      "title": "9. 2017∼2020년 시행 산업재산권법 개정내용",
+      "pageStart": 1321,
+      "pageEnd": 1332,
+      "matchedTerm": "지리적 표시"
+    }
+  ]
+}

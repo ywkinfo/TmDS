@@ -1,0 +1,1348 @@
+[
+  {
+    "routeLabel": "home",
+    "viewportLabel": "desktop",
+    "url": "http://localhost:4317/",
+    "steps": [
+      {
+        "cmd": "viewport 1440x1200",
+        "exit": 0,
+        "tail": [
+          "Viewport set to 1440x1200"
+        ]
+      },
+      {
+        "cmd": "goto http://localhost:4317/",
+        "exit": 0,
+        "tail": [
+          "Navigated to http://localhost:4317/ (200)"
+        ]
+      },
+      {
+        "cmd": "wait --load",
+        "exit": 0,
+        "tail": [
+          "Page loaded"
+        ]
+      }
+    ],
+    "metrics": {
+      "href": "http://localhost:4317/",
+      "title": "심판편람 제14판을 언제 어디서나 쉽게 참조할 수 있도록 구조화한 웹 리더입니다.",
+      "viewport": {
+        "width": 1440,
+        "height": 1200
+      },
+      "body": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440
+      },
+      "article": null,
+      "overflowing": [],
+      "imageCount": 0,
+      "figureCount": 0,
+      "tableCount": 0,
+      "tableScrollCount": 0,
+      "visibleImageCount": 0,
+      "visibleBrokenImages": [],
+      "firstText": "TMDS READER\n심판편람 제14판\n장 제목, 항목명, 본문 일부 검색\nCONTENTS\n목차\n전면부\n전면부\n표지 및 발간정보\nPDF 1-4\n0개 항목\n머리말\nPDF 5-6\n0개 항목\n일러두기\np.i-vi\n0개 항목\n후면부\n후면부\n심판편람편찬위원이미지\n1\nPDF 1373-1381\n0개 항목\n제1편\n특허심판 일반\n제1장 의의\np.3\n0개 항목\n제2장 심판의 법적 성질\np.4-5\n0개 항목\n제3장 특허심판의 종류\np.6-9\n3개 항목\n제2편\n심판서류의 접수 심판관지정 및 열람\n제1장 심판서류의 접수\np.13-15\n0개 항목\n제2장 심판청구서 접수 후 절차 (심판정책과)\np.16-23\n13개 항목\n제3장 통지서 등의 처리요령\np.24-25\n0개 항목\n제4장 제3자에 의한 심판서류의 열람 복사\np.26-28\n0개 항목\n제5장 증거물 등 보관물의 관리 및 반환\np.29-30\n2개 항목\n제6장 심판서류의 반출금지 및 비밀누설죄\np.31\n0개 항목\n제7장 심판통계 및 판례집 발간\np.32\n0개"
+    },
+    "console": [
+      "--- BEGIN UNTRUSTED EXTERNAL CONTENT (source: http://localhost:4317/) ---",
+      "[2026-04-18T00:21:11.992Z] [warning] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.",
+      "[2026-04-18T00:21:11.993Z] [warning] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.",
+      "--- END UNTRUSTED EXTERNAL CONTENT ---"
+    ]
+  },
+  {
+    "routeLabel": "home",
+    "viewportLabel": "mobile",
+    "url": "http://localhost:4317/",
+    "steps": [
+      {
+        "cmd": "viewport 375x812",
+        "exit": 0,
+        "tail": [
+          "Viewport set to 375x812"
+        ]
+      },
+      {
+        "cmd": "goto http://localhost:4317/",
+        "exit": 0,
+        "tail": [
+          "Navigated to http://localhost:4317/ (200)"
+        ]
+      },
+      {
+        "cmd": "wait --load",
+        "exit": 0,
+        "tail": [
+          "Page loaded"
+        ]
+      }
+    ],
+    "metrics": {
+      "href": "http://localhost:4317/",
+      "title": "심판편람 제14판을 언제 어디서나 쉽게 참조할 수 있도록 구조화한 웹 리더입니다.",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "body": {
+        "scrollWidth": 375,
+        "clientWidth": 375
+      },
+      "article": null,
+      "overflowing": [],
+      "imageCount": 0,
+      "figureCount": 0,
+      "tableCount": 0,
+      "tableScrollCount": 0,
+      "visibleImageCount": 0,
+      "visibleBrokenImages": [],
+      "firstText": "목차\nTMDS READER\n심판편람 제14판\n장 제목, 항목명, 본문 일부 검색\nTMDS READER\n심판편람 제14판을 언제 어디서나 쉽게 참조할 수 있도록 구조화한 웹 리더입니다.\n\n챕터 단위로 탐색하고 읽을 수 있도록 구성했으며, 인쇄 페이지 라벨과 PDF 페이지 번호를 함께 보존해 필요한 절차와 규정을 빠르게 찾아볼 수 있습니다.\n\n특히 복잡한 심판 절차 및 관련 규정은 Google NotebookLM 보조 자료와 함께 활용해 보세요. 아울러 상표심사기준 웹 리더, GloTm의 Cross-Border Trademark Operating Guide, 사이트 운영자 안내도 함께 확인하실 수 있습니다.\n\nNotebookLM 보조 자료\n상표심사기준 웹 리더\nGloTm 운영 가이드\n운영자 안내\n동기화 시각\n2026. 4. 18. 오전 8:46\n챕터 수\n207\n페이지 수\n1381\n탐색 엔트리\n245\n전면부\n전면부\n전면부\n표지 및 발간정보\n\n(ISSN 2092-5697) 발 간 등 록 번"
+    },
+    "console": [
+      "--- BEGIN UNTRUSTED EXTERNAL CONTENT (source: http://localhost:4317/) ---",
+      "[2026-04-18T00:21:11.992Z] [warning] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.",
+      "[2026-04-18T00:21:11.993Z] [warning] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.",
+      "[2026-04-18T00:21:12.581Z] [warning] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.",
+      "[2026-04-18T00:21:12.581Z] [warning] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.",
+      "--- END UNTRUSTED EXTERNAL CONTENT ---"
+    ]
+  },
+  {
+    "routeLabel": "front-preface",
+    "viewportLabel": "desktop",
+    "url": "http://localhost:4317/#/chapter/front-preface",
+    "steps": [
+      {
+        "cmd": "viewport 1440x1200",
+        "exit": 0,
+        "tail": [
+          "Viewport set to 1440x1200"
+        ]
+      },
+      {
+        "cmd": "goto http://localhost:4317/#/chapter/front-preface",
+        "exit": 0,
+        "tail": [
+          "Navigated to http://localhost:4317/#/chapter/front-preface (unknown)"
+        ]
+      },
+      {
+        "cmd": "wait --load",
+        "exit": 0,
+        "tail": [
+          "Page loaded"
+        ]
+      }
+    ],
+    "metrics": {
+      "href": "http://localhost:4317/#/chapter/front-preface",
+      "title": "머리말",
+      "viewport": {
+        "width": 1440,
+        "height": 1200
+      },
+      "body": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440
+      },
+      "article": {
+        "scrollWidth": 998,
+        "clientWidth": 998
+      },
+      "overflowing": [],
+      "imageCount": 0,
+      "figureCount": 0,
+      "tableCount": 0,
+      "tableScrollCount": 0,
+      "visibleImageCount": 0,
+      "visibleBrokenImages": [],
+      "firstText": "TMDS READER\n머리말\n장 제목, 항목명, 본문 일부 검색\nCONTENTS\n목차\n전면부\n전면부\n표지 및 발간정보\nPDF 1-4\n0개 항목\n머리말\nPDF 5-6\n0개 항목\n일러두기\np.i-vi\n0개 항목\n후면부\n후면부\n심판편람편찬위원이미지\n1\nPDF 1373-1381\n0개 항목\n제1편\n특허심판 일반\n제1장 의의\np.3\n0개 항목\n제2장 심판의 법적 성질\np.4-5\n0개 항목\n제3장 특허심판의 종류\np.6-9\n3개 항목\n제2편\n심판서류의 접수 심판관지정 및 열람\n제1장 심판서류의 접수\np.13-15\n0개 항목\n제2장 심판청구서 접수 후 절차 (심판정책과)\np.16-23\n13개 항목\n제3장 통지서 등의 처리요령\np.24-25\n0개 항목\n제4장 제3자에 의한 심판서류의 열람 복사\np.26-28\n0개 항목\n제5장 증거물 등 보관물의 관리 및 반환\np.29-30\n2개 항목\n제6장 심판서류의 반출금지 및 비밀누설죄\np.31\n0개 항목\n제7장 심판통계 및 판례집 발간\np.32\n0개 항목\n제3"
+    },
+    "console": [
+      "--- BEGIN UNTRUSTED EXTERNAL CONTENT (source: http://localhost:4317/#/chapter/front-preface) ---",
+      "[2026-04-18T00:21:11.992Z] [warning] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.",
+      "[2026-04-18T00:21:11.993Z] [warning] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.",
+      "[2026-04-18T00:21:12.581Z] [warning] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.",
+      "[2026-04-18T00:21:12.581Z] [warning] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.",
+      "--- END UNTRUSTED EXTERNAL CONTENT ---"
+    ]
+  },
+  {
+    "routeLabel": "front-preface",
+    "viewportLabel": "mobile",
+    "url": "http://localhost:4317/#/chapter/front-preface",
+    "steps": [
+      {
+        "cmd": "viewport 375x812",
+        "exit": 0,
+        "tail": [
+          "Viewport set to 375x812"
+        ]
+      },
+      {
+        "cmd": "goto http://localhost:4317/#/chapter/front-preface",
+        "exit": 0,
+        "tail": [
+          "Navigated to http://localhost:4317/#/chapter/front-preface (unknown)"
+        ]
+      },
+      {
+        "cmd": "wait --load",
+        "exit": 0,
+        "tail": [
+          "Page loaded"
+        ]
+      }
+    ],
+    "metrics": {
+      "href": "http://localhost:4317/#/chapter/front-preface",
+      "title": "머리말",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "body": {
+        "scrollWidth": 375,
+        "clientWidth": 375
+      },
+      "article": {
+        "scrollWidth": 349,
+        "clientWidth": 349
+      },
+      "overflowing": [],
+      "imageCount": 0,
+      "figureCount": 0,
+      "tableCount": 0,
+      "tableScrollCount": 0,
+      "visibleImageCount": 0,
+      "visibleBrokenImages": [],
+      "firstText": "목차\nTMDS READER\n머리말\n장 제목, 항목명, 본문 일부 검색\n전면부\n머리말\n\n최근 급격한 기술 변화와 함께 기술 경쟁이 날로 치열해지고, 국내외 기업 간의 지식재산분쟁이 한층 가열되고 있어 특허심판의 중요성이 더욱 강조되고 있습니다. 특허심판원은 이러한 지식재산 환경 변화에 발맞추어 지식재산권 분쟁을 준사법적 절차에 따라 해결하는 특별행정심판기관으로서 공정하고 신속ㆍ정확한 심판을 위해 노력해 왔습니다. 심판편람은 특허청의 심판소 및 항고심판소로 운영되던 1978년…\n\n페이지\nPDF 5-6\n시작 라벨\n미상\n이미지\n없음\nBUILD\n2026. 4. 18. 오전 8:45\nCHAPTER OUTLINE\n장 개요와 섹션 이동\n펼치기\nPART GUIDE\n전면부\n펼치기\n머리말\n\n최근 급격한 기술 변화와 함께 기술 경쟁이 날로 치열해지고, 국내외 기업 간의 지식재산분쟁이 한층 가열되고 있어 특허심판의 중요성이 더욱 강조되고 있습니다.\n\n특허심판원은 이러한 지식재산 환경 변화에 발맞추어 지식재"
+    },
+    "console": [
+      "--- BEGIN UNTRUSTED EXTERNAL CONTENT (source: http://localhost:4317/#/chapter/front-preface) ---",
+      "[2026-04-18T00:21:11.992Z] [warning] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.",
+      "[2026-04-18T00:21:11.993Z] [warning] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.",
+      "[2026-04-18T00:21:12.581Z] [warning] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.",
+      "[2026-04-18T00:21:12.581Z] [warning] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.",
+      "--- END UNTRUSTED EXTERNAL CONTENT ---"
+    ]
+  },
+  {
+    "routeLabel": "front-notes",
+    "viewportLabel": "desktop",
+    "url": "http://localhost:4317/#/chapter/front-notes",
+    "steps": [
+      {
+        "cmd": "viewport 1440x1200",
+        "exit": 0,
+        "tail": [
+          "Viewport set to 1440x1200"
+        ]
+      },
+      {
+        "cmd": "goto http://localhost:4317/#/chapter/front-notes",
+        "exit": 0,
+        "tail": [
+          "Navigated to http://localhost:4317/#/chapter/front-notes (unknown)"
+        ]
+      },
+      {
+        "cmd": "wait --load",
+        "exit": 0,
+        "tail": [
+          "Page loaded"
+        ]
+      }
+    ],
+    "metrics": {
+      "href": "http://localhost:4317/#/chapter/front-notes",
+      "title": "일러두기",
+      "viewport": {
+        "width": 1440,
+        "height": 1200
+      },
+      "body": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440
+      },
+      "article": {
+        "scrollWidth": 998,
+        "clientWidth": 998
+      },
+      "overflowing": [],
+      "imageCount": 1,
+      "figureCount": 1,
+      "tableCount": 0,
+      "tableScrollCount": 0,
+      "visibleImageCount": 0,
+      "visibleBrokenImages": [],
+      "firstText": "TMDS READER\n일러두기\n장 제목, 항목명, 본문 일부 검색\nCONTENTS\n목차\n전면부\n전면부\n표지 및 발간정보\nPDF 1-4\n0개 항목\n머리말\nPDF 5-6\n0개 항목\n일러두기\np.i-vi\n0개 항목\n후면부\n후면부\n심판편람편찬위원이미지\n1\nPDF 1373-1381\n0개 항목\n제1편\n특허심판 일반\n제1장 의의\np.3\n0개 항목\n제2장 심판의 법적 성질\np.4-5\n0개 항목\n제3장 특허심판의 종류\np.6-9\n3개 항목\n제2편\n심판서류의 접수 심판관지정 및 열람\n제1장 심판서류의 접수\np.13-15\n0개 항목\n제2장 심판청구서 접수 후 절차 (심판정책과)\np.16-23\n13개 항목\n제3장 통지서 등의 처리요령\np.24-25\n0개 항목\n제4장 제3자에 의한 심판서류의 열람 복사\np.26-28\n0개 항목\n제5장 증거물 등 보관물의 관리 및 반환\np.29-30\n2개 항목\n제6장 심판서류의 반출금지 및 비밀누설죄\np.31\n0개 항목\n제7장 심판통계 및 판례집 발간\np.32\n0개 항목\n제"
+    },
+    "console": [
+      "--- BEGIN UNTRUSTED EXTERNAL CONTENT (source: http://localhost:4317/#/chapter/front-notes) ---",
+      "[2026-04-18T00:21:11.992Z] [warning] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.",
+      "[2026-04-18T00:21:11.993Z] [warning] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.",
+      "[2026-04-18T00:21:12.581Z] [warning] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.",
+      "[2026-04-18T00:21:12.581Z] [warning] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.",
+      "--- END UNTRUSTED EXTERNAL CONTENT ---"
+    ]
+  },
+  {
+    "routeLabel": "front-notes",
+    "viewportLabel": "mobile",
+    "url": "http://localhost:4317/#/chapter/front-notes",
+    "steps": [
+      {
+        "cmd": "viewport 375x812",
+        "exit": 0,
+        "tail": [
+          "Viewport set to 375x812"
+        ]
+      },
+      {
+        "cmd": "goto http://localhost:4317/#/chapter/front-notes",
+        "exit": 0,
+        "tail": [
+          "Navigated to http://localhost:4317/#/chapter/front-notes (unknown)"
+        ]
+      },
+      {
+        "cmd": "wait --load",
+        "exit": 0,
+        "tail": [
+          "Page loaded"
+        ]
+      }
+    ],
+    "metrics": {
+      "href": "http://localhost:4317/#/chapter/front-notes",
+      "title": "일러두기",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "body": {
+        "scrollWidth": 375,
+        "clientWidth": 375
+      },
+      "article": {
+        "scrollWidth": 902,
+        "clientWidth": 349
+      },
+      "overflowing": [
+        {
+          "tag": "IMG",
+          "cls": "",
+          "text": "",
+          "right": 915
+        }
+      ],
+      "imageCount": 1,
+      "figureCount": 1,
+      "tableCount": 0,
+      "tableScrollCount": 0,
+      "visibleImageCount": 0,
+      "visibleBrokenImages": [],
+      "firstText": "목차\nTMDS READER\n일러두기\n장 제목, 항목명, 본문 일부 검색\n전면부\n일러두기\n\n1. 이 편람은 심판업무의 능률제고와 전문성 확보를 통하여 심판의 공정과 신속을 기함을 목적으로 한다. 2. 이 편람은 법령해석에 깊이 개입하는 것은 되도록 피하고 심리에 근거와 결론을 유도하는데 참고가 되는 자료 등 심판업무에 관한 기본적인 사항들을 필요에 따라 쉽게 참고할 수 있도록 배려하였다. 따라서 표제대로 어디까지나 편람이고 법령의 유권해석이나 확정적인 방침은 아니고, 사안에 따라…\n\n페이지\np.i-vi\n시작 라벨\ni\n이미지\n없음\nBUILD\n2026. 4. 18. 오전 8:45\nCHAPTER OUTLINE\n장 개요와 섹션 이동\n펼치기\nPART GUIDE\n전면부\n펼치기\n일러두기\n\n1. 이 편람은 심판업무의 능률제고와 전문성 확보를 통하여 심판의 공정과 신속을 기함을 목적으로 한다.\n\n2. 이 편람은 법령해석에 깊이 개입하는 것은 되도록 피하고 심리에 근거와 결론을 유도하는데 참고가 되는 "
+    },
+    "console": [
+      "--- BEGIN UNTRUSTED EXTERNAL CONTENT (source: http://localhost:4317/#/chapter/front-notes) ---",
+      "[2026-04-18T00:21:11.992Z] [warning] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.",
+      "[2026-04-18T00:21:11.993Z] [warning] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.",
+      "[2026-04-18T00:21:12.581Z] [warning] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.",
+      "[2026-04-18T00:21:12.581Z] [warning] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.",
+      "--- END UNTRUSTED EXTERNAL CONTENT ---"
+    ]
+  },
+  {
+    "routeLabel": "page-307",
+    "viewportLabel": "desktop",
+    "url": "http://localhost:4317/#/chapter/%EC%A0%9C8%EC%9E%A5-%EB%AC%B8%EC%84%9C%EC%A0%9C%EC%B6%9C%EC%8B%A0%EC%B2%AD-%EB%B0%8F-%EC%A1%B0%EC%82%AC%EC%9D%98-%EC%B4%89%ED%83%81%EC%82%AC%EC%8B%A4%EC%A1%B0%ED%9A%8C/overview",
+    "steps": [
+      {
+        "cmd": "viewport 1440x1200",
+        "exit": 0,
+        "tail": [
+          "Viewport set to 1440x1200"
+        ]
+      },
+      {
+        "cmd": "goto http://localhost:4317/#/chapter/%EC%A0%9C8%EC%9E%A5-%EB%AC%B8%EC%84%9C%EC%A0%9C%EC%B6%9C%EC%8B%A0%EC%B2%AD-%EB%B0%8F-%EC%A1%B0%EC%82%AC%EC%9D%98-%EC%B4%89%ED%83%81%EC%82%AC%EC%8B%A4%EC%A1%B0%ED%9A%8C/overview",
+        "exit": 0,
+        "tail": [
+          "Navigated to http://localhost:4317/#/chapter/%EC%A0%9C8%EC%9E%A5-%EB%AC%B8%EC%84%9C%EC%A0%9C%EC%B6%9C%EC%8B%A0%EC%B2%AD-%EB%B0%8F-%EC%A1%B0%EC%82%AC%EC%9D%98-%EC%B4%89%ED%83%81%EC%82%AC%EC%8B%A4%EC%A1%B0%ED%9A%8C/overview (unknown)"
+        ]
+      },
+      {
+        "cmd": "wait --load",
+        "exit": 0,
+        "tail": [
+          "Page loaded"
+        ]
+      }
+    ],
+    "metrics": {
+      "href": "http://localhost:4317/#/chapter/%EC%A0%9C8%EC%9E%A5-%EB%AC%B8%EC%84%9C%EC%A0%9C%EC%B6%9C%EC%8B%A0%EC%B2%AD-%EB%B0%8F-%EC%A1%B0%EC%82%AC%EC%9D%98-%EC%B4%89%ED%83%81%EC%82%AC%EC%8B%A4%EC%A1%B0%ED%9A%8C",
+      "title": "제8장 문서제출신청 및 조사의 촉탁(사실조회)",
+      "viewport": {
+        "width": 1440,
+        "height": 1200
+      },
+      "body": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440
+      },
+      "article": {
+        "scrollWidth": 998,
+        "clientWidth": 998
+      },
+      "overflowing": [],
+      "imageCount": 12,
+      "figureCount": 12,
+      "tableCount": 0,
+      "tableScrollCount": 0,
+      "visibleImageCount": 0,
+      "visibleBrokenImages": [],
+      "firstText": "TMDS READER\n제8장 문서제출신청 및 조사의 촉탁(사실조회)\n장 제목, 항목명, 본문 일부 검색\nCONTENTS\n목차\n전면부\n전면부\n표지 및 발간정보\nPDF 1-4\n0개 항목\n머리말\nPDF 5-6\n0개 항목\n일러두기\np.i-vi\n0개 항목\n후면부\n후면부\n심판편람편찬위원이미지\n1\nPDF 1373-1381\n0개 항목\n제1편\n특허심판 일반\n제1장 의의\np.3\n0개 항목\n제2장 심판의 법적 성질\np.4-5\n0개 항목\n제3장 특허심판의 종류\np.6-9\n3개 항목\n제2편\n심판서류의 접수 심판관지정 및 열람\n제1장 심판서류의 접수\np.13-15\n0개 항목\n제2장 심판청구서 접수 후 절차 (심판정책과)\np.16-23\n13개 항목\n제3장 통지서 등의 처리요령\np.24-25\n0개 항목\n제4장 제3자에 의한 심판서류의 열람 복사\np.26-28\n0개 항목\n제5장 증거물 등 보관물의 관리 및 반환\np.29-30\n2개 항목\n제6장 심판서류의 반출금지 및 비밀누설죄\np.31\n0개 항목\n제7장 심판통계 "
+    },
+    "console": [
+      "--- BEGIN UNTRUSTED EXTERNAL CONTENT (source: http://localhost:4317/#/chapter/%EC%A0%9C8%EC%9E%A5-%EB%AC%B8%EC%84%9C%EC%A0%9C%EC%B6%9C%EC%8B%A0%EC%B2%AD-%EB%B0%8F-%EC%A1%B0%EC%82%AC%EC%9D%98-%EC%B4%89%ED%83%81%EC%82%AC%EC%8B%A4%EC%A1%B0%ED%9A%8C) ---",
+      "[2026-04-18T00:21:11.992Z] [warning] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.",
+      "[2026-04-18T00:21:11.993Z] [warning] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.",
+      "[2026-04-18T00:21:12.581Z] [warning] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.",
+      "[2026-04-18T00:21:12.581Z] [warning] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.",
+      "--- END UNTRUSTED EXTERNAL CONTENT ---"
+    ]
+  },
+  {
+    "routeLabel": "page-307",
+    "viewportLabel": "mobile",
+    "url": "http://localhost:4317/#/chapter/%EC%A0%9C8%EC%9E%A5-%EB%AC%B8%EC%84%9C%EC%A0%9C%EC%B6%9C%EC%8B%A0%EC%B2%AD-%EB%B0%8F-%EC%A1%B0%EC%82%AC%EC%9D%98-%EC%B4%89%ED%83%81%EC%82%AC%EC%8B%A4%EC%A1%B0%ED%9A%8C/overview",
+    "steps": [
+      {
+        "cmd": "viewport 375x812",
+        "exit": 0,
+        "tail": [
+          "Viewport set to 375x812"
+        ]
+      },
+      {
+        "cmd": "goto http://localhost:4317/#/chapter/%EC%A0%9C8%EC%9E%A5-%EB%AC%B8%EC%84%9C%EC%A0%9C%EC%B6%9C%EC%8B%A0%EC%B2%AD-%EB%B0%8F-%EC%A1%B0%EC%82%AC%EC%9D%98-%EC%B4%89%ED%83%81%EC%82%AC%EC%8B%A4%EC%A1%B0%ED%9A%8C/overview",
+        "exit": 0,
+        "tail": [
+          "Navigated to http://localhost:4317/#/chapter/%EC%A0%9C8%EC%9E%A5-%EB%AC%B8%EC%84%9C%EC%A0%9C%EC%B6%9C%EC%8B%A0%EC%B2%AD-%EB%B0%8F-%EC%A1%B0%EC%82%AC%EC%9D%98-%EC%B4%89%ED%83%81%EC%82%AC%EC%8B%A4%EC%A1%B0%ED%9A%8C/overview (unknown)"
+        ]
+      },
+      {
+        "cmd": "wait --load",
+        "exit": 0,
+        "tail": [
+          "Page loaded"
+        ]
+      }
+    ],
+    "metrics": {
+      "href": "http://localhost:4317/#/chapter/%EC%A0%9C8%EC%9E%A5-%EB%AC%B8%EC%84%9C%EC%A0%9C%EC%B6%9C%EC%8B%A0%EC%B2%AD-%EB%B0%8F-%EC%A1%B0%EC%82%AC%EC%9D%98-%EC%B4%89%ED%83%81%EC%82%AC%EC%8B%A4%EC%A1%B0%ED%9A%8C",
+      "title": "제8장 문서제출신청 및 조사의 촉탁(사실조회)",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "body": {
+        "scrollWidth": 375,
+        "clientWidth": 375
+      },
+      "article": {
+        "scrollWidth": 349,
+        "clientWidth": 349
+      },
+      "overflowing": [],
+      "imageCount": 12,
+      "figureCount": 12,
+      "tableCount": 0,
+      "tableScrollCount": 0,
+      "visibleImageCount": 0,
+      "visibleBrokenImages": [],
+      "firstText": "목차\nTMDS READER\n제8장 문서제출신청 및 조사의 촉탁(사실조회)\n장 제목, 항목명, 본문 일부 검색\n제9편 증거조사\n제8장 문서제출신청 및 조사의 촉탁(사실조회)\n\n1. 의의 서증은 문서를 열람하여 그에 기재된 의미 내용을 증거자료로 하기 위한 증거조사를 말한 다. 서증신청은 ① 자신이 가진 자료이면 이를 직접제출하고, ② 상대방ㆍ제3자가 가진 것으로서 제출의무가 있는 문서는 그 소지인에 대한 제출명령을 신청하는 방법에 의하며 ③ 소지자에게 제출의무가 없는 문서는 그에 대한 문서송부촉탁을 신청하는 방법으로 하며 ④ 소지자에 대한 송부촉탁이 어려운 문서…\n\n페이지\np.279-295\n시작 라벨\n279\n이미지\n2개 포함\nBUILD\n2026. 4. 18. 오전 8:45\nCHAPTER OUTLINE\n장 개요와 섹션 이동\n펼치기\nPART GUIDE\n제9편 증거조사\n펼치기\n제8장 문서제출신청 및 조사의 촉탁(사실조회)\n\n1. 의의\n\n서증은 문서를 열람하여 그에 기재된 의미 내용을 증거자"
+    },
+    "console": [
+      "--- BEGIN UNTRUSTED EXTERNAL CONTENT (source: http://localhost:4317/#/chapter/%EC%A0%9C8%EC%9E%A5-%EB%AC%B8%EC%84%9C%EC%A0%9C%EC%B6%9C%EC%8B%A0%EC%B2%AD-%EB%B0%8F-%EC%A1%B0%EC%82%AC%EC%9D%98-%EC%B4%89%ED%83%81%EC%82%AC%EC%8B%A4%EC%A1%B0%ED%9A%8C) ---",
+      "[2026-04-18T00:21:11.992Z] [warning] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.",
+      "[2026-04-18T00:21:11.993Z] [warning] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.",
+      "[2026-04-18T00:21:12.581Z] [warning] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.",
+      "[2026-04-18T00:21:12.581Z] [warning] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.",
+      "--- END UNTRUSTED EXTERNAL CONTENT ---"
+    ]
+  },
+  {
+    "routeLabel": "page-461",
+    "viewportLabel": "desktop",
+    "url": "http://localhost:4317/#/chapter/%EC%A0%9C3%EC%9E%A5-%EC%8B%AC%EA%B2%B0%EB%B6%84%EB%A5%98/%EC%A0%9C3%EC%A0%88-%EC%8B%AC%EA%B2%B0%EB%B6%84%EB%A5%98%ED%91%9C",
+    "steps": [
+      {
+        "cmd": "viewport 1440x1200",
+        "exit": 0,
+        "tail": [
+          "Viewport set to 1440x1200"
+        ]
+      },
+      {
+        "cmd": "goto http://localhost:4317/#/chapter/%EC%A0%9C3%EC%9E%A5-%EC%8B%AC%EA%B2%B0%EB%B6%84%EB%A5%98/%EC%A0%9C3%EC%A0%88-%EC%8B%AC%EA%B2%B0%EB%B6%84%EB%A5%98%ED%91%9C",
+        "exit": 0,
+        "tail": [
+          "Navigated to http://localhost:4317/#/chapter/%EC%A0%9C3%EC%9E%A5-%EC%8B%AC%EA%B2%B0%EB%B6%84%EB%A5%98/%EC%A0%9C3%EC%A0%88-%EC%8B%AC%EA%B2%B0%EB%B6%84%EB%A5%98%ED%91%9C (unknown)"
+        ]
+      },
+      {
+        "cmd": "wait --load",
+        "exit": 0,
+        "tail": [
+          "Page loaded"
+        ]
+      }
+    ],
+    "metrics": {
+      "href": "http://localhost:4317/#/chapter/%EC%A0%9C3%EC%9E%A5-%EC%8B%AC%EA%B2%B0%EB%B6%84%EB%A5%98/%EC%A0%9C3%EC%A0%88-%EC%8B%AC%EA%B2%B0%EB%B6%84%EB%A5%98%ED%91%9C",
+      "title": "제3장 심결분류",
+      "viewport": {
+        "width": 1440,
+        "height": 1200
+      },
+      "body": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440
+      },
+      "article": {
+        "scrollWidth": 998,
+        "clientWidth": 998
+      },
+      "overflowing": [],
+      "imageCount": 27,
+      "figureCount": 27,
+      "tableCount": 0,
+      "tableScrollCount": 0,
+      "visibleImageCount": 0,
+      "visibleBrokenImages": [],
+      "firstText": "TMDS READER\n제3장 심결분류\n장 제목, 항목명, 본문 일부 검색\nCONTENTS\n목차\n전면부\n전면부\n표지 및 발간정보\nPDF 1-4\n0개 항목\n머리말\nPDF 5-6\n0개 항목\n일러두기\np.i-vi\n0개 항목\n후면부\n후면부\n심판편람편찬위원이미지\n1\nPDF 1373-1381\n0개 항목\n제1편\n특허심판 일반\n제1장 의의\np.3\n0개 항목\n제2장 심판의 법적 성질\np.4-5\n0개 항목\n제3장 특허심판의 종류\np.6-9\n3개 항목\n제2편\n심판서류의 접수 심판관지정 및 열람\n제1장 심판서류의 접수\np.13-15\n0개 항목\n제2장 심판청구서 접수 후 절차 (심판정책과)\np.16-23\n13개 항목\n제3장 통지서 등의 처리요령\np.24-25\n0개 항목\n제4장 제3자에 의한 심판서류의 열람 복사\np.26-28\n0개 항목\n제5장 증거물 등 보관물의 관리 및 반환\np.29-30\n2개 항목\n제6장 심판서류의 반출금지 및 비밀누설죄\np.31\n0개 항목\n제7장 심판통계 및 판례집 발간\np.32\n0개 "
+    },
+    "console": [
+      "--- BEGIN UNTRUSTED EXTERNAL CONTENT (source: http://localhost:4317/#/chapter/%EC%A0%9C3%EC%9E%A5-%EC%8B%AC%EA%B2%B0%EB%B6%84%EB%A5%98/%EC%A0%9C3%EC%A0%88-%EC%8B%AC%EA%B2%B0%EB%B6%84%EB%A5%98%ED%91%9C) ---",
+      "[2026-04-18T00:21:11.992Z] [warning] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.",
+      "[2026-04-18T00:21:11.993Z] [warning] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.",
+      "[2026-04-18T00:21:12.581Z] [warning] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.",
+      "[2026-04-18T00:21:12.581Z] [warning] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.",
+      "--- END UNTRUSTED EXTERNAL CONTENT ---"
+    ]
+  },
+  {
+    "routeLabel": "page-461",
+    "viewportLabel": "mobile",
+    "url": "http://localhost:4317/#/chapter/%EC%A0%9C3%EC%9E%A5-%EC%8B%AC%EA%B2%B0%EB%B6%84%EB%A5%98/%EC%A0%9C3%EC%A0%88-%EC%8B%AC%EA%B2%B0%EB%B6%84%EB%A5%98%ED%91%9C",
+    "steps": [
+      {
+        "cmd": "viewport 375x812",
+        "exit": 0,
+        "tail": [
+          "Viewport set to 375x812"
+        ]
+      },
+      {
+        "cmd": "goto http://localhost:4317/#/chapter/%EC%A0%9C3%EC%9E%A5-%EC%8B%AC%EA%B2%B0%EB%B6%84%EB%A5%98/%EC%A0%9C3%EC%A0%88-%EC%8B%AC%EA%B2%B0%EB%B6%84%EB%A5%98%ED%91%9C",
+        "exit": 0,
+        "tail": [
+          "Navigated to http://localhost:4317/#/chapter/%EC%A0%9C3%EC%9E%A5-%EC%8B%AC%EA%B2%B0%EB%B6%84%EB%A5%98/%EC%A0%9C3%EC%A0%88-%EC%8B%AC%EA%B2%B0%EB%B6%84%EB%A5%98%ED%91%9C (unknown)"
+        ]
+      },
+      {
+        "cmd": "wait --load",
+        "exit": 0,
+        "tail": [
+          "Page loaded"
+        ]
+      }
+    ],
+    "metrics": {
+      "href": "http://localhost:4317/#/chapter/%EC%A0%9C3%EC%9E%A5-%EC%8B%AC%EA%B2%B0%EB%B6%84%EB%A5%98/%EC%A0%9C3%EC%A0%88-%EC%8B%AC%EA%B2%B0%EB%B6%84%EB%A5%98%ED%91%9C",
+      "title": "제3장 심결분류",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "body": {
+        "scrollWidth": 375,
+        "clientWidth": 375
+      },
+      "article": {
+        "scrollWidth": 879,
+        "clientWidth": 349
+      },
+      "overflowing": [
+        {
+          "tag": "IMG",
+          "cls": "",
+          "text": "",
+          "right": 824
+        },
+        {
+          "tag": "IMG",
+          "cls": "",
+          "text": "",
+          "right": 892
+        },
+        {
+          "tag": "IMG",
+          "cls": "",
+          "text": "",
+          "right": 855
+        },
+        {
+          "tag": "IMG",
+          "cls": "",
+          "text": "",
+          "right": 873
+        }
+      ],
+      "imageCount": 27,
+      "figureCount": 27,
+      "tableCount": 0,
+      "tableScrollCount": 0,
+      "visibleImageCount": 1,
+      "visibleBrokenImages": [],
+      "firstText": "목차\nTMDS READER\n제3장 심결분류\n장 제목, 항목명, 본문 일부 검색\n제12편 심 결\n제3장 심결분류\n\n제3장 심결분류 심결분류 및 판결분류는 심결 등을 사건의 종류 및 심결 등에서 주로 논의되는 사항(이하 ‘판시사항’이라 한다)의 내용과 심결 등의 주문 및 기술, 물품, 상품의 분류(구분) 등의 구별에 따라 분류하기 위한 표지이다. 심결분류 및 판결분류는 7자리로 되는『기본분류』와 기본분류 다음에 하이픈『-』을 붙여서 접속하는 3종류의『보조분류』로 구성한다. 또한 분류표수를 읽기 쉽도록『사…\n\n페이지\np.430-454\n시작 라벨\n430\n이미지\n없음\nBUILD\n2026. 4. 18. 오전 8:45\nCHAPTER OUTLINE\n장 개요와 섹션 이동\n펼치기\nPART GUIDE\n제12편 심 결\n펼치기\n제3장 심결분류\n제1절 심결분류 및 판결분류 개요\n\n심결분류 및 판결분류는 심결 등을 사건의 종류 및 심결 등에서 주로 논의되는 사항(이하 ‘판시사항’이라 한다)의 내용과 심결 등의"
+    },
+    "console": [
+      "--- BEGIN UNTRUSTED EXTERNAL CONTENT (source: http://localhost:4317/#/chapter/%EC%A0%9C3%EC%9E%A5-%EC%8B%AC%EA%B2%B0%EB%B6%84%EB%A5%98/%EC%A0%9C3%EC%A0%88-%EC%8B%AC%EA%B2%B0%EB%B6%84%EB%A5%98%ED%91%9C) ---",
+      "[2026-04-18T00:21:11.992Z] [warning] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.",
+      "[2026-04-18T00:21:11.993Z] [warning] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.",
+      "[2026-04-18T00:21:12.581Z] [warning] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.",
+      "[2026-04-18T00:21:12.581Z] [warning] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.",
+      "--- END UNTRUSTED EXTERNAL CONTENT ---"
+    ]
+  },
+  {
+    "routeLabel": "page-539",
+    "viewportLabel": "desktop",
+    "url": "http://localhost:4317/#/chapter/%EC%A0%9C2%EC%9E%A5-%EA%B8%B0%EA%B0%84%EC%9D%98-%EA%B3%84%EC%82%B0/%EC%A0%9C5%EC%A0%88-%EB%B6%80%EA%B0%80%EA%B8%B0%EA%B0%84%EC%9D%98-%EC%A7%80%EC%A0%95",
+    "steps": [
+      {
+        "cmd": "viewport 1440x1200",
+        "exit": 0,
+        "tail": [
+          "Viewport set to 1440x1200"
+        ]
+      },
+      {
+        "cmd": "goto http://localhost:4317/#/chapter/%EC%A0%9C2%EC%9E%A5-%EA%B8%B0%EA%B0%84%EC%9D%98-%EA%B3%84%EC%82%B0/%EC%A0%9C5%EC%A0%88-%EB%B6%80%EA%B0%80%EA%B8%B0%EA%B0%84%EC%9D%98-%EC%A7%80%EC%A0%95",
+        "exit": 0,
+        "tail": [
+          "Navigated to http://localhost:4317/#/chapter/%EC%A0%9C2%EC%9E%A5-%EA%B8%B0%EA%B0%84%EC%9D%98-%EA%B3%84%EC%82%B0/%EC%A0%9C5%EC%A0%88-%EB%B6%80%EA%B0%80%EA%B8%B0%EA%B0%84%EC%9D%98-%EC%A7%80%EC%A0%95 (unknown)"
+        ]
+      },
+      {
+        "cmd": "wait --load",
+        "exit": 0,
+        "tail": [
+          "Page loaded"
+        ]
+      }
+    ],
+    "metrics": {
+      "href": "http://localhost:4317/#/chapter/%EC%A0%9C2%EC%9E%A5-%EA%B8%B0%EA%B0%84%EC%9D%98-%EA%B3%84%EC%82%B0/%EC%A0%9C5%EC%A0%88-%EB%B6%80%EA%B0%80%EA%B8%B0%EA%B0%84%EC%9D%98-%EC%A7%80%EC%A0%95",
+      "title": "제2장 기간의 계산",
+      "viewport": {
+        "width": 1440,
+        "height": 1200
+      },
+      "body": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440
+      },
+      "article": {
+        "scrollWidth": 998,
+        "clientWidth": 998
+      },
+      "overflowing": [],
+      "imageCount": 14,
+      "figureCount": 14,
+      "tableCount": 0,
+      "tableScrollCount": 0,
+      "visibleImageCount": 2,
+      "visibleBrokenImages": [],
+      "firstText": "TMDS READER\n제2장 기간의 계산\n장 제목, 항목명, 본문 일부 검색\nCONTENTS\n목차\n전면부\n전면부\n표지 및 발간정보\nPDF 1-4\n0개 항목\n머리말\nPDF 5-6\n0개 항목\n일러두기\np.i-vi\n0개 항목\n후면부\n후면부\n심판편람편찬위원이미지\n1\nPDF 1373-1381\n0개 항목\n제1편\n특허심판 일반\n제1장 의의\np.3\n0개 항목\n제2장 심판의 법적 성질\np.4-5\n0개 항목\n제3장 특허심판의 종류\np.6-9\n3개 항목\n제2편\n심판서류의 접수 심판관지정 및 열람\n제1장 심판서류의 접수\np.13-15\n0개 항목\n제2장 심판청구서 접수 후 절차 (심판정책과)\np.16-23\n13개 항목\n제3장 통지서 등의 처리요령\np.24-25\n0개 항목\n제4장 제3자에 의한 심판서류의 열람 복사\np.26-28\n0개 항목\n제5장 증거물 등 보관물의 관리 및 반환\np.29-30\n2개 항목\n제6장 심판서류의 반출금지 및 비밀누설죄\np.31\n0개 항목\n제7장 심판통계 및 판례집 발간\np.32\n0"
+    },
+    "console": [
+      "--- BEGIN UNTRUSTED EXTERNAL CONTENT (source: http://localhost:4317/#/chapter/%EC%A0%9C2%EC%9E%A5-%EA%B8%B0%EA%B0%84%EC%9D%98-%EA%B3%84%EC%82%B0/%EC%A0%9C5%EC%A0%88-%EB%B6%80%EA%B0%80%EA%B8%B0%EA%B0%84%EC%9D%98-%EC%A7%80%EC%A0%95) ---",
+      "[2026-04-18T00:21:11.992Z] [warning] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.",
+      "[2026-04-18T00:21:11.993Z] [warning] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.",
+      "[2026-04-18T00:21:12.581Z] [warning] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.",
+      "[2026-04-18T00:21:12.581Z] [warning] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.",
+      "--- END UNTRUSTED EXTERNAL CONTENT ---"
+    ]
+  },
+  {
+    "routeLabel": "page-539",
+    "viewportLabel": "mobile",
+    "url": "http://localhost:4317/#/chapter/%EC%A0%9C2%EC%9E%A5-%EA%B8%B0%EA%B0%84%EC%9D%98-%EA%B3%84%EC%82%B0/%EC%A0%9C5%EC%A0%88-%EB%B6%80%EA%B0%80%EA%B8%B0%EA%B0%84%EC%9D%98-%EC%A7%80%EC%A0%95",
+    "steps": [
+      {
+        "cmd": "viewport 375x812",
+        "exit": 0,
+        "tail": [
+          "Viewport set to 375x812"
+        ]
+      },
+      {
+        "cmd": "goto http://localhost:4317/#/chapter/%EC%A0%9C2%EC%9E%A5-%EA%B8%B0%EA%B0%84%EC%9D%98-%EA%B3%84%EC%82%B0/%EC%A0%9C5%EC%A0%88-%EB%B6%80%EA%B0%80%EA%B8%B0%EA%B0%84%EC%9D%98-%EC%A7%80%EC%A0%95",
+        "exit": 0,
+        "tail": [
+          "Navigated to http://localhost:4317/#/chapter/%EC%A0%9C2%EC%9E%A5-%EA%B8%B0%EA%B0%84%EC%9D%98-%EA%B3%84%EC%82%B0/%EC%A0%9C5%EC%A0%88-%EB%B6%80%EA%B0%80%EA%B8%B0%EA%B0%84%EC%9D%98-%EC%A7%80%EC%A0%95 (unknown)"
+        ]
+      },
+      {
+        "cmd": "wait --load",
+        "exit": 0,
+        "tail": [
+          "Page loaded"
+        ]
+      }
+    ],
+    "metrics": {
+      "href": "http://localhost:4317/#/chapter/%EC%A0%9C2%EC%9E%A5-%EA%B8%B0%EA%B0%84%EC%9D%98-%EA%B3%84%EC%82%B0/%EC%A0%9C5%EC%A0%88-%EB%B6%80%EA%B0%80%EA%B8%B0%EA%B0%84%EC%9D%98-%EC%A7%80%EC%A0%95",
+      "title": "제2장 기간의 계산",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "body": {
+        "scrollWidth": 375,
+        "clientWidth": 375
+      },
+      "article": {
+        "scrollWidth": 900,
+        "clientWidth": 349
+      },
+      "overflowing": [
+        {
+          "tag": "IMG",
+          "cls": "",
+          "text": "",
+          "right": 896
+        },
+        {
+          "tag": "IMG",
+          "cls": "",
+          "text": "",
+          "right": 896
+        },
+        {
+          "tag": "IMG",
+          "cls": "",
+          "text": "",
+          "right": 911
+        },
+        {
+          "tag": "IMG",
+          "cls": "",
+          "text": "",
+          "right": 913
+        },
+        {
+          "tag": "IMG",
+          "cls": "",
+          "text": "",
+          "right": 905
+        },
+        {
+          "tag": "IMG",
+          "cls": "",
+          "text": "",
+          "right": 511
+        },
+        {
+          "tag": "IMG",
+          "cls": "",
+          "text": "",
+          "right": 551
+        },
+        {
+          "tag": "IMG",
+          "cls": "",
+          "text": "",
+          "right": 508
+        },
+        {
+          "tag": "IMG",
+          "cls": "",
+          "text": "",
+          "right": 585
+        },
+        {
+          "tag": "IMG",
+          "cls": "",
+          "text": "",
+          "right": 630
+        }
+      ],
+      "imageCount": 14,
+      "figureCount": 14,
+      "tableCount": 0,
+      "tableScrollCount": 0,
+      "visibleImageCount": 2,
+      "visibleBrokenImages": [],
+      "firstText": "목차\nTMDS READER\n제2장 기간의 계산\n장 제목, 항목명, 본문 일부 검색\n제13편 송달, 기간, 절차정지, 승계\n제2장 기간의 계산\n\n제2장 기간의 계산 특허법에 규정된 기간에는 법정기간, 지정기간 및 부가기간이 있다. 법정기간은 산업재산권에 관한 법률 또는 이에 근거한 명령에 의하여 정하여진 기간을 말한다. 지정기간은 출원․ 청구 기타의 절차를 밟은 자에 대하여 특허청장․ 특허심판원장․ 심판장 또는 심사관이 산업재산권에 관한 법률 또는 이에 근거한 명령에 근거하여 지정하는 기간을 말한다. 부가기간은 특허심판원 심판장이…\n\n페이지\np.502-513\n시작 라벨\n502\n이미지\n없음\nBUILD\n2026. 4. 18. 오전 8:45\nCHAPTER OUTLINE\n장 개요와 섹션 이동\n펼치기\nPART GUIDE\n제13편 송달, 기간, 절차정지, 승계\n펼치기\n제2장 기간의 계산\n제1절 기간의 종류\n\n특허법에 규정된 기간에는 법정기간, 지정기간 및 부가기간이 있다.\n\n법정기간은 산업재산권"
+    },
+    "console": [
+      "--- BEGIN UNTRUSTED EXTERNAL CONTENT (source: http://localhost:4317/#/chapter/%EC%A0%9C2%EC%9E%A5-%EA%B8%B0%EA%B0%84%EC%9D%98-%EA%B3%84%EC%82%B0/%EC%A0%9C5%EC%A0%88-%EB%B6%80%EA%B0%80%EA%B8%B0%EA%B0%84%EC%9D%98-%EC%A7%80%EC%A0%95) ---",
+      "[2026-04-18T00:21:11.992Z] [warning] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.",
+      "[2026-04-18T00:21:11.993Z] [warning] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.",
+      "[2026-04-18T00:21:12.581Z] [warning] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.",
+      "[2026-04-18T00:21:12.581Z] [warning] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.",
+      "--- END UNTRUSTED EXTERNAL CONTENT ---"
+    ]
+  },
+  {
+    "routeLabel": "page-575",
+    "viewportLabel": "desktop",
+    "url": "http://localhost:4317/#/chapter/%EC%A0%9C5%EC%9E%A5-%EA%B6%8C%EB%A6%AC%EB%B2%94%EC%9C%84-%ED%99%95%EC%9D%B8%EC%8B%AC%ED%8C%90%EC%9D%98-%EC%8B%AC%EB%A6%AC/%EC%A0%9C3%EC%A0%88-%ED%99%95%EC%9D%B8%EB%8C%80%EC%83%81%EB%B0%9C%EB%AA%85%EA%B3%A0%EC%95%88%EC%9D%98-%ED%8A%B9%EC%A0%95",
+    "steps": [
+      {
+        "cmd": "viewport 1440x1200",
+        "exit": 0,
+        "tail": [
+          "Viewport set to 1440x1200"
+        ]
+      },
+      {
+        "cmd": "goto http://localhost:4317/#/chapter/%EC%A0%9C5%EC%9E%A5-%EA%B6%8C%EB%A6%AC%EB%B2%94%EC%9C%84-%ED%99%95%EC%9D%B8%EC%8B%AC%ED%8C%90%EC%9D%98-%EC%8B%AC%EB%A6%AC/%EC%A0%9C3%EC%A0%88-%ED%99%95%EC%9D%B8%EB%8C%80%EC%83%81%EB%B0%9C%EB%AA%85%EA%B3%A0%EC%95%88%EC%9D%98-%ED%8A%B9%EC%A0%95",
+        "exit": 0,
+        "tail": [
+          "Navigated to http://localhost:4317/#/chapter/%EC%A0%9C5%EC%9E%A5-%EA%B6%8C%EB%A6%AC%EB%B2%94%EC%9C%84-%ED%99%95%EC%9D%B8%EC%8B%AC%ED%8C%90%EC%9D%98-%EC%8B%AC%EB%A6%AC/%EC%A0%9C3%EC%A0%88-%ED%99%95%EC%9D%B8%EB%8C%80%EC%83%81%EB%B0%9C%EB%AA%85%EA%B3%A0%EC%95%88%EC%9D%98-%ED%8A%B9%EC%A0%95 (unknown)"
+        ]
+      },
+      {
+        "cmd": "wait --load",
+        "exit": 0,
+        "tail": [
+          "Page loaded"
+        ]
+      }
+    ],
+    "metrics": {
+      "href": "http://localhost:4317/#/chapter/%EC%A0%9C5%EC%9E%A5-%EA%B6%8C%EB%A6%AC%EB%B2%94%EC%9C%84-%ED%99%95%EC%9D%B8%EC%8B%AC%ED%8C%90%EC%9D%98-%EC%8B%AC%EB%A6%AC/%EC%A0%9C3%EC%A0%88-%ED%99%95%EC%9D%B8%EB%8C%80%EC%83%81%EB%B0%9C%EB%AA%85%EA%B3%A0%EC%95%88%EC%9D%98-%ED%8A%B9%EC%A0%95",
+      "title": "제5장 권리범위 확인심판의 심리",
+      "viewport": {
+        "width": 1440,
+        "height": 1200
+      },
+      "body": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440
+      },
+      "article": {
+        "scrollWidth": 998,
+        "clientWidth": 998
+      },
+      "overflowing": [],
+      "imageCount": 0,
+      "figureCount": 0,
+      "tableCount": 0,
+      "tableScrollCount": 0,
+      "visibleImageCount": 0,
+      "visibleBrokenImages": [],
+      "firstText": "TMDS READER\n제5장 권리범위 확인심판의 심리\n장 제목, 항목명, 본문 일부 검색\nCONTENTS\n목차\n전면부\n전면부\n표지 및 발간정보\nPDF 1-4\n0개 항목\n머리말\nPDF 5-6\n0개 항목\n일러두기\np.i-vi\n0개 항목\n후면부\n후면부\n심판편람편찬위원이미지\n1\nPDF 1373-1381\n0개 항목\n제1편\n특허심판 일반\n제1장 의의\np.3\n0개 항목\n제2장 심판의 법적 성질\np.4-5\n0개 항목\n제3장 특허심판의 종류\np.6-9\n3개 항목\n제2편\n심판서류의 접수 심판관지정 및 열람\n제1장 심판서류의 접수\np.13-15\n0개 항목\n제2장 심판청구서 접수 후 절차 (심판정책과)\np.16-23\n13개 항목\n제3장 통지서 등의 처리요령\np.24-25\n0개 항목\n제4장 제3자에 의한 심판서류의 열람 복사\np.26-28\n0개 항목\n제5장 증거물 등 보관물의 관리 및 반환\np.29-30\n2개 항목\n제6장 심판서류의 반출금지 및 비밀누설죄\np.31\n0개 항목\n제7장 심판통계 및 판례집 발간"
+    },
+    "console": [
+      "--- BEGIN UNTRUSTED EXTERNAL CONTENT (source: http://localhost:4317/#/chapter/%EC%A0%9C5%EC%9E%A5-%EA%B6%8C%EB%A6%AC%EB%B2%94%EC%9C%84-%ED%99%95%EC%9D%B8%EC%8B%AC%ED%8C%90%EC%9D%98-%EC%8B%AC%EB%A6%AC/%EC%A0%9C3%EC%A0%88-%ED%99%95%EC%9D%B8%EB%8C%8) ---",
+      "[2026-04-18T00:21:11.992Z] [warning] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.",
+      "[2026-04-18T00:21:11.993Z] [warning] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.",
+      "[2026-04-18T00:21:12.581Z] [warning] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.",
+      "[2026-04-18T00:21:12.581Z] [warning] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.",
+      "--- END UNTRUSTED EXTERNAL CONTENT ---"
+    ]
+  },
+  {
+    "routeLabel": "page-575",
+    "viewportLabel": "mobile",
+    "url": "http://localhost:4317/#/chapter/%EC%A0%9C5%EC%9E%A5-%EA%B6%8C%EB%A6%AC%EB%B2%94%EC%9C%84-%ED%99%95%EC%9D%B8%EC%8B%AC%ED%8C%90%EC%9D%98-%EC%8B%AC%EB%A6%AC/%EC%A0%9C3%EC%A0%88-%ED%99%95%EC%9D%B8%EB%8C%80%EC%83%81%EB%B0%9C%EB%AA%85%EA%B3%A0%EC%95%88%EC%9D%98-%ED%8A%B9%EC%A0%95",
+    "steps": [
+      {
+        "cmd": "viewport 375x812",
+        "exit": 0,
+        "tail": [
+          "Viewport set to 375x812"
+        ]
+      },
+      {
+        "cmd": "goto http://localhost:4317/#/chapter/%EC%A0%9C5%EC%9E%A5-%EA%B6%8C%EB%A6%AC%EB%B2%94%EC%9C%84-%ED%99%95%EC%9D%B8%EC%8B%AC%ED%8C%90%EC%9D%98-%EC%8B%AC%EB%A6%AC/%EC%A0%9C3%EC%A0%88-%ED%99%95%EC%9D%B8%EB%8C%80%EC%83%81%EB%B0%9C%EB%AA%85%EA%B3%A0%EC%95%88%EC%9D%98-%ED%8A%B9%EC%A0%95",
+        "exit": 0,
+        "tail": [
+          "Navigated to http://localhost:4317/#/chapter/%EC%A0%9C5%EC%9E%A5-%EA%B6%8C%EB%A6%AC%EB%B2%94%EC%9C%84-%ED%99%95%EC%9D%B8%EC%8B%AC%ED%8C%90%EC%9D%98-%EC%8B%AC%EB%A6%AC/%EC%A0%9C3%EC%A0%88-%ED%99%95%EC%9D%B8%EB%8C%80%EC%83%81%EB%B0%9C%EB%AA%85%EA%B3%A0%EC%95%88%EC%9D%98-%ED%8A%B9%EC%A0%95 (unknown)"
+        ]
+      },
+      {
+        "cmd": "wait --load",
+        "exit": 0,
+        "tail": [
+          "Page loaded"
+        ]
+      }
+    ],
+    "metrics": {
+      "href": "http://localhost:4317/#/chapter/%EC%A0%9C5%EC%9E%A5-%EA%B6%8C%EB%A6%AC%EB%B2%94%EC%9C%84-%ED%99%95%EC%9D%B8%EC%8B%AC%ED%8C%90%EC%9D%98-%EC%8B%AC%EB%A6%AC/%EC%A0%9C3%EC%A0%88-%ED%99%95%EC%9D%B8%EB%8C%80%EC%83%81%EB%B0%9C%EB%AA%85%EA%B3%A0%EC%95%88%EC%9D%98-%ED%8A%B9%EC%A0%95",
+      "title": "제5장 권리범위 확인심판의 심리",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "body": {
+        "scrollWidth": 375,
+        "clientWidth": 375
+      },
+      "article": {
+        "scrollWidth": 349,
+        "clientWidth": 349
+      },
+      "overflowing": [],
+      "imageCount": 0,
+      "figureCount": 0,
+      "tableCount": 0,
+      "tableScrollCount": 0,
+      "visibleImageCount": 0,
+      "visibleBrokenImages": [],
+      "firstText": "목차\nTMDS READER\n제5장 권리범위 확인심판의 심리\n장 제목, 항목명, 본문 일부 검색\n제14편 권리범위 확인심판\n제5장 권리범위 확인심판의 심리\n\n제5장 권리범위 확인심판의 심리 권리범위 확인심판의 심리방식은 서면심리를 원칙으로 하되, 당사자의 신청 또는 심판부의 직권에 의해 구술심리를 병행할 수 있다. 권리범위 확인심판은 직권심리주의를 취하고 있기는 하나, 민사소송과 논리적 구조를 같이하여 당사자가 심결의 기초가 되는 사실과 증거의 수집을 책임지도록 하고 있으므로, 가급적 구술심리를 개최하여 당사자의 주장을 정리하고 쟁점을 부각시킬…\n\n페이지\np.540-568\n시작 라벨\n540\n이미지\n없음\nBUILD\n2026. 4. 18. 오전 8:45\nCHAPTER OUTLINE\n장 개요와 섹션 이동\n펼치기\nPART GUIDE\n제14편 권리범위 확인심판\n펼치기\n제5장 권리범위 확인심판의 심리\n제1절 개요\n\n권리범위 확인심판의 심리방식은 서면심리를 원칙으로 하되, 당사자의 신청 또는 심판"
+    },
+    "console": [
+      "--- BEGIN UNTRUSTED EXTERNAL CONTENT (source: http://localhost:4317/#/chapter/%EC%A0%9C5%EC%9E%A5-%EA%B6%8C%EB%A6%AC%EB%B2%94%EC%9C%84-%ED%99%95%EC%9D%B8%EC%8B%AC%ED%8C%90%EC%9D%98-%EC%8B%AC%EB%A6%AC/%EC%A0%9C3%EC%A0%88-%ED%99%95%EC%9D%B8%EB%8C%8) ---",
+      "[2026-04-18T00:21:11.992Z] [warning] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.",
+      "[2026-04-18T00:21:11.993Z] [warning] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.",
+      "[2026-04-18T00:21:12.581Z] [warning] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.",
+      "[2026-04-18T00:21:12.581Z] [warning] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.",
+      "--- END UNTRUSTED EXTERNAL CONTENT ---"
+    ]
+  },
+  {
+    "routeLabel": "page-890",
+    "viewportLabel": "desktop",
+    "url": "http://localhost:4317/#/chapter/%EC%A0%9C9%EC%9E%A5-%EC%A7%80%EB%A6%AC%EC%A0%81-%ED%91%9C%EC%8B%9C-%EB%8B%A8%EC%B2%B4%ED%91%9C%EC%9E%A5%EC%9D%98-%EB%93%B1%EB%A1%9D%EC%B7%A8%EC%86%8C%EC%8B%AC%ED%8C%90%EC%83%81-119-8/overview",
+    "steps": [
+      {
+        "cmd": "viewport 1440x1200",
+        "exit": 0,
+        "tail": [
+          "Viewport set to 1440x1200"
+        ]
+      },
+      {
+        "cmd": "goto http://localhost:4317/#/chapter/%EC%A0%9C9%EC%9E%A5-%EC%A7%80%EB%A6%AC%EC%A0%81-%ED%91%9C%EC%8B%9C-%EB%8B%A8%EC%B2%B4%ED%91%9C%EC%9E%A5%EC%9D%98-%EB%93%B1%EB%A1%9D%EC%B7%A8%EC%86%8C%EC%8B%AC%ED%8C%90%EC%83%81-119-8/overview",
+        "exit": 0,
+        "tail": [
+          "Navigated to http://localhost:4317/#/chapter/%EC%A0%9C9%EC%9E%A5-%EC%A7%80%EB%A6%AC%EC%A0%81-%ED%91%9C%EC%8B%9C-%EB%8B%A8%EC%B2%B4%ED%91%9C%EC%9E%A5%EC%9D%98-%EB%93%B1%EB%A1%9D%EC%B7%A8%EC%86%8C%EC%8B%AC%ED%8C%90%EC%83%81-119-8/overview (unknown)"
+        ]
+      },
+      {
+        "cmd": "wait --load",
+        "exit": 0,
+        "tail": [
+          "Page loaded"
+        ]
+      }
+    ],
+    "metrics": {
+      "href": "http://localhost:4317/#/chapter/%EC%A0%9C9%EC%9E%A5-%EC%A7%80%EB%A6%AC%EC%A0%81-%ED%91%9C%EC%8B%9C-%EB%8B%A8%EC%B2%B4%ED%91%9C%EC%9E%A5%EC%9D%98-%EB%93%B1%EB%A1%9D%EC%B7%A8%EC%86%8C%EC%8B%AC%ED%8C%90%EC%83%81-119-8",
+      "title": "제9장 지리적 표시 단체표장의 등록취소심판(상§119①8)",
+      "viewport": {
+        "width": 1440,
+        "height": 1200
+      },
+      "body": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440
+      },
+      "article": {
+        "scrollWidth": 998,
+        "clientWidth": 998
+      },
+      "overflowing": [],
+      "imageCount": 0,
+      "figureCount": 0,
+      "tableCount": 0,
+      "tableScrollCount": 0,
+      "visibleImageCount": 0,
+      "visibleBrokenImages": [],
+      "firstText": "TMDS READER\n제9장 지리적 표시 단체표장의 등록취소심판(상§119①8)\n장 제목, 항목명, 본문 일부 검색\nCONTENTS\n목차\n전면부\n전면부\n표지 및 발간정보\nPDF 1-4\n0개 항목\n머리말\nPDF 5-6\n0개 항목\n일러두기\np.i-vi\n0개 항목\n후면부\n후면부\n심판편람편찬위원이미지\n1\nPDF 1373-1381\n0개 항목\n제1편\n특허심판 일반\n제1장 의의\np.3\n0개 항목\n제2장 심판의 법적 성질\np.4-5\n0개 항목\n제3장 특허심판의 종류\np.6-9\n3개 항목\n제2편\n심판서류의 접수 심판관지정 및 열람\n제1장 심판서류의 접수\np.13-15\n0개 항목\n제2장 심판청구서 접수 후 절차 (심판정책과)\np.16-23\n13개 항목\n제3장 통지서 등의 처리요령\np.24-25\n0개 항목\n제4장 제3자에 의한 심판서류의 열람 복사\np.26-28\n0개 항목\n제5장 증거물 등 보관물의 관리 및 반환\np.29-30\n2개 항목\n제6장 심판서류의 반출금지 및 비밀누설죄\np.31\n0개 항목\n제7"
+    },
+    "console": [
+      "--- BEGIN UNTRUSTED EXTERNAL CONTENT (source: http://localhost:4317/#/chapter/%EC%A0%9C9%EC%9E%A5-%EC%A7%80%EB%A6%AC%EC%A0%81-%ED%91%9C%EC%8B%9C-%EB%8B%A8%EC%B2%B4%ED%91%9C%EC%9E%A5%EC%9D%98-%EB%93%B1%EB%A1%9D%EC%B7%A8%EC%86%8C%EC%8B%AC%ED%8C%90%) ---",
+      "[2026-04-18T00:21:11.992Z] [warning] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.",
+      "[2026-04-18T00:21:11.993Z] [warning] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.",
+      "[2026-04-18T00:21:12.581Z] [warning] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.",
+      "[2026-04-18T00:21:12.581Z] [warning] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.",
+      "--- END UNTRUSTED EXTERNAL CONTENT ---"
+    ]
+  },
+  {
+    "routeLabel": "page-890",
+    "viewportLabel": "mobile",
+    "url": "http://localhost:4317/#/chapter/%EC%A0%9C9%EC%9E%A5-%EC%A7%80%EB%A6%AC%EC%A0%81-%ED%91%9C%EC%8B%9C-%EB%8B%A8%EC%B2%B4%ED%91%9C%EC%9E%A5%EC%9D%98-%EB%93%B1%EB%A1%9D%EC%B7%A8%EC%86%8C%EC%8B%AC%ED%8C%90%EC%83%81-119-8/overview",
+    "steps": [
+      {
+        "cmd": "viewport 375x812",
+        "exit": 0,
+        "tail": [
+          "Viewport set to 375x812"
+        ]
+      },
+      {
+        "cmd": "goto http://localhost:4317/#/chapter/%EC%A0%9C9%EC%9E%A5-%EC%A7%80%EB%A6%AC%EC%A0%81-%ED%91%9C%EC%8B%9C-%EB%8B%A8%EC%B2%B4%ED%91%9C%EC%9E%A5%EC%9D%98-%EB%93%B1%EB%A1%9D%EC%B7%A8%EC%86%8C%EC%8B%AC%ED%8C%90%EC%83%81-119-8/overview",
+        "exit": 0,
+        "tail": [
+          "Navigated to http://localhost:4317/#/chapter/%EC%A0%9C9%EC%9E%A5-%EC%A7%80%EB%A6%AC%EC%A0%81-%ED%91%9C%EC%8B%9C-%EB%8B%A8%EC%B2%B4%ED%91%9C%EC%9E%A5%EC%9D%98-%EB%93%B1%EB%A1%9D%EC%B7%A8%EC%86%8C%EC%8B%AC%ED%8C%90%EC%83%81-119-8/overview (unknown)"
+        ]
+      },
+      {
+        "cmd": "wait --load",
+        "exit": 0,
+        "tail": [
+          "Page loaded"
+        ]
+      }
+    ],
+    "metrics": {
+      "href": "http://localhost:4317/#/chapter/%EC%A0%9C9%EC%9E%A5-%EC%A7%80%EB%A6%AC%EC%A0%81-%ED%91%9C%EC%8B%9C-%EB%8B%A8%EC%B2%B4%ED%91%9C%EC%9E%A5%EC%9D%98-%EB%93%B1%EB%A1%9D%EC%B7%A8%EC%86%8C%EC%8B%AC%ED%8C%90%EC%83%81-119-8",
+      "title": "제9장 지리적 표시 단체표장의 등록취소심판(상§119①8)",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "body": {
+        "scrollWidth": 375,
+        "clientWidth": 375
+      },
+      "article": {
+        "scrollWidth": 349,
+        "clientWidth": 349
+      },
+      "overflowing": [],
+      "imageCount": 0,
+      "figureCount": 0,
+      "tableCount": 0,
+      "tableScrollCount": 0,
+      "visibleImageCount": 0,
+      "visibleBrokenImages": [],
+      "firstText": "목차\nTMDS READER\n제9장 지리적 표시 단체표장의 등록취소심판(상§119①8)\n장 제목, 항목명, 본문 일부 검색\n제19편 상표등록취소심판\n제9장 지리적 표시 단체표장의 등록취소심판(상§119①8)\n\n1. 의의 및 취지 지리적 표시는 그 성질상 특정 지역의 생산업자 모두가 사용할 수 있어야 하고 개별상표 로서의 특정인의 독점이 허용되지 않는 것이므로 단체표장권자가 지리적 표시를 사용할 수 있는 자에 대하여 단체의 가입을 부당하게 제한하는 등 그 취지에 맞지 않게 운영하거나, 동음이의어 지리적 표시 단체표장에 대한 표시의무를 위반하는 경우에는 그 등록을 취소시 킬 수 있도록 한 것이다.…\n\n페이지\np.862-863\n시작 라벨\n862\n이미지\n없음\nBUILD\n2026. 4. 18. 오전 8:45\nCHAPTER OUTLINE\n장 개요와 섹션 이동\n펼치기\nPART GUIDE\n제19편 상표등록취소심판\n펼치기\n제9장 지리적 표시 단체표장의 등록취소심판(상§119①8)\n\n1. 의의 및 취지"
+    },
+    "console": [
+      "--- BEGIN UNTRUSTED EXTERNAL CONTENT (source: http://localhost:4317/#/chapter/%EC%A0%9C9%EC%9E%A5-%EC%A7%80%EB%A6%AC%EC%A0%81-%ED%91%9C%EC%8B%9C-%EB%8B%A8%EC%B2%B4%ED%91%9C%EC%9E%A5%EC%9D%98-%EB%93%B1%EB%A1%9D%EC%B7%A8%EC%86%8C%EC%8B%AC%ED%8C%90%) ---",
+      "[2026-04-18T00:21:11.992Z] [warning] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.",
+      "[2026-04-18T00:21:11.993Z] [warning] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.",
+      "[2026-04-18T00:21:12.581Z] [warning] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.",
+      "[2026-04-18T00:21:12.581Z] [warning] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.",
+      "--- END UNTRUSTED EXTERNAL CONTENT ---"
+    ]
+  },
+  {
+    "routeLabel": "appendix-intro",
+    "viewportLabel": "desktop",
+    "url": "http://localhost:4317/#/chapter/1-%EC%8B%AC%ED%8C%90%EA%B4%80%EA%B3%84%EC%84%9C%EC%8B%9D%EB%A1%80-%EB%B0%8F-%EA%B8%B0%EC%9E%AC%EB%A1%80/part-intro",
+    "steps": [
+      {
+        "cmd": "viewport 1440x1200",
+        "exit": 0,
+        "tail": [
+          "Viewport set to 1440x1200"
+        ]
+      },
+      {
+        "cmd": "goto http://localhost:4317/#/chapter/1-%EC%8B%AC%ED%8C%90%EA%B4%80%EA%B3%84%EC%84%9C%EC%8B%9D%EB%A1%80-%EB%B0%8F-%EA%B8%B0%EC%9E%AC%EB%A1%80/part-intro",
+        "exit": 0,
+        "tail": [
+          "Navigated to http://localhost:4317/#/chapter/1-%EC%8B%AC%ED%8C%90%EA%B4%80%EA%B3%84%EC%84%9C%EC%8B%9D%EB%A1%80-%EB%B0%8F-%EA%B8%B0%EC%9E%AC%EB%A1%80/part-intro (unknown)"
+        ]
+      },
+      {
+        "cmd": "wait --load",
+        "exit": 0,
+        "tail": [
+          "Page loaded"
+        ]
+      }
+    ],
+    "metrics": {
+      "href": "http://localhost:4317/#/chapter/1-%EC%8B%AC%ED%8C%90%EA%B4%80%EA%B3%84%EC%84%9C%EC%8B%9D%EB%A1%80-%EB%B0%8F-%EA%B8%B0%EC%9E%AC%EB%A1%80/part-intro",
+      "title": "1. 심판관계서식례 및 기재례",
+      "viewport": {
+        "width": 1440,
+        "height": 1200
+      },
+      "body": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440
+      },
+      "article": {
+        "scrollWidth": 1010,
+        "clientWidth": 998
+      },
+      "overflowing": [],
+      "imageCount": 111,
+      "figureCount": 111,
+      "tableCount": 0,
+      "tableScrollCount": 0,
+      "visibleImageCount": 0,
+      "visibleBrokenImages": [],
+      "firstText": "TMDS READER\n1. 심판관계서식례 및 기재례\n장 제목, 항목명, 본문 일부 검색\nCONTENTS\n목차\n전면부\n전면부\n표지 및 발간정보\nPDF 1-4\n0개 항목\n머리말\nPDF 5-6\n0개 항목\n일러두기\np.i-vi\n0개 항목\n후면부\n후면부\n심판편람편찬위원이미지\n1\nPDF 1373-1381\n0개 항목\n제1편\n특허심판 일반\n제1장 의의\np.3\n0개 항목\n제2장 심판의 법적 성질\np.4-5\n0개 항목\n제3장 특허심판의 종류\np.6-9\n3개 항목\n제2편\n심판서류의 접수 심판관지정 및 열람\n제1장 심판서류의 접수\np.13-15\n0개 항목\n제2장 심판청구서 접수 후 절차 (심판정책과)\np.16-23\n13개 항목\n제3장 통지서 등의 처리요령\np.24-25\n0개 항목\n제4장 제3자에 의한 심판서류의 열람 복사\np.26-28\n0개 항목\n제5장 증거물 등 보관물의 관리 및 반환\np.29-30\n2개 항목\n제6장 심판서류의 반출금지 및 비밀누설죄\np.31\n0개 항목\n제7장 심판통계 및 판례집 발간\n"
+    },
+    "console": [
+      "--- BEGIN UNTRUSTED EXTERNAL CONTENT (source: http://localhost:4317/#/chapter/1-%EC%8B%AC%ED%8C%90%EA%B4%80%EA%B3%84%EC%84%9C%EC%8B%9D%EB%A1%80-%EB%B0%8F-%EA%B8%B0%EC%9E%AC%EB%A1%80/part-intro) ---",
+      "[2026-04-18T00:21:11.992Z] [warning] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.",
+      "[2026-04-18T00:21:11.993Z] [warning] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.",
+      "[2026-04-18T00:21:12.581Z] [warning] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.",
+      "[2026-04-18T00:21:12.581Z] [warning] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.",
+      "--- END UNTRUSTED EXTERNAL CONTENT ---"
+    ]
+  },
+  {
+    "routeLabel": "appendix-intro",
+    "viewportLabel": "mobile",
+    "url": "http://localhost:4317/#/chapter/1-%EC%8B%AC%ED%8C%90%EA%B4%80%EA%B3%84%EC%84%9C%EC%8B%9D%EB%A1%80-%EB%B0%8F-%EA%B8%B0%EC%9E%AC%EB%A1%80/part-intro",
+    "steps": [
+      {
+        "cmd": "viewport 375x812",
+        "exit": 0,
+        "tail": [
+          "Viewport set to 375x812"
+        ]
+      },
+      {
+        "cmd": "goto http://localhost:4317/#/chapter/1-%EC%8B%AC%ED%8C%90%EA%B4%80%EA%B3%84%EC%84%9C%EC%8B%9D%EB%A1%80-%EB%B0%8F-%EA%B8%B0%EC%9E%AC%EB%A1%80/part-intro",
+        "exit": 0,
+        "tail": [
+          "Navigated to http://localhost:4317/#/chapter/1-%EC%8B%AC%ED%8C%90%EA%B4%80%EA%B3%84%EC%84%9C%EC%8B%9D%EB%A1%80-%EB%B0%8F-%EA%B8%B0%EC%9E%AC%EB%A1%80/part-intro (unknown)"
+        ]
+      },
+      {
+        "cmd": "wait --load",
+        "exit": 0,
+        "tail": [
+          "Page loaded"
+        ]
+      }
+    ],
+    "metrics": {
+      "href": "http://localhost:4317/#/chapter/1-%EC%8B%AC%ED%8C%90%EA%B4%80%EA%B3%84%EC%84%9C%EC%8B%9D%EB%A1%80-%EB%B0%8F-%EA%B8%B0%EC%9E%AC%EB%A1%80/part-intro",
+      "title": "1. 심판관계서식례 및 기재례",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "body": {
+        "scrollWidth": 414,
+        "clientWidth": 375
+      },
+      "article": {
+        "scrollWidth": 1006,
+        "clientWidth": 400
+      },
+      "overflowing": [
+        {
+          "tag": "MAIN",
+          "cls": "main-panel",
+          "text": "부 록1. 심판관계서식례 및 기재례▣ 심판관계서식례 및 기재례 목차 ▣ 1. 심 결 서 식 1-1 특허․ 실용신안등록의 무효심결·········",
+          "right": 413.734375
+        },
+        {
+          "tag": "DIV",
+          "cls": "page-stack",
+          "text": "부 록1. 심판관계서식례 및 기재례▣ 심판관계서식례 및 기재례 목차 ▣ 1. 심 결 서 식 1-1 특허․ 실용신안등록의 무효심결·········",
+          "right": 413.734375
+        },
+        {
+          "tag": "ARTICLE",
+          "cls": "reader-column",
+          "text": "부 록1. 심판관계서식례 및 기재례▣ 심판관계서식례 및 기재례 목차 ▣ 1. 심 결 서 식 1-1 특허․ 실용신안등록의 무효심결·········",
+          "right": 413.734375
+        },
+        {
+          "tag": "HEADER",
+          "cls": "surface chapter-hero",
+          "text": "부 록1. 심판관계서식례 및 기재례▣ 심판관계서식례 및 기재례 목차 ▣ 1. 심 결 서 식 1-1 특허․ 실용신안등록의 무효심결·········",
+          "right": 413.734375
+        },
+        {
+          "tag": "DIV",
+          "cls": "chapter-hero-copy",
+          "text": "부 록1. 심판관계서식례 및 기재례▣ 심판관계서식례 및 기재례 목차 ▣ 1. 심 결 서 식 1-1 특허․ 실용신안등록의 무효심결·········",
+          "right": 396.734375
+        },
+        {
+          "tag": "SPAN",
+          "cls": "eyebrow",
+          "text": "부 록",
+          "right": 396.734375
+        },
+        {
+          "tag": "H1",
+          "cls": "",
+          "text": "1. 심판관계서식례 및 기재례",
+          "right": 396.734375
+        },
+        {
+          "tag": "P",
+          "cls": "",
+          "text": "▣ 심판관계서식례 및 기재례 목차 ▣ 1. 심 결 서 식 1-1 특허․ 실용신안등록의 무효심결····························",
+          "right": 396.734375
+        },
+        {
+          "tag": "DIV",
+          "cls": "meta-grid",
+          "text": "페이지p.1059-1218시작 라벨1059이미지1개 포함build2026. 4. 18. 오전 8:45",
+          "right": 396.734375
+        },
+        {
+          "tag": "DIV",
+          "cls": "meta-card",
+          "text": "페이지p.1059-1218",
+          "right": 396.734375
+        }
+      ],
+      "imageCount": 111,
+      "figureCount": 111,
+      "tableCount": 0,
+      "tableScrollCount": 0,
+      "visibleImageCount": 0,
+      "visibleBrokenImages": [],
+      "firstText": "목차\nTMDS READER\n1. 심판관계서식례 및 기재례\n장 제목, 항목명, 본문 일부 검색\n부 록\n1. 심판관계서식례 및 기재례\n\n▣ 심판관계서식례 및 기재례 목차 ▣ 1. 심 결 서 식 1-1 특허․ 실용신안등록의 무효심결······································································· 1069 1-1-2 디자인등록의 무효심결·········································································…\n\n페이지\np.1059-1218\n시작 라벨\n1059\n이미지\n1개 포함\nBUILD\n2026. 4. 18. 오전 8:45\nCHAPTER OUTLINE\n장 개요와 섹션 이동\n펼치기\nPART GUIDE\n부 록\n펼치기\n\n1. 심판관계서식례 및 기재례 (p.1059)\n\n2. 2001년 시행 산업재산권법 개정내용 (p.1219)\n\n3. 2006년 특허법 실용신안법 개정내용 (p."
+    },
+    "console": [
+      "--- BEGIN UNTRUSTED EXTERNAL CONTENT (source: http://localhost:4317/#/chapter/1-%EC%8B%AC%ED%8C%90%EA%B4%80%EA%B3%84%EC%84%9C%EC%8B%9D%EB%A1%80-%EB%B0%8F-%EA%B8%B0%EC%9E%AC%EB%A1%80/part-intro) ---",
+      "[2026-04-18T00:21:11.992Z] [warning] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.",
+      "[2026-04-18T00:21:11.993Z] [warning] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.",
+      "[2026-04-18T00:21:12.581Z] [warning] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.",
+      "[2026-04-18T00:21:12.581Z] [warning] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.",
+      "--- END UNTRUSTED EXTERNAL CONTENT ---"
+    ]
+  },
+  {
+    "routeLabel": "editorial-board",
+    "viewportLabel": "desktop",
+    "url": "http://localhost:4317/#/chapter/editorial-board/overview",
+    "steps": [
+      {
+        "cmd": "viewport 1440x1200",
+        "exit": 0,
+        "tail": [
+          "Viewport set to 1440x1200"
+        ]
+      },
+      {
+        "cmd": "goto http://localhost:4317/#/chapter/editorial-board/overview",
+        "exit": 0,
+        "tail": [
+          "Navigated to http://localhost:4317/#/chapter/editorial-board/overview (unknown)"
+        ]
+      },
+      {
+        "cmd": "wait --load",
+        "exit": 0,
+        "tail": [
+          "Page loaded"
+        ]
+      }
+    ],
+    "metrics": {
+      "href": "http://localhost:4317/#/chapter/editorial-board",
+      "title": "심판편람편찬위원",
+      "viewport": {
+        "width": 1440,
+        "height": 1200
+      },
+      "body": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440
+      },
+      "article": {
+        "scrollWidth": 998,
+        "clientWidth": 998
+      },
+      "overflowing": [],
+      "imageCount": 2,
+      "figureCount": 2,
+      "tableCount": 0,
+      "tableScrollCount": 0,
+      "visibleImageCount": 0,
+      "visibleBrokenImages": [],
+      "firstText": "TMDS READER\n심판편람편찬위원\n장 제목, 항목명, 본문 일부 검색\nCONTENTS\n목차\n전면부\n전면부\n표지 및 발간정보\nPDF 1-4\n0개 항목\n머리말\nPDF 5-6\n0개 항목\n일러두기\np.i-vi\n0개 항목\n후면부\n후면부\n심판편람편찬위원이미지\n1\nPDF 1373-1381\n0개 항목\n제1편\n특허심판 일반\n제1장 의의\np.3\n0개 항목\n제2장 심판의 법적 성질\np.4-5\n0개 항목\n제3장 특허심판의 종류\np.6-9\n3개 항목\n제2편\n심판서류의 접수 심판관지정 및 열람\n제1장 심판서류의 접수\np.13-15\n0개 항목\n제2장 심판청구서 접수 후 절차 (심판정책과)\np.16-23\n13개 항목\n제3장 통지서 등의 처리요령\np.24-25\n0개 항목\n제4장 제3자에 의한 심판서류의 열람 복사\np.26-28\n0개 항목\n제5장 증거물 등 보관물의 관리 및 반환\np.29-30\n2개 항목\n제6장 심판서류의 반출금지 및 비밀누설죄\np.31\n0개 항목\n제7장 심판통계 및 판례집 발간\np.32\n0개 "
+    },
+    "console": [
+      "--- BEGIN UNTRUSTED EXTERNAL CONTENT (source: http://localhost:4317/#/chapter/editorial-board) ---",
+      "[2026-04-18T00:21:11.992Z] [warning] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.",
+      "[2026-04-18T00:21:11.993Z] [warning] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.",
+      "[2026-04-18T00:21:12.581Z] [warning] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.",
+      "[2026-04-18T00:21:12.581Z] [warning] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.",
+      "--- END UNTRUSTED EXTERNAL CONTENT ---"
+    ]
+  },
+  {
+    "routeLabel": "editorial-board",
+    "viewportLabel": "mobile",
+    "url": "http://localhost:4317/#/chapter/editorial-board/overview",
+    "steps": [
+      {
+        "cmd": "viewport 375x812",
+        "exit": 0,
+        "tail": [
+          "Viewport set to 375x812"
+        ]
+      },
+      {
+        "cmd": "goto http://localhost:4317/#/chapter/editorial-board/overview",
+        "exit": 0,
+        "tail": [
+          "Navigated to http://localhost:4317/#/chapter/editorial-board/overview (unknown)"
+        ]
+      },
+      {
+        "cmd": "wait --load",
+        "exit": 0,
+        "tail": [
+          "Page loaded"
+        ]
+      }
+    ],
+    "metrics": {
+      "href": "http://localhost:4317/#/chapter/editorial-board",
+      "title": "심판편람편찬위원",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "body": {
+        "scrollWidth": 375,
+        "clientWidth": 375
+      },
+      "article": {
+        "scrollWidth": 349,
+        "clientWidth": 349
+      },
+      "overflowing": [],
+      "imageCount": 2,
+      "figureCount": 2,
+      "tableCount": 0,
+      "tableScrollCount": 0,
+      "visibleImageCount": 0,
+      "visibleBrokenImages": [],
+      "firstText": "목차\nTMDS READER\n심판편람편찬위원\n장 제목, 항목명, 본문 일부 검색\n후면부\n심판편람편찬위원\n\n(1978년도) 항고심판소장 원용대, 심판소장 이수종, 심사3국장 김석중 항고 심판관 최석환, 김정길, 백남기, 민성근, 이주기 심판관 이대식, 구영창, 신백철, 윤여범 변 리 사 강동수, 남두용, 임석제 심판편람보완편찬위원 (1984년도) 심판 소 장 권혁채, 항고심판관 고재옥, 황태청 심판관 강춘봉, 임창현, 이상우, 윤종겸, 이진항, 송재련 김기양, 김영길, 김의박, 심판행정실장 김귀…\n\n페이지\nPDF 1373-1381\n시작 라벨\n미상\n이미지\n1개 포함\nBUILD\n2026. 4. 18. 오전 8:45\nCHAPTER OUTLINE\n장 개요와 섹션 이동\n펼치기\nPART GUIDE\n후면부\n펼치기\n심판편람편찬위원\n\n(1978년도)\n\n항고심판소장 원용대, 심판소장 이수종, 심사3국장 김석중\n\n항고 심판관 최석환, 김정길, 백남기, 민성근, 이주기\n\n심판관 이대식, 구영창, 신백철, 윤"
+    },
+    "console": [
+      "--- BEGIN UNTRUSTED EXTERNAL CONTENT (source: http://localhost:4317/#/chapter/editorial-board) ---",
+      "[2026-04-18T00:21:11.992Z] [warning] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.",
+      "[2026-04-18T00:21:11.993Z] [warning] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.",
+      "[2026-04-18T00:21:12.581Z] [warning] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.",
+      "[2026-04-18T00:21:12.581Z] [warning] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.",
+      "--- END UNTRUSTED EXTERNAL CONTENT ---"
+    ]
+  }
+]

@@ -49,6 +49,33 @@ def test_calculate_priority_score_ranks_page_merge_above_plain_multi_section() -
     assert calculate_priority_score(combined_page) > calculate_priority_score(page_merge_only_page)
 
 
+def test_calculate_priority_score_ranks_korean_linebreak_residue_above_boxed_heading() -> None:
+    residue_page = {
+        "pageNumber": 303,
+        "pageLayoutKind": "prose",
+        "confidence": "high",
+        "sectionOverlapCount": 0,
+        "flags": ["korean-linebreak-residue"],
+    }
+    readability_only_page = {
+        "pageNumber": 86,
+        "pageLayoutKind": "list",
+        "confidence": "medium",
+        "sectionOverlapCount": 1,
+        "flags": ["boxed-heading"],
+    }
+    page_merge_only_page = {
+        "pageNumber": 92,
+        "pageLayoutKind": "prose",
+        "confidence": "high",
+        "sectionOverlapCount": 0,
+        "flags": ["page-merge"],
+    }
+
+    assert calculate_priority_score(residue_page) > calculate_priority_score(readability_only_page)
+    assert calculate_priority_score(page_merge_only_page) > calculate_priority_score(residue_page)
+
+
 def test_build_queue_ranks_high_risk_pages_and_assigns_paths() -> None:
     queue_report = build_queue(
         {
@@ -80,10 +107,23 @@ def test_build_queue_ranks_high_risk_pages_and_assigns_paths() -> None:
                     "flags": ["boxed-heading"],
                 },
                 {
+                    "pageNumber": 303,
+                    "pageLabel": "275",
+                    "chapterSlug": "chapter-c",
+                    "sectionId": "overview",
+                    "pageLayoutKind": "prose",
+                    "confidence": "low",
+                    "hasOverride": False,
+                    "mergeFirstGroupWithPreviousPage": False,
+                    "sectionOverlapCount": 0,
+                    "riskTier": "high",
+                    "flags": ["korean-linebreak-residue", "low-confidence"],
+                },
+                {
                     "pageNumber": 12,
                     "pageLabel": None,
-                    "chapterSlug": "chapter-c",
-                    "sectionId": "section-c",
+                    "chapterSlug": "chapter-d",
+                    "sectionId": "section-d",
                     "pageLayoutKind": "prose",
                     "confidence": "high",
                     "hasOverride": False,
@@ -97,12 +137,14 @@ def test_build_queue_ranks_high_risk_pages_and_assigns_paths() -> None:
     )
 
     queue = queue_report["queue"]
-    assert len(queue) == 2
+    assert len(queue) == 3
     assert queue[0]["pageNumber"] == 44
     assert queue[0]["priorityRank"] == 1
     assert queue[0]["queueLane"] == "accuracy-critical"
     assert queue[0]["qaPath"] == "/qa/page/44"
     assert queue[0]["chapterPath"] == "/chapter/chapter-a/section-a"
-    assert queue[1]["queueLane"] == "readability-critical"
-    assert queue_report["summary"]["highRiskPageCount"] == 2
+    assert queue[1]["pageNumber"] == 303
+    assert queue[1]["queueLane"] == "accuracy-critical"
+    assert queue[-1]["queueLane"] == "readability-critical"
+    assert queue_report["summary"]["highRiskPageCount"] == 3
     assert "Top 50" in queue_report["markdown"]

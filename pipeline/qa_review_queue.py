@@ -13,6 +13,7 @@ FLAG_PRIORITY = {
     "low-confidence": 80,
     "has-override": 75,
     "page-merge": 70,
+    "korean-linebreak-residue": 67,
     "structural-fragment-paragraph": 65,
     "boxed-heading": 50,
     "angle-heading": 45,
@@ -25,6 +26,7 @@ ACCURACY_FLAGS = {
     "low-confidence",
     "has-override",
     "page-merge",
+    "korean-linebreak-residue",
     "structural-fragment-paragraph",
 }
 
@@ -100,6 +102,7 @@ def build_markdown(queue_entries: list[dict[str, Any]], summary: dict[str, Any])
         f"- table/form pages in queue: {summary['layoutCounts'].get('table/form', 0)}",
         f"- multi-section pages in queue: {summary['flagCounts'].get('multi-section-page', 0)}",
         f"- low-confidence pages in queue: {summary['flagCounts'].get('low-confidence', 0)}",
+        f"- korean linebreak residue pages in queue: {summary['flagCounts'].get('korean-linebreak-residue', 0)}",
         "",
         "## Top 50",
         "",

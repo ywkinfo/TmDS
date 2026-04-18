@@ -115,10 +115,12 @@ def test_representative_prose_pages_repair_known_broken_spacing_patterns() -> No
     page137 = _entry_by_page()[137]
     page144 = _entry_by_page()[144]
     page164 = _entry_by_page()[164]
+    page303 = _entry_by_page()[303]
 
     page137_text = "\n".join(paragraph["text"] for paragraph in page137["paragraphs"])
     page144_text = "\n".join(paragraph["text"] for paragraph in page144["paragraphs"])
     page164_text = "\n".join(paragraph["text"] for paragraph in page164["paragraphs"])
+    page303_text = "\n".join(paragraph["text"] for paragraph in page303["paragraphs"])
 
     assert "또는 피청구인" in page137_text
     assert "또 는" not in page137_text
@@ -128,6 +130,50 @@ def test_representative_prose_pages_repair_known_broken_spacing_patterns() -> No
     assert "국선대리 인" not in page164_text
     assert "심판 절차" not in page164_text
     assert "심판절차" in page164_text
+    assert "감정인에게" in page303_text
+    assert "감 정인" not in page303_text
+    assert "설명하게" in page303_text
+    assert "설명하 게" not in page303_text
+    assert "공공기관이" in page303_text
+    assert "공공기 관" not in page303_text
+    assert "부정하지 않는다." in page303_text
+    assert "부 정하지" not in page303_text
+
+
+def test_page_303_keeps_note_block_as_single_paragraph() -> None:
+    page303 = _entry_by_page()[303]
+    paragraphs = page303["paragraphs"]
+    texts = [paragraph["text"] for paragraph in paragraphs]
+
+    note_index = next(
+        index for index, text in enumerate(texts) if text.startswith("※ 민사소송법 제341조(감정의 촉탁)")
+    )
+
+    assert "공공기관이 지정한 사람으로 하여금 감정서를 설명하게 할 수 있다." in texts[note_index]
+    assert not any(text.startswith("관ㆍ학교") for text in texts)
+    assert not any(text.startswith("게 할 수 있다.") for text in texts)
+    assert paragraphs[note_index + 1]["kind"] == "heading"
+
+
+def test_page_307_repairs_remaining_line_boundary_residue_and_keeps_statutory_reference_inline() -> None:
+    page307 = _entry_by_page()[307]
+    texts = [paragraph["text"] for paragraph in page307["paragraphs"]]
+
+    assert any("가진 것으로서 제출의무가 있는 문서는" in text for text in texts)
+    assert any("문서소지자에게 관련문서 사본․등본의 문서제출명령을 한다." in text for text in texts)
+    assert any("문서소지자에게 문서제출을 촉탁하도록" in text for text in texts)
+    assert any("특허심판 증거조사 사무규정§31①)." in text for text in texts)
+
+    statutory_paragraph = next(
+        text for text in texts if "문서송부촉탁은 위 ③의 경우이며" in text
+    )
+    assert "(민소§29413)). 심판장은" in statutory_paragraph
+    assert not statutory_paragraph.endswith("(민소")
+    assert not any(text.startswith("§29413)).") for text in texts)
+    assert all("것으 로서" not in text for text in texts)
+    assert all("문서소지 자에게" not in text for text in texts)
+    assert all("소지 자에게" not in text for text in texts)
+    assert all("사 무규정" not in text for text in texts)
 
 
 def test_page_9_is_classified_as_table_form_and_emits_row_items() -> None:

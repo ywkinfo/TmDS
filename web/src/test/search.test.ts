@@ -202,4 +202,33 @@ describe("search helpers", () => {
 
     expect(results[0]?.sectionId).toBe("part-cover");
   });
+
+  it("surfaces search aliases for generic appendix revision queries", () => {
+    const warmedEntries = warmSearchEntries([
+      {
+        id: "appendix-revision-alias",
+        chapterSlug: "appendix-1",
+        chapterTitle: "1. 심판관계서식례 및 기재례",
+        partTitle: "부 록",
+        sectionId: "part-intro",
+        sectionTitle: "개정 연혁",
+        text: "부 록 개정 연혁 개정내용 2021∼2023년 시행 산업재산권법 개정내용",
+        excerpt: "개정 연혁",
+        entryType: "search-alias",
+        pageLabel: "1057",
+        pageStart: 1057,
+        pageEnd: 1344,
+        hasImage: false,
+        imageCount: 0,
+        categories: ["appendix"],
+        routePath: "/chapter/appendix-1/part-intro",
+        compositeKey: "appendix-revision-alias",
+      },
+    ]);
+
+    const results = rankSearchResults(warmedEntries, "개정 연혁");
+
+    expect(results[0]?.entryType).toBe("search-alias");
+    expect(results[0]?.routePath).toBe("/chapter/appendix-1/part-intro");
+  });
 });

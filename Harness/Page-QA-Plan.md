@@ -29,6 +29,7 @@
 중위험 페이지는 flag 기반으로 점검한다.
 
 - `list` 페이지 중 `【...】`, `< ... >`, `※ ...` 같은 특수 표제가 있는 페이지
+- prose/list 페이지 중 `공공기 관`, `설명하 게`처럼 한글 행갈이 흔적이 남은 페이지
 - `toc` 페이지
 - prose/list/toc에서 `제`, `편`, 숫자 단독 문단이 남은 페이지
 
@@ -82,6 +83,8 @@
    - 문제 페이지가 속한 rendered 구간에 `reader-synthetic-table`이 잔존함
 9. `structural-fragment-paragraph`
    - prose/list/toc에서 `제`, `편`, 숫자 단독 문단이 잔존함
+10. `korean-linebreak-residue`
+   - prose/list paragraph 안에 PDF 물리 줄바꿈이 남아 `감 정인`, `설명하 게`, `공공기 관`처럼 재결합 가능한 한글 분절이 잔존함
 
 주의:
 
@@ -194,6 +197,9 @@ queue / batch 산출물은 여기에 아래 필드를 추가로 사용한다.
 - boxed / angle heading 페이지:
   - 독립 단락으로 남아야 하는지
   - 본문과 잘못 합쳐지지 않았는지
+- korean-linebreak-residue 페이지:
+  - `/qa/page/N`의 line 경계와 최종 chapter route를 같이 열어 분절이 실제 PDF 줄끝 아티팩트인지 확인한다.
+  - `그 밖의`, `할 수 있다` 같은 정상 띄어쓰기를 잘못 합치지 않았는지 함께 본다.
 
 중위험 페이지는 고위험 batch 처리 후 본다.
 
@@ -208,6 +214,7 @@ queue / batch 산출물은 여기에 아래 필드를 추가로 사용한다.
 
 - same-page section bleed
 - boxed / angle heading merge
+- korean linebreak residue
 - running header fragment leak
 - table crop miss
 - table continuation miss

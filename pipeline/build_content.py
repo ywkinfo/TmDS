@@ -162,6 +162,42 @@ def build_part_intro_content(part: dict[str, Any]) -> tuple[str, str]:
     return html, intro_text
 
 
+def build_part_search_alias_entries(
+    *,
+    chapter_slug: str,
+    part: dict[str, Any],
+    part_title: str,
+    part_intro_text: str,
+    part_intro_start: int,
+    part_intro_end: int,
+) -> list[dict[str, Any]]:
+    if part_title != "부 록":
+        return []
+
+    alias_text = normalize_search_text(f"부 록 개정 연혁 개정내용 {part_intro_text}".strip())
+    return [
+        {
+            "id": f"{chapter_slug}-part-intro-alias-revision-history",
+            "chapterSlug": chapter_slug,
+            "chapterTitle": normalize_bookmark_title(part["chapters"][0]["fullTitle"]),
+            "sectionId": "part-intro",
+            "sectionTitle": "개정 연혁",
+            "text": alias_text,
+            "excerpt": make_excerpt(alias_text),
+            "entryType": "search-alias",
+            "partTitle": part_title,
+            "pageLabel": part.get("pageLabelStart"),
+            "pageStart": part_intro_start,
+            "pageEnd": part_intro_end,
+            "pageLabelStart": part.get("pageLabelStart"),
+            "pageLabelEnd": part.get("pageLabelEnd"),
+            "hasImage": False,
+            "imageCount": 0,
+            "categories": ["appendix"],
+        }
+    ]
+
+
 def trim_leading_heading_noise(text: str, *titles: str) -> str:
     cleaned = text.strip()
     normalized_titles = [normalize_bookmark_title(title) for title in titles if title]
@@ -923,6 +959,16 @@ def main() -> None:
                         "imageCount": part_intro_image_count,
                         "categories": [],
                     }
+                )
+                search_index.extend(
+                    build_part_search_alias_entries(
+                        chapter_slug=chapter["slug"],
+                        part=part,
+                        part_title=part_title,
+                        part_intro_text=part_intro_text,
+                        part_intro_start=part_intro_start,
+                        part_intro_end=part_intro_end,
+                    )
                 )
                 chapter_has_image = part_intro_image_count > 0
                 chapter_image_count = part_intro_image_count

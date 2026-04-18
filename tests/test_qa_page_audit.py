@@ -100,10 +100,73 @@ def test_detect_page_flags_ignores_angle_brackets_inside_table_rows() -> None:
     assert "angle-heading" not in flags
 
 
+def test_detect_page_flags_marks_korean_linebreak_residue() -> None:
+    flags = detect_page_flags(
+        {
+            "pageNumber": 303,
+            "pageLayoutKind": "prose",
+            "confidence": "high",
+            "hasOverride": False,
+            "mergeFirstGroupWithPreviousPage": False,
+            "paragraphs": [
+                {"text": "※ 민사소송법 제341조(감정의 촉탁) ②제1항의 경우에 법원은 필요하다고 인정하면 공공기 관이 지정한 사람으로 하여금 감정서를 설명하 게 할 수 있다."}
+            ],
+        },
+        section_overlap_count=0,
+        chapter_html="<section><p>text only</p></section>",
+    )
+
+    assert "korean-linebreak-residue" in flags
+
+
+def test_detect_page_flags_marks_split_statutory_reference_as_korean_linebreak_residue() -> None:
+    flags = detect_page_flags(
+        {
+            "pageNumber": 307,
+            "pageLayoutKind": "prose",
+            "confidence": "high",
+            "hasOverride": False,
+            "mergeFirstGroupWithPreviousPage": False,
+            "paragraphs": [
+                {"text": "문서송부촉탁은 위 ③의 경우이며, 심판장은 제3자에게 문서의 송부를 촉탁할 수 있다(민소"},
+                {"text": "§29413)). 심판장은 당사자가 특허심판원으로 하여금 문서제출의무를 부담하는 문서소지자에 대해 문서제출을 요구하도록 한다."},
+            ],
+        },
+        section_overlap_count=0,
+        chapter_html="<section><p>text only</p></section>",
+    )
+
+    assert "korean-linebreak-residue" in flags
+
+
+def test_detect_page_flags_ignores_normal_korean_spacing() -> None:
+    flags = detect_page_flags(
+        {
+            "pageNumber": 304,
+            "pageLayoutKind": "prose",
+            "confidence": "high",
+            "hasOverride": False,
+            "mergeFirstGroupWithPreviousPage": False,
+            "paragraphs": [
+                {"text": "그 밖의 단체 또는 외국 공공기관이 지정한 사람으로 하여금 감정서를 설명하게 할 수 있다."},
+                {"text": "법원은 필요하다고 인정하면 당사자에게 의견을 제출하게 할 수 있다."},
+            ],
+        },
+        section_overlap_count=0,
+        chapter_html="<section><p>text only</p></section>",
+    )
+
+    assert "korean-linebreak-residue" not in flags
+
+
 def test_classify_risk_tier_promotes_high_risk_signals() -> None:
     assert (
         classify_risk_tier({"pageLayoutKind": "table/form", "confidence": "medium"}, ["missing-table-crop"])
         == "high"
+    )
+    assert (
+        classify_risk_tier({"pageLayoutKind": "prose", "confidence": "high"}, ["korean-linebreak-residue"])
+        == "medium"
     )
     assert (
         classify_risk_tier({"pageLayoutKind": "list", "confidence": "medium"}, ["boxed-heading"])
@@ -163,3 +226,4 @@ def test_build_report_summarizes_flagged_pages() -> None:
     assert report["flaggedPages"]["mergePages"] == [2]
     assert report["flaggedPages"]["boxedHeadingPages"] == [1]
     assert report["flaggedPages"]["angleHeadingPages"] == [2]
+    assert report["flaggedPages"]["koreanLinebreakResiduePages"] == []

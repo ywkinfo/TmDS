@@ -1,0 +1,44 @@
+[
+  {
+    "query": "머리말",
+    "result": "match",
+    "route": "#/chapter/front-preface",
+    "evidence": "search-dropdown result + browser navigation verified"
+  },
+  {
+    "query": "부 록",
+    "result": "match",
+    "route": "#/chapter/1-%EC%8B%AC%ED%8C%90%EA%B4%80%EA%B3%84%EC%84%9C%EC%8B%9D%EB%A1%80-%EB%B0%8F-%EA%B8%B0%EC%9E%AC%EB%A1%80/part-intro",
+    "evidence": "search-dropdown result + browser navigation verified"
+  },
+  {
+    "query": "지리적 표시",
+    "result": "match",
+    "route": "#/chapter/%EC%A0%9C9%EC%9E%A5-%EC%A7%80%EB%A6%AC%EC%A0%81-%ED%91%9C%EC%8B%9C-%EB%8B%A8%EC%B2%B4%ED%91%9C%EC%9E%A5%EC%9D%98-%EB%93%B1%EB%A1%9D%EC%B7%A8%EC%86%8C%EC%8B%AC%ED%8C%90%EC%83%81-119-8",
+    "evidence": "search-dropdown result + browser navigation verified"
+  },
+  {
+    "query": "2021∼2023년 시행 산업재산권법 개정내용",
+    "result": "match",
+    "route": "#/chapter/10-2021-2023%EB%85%84-%EC%8B%9C%ED%96%89-%EC%82%B0%EC%97%85%EC%9E%AC%EC%82%B0%EA%B6%8C%EB%B2%95-%EA%B0%9C%EC%A0%95%EB%82%B4%EC%9A%A9",
+    "evidence": "search-dropdown result + browser navigation verified"
+  },
+  {
+    "query": "개정 연혁",
+    "result": "match",
+    "route": "#/chapter/1-%EC%8B%AC%ED%8C%90%EA%B4%80%EA%B3%84%EC%84%9C%EC%8B%9D%EB%A1%80-%EB%B0%8F-%EA%B8%B0%EC%9E%AC%EB%A1%80/part-intro",
+    "evidence": "search-alias result + browser navigation verified after appendix alias update"
+  },
+  {
+    "query": "FTA",
+    "result": "empty",
+    "route": null,
+    "evidence": "empty-card shown, Enter fallback kept user on home route"
+  },
+  {
+    "query": "재검토기한",
+    "result": "empty",
+    "route": null,
+    "evidence": "empty-card shown in browser search dropdown"
+  }
+]
