@@ -1,0 +1,58 @@
+{
+  "summary": {
+    "bundleId": "2026-04-18-r2",
+    "baselineBundleId": "2026-04-18",
+    "changedArtifacts": [
+      "special-sections.json"
+    ],
+    "unchangedArtifacts": [
+      "page-coverage-ledger.json"
+    ],
+    "baselineMissingArtifacts": [],
+    "newArtifacts": [
+      "content-fidelity-diff.json",
+      "search-corpus.json",
+      "search-results.json",
+      "search-checks.json",
+      "regression-diff.json",
+      "ledger.md"
+    ]
+  },
+  "artifacts": {
+    "page-coverage-ledger.json": {
+      "status": "unchanged",
+      "summaryChangedKeys": []
+    },
+    "special-sections.json": {
+      "status": "changed",
+      "baselineGroupCounts": {
+        "front_preface": 2,
+        "front_notes": 2,
+        "toc": 0,
+        "part_intro": 4,
+        "revision_history": 0,
+        "legend": 0,
+        "appendix": 30,
+        "reconsideration_deadline": 0,
+        "fta_gi": 25
+      },
+      "currentGroupCounts": {
+        "front_preface": 2,
+        "front_notes": 2,
+        "toc": 0,
+        "part_intro": 64,
+        "revision_history": 10,
+        "legend": 0,
+        "appendix": 46,
+        "reconsideration_deadline": 0,
+        "fta_gi": 16
+      },
+      "changedGroups": [
+        "appendix",
+        "fta_gi",
+        "part_intro",
+        "revision_history"
+      ]
+    }
+  }
+}

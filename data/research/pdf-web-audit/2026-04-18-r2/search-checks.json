@@ -1,0 +1,302 @@
+[
+  {
+    "query": "머리말",
+    "result": "match",
+    "route": "#/chapter/front-preface",
+    "evidence": "offline expected runtime route from top match"
+  },
+  {
+    "query": "일러두기",
+    "result": "match",
+    "route": "#/chapter/front-notes",
+    "evidence": "offline expected runtime route from top match"
+  },
+  {
+    "query": "부 록",
+    "result": "match",
+    "route": "#/chapter/1-심판관계서식례-및-기재례/part-intro",
+    "evidence": "offline expected runtime route from top match"
+  },
+  {
+    "query": "부칙",
+    "result": "match",
+    "route": "#/chapter/제2장-일사부재리",
+    "evidence": "offline expected runtime route from top match"
+  },
+  {
+    "query": "별첨",
+    "result": "empty",
+    "route": null,
+    "evidence": "offline search corpus produced no match"
+  },
+  {
+    "query": "개정 연혁",
+    "result": "match",
+    "route": "#/chapter/1-심판관계서식례-및-기재례/part-intro",
+    "evidence": "offline expected runtime route from top match"
+  },
+  {
+    "query": "지리적 표시",
+    "result": "match",
+    "route": "#/chapter/제9장-지리적-표시-단체표장의-등록취소심판상-119-8",
+    "evidence": "offline expected runtime route from top match"
+  },
+  {
+    "query": "FTA",
+    "result": "empty",
+    "route": null,
+    "evidence": "offline search corpus produced no match"
+  },
+  {
+    "query": "재검토기한",
+    "result": "empty",
+    "route": null,
+    "evidence": "offline search corpus produced no match"
+  },
+  {
+    "query": "제1편 특허심판 일반",
+    "result": "match",
+    "route": "#/chapter/제1장-의의/part-intro",
+    "evidence": "offline expected runtime route from top match"
+  },
+  {
+    "query": "제2편 심판서류의 접수 심판관지정 및 열람",
+    "result": "match",
+    "route": "#/chapter/제1장-심판서류의-접수/part-intro",
+    "evidence": "offline expected runtime route from top match"
+  },
+  {
+    "query": "제3편 방식심사 등",
+    "result": "match",
+    "route": "#/chapter/제1장-의의-2/part-intro",
+    "evidence": "offline expected runtime route from top match"
+  },
+  {
+    "query": "제4편 심판관,제척,기피등",
+    "result": "match",
+    "route": "#/chapter/제1장-심판의-주체/part-intro",
+    "evidence": "offline expected runtime route from top match"
+  },
+  {
+    "query": "제5편 심판의 당사자 대리인 참가인",
+    "result": "match",
+    "route": "#/chapter/제1장-개요/part-intro",
+    "evidence": "offline expected runtime route from top match"
+  },
+  {
+    "query": "제6편 요지변경, 일사부재리, 중복청구금지",
+    "result": "match",
+    "route": "#/chapter/제1장-심판청구의-요지변경/part-intro",
+    "evidence": "offline expected runtime route from top match"
+  },
+  {
+    "query": "제7편 심리병합, 정보제공, 우선심판, 신속심판",
+    "result": "match",
+    "route": "#/chapter/제1장-심리병합/part-intro",
+    "evidence": "offline expected runtime route from top match"
+  },
+  {
+    "query": "제8편 이해관계 심리",
+    "result": "match",
+    "route": "#/chapter/제1장-심판청구요건과-이해관계인/part-intro",
+    "evidence": "offline expected runtime route from top match"
+  },
+  {
+    "query": "제9편 증거조사",
+    "result": "match",
+    "route": "#/chapter/제1장-증거/part-intro",
+    "evidence": "offline expected runtime route from top match"
+  },
+  {
+    "query": "제10편 심리관련 제도",
+    "result": "match",
+    "route": "#/chapter/제1장-구술심리/part-intro",
+    "evidence": "offline expected runtime route from top match"
+  },
+  {
+    "query": "제11편 취하, 포기, 심리종결, 합의",
+    "result": "match",
+    "route": "#/chapter/제1장-심판청구의-취하/part-intro",
+    "evidence": "offline expected runtime route from top match"
+  },
+  {
+    "query": "제12편 심 결",
+    "result": "match",
+    "route": "#/chapter/제1장-개요-2/part-intro",
+    "evidence": "offline expected runtime route from top match"
+  },
+  {
+    "query": "제13편 송달, 기간, 절차정지, 승계",
+    "result": "match",
+    "route": "#/chapter/제1장-서류의-송달/part-intro",
+    "evidence": "offline expected runtime route from top match"
+  },
+  {
+    "query": "제14편 권리범위 확인심판",
+    "result": "match",
+    "route": "#/chapter/제1장-개요-3/part-intro",
+    "evidence": "offline expected runtime route from top match"
+  },
+  {
+    "query": "제14-1편 디자인권의 권리범위 확인심판",
+    "result": "match",
+    "route": "#/chapter/제1장-디자인권의-권리범위-확인심판의-개요/part-intro",
+    "evidence": "offline expected runtime route from top match"
+  },
+  {
+    "query": "제14-2편 상표권의 권리범위 확인심판",
+    "result": "match",
+    "route": "#/chapter/제1장-개요-4/part-intro",
+    "evidence": "offline expected runtime route from top match"
+  },
+  {
+    "query": "제15편 무효심판",
+    "result": "match",
+    "route": "#/chapter/제1장-개요-5/part-intro",
+    "evidence": "offline expected runtime route from top match"
+  },
+  {
+    "query": "제15-1편 디자인등록의 무효심판",
+    "result": "match",
+    "route": "#/chapter/제1장-디자인등록의-무효심판의-개요/part-intro",
+    "evidence": "offline expected runtime route from top match"
+  },
+  {
+    "query": "제15-2편 상표등록무효심판",
+    "result": "match",
+    "route": "#/chapter/제1장-의의-및-관련-규정/part-intro",
+    "evidence": "offline expected runtime route from top match"
+  },
+  {
+    "query": "제16편 정정심판",
+    "result": "match",
+    "route": "#/chapter/제1장-개요-6/part-intro",
+    "evidence": "offline expected runtime route from top match"
+  },
+  {
+    "query": "제17편 정정의 무효심판",
+    "result": "match",
+    "route": "#/chapter/제1장-개요-7/part-intro",
+    "evidence": "offline expected runtime route from top match"
+  },
+  {
+    "query": "제18편 연장 추가 갱신 전환 등록의 무효심판",
+    "result": "match",
+    "route": "#/chapter/제1장-특허권실용신안권-존속기간-연장등록의-무효심판/part-intro",
+    "evidence": "offline expected runtime route from top match"
+  },
+  {
+    "query": "제19편 상표등록취소심판",
+    "result": "match",
+    "route": "#/chapter/제1장-상표권자의-부정사용으로-인한-상표등록취소심판-상-119-1/part-intro",
+    "evidence": "offline expected runtime route from top match"
+  },
+  {
+    "query": "제20편 통상실시권허락심판",
+    "result": "match",
+    "route": "#/chapter/제1장-개요-8/part-intro",
+    "evidence": "offline expected runtime route from top match"
+  },
+  {
+    "query": "제21편 거절결정불복심판",
+    "result": "match",
+    "route": "#/chapter/제1장-개요-9/part-intro",
+    "evidence": "offline expected runtime route from top match"
+  },
+  {
+    "query": "제22편 보정각하결정불복심판",
+    "result": "match",
+    "route": "#/chapter/제1장-개요-10/part-intro",
+    "evidence": "offline expected runtime route from top match"
+  },
+  {
+    "query": "제23편 취소결정불복심판",
+    "result": "match",
+    "route": "#/chapter/제1장-이의신청에-의한-등록취소결정에-대한-불복심판/part-intro",
+    "evidence": "offline expected runtime route from top match"
+  },
+  {
+    "query": "제24편 특허취소신청",
+    "result": "match",
+    "route": "#/chapter/제1장-개요-11/part-intro",
+    "evidence": "offline expected runtime route from top match"
+  },
+  {
+    "query": "제25편 재 심",
+    "result": "match",
+    "route": "#/chapter/제1장-개요-12/part-intro",
+    "evidence": "offline expected runtime route from top match"
+  },
+  {
+    "query": "제26편 특허소송",
+    "result": "match",
+    "route": "#/chapter/제1장-개요-13/part-intro",
+    "evidence": "offline expected runtime route from top match"
+  },
+  {
+    "query": "제27편 심결의 확정 및 심판비용",
+    "result": "match",
+    "route": "#/chapter/제1장-심결의-확정/part-intro",
+    "evidence": "offline expected runtime route from top match"
+  },
+  {
+    "query": "2. 2001년 시행 산업재산권법 개정내용",
+    "result": "match",
+    "route": "#/chapter/2-2001년-시행-산업재산권법-개정내용",
+    "evidence": "offline expected runtime route from top match"
+  },
+  {
+    "query": "3. 2006년 특허법 실용신안법 개정내용",
+    "result": "match",
+    "route": "#/chapter/3-2006년-특허법-실용신안법-개정내용",
+    "evidence": "offline expected runtime route from top match"
+  },
+  {
+    "query": "4. 2009. 7 .1 시행 특허법 실용신안법 개정내용",
+    "result": "match",
+    "route": "#/chapter/4-2009-7-1-시행-특허법-실용신안법-개정내용",
+    "evidence": "offline expected runtime route from top match"
+  },
+  {
+    "query": "5. 2009. 7 .1 시행 디자인보호법 개정내용",
+    "result": "match",
+    "route": "#/chapter/5-2009-7-1-시행-디자인보호법-개정내용",
+    "evidence": "offline expected runtime route from top match"
+  },
+  {
+    "query": "6. 2014. 7 .1 시행 디자인보호법 개정내용",
+    "result": "match",
+    "route": "#/chapter/6-2014-7-1-시행-디자인보호법-개정내용",
+    "evidence": "offline expected runtime route from top match"
+  },
+  {
+    "query": "7. 2016. 9. 1. 시행 상표법 개정내용",
+    "result": "match",
+    "route": "#/chapter/7-2016-9-1-시행-상표법-개정내용",
+    "evidence": "offline expected runtime route from top match"
+  },
+  {
+    "query": "8. 2017. 3. 1. 시행 특허법 실용신안법 개정내용",
+    "result": "match",
+    "route": "#/chapter/8-2017-3-1-시행-특허법-실용신안법-개정내용",
+    "evidence": "offline expected runtime route from top match"
+  },
+  {
+    "query": "9. 2017∼2020년 시행 산업재산권법 개정내용",
+    "result": "match",
+    "route": "#/chapter/9-2017-2020년-시행-산업재산권법-개정내용",
+    "evidence": "offline expected runtime route from top match"
+  },
+  {
+    "query": "10. 2021∼2023년 시행 산업재산권법 개정내용",
+    "result": "match",
+    "route": "#/chapter/10-2021-2023년-시행-산업재산권법-개정내용",
+    "evidence": "offline expected runtime route from top match"
+  },
+  {
+    "query": "부록",
+    "result": "match",
+    "route": "#/chapter/제1장-개요-6",
+    "evidence": "offline expected runtime route from top match"
+  }
+]

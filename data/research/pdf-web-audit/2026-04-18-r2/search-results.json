@@ -1,0 +1,2286 @@
+{
+  "summary": {
+    "queryCount": 50,
+    "matchedQueryCount": 47,
+    "emptyQueryCount": 3
+  },
+  "results": [
+    {
+      "query": "머리말",
+      "matchCount": 1,
+      "topMatches": [
+        {
+          "chapterSlug": "front-preface",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 5,
+          "pageEnd": 6,
+          "route": "#/chapter/front-preface",
+          "score": 400
+        }
+      ]
+    },
+    {
+      "query": "일러두기",
+      "matchCount": 1,
+      "topMatches": [
+        {
+          "chapterSlug": "front-notes",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 7,
+          "pageEnd": 10,
+          "route": "#/chapter/front-notes",
+          "score": 400
+        }
+      ]
+    },
+    {
+      "query": "부 록",
+      "matchCount": 5,
+      "topMatches": [
+        {
+          "chapterSlug": "1-심판관계서식례-및-기재례",
+          "sectionId": "part-intro",
+          "title": "부 록",
+          "entryType": "part-intro",
+          "pageStart": 1085,
+          "pageEnd": 1086,
+          "route": "#/chapter/1-심판관계서식례-및-기재례/part-intro",
+          "score": 400
+        },
+        {
+          "chapterSlug": "1-심판관계서식례-및-기재례",
+          "sectionId": "part-intro",
+          "title": "개정 연혁",
+          "entryType": "search-alias",
+          "pageStart": 1085,
+          "pageEnd": 1086,
+          "route": "#/chapter/1-심판관계서식례-및-기재례/part-intro",
+          "score": 350
+        },
+        {
+          "chapterSlug": "1-심판관계서식례-및-기재례",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 1087,
+          "pageEnd": 1246,
+          "route": "#/chapter/1-심판관계서식례-및-기재례",
+          "score": 350
+        },
+        {
+          "chapterSlug": "2-2001년-시행-산업재산권법-개정내용",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 1247,
+          "pageEnd": 1252,
+          "route": "#/chapter/2-2001년-시행-산업재산권법-개정내용",
+          "score": 350
+        },
+        {
+          "chapterSlug": "3-2006년-특허법-실용신안법-개정내용",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 1253,
+          "pageEnd": 1266,
+          "route": "#/chapter/3-2006년-특허법-실용신안법-개정내용",
+          "score": 350
+        }
+      ]
+    },
+    {
+      "query": "부칙",
+      "matchCount": 5,
+      "topMatches": [
+        {
+          "chapterSlug": "제2장-일사부재리",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 184,
+          "pageEnd": 192,
+          "route": "#/chapter/제2장-일사부재리",
+          "score": 100
+        },
+        {
+          "chapterSlug": "제3장-중복심판청구-금지",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 193,
+          "pageEnd": 196,
+          "route": "#/chapter/제3장-중복심판청구-금지",
+          "score": 100
+        },
+        {
+          "chapterSlug": "제2장-기간의-계산",
+          "sectionId": "제5절-부가기간의-지정",
+          "title": "제5절 부가기간의 지정",
+          "entryType": "item",
+          "pageStart": 539,
+          "pageEnd": 540,
+          "route": "#/chapter/제2장-기간의-계산/제5절-부가기간의-지정",
+          "score": 100
+        },
+        {
+          "chapterSlug": "제3장-권리범위-확인심판의-청구",
+          "sectionId": "제2절-청구-기간-및-대상상표권이-소멸된-경우",
+          "title": "제2절 청구 기간 및 대상(상표권이 소멸된 경우)",
+          "entryType": "item",
+          "pageStart": 647,
+          "pageEnd": 648,
+          "route": "#/chapter/제3장-권리범위-확인심판의-청구/제2절-청구-기간-및-대상상표권이-소멸된-경우",
+          "score": 100
+        },
+        {
+          "chapterSlug": "제4장-권리범위-확인심판의-심리",
+          "sectionId": "제2절-적용법규",
+          "title": "제2절 적용법규",
+          "entryType": "item",
+          "pageStart": 658,
+          "pageEnd": 659,
+          "route": "#/chapter/제4장-권리범위-확인심판의-심리/제2절-적용법규",
+          "score": 100
+        }
+      ]
+    },
+    {
+      "query": "별첨",
+      "matchCount": 0,
+      "topMatches": []
+    },
+    {
+      "query": "개정 연혁",
+      "matchCount": 1,
+      "topMatches": [
+        {
+          "chapterSlug": "1-심판관계서식례-및-기재례",
+          "sectionId": "part-intro",
+          "title": "개정 연혁",
+          "entryType": "search-alias",
+          "pageStart": 1085,
+          "pageEnd": 1086,
+          "route": "#/chapter/1-심판관계서식례-및-기재례/part-intro",
+          "score": 400
+        }
+      ]
+    },
+    {
+      "query": "지리적 표시",
+      "matchCount": 5,
+      "topMatches": [
+        {
+          "chapterSlug": "제9장-지리적-표시-단체표장의-등록취소심판상-119-8",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 890,
+          "pageEnd": 891,
+          "route": "#/chapter/제9장-지리적-표시-단체표장의-등록취소심판상-119-8",
+          "score": 220
+        },
+        {
+          "chapterSlug": "제3장-심결분류",
+          "sectionId": "제3절-심결분류표",
+          "title": "제3절 심결분류표",
+          "entryType": "item",
+          "pageStart": 461,
+          "pageEnd": 478,
+          "route": "#/chapter/제3장-심결분류/제3절-심결분류표",
+          "score": 100
+        },
+        {
+          "chapterSlug": "제4장-권리범위-확인심판의-심리",
+          "sectionId": "제5절-권리범위-속부-판단본안-판단",
+          "title": "제5절 권리범위 속부 판단(본안 판단)",
+          "entryType": "item",
+          "pageStart": 665,
+          "pageEnd": 672,
+          "route": "#/chapter/제4장-권리범위-확인심판의-심리/제5절-권리범위-속부-판단본안-판단",
+          "score": 100
+        },
+        {
+          "chapterSlug": "제1장-의의-및-관련-규정",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 757,
+          "pageEnd": 758,
+          "route": "#/chapter/제1장-의의-및-관련-규정",
+          "score": 100
+        },
+        {
+          "chapterSlug": "제5장-무효심판의-청구대상-및-무효원인",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 767,
+          "pageEnd": 769,
+          "route": "#/chapter/제5장-무효심판의-청구대상-및-무효원인",
+          "score": 100
+        }
+      ]
+    },
+    {
+      "query": "FTA",
+      "matchCount": 0,
+      "topMatches": []
+    },
+    {
+      "query": "재검토기한",
+      "matchCount": 0,
+      "topMatches": []
+    },
+    {
+      "query": "제1편 특허심판 일반",
+      "matchCount": 5,
+      "topMatches": [
+        {
+          "chapterSlug": "제1장-의의",
+          "sectionId": "part-intro",
+          "title": "제1편 특허심판 일반",
+          "entryType": "part-intro",
+          "pageStart": 29,
+          "pageEnd": 30,
+          "route": "#/chapter/제1장-의의/part-intro",
+          "score": 400
+        },
+        {
+          "chapterSlug": "제1장-의의",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 31,
+          "pageEnd": 31,
+          "route": "#/chapter/제1장-의의",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제2장-심판의-법적-성질",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 32,
+          "pageEnd": 33,
+          "route": "#/chapter/제2장-심판의-법적-성질",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제3장-특허심판의-종류",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 34,
+          "pageEnd": 34,
+          "route": "#/chapter/제3장-특허심판의-종류",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제3장-특허심판의-종류",
+          "sectionId": "제1절-결정계-심판",
+          "title": "제1절 결정계 심판",
+          "entryType": "item",
+          "pageStart": 34,
+          "pageEnd": 35,
+          "route": "#/chapter/제3장-특허심판의-종류/제1절-결정계-심판",
+          "score": 350
+        }
+      ]
+    },
+    {
+      "query": "제2편 심판서류의 접수 심판관지정 및 열람",
+      "matchCount": 5,
+      "topMatches": [
+        {
+          "chapterSlug": "제1장-심판서류의-접수",
+          "sectionId": "part-intro",
+          "title": "제2편 심판서류의 접수 심판관지정 및 열람",
+          "entryType": "part-intro",
+          "pageStart": 39,
+          "pageEnd": 40,
+          "route": "#/chapter/제1장-심판서류의-접수/part-intro",
+          "score": 400
+        },
+        {
+          "chapterSlug": "제1장-심판서류의-접수",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 41,
+          "pageEnd": 43,
+          "route": "#/chapter/제1장-심판서류의-접수",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제2장-심판청구서-접수-후-절차-심판정책과",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 44,
+          "pageEnd": 44,
+          "route": "#/chapter/제2장-심판청구서-접수-후-절차-심판정책과",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제2장-심판청구서-접수-후-절차-심판정책과",
+          "sectionId": "제1절-심판번호-부여",
+          "title": "제1절 심판번호 부여",
+          "entryType": "item",
+          "pageStart": 44,
+          "pageEnd": 44,
+          "route": "#/chapter/제2장-심판청구서-접수-후-절차-심판정책과/제1절-심판번호-부여",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제2장-심판청구서-접수-후-절차-심판정책과",
+          "sectionId": "제2절-심판서류-처리",
+          "title": "제2절 심판서류 처리",
+          "entryType": "item",
+          "pageStart": 44,
+          "pageEnd": 44,
+          "route": "#/chapter/제2장-심판청구서-접수-후-절차-심판정책과/제2절-심판서류-처리",
+          "score": 350
+        }
+      ]
+    },
+    {
+      "query": "제3편 방식심사 등",
+      "matchCount": 5,
+      "topMatches": [
+        {
+          "chapterSlug": "제1장-의의-2",
+          "sectionId": "part-intro",
+          "title": "제3편 방식심사 등",
+          "entryType": "part-intro",
+          "pageStart": 61,
+          "pageEnd": 62,
+          "route": "#/chapter/제1장-의의-2/part-intro",
+          "score": 400
+        },
+        {
+          "chapterSlug": "제1장-의의-2",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 63,
+          "pageEnd": 65,
+          "route": "#/chapter/제1장-의의-2",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제2장-심판청구서의-방식위반-조사",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 66,
+          "pageEnd": 67,
+          "route": "#/chapter/제2장-심판청구서의-방식위반-조사",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제3장-방식심사에-따른-조치",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 68,
+          "pageEnd": 68,
+          "route": "#/chapter/제3장-방식심사에-따른-조치",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제3장-방식심사에-따른-조치",
+          "sectionId": "제1절-방식심리-결함-및-유형별-처리",
+          "title": "제1절 방식심리 결함 및 유형별 처리",
+          "entryType": "item",
+          "pageStart": 68,
+          "pageEnd": 68,
+          "route": "#/chapter/제3장-방식심사에-따른-조치/제1절-방식심리-결함-및-유형별-처리",
+          "score": 350
+        }
+      ]
+    },
+    {
+      "query": "제4편 심판관,제척,기피등",
+      "matchCount": 5,
+      "topMatches": [
+        {
+          "chapterSlug": "제1장-심판의-주체",
+          "sectionId": "part-intro",
+          "title": "제4편 심판관,제척,기피등",
+          "entryType": "part-intro",
+          "pageStart": 89,
+          "pageEnd": 90,
+          "route": "#/chapter/제1장-심판의-주체/part-intro",
+          "score": 400
+        },
+        {
+          "chapterSlug": "제1장-심판의-주체",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 91,
+          "pageEnd": 97,
+          "route": "#/chapter/제1장-심판의-주체",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제2장-심판관의-제척-및-기피",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 98,
+          "pageEnd": 98,
+          "route": "#/chapter/제2장-심판관의-제척-및-기피",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제2장-심판관의-제척-및-기피",
+          "sectionId": "제1절-개요",
+          "title": "제1절 개요",
+          "entryType": "item",
+          "pageStart": 98,
+          "pageEnd": 98,
+          "route": "#/chapter/제2장-심판관의-제척-및-기피/제1절-개요",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제2장-심판관의-제척-및-기피",
+          "sectionId": "제2절-제척",
+          "title": "제2절 제척",
+          "entryType": "item",
+          "pageStart": 98,
+          "pageEnd": 104,
+          "route": "#/chapter/제2장-심판관의-제척-및-기피/제2절-제척",
+          "score": 350
+        }
+      ]
+    },
+    {
+      "query": "제5편 심판의 당사자 대리인 참가인",
+      "matchCount": 5,
+      "topMatches": [
+        {
+          "chapterSlug": "제1장-개요",
+          "sectionId": "part-intro",
+          "title": "제5편 심판의 당사자 대리인 참가인",
+          "entryType": "part-intro",
+          "pageStart": 113,
+          "pageEnd": 114,
+          "route": "#/chapter/제1장-개요/part-intro",
+          "score": 400
+        },
+        {
+          "chapterSlug": "제1장-개요",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 115,
+          "pageEnd": 115,
+          "route": "#/chapter/제1장-개요",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제2장-심판-당사자",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 116,
+          "pageEnd": 116,
+          "route": "#/chapter/제2장-심판-당사자",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제2장-심판-당사자",
+          "sectionId": "제1절-당사자의-확정",
+          "title": "제1절 당사자의 확정",
+          "entryType": "item",
+          "pageStart": 116,
+          "pageEnd": 116,
+          "route": "#/chapter/제2장-심판-당사자/제1절-당사자의-확정",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제2장-심판-당사자",
+          "sectionId": "제2절-당사자에-관한-심판청구요건",
+          "title": "제2절 당사자에 관한 심판청구요건",
+          "entryType": "item",
+          "pageStart": 116,
+          "pageEnd": 116,
+          "route": "#/chapter/제2장-심판-당사자/제2절-당사자에-관한-심판청구요건",
+          "score": 350
+        }
+      ]
+    },
+    {
+      "query": "제6편 요지변경, 일사부재리, 중복청구금지",
+      "matchCount": 4,
+      "topMatches": [
+        {
+          "chapterSlug": "제1장-심판청구의-요지변경",
+          "sectionId": "part-intro",
+          "title": "제6편 요지변경, 일사부재리, 중복청구금지",
+          "entryType": "part-intro",
+          "pageStart": 177,
+          "pageEnd": 178,
+          "route": "#/chapter/제1장-심판청구의-요지변경/part-intro",
+          "score": 400
+        },
+        {
+          "chapterSlug": "제1장-심판청구의-요지변경",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 179,
+          "pageEnd": 183,
+          "route": "#/chapter/제1장-심판청구의-요지변경",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제2장-일사부재리",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 184,
+          "pageEnd": 192,
+          "route": "#/chapter/제2장-일사부재리",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제3장-중복심판청구-금지",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 193,
+          "pageEnd": 196,
+          "route": "#/chapter/제3장-중복심판청구-금지",
+          "score": 350
+        }
+      ]
+    },
+    {
+      "query": "제7편 심리병합, 정보제공, 우선심판, 신속심판",
+      "matchCount": 5,
+      "topMatches": [
+        {
+          "chapterSlug": "제1장-심리병합",
+          "sectionId": "part-intro",
+          "title": "제7편 심리병합, 정보제공, 우선심판, 신속심판",
+          "entryType": "part-intro",
+          "pageStart": 197,
+          "pageEnd": 198,
+          "route": "#/chapter/제1장-심리병합/part-intro",
+          "score": 400
+        },
+        {
+          "chapterSlug": "제1장-심리병합",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 199,
+          "pageEnd": 205,
+          "route": "#/chapter/제1장-심리병합",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제2장-심리분리",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 206,
+          "pageEnd": 206,
+          "route": "#/chapter/제2장-심리분리",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제3장-정보제공",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 207,
+          "pageEnd": 209,
+          "route": "#/chapter/제3장-정보제공",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제4장-우선심판",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 210,
+          "pageEnd": 212,
+          "route": "#/chapter/제4장-우선심판",
+          "score": 350
+        }
+      ]
+    },
+    {
+      "query": "제8편 이해관계 심리",
+      "matchCount": 5,
+      "topMatches": [
+        {
+          "chapterSlug": "제1장-심판청구요건과-이해관계인",
+          "sectionId": "part-intro",
+          "title": "제8편 이해관계 심리",
+          "entryType": "part-intro",
+          "pageStart": 217,
+          "pageEnd": 218,
+          "route": "#/chapter/제1장-심판청구요건과-이해관계인/part-intro",
+          "score": 400
+        },
+        {
+          "chapterSlug": "제1장-심판청구요건과-이해관계인",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 219,
+          "pageEnd": 224,
+          "route": "#/chapter/제1장-심판청구요건과-이해관계인",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제2장-이해관계의-심리",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 225,
+          "pageEnd": 226,
+          "route": "#/chapter/제2장-이해관계의-심리",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제3장-유형별-이해관계-사례",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 227,
+          "pageEnd": 244,
+          "route": "#/chapter/제3장-유형별-이해관계-사례",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제4장-권리범위-확인심판-청구",
+          "sectionId": "제1절-청구인-및-피청구인",
+          "title": "제1절 청구인 및 피청구인",
+          "entryType": "item",
+          "pageStart": 565,
+          "pageEnd": 565,
+          "route": "#/chapter/제4장-권리범위-확인심판-청구/제1절-청구인-및-피청구인",
+          "score": 100
+        }
+      ]
+    },
+    {
+      "query": "제9편 증거조사",
+      "matchCount": 5,
+      "topMatches": [
+        {
+          "chapterSlug": "제1장-증거",
+          "sectionId": "part-intro",
+          "title": "제9편 증거조사",
+          "entryType": "part-intro",
+          "pageStart": 245,
+          "pageEnd": 246,
+          "route": "#/chapter/제1장-증거/part-intro",
+          "score": 400
+        },
+        {
+          "chapterSlug": "제1장-증거",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 247,
+          "pageEnd": 249,
+          "route": "#/chapter/제1장-증거",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제2장-제출-증거에-대한-방식심리심사",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 250,
+          "pageEnd": 250,
+          "route": "#/chapter/제2장-제출-증거에-대한-방식심리심사",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제2장-제출-증거에-대한-방식심리심사",
+          "sectionId": "제1절-개요-4",
+          "title": "제1절 개요",
+          "entryType": "item",
+          "pageStart": 250,
+          "pageEnd": 250,
+          "route": "#/chapter/제2장-제출-증거에-대한-방식심리심사/제1절-개요-4",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제2장-제출-증거에-대한-방식심리심사",
+          "sectionId": "제2절-증거방법별-방식심사-요령",
+          "title": "제2절 증거방법별 방식심사 요령",
+          "entryType": "item",
+          "pageStart": 250,
+          "pageEnd": 258,
+          "route": "#/chapter/제2장-제출-증거에-대한-방식심리심사/제2절-증거방법별-방식심사-요령",
+          "score": 350
+        }
+      ]
+    },
+    {
+      "query": "제10편 심리관련 제도",
+      "matchCount": 5,
+      "topMatches": [
+        {
+          "chapterSlug": "제1장-구술심리",
+          "sectionId": "part-intro",
+          "title": "제10편 심리관련 제도",
+          "entryType": "part-intro",
+          "pageStart": 359,
+          "pageEnd": 360,
+          "route": "#/chapter/제1장-구술심리/part-intro",
+          "score": 400
+        },
+        {
+          "chapterSlug": "제1장-구술심리",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 361,
+          "pageEnd": 361,
+          "route": "#/chapter/제1장-구술심리",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제1장-구술심리",
+          "sectionId": "제1절-구술심리-일반",
+          "title": "제1절 구술심리 일반",
+          "entryType": "item",
+          "pageStart": 361,
+          "pageEnd": 365,
+          "route": "#/chapter/제1장-구술심리/제1절-구술심리-일반",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제1장-구술심리",
+          "sectionId": "제2절-구술심리기일의-준비",
+          "title": "제2절 구술심리기일의 준비",
+          "entryType": "item",
+          "pageStart": 366,
+          "pageEnd": 376,
+          "route": "#/chapter/제1장-구술심리/제2절-구술심리기일의-준비",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제1장-구술심리",
+          "sectionId": "제3절-구술심리기일의-진행",
+          "title": "제3절 구술심리기일의 진행",
+          "entryType": "item",
+          "pageStart": 377,
+          "pageEnd": 400,
+          "route": "#/chapter/제1장-구술심리/제3절-구술심리기일의-진행",
+          "score": 350
+        }
+      ]
+    },
+    {
+      "query": "제11편 취하, 포기, 심리종결, 합의",
+      "matchCount": 5,
+      "topMatches": [
+        {
+          "chapterSlug": "제1장-심판청구의-취하",
+          "sectionId": "part-intro",
+          "title": "제11편 취하, 포기, 심리종결, 합의",
+          "entryType": "part-intro",
+          "pageStart": 419,
+          "pageEnd": 420,
+          "route": "#/chapter/제1장-심판청구의-취하/part-intro",
+          "score": 400
+        },
+        {
+          "chapterSlug": "제1장-심판청구의-취하",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 421,
+          "pageEnd": 421,
+          "route": "#/chapter/제1장-심판청구의-취하",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제1장-심판청구의-취하",
+          "sectionId": "제1절-개요-6",
+          "title": "제1절 개요",
+          "entryType": "item",
+          "pageStart": 421,
+          "pageEnd": 421,
+          "route": "#/chapter/제1장-심판청구의-취하/제1절-개요-6",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제1장-심판청구의-취하",
+          "sectionId": "제2절-심판청구의-취하에-관한-절차",
+          "title": "제2절 심판청구의 취하에 관한 절차",
+          "entryType": "item",
+          "pageStart": 422,
+          "pageEnd": 426,
+          "route": "#/chapter/제1장-심판청구의-취하/제2절-심판청구의-취하에-관한-절차",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제1장-심판청구의-취하",
+          "sectionId": "제3절-취하가-인정된-후의-절차",
+          "title": "제3절 취하가 인정된 후의 절차",
+          "entryType": "item",
+          "pageStart": 427,
+          "pageEnd": 427,
+          "route": "#/chapter/제1장-심판청구의-취하/제3절-취하가-인정된-후의-절차",
+          "score": 350
+        }
+      ]
+    },
+    {
+      "query": "제12편 심 결",
+      "matchCount": 5,
+      "topMatches": [
+        {
+          "chapterSlug": "제1장-개요-2",
+          "sectionId": "part-intro",
+          "title": "제12편 심 결",
+          "entryType": "part-intro",
+          "pageStart": 451,
+          "pageEnd": 452,
+          "route": "#/chapter/제1장-개요-2/part-intro",
+          "score": 400
+        },
+        {
+          "chapterSlug": "제1장-개요-2",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 453,
+          "pageEnd": 453,
+          "route": "#/chapter/제1장-개요-2",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제2장-심결문의-구성",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 454,
+          "pageEnd": 457,
+          "route": "#/chapter/제2장-심결문의-구성",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제3장-심결분류",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 458,
+          "pageEnd": 458,
+          "route": "#/chapter/제3장-심결분류",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제3장-심결분류",
+          "sectionId": "제1절-심결분류-및-판결분류-개요",
+          "title": "제1절 심결분류 및 판결분류 개요",
+          "entryType": "item",
+          "pageStart": 458,
+          "pageEnd": 458,
+          "route": "#/chapter/제3장-심결분류/제1절-심결분류-및-판결분류-개요",
+          "score": 350
+        }
+      ]
+    },
+    {
+      "query": "제13편 송달, 기간, 절차정지, 승계",
+      "matchCount": 5,
+      "topMatches": [
+        {
+          "chapterSlug": "제1장-서류의-송달",
+          "sectionId": "part-intro",
+          "title": "제13편 송달, 기간, 절차정지, 승계",
+          "entryType": "part-intro",
+          "pageStart": 517,
+          "pageEnd": 518,
+          "route": "#/chapter/제1장-서류의-송달/part-intro",
+          "score": 400
+        },
+        {
+          "chapterSlug": "제1장-서류의-송달",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 519,
+          "pageEnd": 519,
+          "route": "#/chapter/제1장-서류의-송달",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제1장-서류의-송달",
+          "sectionId": "제1절-의의",
+          "title": "제1절 의의",
+          "entryType": "item",
+          "pageStart": 519,
+          "pageEnd": 519,
+          "route": "#/chapter/제1장-서류의-송달/제1절-의의",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제1장-서류의-송달",
+          "sectionId": "제2절-서류-송달-방법",
+          "title": "제2절 서류 송달 방법",
+          "entryType": "item",
+          "pageStart": 520,
+          "pageEnd": 523,
+          "route": "#/chapter/제1장-서류의-송달/제2절-서류-송달-방법",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제1장-서류의-송달",
+          "sectionId": "제3절-송달대상-서류",
+          "title": "제3절 송달대상 서류",
+          "entryType": "item",
+          "pageStart": 524,
+          "pageEnd": 526,
+          "route": "#/chapter/제1장-서류의-송달/제3절-송달대상-서류",
+          "score": 350
+        }
+      ]
+    },
+    {
+      "query": "제14편 권리범위 확인심판",
+      "matchCount": 5,
+      "topMatches": [
+        {
+          "chapterSlug": "제1장-개요-3",
+          "sectionId": "part-intro",
+          "title": "제14편 권리범위 확인심판",
+          "entryType": "part-intro",
+          "pageStart": 557,
+          "pageEnd": 558,
+          "route": "#/chapter/제1장-개요-3/part-intro",
+          "score": 400
+        },
+        {
+          "chapterSlug": "제1장-개요-3",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 559,
+          "pageEnd": 559,
+          "route": "#/chapter/제1장-개요-3",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제2장-권리범위-확인심판의-법적-성격",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 560,
+          "pageEnd": 561,
+          "route": "#/chapter/제2장-권리범위-확인심판의-법적-성격",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제3장-권리범위-확인심판의-유형",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 562,
+          "pageEnd": 564,
+          "route": "#/chapter/제3장-권리범위-확인심판의-유형",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제4장-권리범위-확인심판-청구",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 565,
+          "pageEnd": 565,
+          "route": "#/chapter/제4장-권리범위-확인심판-청구",
+          "score": 350
+        }
+      ]
+    },
+    {
+      "query": "제14-1편 디자인권의 권리범위 확인심판",
+      "matchCount": 5,
+      "topMatches": [
+        {
+          "chapterSlug": "제1장-디자인권의-권리범위-확인심판의-개요",
+          "sectionId": "part-intro",
+          "title": "제14-1편 디자인권의 권리범위 확인심판",
+          "entryType": "part-intro",
+          "pageStart": 601,
+          "pageEnd": 602,
+          "route": "#/chapter/제1장-디자인권의-권리범위-확인심판의-개요/part-intro",
+          "score": 400
+        },
+        {
+          "chapterSlug": "제1장-디자인권의-권리범위-확인심판의-개요",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 603,
+          "pageEnd": 603,
+          "route": "#/chapter/제1장-디자인권의-권리범위-확인심판의-개요",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제2장-디자인권의-권리범위-확인심판의-법적-성격",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 604,
+          "pageEnd": 604,
+          "route": "#/chapter/제2장-디자인권의-권리범위-확인심판의-법적-성격",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제3장-디자인권의-권리범위-확인심판의-유형",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 605,
+          "pageEnd": 607,
+          "route": "#/chapter/제3장-디자인권의-권리범위-확인심판의-유형",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제4장-권리범위-확인심판-청구-2",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 608,
+          "pageEnd": 608,
+          "route": "#/chapter/제4장-권리범위-확인심판-청구-2",
+          "score": 350
+        }
+      ]
+    },
+    {
+      "query": "제14-2편 상표권의 권리범위 확인심판",
+      "matchCount": 5,
+      "topMatches": [
+        {
+          "chapterSlug": "제1장-개요-4",
+          "sectionId": "part-intro",
+          "title": "제14-2편 상표권의 권리범위 확인심판",
+          "entryType": "part-intro",
+          "pageStart": 637,
+          "pageEnd": 638,
+          "route": "#/chapter/제1장-개요-4/part-intro",
+          "score": 400
+        },
+        {
+          "chapterSlug": "제1장-개요-4",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 639,
+          "pageEnd": 639,
+          "route": "#/chapter/제1장-개요-4",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제1장-개요-4",
+          "sectionId": "제1절-의의-및-연혁",
+          "title": "제1절 의의 및 연혁",
+          "entryType": "item",
+          "pageStart": 639,
+          "pageEnd": 639,
+          "route": "#/chapter/제1장-개요-4/제1절-의의-및-연혁",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제1장-개요-4",
+          "sectionId": "제2절-권리범위-확인심판의-종류",
+          "title": "제2절 권리범위 확인심판의 종류",
+          "entryType": "item",
+          "pageStart": 640,
+          "pageEnd": 640,
+          "route": "#/chapter/제1장-개요-4/제2절-권리범위-확인심판의-종류",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제2장-권리범위-확인심판의-법적-성격-2",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 641,
+          "pageEnd": 641,
+          "route": "#/chapter/제2장-권리범위-확인심판의-법적-성격-2",
+          "score": 350
+        }
+      ]
+    },
+    {
+      "query": "제15편 무효심판",
+      "matchCount": 5,
+      "topMatches": [
+        {
+          "chapterSlug": "제1장-개요-5",
+          "sectionId": "part-intro",
+          "title": "제15편 무효심판",
+          "entryType": "part-intro",
+          "pageStart": 677,
+          "pageEnd": 678,
+          "route": "#/chapter/제1장-개요-5/part-intro",
+          "score": 400
+        },
+        {
+          "chapterSlug": "제1장-개요-5",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 679,
+          "pageEnd": 681,
+          "route": "#/chapter/제1장-개요-5",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제2장-무효심판의-대상과-무효원인",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 682,
+          "pageEnd": 682,
+          "route": "#/chapter/제2장-무효심판의-대상과-무효원인",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제2장-무효심판의-대상과-무효원인",
+          "sectionId": "제1절-심판청구대상",
+          "title": "제1절 심판청구대상",
+          "entryType": "item",
+          "pageStart": 682,
+          "pageEnd": 682,
+          "route": "#/chapter/제2장-무효심판의-대상과-무효원인/제1절-심판청구대상",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제2장-무효심판의-대상과-무효원인",
+          "sectionId": "제2절-무효원인",
+          "title": "제2절 무효원인",
+          "entryType": "item",
+          "pageStart": 682,
+          "pageEnd": 687,
+          "route": "#/chapter/제2장-무효심판의-대상과-무효원인/제2절-무효원인",
+          "score": 350
+        }
+      ]
+    },
+    {
+      "query": "제15-1편 디자인등록의 무효심판",
+      "matchCount": 5,
+      "topMatches": [
+        {
+          "chapterSlug": "제1장-디자인등록의-무효심판의-개요",
+          "sectionId": "part-intro",
+          "title": "제15-1편 디자인등록의 무효심판",
+          "entryType": "part-intro",
+          "pageStart": 729,
+          "pageEnd": 730,
+          "route": "#/chapter/제1장-디자인등록의-무효심판의-개요/part-intro",
+          "score": 400
+        },
+        {
+          "chapterSlug": "제1장-디자인등록의-무효심판의-개요",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 731,
+          "pageEnd": 732,
+          "route": "#/chapter/제1장-디자인등록의-무효심판의-개요",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제2장-무효심판의-대상과-무효원인-2",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 733,
+          "pageEnd": 733,
+          "route": "#/chapter/제2장-무효심판의-대상과-무효원인-2",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제2장-무효심판의-대상과-무효원인-2",
+          "sectionId": "제1절-심판청구대상-2",
+          "title": "제1절 심판청구대상",
+          "entryType": "item",
+          "pageStart": 733,
+          "pageEnd": 733,
+          "route": "#/chapter/제2장-무효심판의-대상과-무효원인-2/제1절-심판청구대상-2",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제2장-무효심판의-대상과-무효원인-2",
+          "sectionId": "제2절-무효원인-2",
+          "title": "제2절 무효원인",
+          "entryType": "item",
+          "pageStart": 733,
+          "pageEnd": 733,
+          "route": "#/chapter/제2장-무효심판의-대상과-무효원인-2/제2절-무효원인-2",
+          "score": 350
+        }
+      ]
+    },
+    {
+      "query": "제15-2편 상표등록무효심판",
+      "matchCount": 5,
+      "topMatches": [
+        {
+          "chapterSlug": "제1장-의의-및-관련-규정",
+          "sectionId": "part-intro",
+          "title": "제15-2편 상표등록무효심판",
+          "entryType": "part-intro",
+          "pageStart": 755,
+          "pageEnd": 756,
+          "route": "#/chapter/제1장-의의-및-관련-규정/part-intro",
+          "score": 400
+        },
+        {
+          "chapterSlug": "제1장-의의-및-관련-규정",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 757,
+          "pageEnd": 758,
+          "route": "#/chapter/제1장-의의-및-관련-규정",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제2장-무효심판의-당사자",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 759,
+          "pageEnd": 761,
+          "route": "#/chapter/제2장-무효심판의-당사자",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제3장-무효심판의-청구시기",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 762,
+          "pageEnd": 762,
+          "route": "#/chapter/제3장-무효심판의-청구시기",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제4장-무효심판의-청구절차",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 763,
+          "pageEnd": 766,
+          "route": "#/chapter/제4장-무효심판의-청구절차",
+          "score": 350
+        }
+      ]
+    },
+    {
+      "query": "제16편 정정심판",
+      "matchCount": 5,
+      "topMatches": [
+        {
+          "chapterSlug": "제1장-개요-6",
+          "sectionId": "part-intro",
+          "title": "제16편 정정심판",
+          "entryType": "part-intro",
+          "pageStart": 785,
+          "pageEnd": 786,
+          "route": "#/chapter/제1장-개요-6/part-intro",
+          "score": 400
+        },
+        {
+          "chapterSlug": "제1장-개요-6",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 787,
+          "pageEnd": 788,
+          "route": "#/chapter/제1장-개요-6",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제2장-정정심판-청구",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 789,
+          "pageEnd": 789,
+          "route": "#/chapter/제2장-정정심판-청구",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제2장-정정심판-청구",
+          "sectionId": "제1절-심판청구인",
+          "title": "제1절 심판청구인",
+          "entryType": "item",
+          "pageStart": 789,
+          "pageEnd": 789,
+          "route": "#/chapter/제2장-정정심판-청구/제1절-심판청구인",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제2장-정정심판-청구",
+          "sectionId": "제2절-청구시기-및-대상",
+          "title": "제2절 청구시기 및 대상",
+          "entryType": "item",
+          "pageStart": 789,
+          "pageEnd": 790,
+          "route": "#/chapter/제2장-정정심판-청구/제2절-청구시기-및-대상",
+          "score": 350
+        }
+      ]
+    },
+    {
+      "query": "제17편 정정의 무효심판",
+      "matchCount": 4,
+      "topMatches": [
+        {
+          "chapterSlug": "제1장-개요-7",
+          "sectionId": "part-intro",
+          "title": "제17편 정정의 무효심판",
+          "entryType": "part-intro",
+          "pageStart": 829,
+          "pageEnd": 830,
+          "route": "#/chapter/제1장-개요-7/part-intro",
+          "score": 400
+        },
+        {
+          "chapterSlug": "제1장-개요-7",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 831,
+          "pageEnd": 831,
+          "route": "#/chapter/제1장-개요-7",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제2장-정정무효심판의-청구",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 832,
+          "pageEnd": 833,
+          "route": "#/chapter/제2장-정정무효심판의-청구",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제3장-심리-및-심결",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 834,
+          "pageEnd": 836,
+          "route": "#/chapter/제3장-심리-및-심결",
+          "score": 350
+        }
+      ]
+    },
+    {
+      "query": "제18편 연장 추가 갱신 전환 등록의 무효심판",
+      "matchCount": 3,
+      "topMatches": [
+        {
+          "chapterSlug": "제1장-특허권실용신안권-존속기간-연장등록의-무효심판",
+          "sectionId": "part-intro",
+          "title": "제18편 연장 추가 갱신 전환 등록의 무효심판",
+          "entryType": "part-intro",
+          "pageStart": 837,
+          "pageEnd": 838,
+          "route": "#/chapter/제1장-특허권실용신안권-존속기간-연장등록의-무효심판/part-intro",
+          "score": 400
+        },
+        {
+          "chapterSlug": "제1장-특허권실용신안권-존속기간-연장등록의-무효심판",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 839,
+          "pageEnd": 842,
+          "route": "#/chapter/제1장-특허권실용신안권-존속기간-연장등록의-무효심판",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제2장-지정상품추가등록-상표권존속기간갱신등록-상품분류전환등록의-무효심판",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 843,
+          "pageEnd": 848,
+          "route": "#/chapter/제2장-지정상품추가등록-상표권존속기간갱신등록-상품분류전환등록의-무효심판",
+          "score": 350
+        }
+      ]
+    },
+    {
+      "query": "제19편 상표등록취소심판",
+      "matchCount": 5,
+      "topMatches": [
+        {
+          "chapterSlug": "제1장-상표권자의-부정사용으로-인한-상표등록취소심판-상-119-1",
+          "sectionId": "part-intro",
+          "title": "제19편 상표등록취소심판",
+          "entryType": "part-intro",
+          "pageStart": 849,
+          "pageEnd": 851,
+          "route": "#/chapter/제1장-상표권자의-부정사용으로-인한-상표등록취소심판-상-119-1/part-intro",
+          "score": 400
+        },
+        {
+          "chapterSlug": "제1장-상표권자의-부정사용으로-인한-상표등록취소심판-상-119-1",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 852,
+          "pageEnd": 858,
+          "route": "#/chapter/제1장-상표권자의-부정사용으로-인한-상표등록취소심판-상-119-1",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제2장-사용권자의-부정사용으로-인한-상표등록취소심판상-119-2-및-사용권등록취소심판-상-120",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 859,
+          "pageEnd": 863,
+          "route": "#/chapter/제2장-사용권자의-부정사용으로-인한-상표등록취소심판상-119-2-및-사용권등록취소심판-상-120",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제3장-등록상표의-불사용으로-인한-취소심판상-119-3",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 864,
+          "pageEnd": 876,
+          "route": "#/chapter/제3장-등록상표의-불사용으로-인한-취소심판상-119-3",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제4장-상표권-이전-요건-위반으로-인한-상표등록취소심판상-119-4",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 877,
+          "pageEnd": 878,
+          "route": "#/chapter/제4장-상표권-이전-요건-위반으로-인한-상표등록취소심판상-119-4",
+          "score": 350
+        }
+      ]
+    },
+    {
+      "query": "제20편 통상실시권허락심판",
+      "matchCount": 4,
+      "topMatches": [
+        {
+          "chapterSlug": "제1장-개요-8",
+          "sectionId": "part-intro",
+          "title": "제20편 통상실시권허락심판",
+          "entryType": "part-intro",
+          "pageStart": 895,
+          "pageEnd": 896,
+          "route": "#/chapter/제1장-개요-8/part-intro",
+          "score": 400
+        },
+        {
+          "chapterSlug": "제1장-개요-8",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 897,
+          "pageEnd": 897,
+          "route": "#/chapter/제1장-개요-8",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제2장-심판청구요건",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 898,
+          "pageEnd": 898,
+          "route": "#/chapter/제2장-심판청구요건",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제3장-심결-및-크로스라이센스",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 899,
+          "pageEnd": 900,
+          "route": "#/chapter/제3장-심결-및-크로스라이센스",
+          "score": 350
+        }
+      ]
+    },
+    {
+      "query": "제21편 거절결정불복심판",
+      "matchCount": 5,
+      "topMatches": [
+        {
+          "chapterSlug": "제1장-개요-9",
+          "sectionId": "part-intro",
+          "title": "제21편 거절결정불복심판",
+          "entryType": "part-intro",
+          "pageStart": 901,
+          "pageEnd": 902,
+          "route": "#/chapter/제1장-개요-9/part-intro",
+          "score": 400
+        },
+        {
+          "chapterSlug": "제1장-개요-9",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 903,
+          "pageEnd": 903,
+          "route": "#/chapter/제1장-개요-9",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제2장-거절결정불복심판-청구대상-및-청구인",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 904,
+          "pageEnd": 905,
+          "route": "#/chapter/제2장-거절결정불복심판-청구대상-및-청구인",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제3장-거절결정불복심판-청구기간",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 906,
+          "pageEnd": 907,
+          "route": "#/chapter/제3장-거절결정불복심판-청구기간",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제4장-거절결정불복심판-청구",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 908,
+          "pageEnd": 910,
+          "route": "#/chapter/제4장-거절결정불복심판-청구",
+          "score": 350
+        }
+      ]
+    },
+    {
+      "query": "제22편 보정각하결정불복심판",
+      "matchCount": 5,
+      "topMatches": [
+        {
+          "chapterSlug": "제1장-개요-10",
+          "sectionId": "part-intro",
+          "title": "제22편 보정각하결정불복심판",
+          "entryType": "part-intro",
+          "pageStart": 947,
+          "pageEnd": 948,
+          "route": "#/chapter/제1장-개요-10/part-intro",
+          "score": 400
+        },
+        {
+          "chapterSlug": "제1장-개요-10",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 949,
+          "pageEnd": 949,
+          "route": "#/chapter/제1장-개요-10",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제2장-보정각하결정불복심판-적용대상",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 950,
+          "pageEnd": 951,
+          "route": "#/chapter/제2장-보정각하결정불복심판-적용대상",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제3장-청구인-및-청구시기",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 952,
+          "pageEnd": 952,
+          "route": "#/chapter/제3장-청구인-및-청구시기",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제4장-요지변경-기준",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 952,
+          "pageEnd": 963,
+          "route": "#/chapter/제4장-요지변경-기준",
+          "score": 350
+        }
+      ]
+    },
+    {
+      "query": "제23편 취소결정불복심판",
+      "matchCount": 3,
+      "topMatches": [
+        {
+          "chapterSlug": "제1장-이의신청에-의한-등록취소결정에-대한-불복심판",
+          "sectionId": "part-intro",
+          "title": "제23편 취소결정불복심판",
+          "entryType": "part-intro",
+          "pageStart": 965,
+          "pageEnd": 966,
+          "route": "#/chapter/제1장-이의신청에-의한-등록취소결정에-대한-불복심판/part-intro",
+          "score": 400
+        },
+        {
+          "chapterSlug": "제1장-이의신청에-의한-등록취소결정에-대한-불복심판",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 967,
+          "pageEnd": 968,
+          "route": "#/chapter/제1장-이의신청에-의한-등록취소결정에-대한-불복심판",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제2장-기술평가에-의한-실용신안-선등록-취소결정불복심판",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 969,
+          "pageEnd": 970,
+          "route": "#/chapter/제2장-기술평가에-의한-실용신안-선등록-취소결정불복심판",
+          "score": 350
+        }
+      ]
+    },
+    {
+      "query": "제24편 특허취소신청",
+      "matchCount": 5,
+      "topMatches": [
+        {
+          "chapterSlug": "제1장-개요-11",
+          "sectionId": "part-intro",
+          "title": "제24편 특허취소신청",
+          "entryType": "part-intro",
+          "pageStart": 971,
+          "pageEnd": 972,
+          "route": "#/chapter/제1장-개요-11/part-intro",
+          "score": 400
+        },
+        {
+          "chapterSlug": "제1장-개요-11",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 973,
+          "pageEnd": 974,
+          "route": "#/chapter/제1장-개요-11",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제2장-특허취소신청의-대상과-취소이유",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 975,
+          "pageEnd": 975,
+          "route": "#/chapter/제2장-특허취소신청의-대상과-취소이유",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제2장-특허취소신청의-대상과-취소이유",
+          "sectionId": "제1절-특허취소신청의-대상",
+          "title": "제1절 특허취소신청의 대상",
+          "entryType": "item",
+          "pageStart": 975,
+          "pageEnd": 975,
+          "route": "#/chapter/제2장-특허취소신청의-대상과-취소이유/제1절-특허취소신청의-대상",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제2장-특허취소신청의-대상과-취소이유",
+          "sectionId": "제2절-특허취소신청의-이유",
+          "title": "제2절 특허취소신청의 이유",
+          "entryType": "item",
+          "pageStart": 975,
+          "pageEnd": 976,
+          "route": "#/chapter/제2장-특허취소신청의-대상과-취소이유/제2절-특허취소신청의-이유",
+          "score": 350
+        }
+      ]
+    },
+    {
+      "query": "제25편 재 심",
+      "matchCount": 5,
+      "topMatches": [
+        {
+          "chapterSlug": "제1장-개요-12",
+          "sectionId": "part-intro",
+          "title": "제25편 재 심",
+          "entryType": "part-intro",
+          "pageStart": 1005,
+          "pageEnd": 1006,
+          "route": "#/chapter/제1장-개요-12/part-intro",
+          "score": 400
+        },
+        {
+          "chapterSlug": "제1장-개요-12",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 1007,
+          "pageEnd": 1008,
+          "route": "#/chapter/제1장-개요-12",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제2장-재심-청구-기간",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 1009,
+          "pageEnd": 1011,
+          "route": "#/chapter/제2장-재심-청구-기간",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제3장-재심-청구-사유",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 1012,
+          "pageEnd": 1022,
+          "route": "#/chapter/제3장-재심-청구-사유",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제4장-재심에-대한-심리절차",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 1023,
+          "pageEnd": 1025,
+          "route": "#/chapter/제4장-재심에-대한-심리절차",
+          "score": 350
+        }
+      ]
+    },
+    {
+      "query": "제26편 특허소송",
+      "matchCount": 5,
+      "topMatches": [
+        {
+          "chapterSlug": "제1장-개요-13",
+          "sectionId": "part-intro",
+          "title": "제26편 특허소송",
+          "entryType": "part-intro",
+          "pageStart": 1035,
+          "pageEnd": 1036,
+          "route": "#/chapter/제1장-개요-13/part-intro",
+          "score": 400
+        },
+        {
+          "chapterSlug": "제1장-개요-13",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 1037,
+          "pageEnd": 1041,
+          "route": "#/chapter/제1장-개요-13",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제2장-심결취소소송",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 1042,
+          "pageEnd": 1042,
+          "route": "#/chapter/제2장-심결취소소송",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제2장-심결취소소송",
+          "sectionId": "제1절-특허법원의-심결취소소송",
+          "title": "제1절 특허법원의 심결취소소송",
+          "entryType": "item",
+          "pageStart": 1042,
+          "pageEnd": 1045,
+          "route": "#/chapter/제2장-심결취소소송/제1절-특허법원의-심결취소소송",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제2장-심결취소소송",
+          "sectionId": "제2절-상고",
+          "title": "제2절 상고",
+          "entryType": "item",
+          "pageStart": 1046,
+          "pageEnd": 1046,
+          "route": "#/chapter/제2장-심결취소소송/제2절-상고",
+          "score": 350
+        }
+      ]
+    },
+    {
+      "query": "제27편 심결의 확정 및 심판비용",
+      "matchCount": 5,
+      "topMatches": [
+        {
+          "chapterSlug": "제1장-심결의-확정",
+          "sectionId": "part-intro",
+          "title": "제27편 심결의 확정 및 심판비용",
+          "entryType": "part-intro",
+          "pageStart": 1063,
+          "pageEnd": 1064,
+          "route": "#/chapter/제1장-심결의-확정/part-intro",
+          "score": 400
+        },
+        {
+          "chapterSlug": "제1장-심결의-확정",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 1065,
+          "pageEnd": 1070,
+          "route": "#/chapter/제1장-심결의-확정",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제2장-심판비용",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 1071,
+          "pageEnd": 1074,
+          "route": "#/chapter/제2장-심판비용",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제3장-심판비용액의-결정절차",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 1075,
+          "pageEnd": 1076,
+          "route": "#/chapter/제3장-심판비용액의-결정절차",
+          "score": 350
+        },
+        {
+          "chapterSlug": "제4장-심판비용의-범위",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 1077,
+          "pageEnd": 1078,
+          "route": "#/chapter/제4장-심판비용의-범위",
+          "score": 350
+        }
+      ]
+    },
+    {
+      "query": "2. 2001년 시행 산업재산권법 개정내용",
+      "matchCount": 3,
+      "topMatches": [
+        {
+          "chapterSlug": "2-2001년-시행-산업재산권법-개정내용",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 1247,
+          "pageEnd": 1252,
+          "route": "#/chapter/2-2001년-시행-산업재산권법-개정내용",
+          "score": 400
+        },
+        {
+          "chapterSlug": "1-심판관계서식례-및-기재례",
+          "sectionId": "part-intro",
+          "title": "부 록",
+          "entryType": "part-intro",
+          "pageStart": 1085,
+          "pageEnd": 1086,
+          "route": "#/chapter/1-심판관계서식례-및-기재례/part-intro",
+          "score": 100
+        },
+        {
+          "chapterSlug": "1-심판관계서식례-및-기재례",
+          "sectionId": "part-intro",
+          "title": "개정 연혁",
+          "entryType": "search-alias",
+          "pageStart": 1085,
+          "pageEnd": 1086,
+          "route": "#/chapter/1-심판관계서식례-및-기재례/part-intro",
+          "score": 100
+        }
+      ]
+    },
+    {
+      "query": "3. 2006년 특허법 실용신안법 개정내용",
+      "matchCount": 3,
+      "topMatches": [
+        {
+          "chapterSlug": "3-2006년-특허법-실용신안법-개정내용",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 1253,
+          "pageEnd": 1266,
+          "route": "#/chapter/3-2006년-특허법-실용신안법-개정내용",
+          "score": 400
+        },
+        {
+          "chapterSlug": "1-심판관계서식례-및-기재례",
+          "sectionId": "part-intro",
+          "title": "부 록",
+          "entryType": "part-intro",
+          "pageStart": 1085,
+          "pageEnd": 1086,
+          "route": "#/chapter/1-심판관계서식례-및-기재례/part-intro",
+          "score": 100
+        },
+        {
+          "chapterSlug": "1-심판관계서식례-및-기재례",
+          "sectionId": "part-intro",
+          "title": "개정 연혁",
+          "entryType": "search-alias",
+          "pageStart": 1085,
+          "pageEnd": 1086,
+          "route": "#/chapter/1-심판관계서식례-및-기재례/part-intro",
+          "score": 100
+        }
+      ]
+    },
+    {
+      "query": "4. 2009. 7 .1 시행 특허법 실용신안법 개정내용",
+      "matchCount": 3,
+      "topMatches": [
+        {
+          "chapterSlug": "4-2009-7-1-시행-특허법-실용신안법-개정내용",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 1267,
+          "pageEnd": 1282,
+          "route": "#/chapter/4-2009-7-1-시행-특허법-실용신안법-개정내용",
+          "score": 400
+        },
+        {
+          "chapterSlug": "1-심판관계서식례-및-기재례",
+          "sectionId": "part-intro",
+          "title": "부 록",
+          "entryType": "part-intro",
+          "pageStart": 1085,
+          "pageEnd": 1086,
+          "route": "#/chapter/1-심판관계서식례-및-기재례/part-intro",
+          "score": 100
+        },
+        {
+          "chapterSlug": "1-심판관계서식례-및-기재례",
+          "sectionId": "part-intro",
+          "title": "개정 연혁",
+          "entryType": "search-alias",
+          "pageStart": 1085,
+          "pageEnd": 1086,
+          "route": "#/chapter/1-심판관계서식례-및-기재례/part-intro",
+          "score": 100
+        }
+      ]
+    },
+    {
+      "query": "5. 2009. 7 .1 시행 디자인보호법 개정내용",
+      "matchCount": 3,
+      "topMatches": [
+        {
+          "chapterSlug": "5-2009-7-1-시행-디자인보호법-개정내용",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 1283,
+          "pageEnd": 1296,
+          "route": "#/chapter/5-2009-7-1-시행-디자인보호법-개정내용",
+          "score": 400
+        },
+        {
+          "chapterSlug": "1-심판관계서식례-및-기재례",
+          "sectionId": "part-intro",
+          "title": "부 록",
+          "entryType": "part-intro",
+          "pageStart": 1085,
+          "pageEnd": 1086,
+          "route": "#/chapter/1-심판관계서식례-및-기재례/part-intro",
+          "score": 100
+        },
+        {
+          "chapterSlug": "1-심판관계서식례-및-기재례",
+          "sectionId": "part-intro",
+          "title": "개정 연혁",
+          "entryType": "search-alias",
+          "pageStart": 1085,
+          "pageEnd": 1086,
+          "route": "#/chapter/1-심판관계서식례-및-기재례/part-intro",
+          "score": 100
+        }
+      ]
+    },
+    {
+      "query": "6. 2014. 7 .1 시행 디자인보호법 개정내용",
+      "matchCount": 3,
+      "topMatches": [
+        {
+          "chapterSlug": "6-2014-7-1-시행-디자인보호법-개정내용",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 1297,
+          "pageEnd": 1304,
+          "route": "#/chapter/6-2014-7-1-시행-디자인보호법-개정내용",
+          "score": 400
+        },
+        {
+          "chapterSlug": "1-심판관계서식례-및-기재례",
+          "sectionId": "part-intro",
+          "title": "부 록",
+          "entryType": "part-intro",
+          "pageStart": 1085,
+          "pageEnd": 1086,
+          "route": "#/chapter/1-심판관계서식례-및-기재례/part-intro",
+          "score": 100
+        },
+        {
+          "chapterSlug": "1-심판관계서식례-및-기재례",
+          "sectionId": "part-intro",
+          "title": "개정 연혁",
+          "entryType": "search-alias",
+          "pageStart": 1085,
+          "pageEnd": 1086,
+          "route": "#/chapter/1-심판관계서식례-및-기재례/part-intro",
+          "score": 100
+        }
+      ]
+    },
+    {
+      "query": "7. 2016. 9. 1. 시행 상표법 개정내용",
+      "matchCount": 3,
+      "topMatches": [
+        {
+          "chapterSlug": "7-2016-9-1-시행-상표법-개정내용",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 1305,
+          "pageEnd": 1310,
+          "route": "#/chapter/7-2016-9-1-시행-상표법-개정내용",
+          "score": 400
+        },
+        {
+          "chapterSlug": "1-심판관계서식례-및-기재례",
+          "sectionId": "part-intro",
+          "title": "부 록",
+          "entryType": "part-intro",
+          "pageStart": 1085,
+          "pageEnd": 1086,
+          "route": "#/chapter/1-심판관계서식례-및-기재례/part-intro",
+          "score": 100
+        },
+        {
+          "chapterSlug": "1-심판관계서식례-및-기재례",
+          "sectionId": "part-intro",
+          "title": "개정 연혁",
+          "entryType": "search-alias",
+          "pageStart": 1085,
+          "pageEnd": 1086,
+          "route": "#/chapter/1-심판관계서식례-및-기재례/part-intro",
+          "score": 100
+        }
+      ]
+    },
+    {
+      "query": "8. 2017. 3. 1. 시행 특허법 실용신안법 개정내용",
+      "matchCount": 3,
+      "topMatches": [
+        {
+          "chapterSlug": "8-2017-3-1-시행-특허법-실용신안법-개정내용",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 1311,
+          "pageEnd": 1320,
+          "route": "#/chapter/8-2017-3-1-시행-특허법-실용신안법-개정내용",
+          "score": 400
+        },
+        {
+          "chapterSlug": "1-심판관계서식례-및-기재례",
+          "sectionId": "part-intro",
+          "title": "부 록",
+          "entryType": "part-intro",
+          "pageStart": 1085,
+          "pageEnd": 1086,
+          "route": "#/chapter/1-심판관계서식례-및-기재례/part-intro",
+          "score": 100
+        },
+        {
+          "chapterSlug": "1-심판관계서식례-및-기재례",
+          "sectionId": "part-intro",
+          "title": "개정 연혁",
+          "entryType": "search-alias",
+          "pageStart": 1085,
+          "pageEnd": 1086,
+          "route": "#/chapter/1-심판관계서식례-및-기재례/part-intro",
+          "score": 100
+        }
+      ]
+    },
+    {
+      "query": "9. 2017∼2020년 시행 산업재산권법 개정내용",
+      "matchCount": 3,
+      "topMatches": [
+        {
+          "chapterSlug": "9-2017-2020년-시행-산업재산권법-개정내용",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 1321,
+          "pageEnd": 1332,
+          "route": "#/chapter/9-2017-2020년-시행-산업재산권법-개정내용",
+          "score": 400
+        },
+        {
+          "chapterSlug": "1-심판관계서식례-및-기재례",
+          "sectionId": "part-intro",
+          "title": "부 록",
+          "entryType": "part-intro",
+          "pageStart": 1085,
+          "pageEnd": 1086,
+          "route": "#/chapter/1-심판관계서식례-및-기재례/part-intro",
+          "score": 100
+        },
+        {
+          "chapterSlug": "1-심판관계서식례-및-기재례",
+          "sectionId": "part-intro",
+          "title": "개정 연혁",
+          "entryType": "search-alias",
+          "pageStart": 1085,
+          "pageEnd": 1086,
+          "route": "#/chapter/1-심판관계서식례-및-기재례/part-intro",
+          "score": 100
+        }
+      ]
+    },
+    {
+      "query": "10. 2021∼2023년 시행 산업재산권법 개정내용",
+      "matchCount": 3,
+      "topMatches": [
+        {
+          "chapterSlug": "10-2021-2023년-시행-산업재산권법-개정내용",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 1333,
+          "pageEnd": 1354,
+          "route": "#/chapter/10-2021-2023년-시행-산업재산권법-개정내용",
+          "score": 400
+        },
+        {
+          "chapterSlug": "1-심판관계서식례-및-기재례",
+          "sectionId": "part-intro",
+          "title": "부 록",
+          "entryType": "part-intro",
+          "pageStart": 1085,
+          "pageEnd": 1086,
+          "route": "#/chapter/1-심판관계서식례-및-기재례/part-intro",
+          "score": 100
+        },
+        {
+          "chapterSlug": "1-심판관계서식례-및-기재례",
+          "sectionId": "part-intro",
+          "title": "개정 연혁",
+          "entryType": "search-alias",
+          "pageStart": 1085,
+          "pageEnd": 1086,
+          "route": "#/chapter/1-심판관계서식례-및-기재례/part-intro",
+          "score": 100
+        }
+      ]
+    },
+    {
+      "query": "부록",
+      "matchCount": 5,
+      "topMatches": [
+        {
+          "chapterSlug": "제1장-개요-6",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 787,
+          "pageEnd": 788,
+          "route": "#/chapter/제1장-개요-6",
+          "score": 100
+        },
+        {
+          "chapterSlug": "1-심판관계서식례-및-기재례",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 1087,
+          "pageEnd": 1246,
+          "route": "#/chapter/1-심판관계서식례-및-기재례",
+          "score": 100
+        },
+        {
+          "chapterSlug": "2-2001년-시행-산업재산권법-개정내용",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 1247,
+          "pageEnd": 1252,
+          "route": "#/chapter/2-2001년-시행-산업재산권법-개정내용",
+          "score": 100
+        },
+        {
+          "chapterSlug": "3-2006년-특허법-실용신안법-개정내용",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 1253,
+          "pageEnd": 1266,
+          "route": "#/chapter/3-2006년-특허법-실용신안법-개정내용",
+          "score": 100
+        },
+        {
+          "chapterSlug": "4-2009-7-1-시행-특허법-실용신안법-개정내용",
+          "sectionId": "overview",
+          "title": "개요",
+          "entryType": "overview",
+          "pageStart": 1267,
+          "pageEnd": 1282,
+          "route": "#/chapter/4-2009-7-1-시행-특허법-실용신안법-개정내용",
+          "score": 100
+        }
+      ]
+    }
+  ]
+}

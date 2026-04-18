@@ -1,0 +1,1301 @@
+{
+  "front_preface": [
+    {
+      "via": "document-data",
+      "chapterSlug": "front-preface",
+      "title": "머리말",
+      "pageStart": 5,
+      "pageEnd": 6,
+      "matchedTerm": "머리말"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "front-preface",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 5,
+      "pageEnd": 6,
+      "matchedTerm": "머리말"
+    }
+  ],
+  "front_notes": [
+    {
+      "via": "document-data",
+      "chapterSlug": "front-notes",
+      "title": "일러두기",
+      "pageStart": 7,
+      "pageEnd": 10,
+      "matchedTerm": "일러두기"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "front-notes",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 7,
+      "pageEnd": 10,
+      "matchedTerm": "일러두기"
+    }
+  ],
+  "toc": [],
+  "part_intro": [
+    {
+      "via": "search-index",
+      "chapterSlug": "제1장-의의",
+      "sectionId": "part-intro",
+      "sectionTitle": "제1편 특허심판 일반",
+      "entryType": "part-intro",
+      "pageStart": 29,
+      "pageEnd": 30,
+      "matchedTerm": "제1편 특허심판 일반"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "제1장-의의",
+      "title": "제1장 의의",
+      "pageStart": 31,
+      "pageEnd": 31,
+      "matchedTerm": "제1편 특허심판 일반"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제1장-심판서류의-접수",
+      "sectionId": "part-intro",
+      "sectionTitle": "제2편 심판서류의 접수 심판관지정 및 열람",
+      "entryType": "part-intro",
+      "pageStart": 39,
+      "pageEnd": 40,
+      "matchedTerm": "제2편 심판서류의 접수 심판관지정 및 열람"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "제1장-심판서류의-접수",
+      "title": "제1장 심판서류의 접수",
+      "pageStart": 41,
+      "pageEnd": 43,
+      "matchedTerm": "제2편 심판서류의 접수 심판관지정 및 열람"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제1장-의의-2",
+      "sectionId": "part-intro",
+      "sectionTitle": "제3편 방식심사 등",
+      "entryType": "part-intro",
+      "pageStart": 61,
+      "pageEnd": 62,
+      "matchedTerm": "제3편 방식심사 등"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "제1장-의의-2",
+      "title": "제1장 의의",
+      "pageStart": 63,
+      "pageEnd": 65,
+      "matchedTerm": "제3편 방식심사 등"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제1장-심판의-주체",
+      "sectionId": "part-intro",
+      "sectionTitle": "제4편 심판관,제척,기피등",
+      "entryType": "part-intro",
+      "pageStart": 89,
+      "pageEnd": 90,
+      "matchedTerm": "제4편 심판관,제척,기피등"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "제1장-심판의-주체",
+      "title": "제1장 심판의 주체",
+      "pageStart": 91,
+      "pageEnd": 97,
+      "matchedTerm": "제4편 심판관,제척,기피등"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제1장-개요",
+      "sectionId": "part-intro",
+      "sectionTitle": "제5편 심판의 당사자 대리인 참가인",
+      "entryType": "part-intro",
+      "pageStart": 113,
+      "pageEnd": 114,
+      "matchedTerm": "제5편 심판의 당사자 대리인 참가인"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "제1장-개요",
+      "title": "제1장 개요",
+      "pageStart": 115,
+      "pageEnd": 115,
+      "matchedTerm": "제5편 심판의 당사자 대리인 참가인"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제1장-심판청구의-요지변경",
+      "sectionId": "part-intro",
+      "sectionTitle": "제6편 요지변경, 일사부재리, 중복청구금지",
+      "entryType": "part-intro",
+      "pageStart": 177,
+      "pageEnd": 178,
+      "matchedTerm": "제6편 요지변경, 일사부재리, 중복청구금지"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "제1장-심판청구의-요지변경",
+      "title": "제1장 심판청구의 요지변경",
+      "pageStart": 179,
+      "pageEnd": 183,
+      "matchedTerm": "제6편 요지변경, 일사부재리, 중복청구금지"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제1장-심리병합",
+      "sectionId": "part-intro",
+      "sectionTitle": "제7편 심리병합, 정보제공, 우선심판, 신속심판",
+      "entryType": "part-intro",
+      "pageStart": 197,
+      "pageEnd": 198,
+      "matchedTerm": "제7편 심리병합, 정보제공, 우선심판, 신속심판"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "제1장-심리병합",
+      "title": "제1장 심리병합",
+      "pageStart": 199,
+      "pageEnd": 205,
+      "matchedTerm": "제7편 심리병합, 정보제공, 우선심판, 신속심판"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제1장-심판청구요건과-이해관계인",
+      "sectionId": "part-intro",
+      "sectionTitle": "제8편 이해관계 심리",
+      "entryType": "part-intro",
+      "pageStart": 217,
+      "pageEnd": 218,
+      "matchedTerm": "제8편 이해관계 심리"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "제1장-심판청구요건과-이해관계인",
+      "title": "제1장 심판청구요건과 이해관계인",
+      "pageStart": 219,
+      "pageEnd": 224,
+      "matchedTerm": "제8편 이해관계 심리"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제1장-증거",
+      "sectionId": "part-intro",
+      "sectionTitle": "제9편 증거조사",
+      "entryType": "part-intro",
+      "pageStart": 245,
+      "pageEnd": 246,
+      "matchedTerm": "제9편 증거조사"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "제1장-증거",
+      "title": "제1장 증거",
+      "pageStart": 247,
+      "pageEnd": 249,
+      "matchedTerm": "제9편 증거조사"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제1장-구술심리",
+      "sectionId": "part-intro",
+      "sectionTitle": "제10편 심리관련 제도",
+      "entryType": "part-intro",
+      "pageStart": 359,
+      "pageEnd": 360,
+      "matchedTerm": "제10편 심리관련 제도"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "제1장-구술심리",
+      "title": "제1장 구술심리",
+      "pageStart": 361,
+      "pageEnd": 406,
+      "matchedTerm": "제10편 심리관련 제도"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제1장-심판청구의-취하",
+      "sectionId": "part-intro",
+      "sectionTitle": "제11편 취하, 포기, 심리종결, 합의",
+      "entryType": "part-intro",
+      "pageStart": 419,
+      "pageEnd": 420,
+      "matchedTerm": "제11편 취하, 포기, 심리종결, 합의"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "제1장-심판청구의-취하",
+      "title": "제1장 심판청구의 취하",
+      "pageStart": 421,
+      "pageEnd": 430,
+      "matchedTerm": "제11편 취하, 포기, 심리종결, 합의"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제1장-개요-2",
+      "sectionId": "part-intro",
+      "sectionTitle": "제12편 심 결",
+      "entryType": "part-intro",
+      "pageStart": 451,
+      "pageEnd": 452,
+      "matchedTerm": "제12편 심 결"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "제1장-개요-2",
+      "title": "제1장 개요",
+      "pageStart": 453,
+      "pageEnd": 453,
+      "matchedTerm": "제12편 심 결"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제1장-서류의-송달",
+      "sectionId": "part-intro",
+      "sectionTitle": "제13편 송달, 기간, 절차정지, 승계",
+      "entryType": "part-intro",
+      "pageStart": 517,
+      "pageEnd": 518,
+      "matchedTerm": "제13편 송달, 기간, 절차정지, 승계"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "제1장-서류의-송달",
+      "title": "제1장 서류의 송달",
+      "pageStart": 519,
+      "pageEnd": 529,
+      "matchedTerm": "제13편 송달, 기간, 절차정지, 승계"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제1장-개요-3",
+      "sectionId": "part-intro",
+      "sectionTitle": "제14편 권리범위 확인심판",
+      "entryType": "part-intro",
+      "pageStart": 557,
+      "pageEnd": 558,
+      "matchedTerm": "제14편 권리범위 확인심판"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "제1장-개요-3",
+      "title": "제1장 개요",
+      "pageStart": 559,
+      "pageEnd": 559,
+      "matchedTerm": "제14편 권리범위 확인심판"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제1장-디자인권의-권리범위-확인심판의-개요",
+      "sectionId": "part-intro",
+      "sectionTitle": "제14-1편 디자인권의 권리범위 확인심판",
+      "entryType": "part-intro",
+      "pageStart": 601,
+      "pageEnd": 602,
+      "matchedTerm": "제14-1편 디자인권의 권리범위 확인심판"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "제1장-디자인권의-권리범위-확인심판의-개요",
+      "title": "제1장 디자인권의 권리범위 확인심판의 개요",
+      "pageStart": 603,
+      "pageEnd": 603,
+      "matchedTerm": "제14-1편 디자인권의 권리범위 확인심판"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제1장-개요-4",
+      "sectionId": "part-intro",
+      "sectionTitle": "제14-2편 상표권의 권리범위 확인심판",
+      "entryType": "part-intro",
+      "pageStart": 637,
+      "pageEnd": 638,
+      "matchedTerm": "제14-2편 상표권의 권리범위 확인심판"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "제1장-개요-4",
+      "title": "제1장 개요",
+      "pageStart": 639,
+      "pageEnd": 640,
+      "matchedTerm": "제14-2편 상표권의 권리범위 확인심판"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제1장-개요-5",
+      "sectionId": "part-intro",
+      "sectionTitle": "제15편 무효심판",
+      "entryType": "part-intro",
+      "pageStart": 677,
+      "pageEnd": 678,
+      "matchedTerm": "제15편 무효심판"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "제1장-개요-5",
+      "title": "제1장 개요",
+      "pageStart": 679,
+      "pageEnd": 681,
+      "matchedTerm": "제15편 무효심판"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제1장-디자인등록의-무효심판의-개요",
+      "sectionId": "part-intro",
+      "sectionTitle": "제15-1편 디자인등록의 무효심판",
+      "entryType": "part-intro",
+      "pageStart": 729,
+      "pageEnd": 730,
+      "matchedTerm": "제15-1편 디자인등록의 무효심판"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "제1장-디자인등록의-무효심판의-개요",
+      "title": "제1장 디자인등록의 무효심판의 개요",
+      "pageStart": 731,
+      "pageEnd": 732,
+      "matchedTerm": "제15-1편 디자인등록의 무효심판"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제1장-의의-및-관련-규정",
+      "sectionId": "part-intro",
+      "sectionTitle": "제15-2편 상표등록무효심판",
+      "entryType": "part-intro",
+      "pageStart": 755,
+      "pageEnd": 756,
+      "matchedTerm": "제15-2편 상표등록무효심판"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "제1장-의의-및-관련-규정",
+      "title": "제1장 의의 및 관련 규정",
+      "pageStart": 757,
+      "pageEnd": 758,
+      "matchedTerm": "제15-2편 상표등록무효심판"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제1장-개요-6",
+      "sectionId": "part-intro",
+      "sectionTitle": "제16편 정정심판",
+      "entryType": "part-intro",
+      "pageStart": 785,
+      "pageEnd": 786,
+      "matchedTerm": "제16편 정정심판"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "제1장-개요-6",
+      "title": "제1장 개요",
+      "pageStart": 787,
+      "pageEnd": 788,
+      "matchedTerm": "제16편 정정심판"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제1장-개요-7",
+      "sectionId": "part-intro",
+      "sectionTitle": "제17편 정정의 무효심판",
+      "entryType": "part-intro",
+      "pageStart": 829,
+      "pageEnd": 830,
+      "matchedTerm": "제17편 정정의 무효심판"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "제1장-개요-7",
+      "title": "제1장 개요",
+      "pageStart": 831,
+      "pageEnd": 831,
+      "matchedTerm": "제17편 정정의 무효심판"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제1장-특허권실용신안권-존속기간-연장등록의-무효심판",
+      "sectionId": "part-intro",
+      "sectionTitle": "제18편 연장 추가 갱신 전환 등록의 무효심판",
+      "entryType": "part-intro",
+      "pageStart": 837,
+      "pageEnd": 838,
+      "matchedTerm": "제18편 연장 추가 갱신 전환 등록의 무효심판"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "제1장-특허권실용신안권-존속기간-연장등록의-무효심판",
+      "title": "제1장 특허권(실용신안권) 존속기간 연장등록의 무효심판",
+      "pageStart": 839,
+      "pageEnd": 842,
+      "matchedTerm": "제18편 연장 추가 갱신 전환 등록의 무효심판"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제1장-상표권자의-부정사용으로-인한-상표등록취소심판-상-119-1",
+      "sectionId": "part-intro",
+      "sectionTitle": "제19편 상표등록취소심판",
+      "entryType": "part-intro",
+      "pageStart": 849,
+      "pageEnd": 851,
+      "matchedTerm": "제19편 상표등록취소심판"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "제1장-상표권자의-부정사용으로-인한-상표등록취소심판-상-119-1",
+      "title": "제1장 상표권자의 부정사용으로 인한 상표등록취소심판 (상§119①1)",
+      "pageStart": 852,
+      "pageEnd": 858,
+      "matchedTerm": "제19편 상표등록취소심판"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제1장-개요-8",
+      "sectionId": "part-intro",
+      "sectionTitle": "제20편 통상실시권허락심판",
+      "entryType": "part-intro",
+      "pageStart": 895,
+      "pageEnd": 896,
+      "matchedTerm": "제20편 통상실시권허락심판"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "제1장-개요-8",
+      "title": "제1장 개요",
+      "pageStart": 897,
+      "pageEnd": 897,
+      "matchedTerm": "제20편 통상실시권허락심판"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제1장-개요-9",
+      "sectionId": "part-intro",
+      "sectionTitle": "제21편 거절결정불복심판",
+      "entryType": "part-intro",
+      "pageStart": 901,
+      "pageEnd": 902,
+      "matchedTerm": "제21편 거절결정불복심판"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "제1장-개요-9",
+      "title": "제1장 개요",
+      "pageStart": 903,
+      "pageEnd": 903,
+      "matchedTerm": "제21편 거절결정불복심판"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제1장-개요-10",
+      "sectionId": "part-intro",
+      "sectionTitle": "제22편 보정각하결정불복심판",
+      "entryType": "part-intro",
+      "pageStart": 947,
+      "pageEnd": 948,
+      "matchedTerm": "제22편 보정각하결정불복심판"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "제1장-개요-10",
+      "title": "제1장 개요",
+      "pageStart": 949,
+      "pageEnd": 949,
+      "matchedTerm": "제22편 보정각하결정불복심판"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제1장-이의신청에-의한-등록취소결정에-대한-불복심판",
+      "sectionId": "part-intro",
+      "sectionTitle": "제23편 취소결정불복심판",
+      "entryType": "part-intro",
+      "pageStart": 965,
+      "pageEnd": 966,
+      "matchedTerm": "제23편 취소결정불복심판"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "제1장-이의신청에-의한-등록취소결정에-대한-불복심판",
+      "title": "제1장 이의신청에 의한 등록취소결정에 대한 불복심판",
+      "pageStart": 967,
+      "pageEnd": 968,
+      "matchedTerm": "제23편 취소결정불복심판"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제1장-개요-11",
+      "sectionId": "part-intro",
+      "sectionTitle": "제24편 특허취소신청",
+      "entryType": "part-intro",
+      "pageStart": 971,
+      "pageEnd": 972,
+      "matchedTerm": "제24편 특허취소신청"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "제1장-개요-11",
+      "title": "제1장 개요",
+      "pageStart": 973,
+      "pageEnd": 974,
+      "matchedTerm": "제24편 특허취소신청"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제1장-개요-12",
+      "sectionId": "part-intro",
+      "sectionTitle": "제25편 재 심",
+      "entryType": "part-intro",
+      "pageStart": 1005,
+      "pageEnd": 1006,
+      "matchedTerm": "제25편 재 심"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "제1장-개요-12",
+      "title": "제1장 개요",
+      "pageStart": 1007,
+      "pageEnd": 1008,
+      "matchedTerm": "제25편 재 심"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제1장-개요-13",
+      "sectionId": "part-intro",
+      "sectionTitle": "제26편 특허소송",
+      "entryType": "part-intro",
+      "pageStart": 1035,
+      "pageEnd": 1036,
+      "matchedTerm": "제26편 특허소송"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "제1장-개요-13",
+      "title": "제1장 개요",
+      "pageStart": 1037,
+      "pageEnd": 1041,
+      "matchedTerm": "제26편 특허소송"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제1장-심결의-확정",
+      "sectionId": "part-intro",
+      "sectionTitle": "제27편 심결의 확정 및 심판비용",
+      "entryType": "part-intro",
+      "pageStart": 1063,
+      "pageEnd": 1064,
+      "matchedTerm": "제27편 심결의 확정 및 심판비용"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "제1장-심결의-확정",
+      "title": "제1장 심결의 확정",
+      "pageStart": 1065,
+      "pageEnd": 1070,
+      "matchedTerm": "제27편 심결의 확정 및 심판비용"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "1-심판관계서식례-및-기재례",
+      "sectionId": "part-intro",
+      "sectionTitle": "부 록",
+      "entryType": "part-intro",
+      "pageStart": 1085,
+      "pageEnd": 1086,
+      "matchedTerm": "부 록"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "1-심판관계서식례-및-기재례",
+      "title": "1. 심판관계서식례 및 기재례",
+      "pageStart": 1087,
+      "pageEnd": 1246,
+      "matchedTerm": "부 록"
+    }
+  ],
+  "revision_history": [
+    {
+      "via": "search-index",
+      "chapterSlug": "1-심판관계서식례-및-기재례",
+      "sectionId": "part-intro",
+      "sectionTitle": "개정 연혁",
+      "entryType": "search-alias",
+      "pageStart": 1085,
+      "pageEnd": 1086,
+      "matchedTerm": "개정 연혁"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "2-2001년-시행-산업재산권법-개정내용",
+      "title": "2. 2001년 시행 산업재산권법 개정내용",
+      "pageStart": 1247,
+      "pageEnd": 1252,
+      "matchedTerm": "2. 2001년 시행 산업재산권법 개정내용"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "3-2006년-특허법-실용신안법-개정내용",
+      "title": "3. 2006년 특허법 실용신안법 개정내용",
+      "pageStart": 1253,
+      "pageEnd": 1266,
+      "matchedTerm": "3. 2006년 특허법 실용신안법 개정내용"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "4-2009-7-1-시행-특허법-실용신안법-개정내용",
+      "title": "4. 2009. 7 .1 시행 특허법 실용신안법 개정내용",
+      "pageStart": 1267,
+      "pageEnd": 1282,
+      "matchedTerm": "4. 2009. 7 .1 시행 특허법 실용신안법 개정내용"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "5-2009-7-1-시행-디자인보호법-개정내용",
+      "title": "5. 2009. 7 .1 시행 디자인보호법 개정내용",
+      "pageStart": 1283,
+      "pageEnd": 1296,
+      "matchedTerm": "5. 2009. 7 .1 시행 디자인보호법 개정내용"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "6-2014-7-1-시행-디자인보호법-개정내용",
+      "title": "6. 2014. 7 .1 시행 디자인보호법 개정내용",
+      "pageStart": 1297,
+      "pageEnd": 1304,
+      "matchedTerm": "6. 2014. 7 .1 시행 디자인보호법 개정내용"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "7-2016-9-1-시행-상표법-개정내용",
+      "title": "7. 2016. 9. 1. 시행 상표법 개정내용",
+      "pageStart": 1305,
+      "pageEnd": 1310,
+      "matchedTerm": "7. 2016. 9. 1. 시행 상표법 개정내용"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "8-2017-3-1-시행-특허법-실용신안법-개정내용",
+      "title": "8. 2017. 3. 1. 시행 특허법 실용신안법 개정내용",
+      "pageStart": 1311,
+      "pageEnd": 1320,
+      "matchedTerm": "8. 2017. 3. 1. 시행 특허법 실용신안법 개정내용"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "9-2017-2020년-시행-산업재산권법-개정내용",
+      "title": "9. 2017∼2020년 시행 산업재산권법 개정내용",
+      "pageStart": 1321,
+      "pageEnd": 1332,
+      "matchedTerm": "9. 2017∼2020년 시행 산업재산권법 개정내용"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "10-2021-2023년-시행-산업재산권법-개정내용",
+      "title": "10. 2021∼2023년 시행 산업재산권법 개정내용",
+      "pageStart": 1333,
+      "pageEnd": 1354,
+      "matchedTerm": "10. 2021∼2023년 시행 산업재산권법 개정내용"
+    }
+  ],
+  "legend": [],
+  "appendix": [
+    {
+      "via": "search-index",
+      "chapterSlug": "제2장-일사부재리",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 184,
+      "pageEnd": 192,
+      "matchedTerm": "부칙"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제3장-중복심판청구-금지",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 193,
+      "pageEnd": 196,
+      "matchedTerm": "부칙"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제2장-기간의-계산",
+      "sectionId": "제5절-부가기간의-지정",
+      "sectionTitle": "제5절 부가기간의 지정",
+      "entryType": "item",
+      "pageStart": 539,
+      "pageEnd": 540,
+      "matchedTerm": "부칙"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제3장-권리범위-확인심판의-청구",
+      "sectionId": "제2절-청구-기간-및-대상상표권이-소멸된-경우",
+      "sectionTitle": "제2절 청구 기간 및 대상(상표권이 소멸된 경우)",
+      "entryType": "item",
+      "pageStart": 647,
+      "pageEnd": 648,
+      "matchedTerm": "부칙"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제4장-권리범위-확인심판의-심리",
+      "sectionId": "제2절-적용법규",
+      "sectionTitle": "제2절 적용법규",
+      "entryType": "item",
+      "pageStart": 658,
+      "pageEnd": 659,
+      "matchedTerm": "부칙"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제1장-개요-5",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 679,
+      "pageEnd": 681,
+      "matchedTerm": "부칙"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제6장-무효심판의-청구시기-2",
+      "sectionId": "제2절-무효심판청구의-제척기간-2",
+      "sectionTitle": "제2절 무효심판청구의 제척기간",
+      "entryType": "item",
+      "pageStart": 738,
+      "pageEnd": 739,
+      "matchedTerm": "부칙"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제1장-의의-및-관련-규정",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 757,
+      "pageEnd": 758,
+      "matchedTerm": "부칙"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제7장-무효사유-존부의-판단기준-시",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 774,
+      "pageEnd": 776,
+      "matchedTerm": "부칙"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제2장-정정심판-청구",
+      "sectionId": "제3절-정정의-범위",
+      "sectionTitle": "제3절 정정의 범위",
+      "entryType": "item",
+      "pageStart": 791,
+      "pageEnd": 798,
+      "matchedTerm": "부칙"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제5장-정정-인정여부-판단-유형-및-사례",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 810,
+      "pageEnd": 824,
+      "matchedTerm": "부칙"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제3장-등록상표의-불사용으로-인한-취소심판상-119-3",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 864,
+      "pageEnd": 876,
+      "matchedTerm": "부칙"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제6장-조약당사국에-등록된-상표와-동일-유사한-상표의-등록취소심판구상-73-7",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 882,
+      "pageEnd": 884,
+      "matchedTerm": "부칙"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제7장-거절결정불복심판-청구에-대한-심리",
+      "sectionId": "제3절-심리-대상이-되는-명세서-또는-도면",
+      "sectionTitle": "제3절 심리 대상이 되는 명세서 또는 도면",
+      "entryType": "item",
+      "pageStart": 926,
+      "pageEnd": 928,
+      "matchedTerm": "부칙"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "제2장-특허취소신청의-대상과-취소이유",
+      "title": "제2장 특허취소신청의 대상과 취소이유",
+      "pageStart": 975,
+      "pageEnd": 976,
+      "matchedTerm": "부칙"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제2장-특허취소신청의-대상과-취소이유",
+      "sectionId": "제1절-특허취소신청의-대상",
+      "sectionTitle": "제1절 특허취소신청의 대상",
+      "entryType": "item",
+      "pageStart": 975,
+      "pageEnd": 975,
+      "matchedTerm": "부칙"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제2장-심결취소소송",
+      "sectionId": "제2절-상고",
+      "sectionTitle": "제2절 상고",
+      "entryType": "item",
+      "pageStart": 1046,
+      "pageEnd": 1046,
+      "matchedTerm": "부칙"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "1-심판관계서식례-및-기재례",
+      "sectionId": "part-intro",
+      "sectionTitle": "부 록",
+      "entryType": "part-intro",
+      "pageStart": 1085,
+      "pageEnd": 1086,
+      "matchedTerm": "부록"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "1-심판관계서식례-및-기재례",
+      "title": "1. 심판관계서식례 및 기재례",
+      "pageStart": 1087,
+      "pageEnd": 1246,
+      "matchedTerm": "부록"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "1-심판관계서식례-및-기재례",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 1087,
+      "pageEnd": 1246,
+      "matchedTerm": "부록"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "2-2001년-시행-산업재산권법-개정내용",
+      "title": "2. 2001년 시행 산업재산권법 개정내용",
+      "pageStart": 1247,
+      "pageEnd": 1252,
+      "matchedTerm": "부록"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "2-2001년-시행-산업재산권법-개정내용",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 1247,
+      "pageEnd": 1252,
+      "matchedTerm": "부록"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "2-2001년-시행-산업재산권법-개정내용",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 1247,
+      "pageEnd": 1252,
+      "matchedTerm": "부칙"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "3-2006년-특허법-실용신안법-개정내용",
+      "title": "3. 2006년 특허법 실용신안법 개정내용",
+      "pageStart": 1253,
+      "pageEnd": 1266,
+      "matchedTerm": "부록"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "3-2006년-특허법-실용신안법-개정내용",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 1253,
+      "pageEnd": 1266,
+      "matchedTerm": "부록"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "4-2009-7-1-시행-특허법-실용신안법-개정내용",
+      "title": "4. 2009. 7 .1 시행 특허법 실용신안법 개정내용",
+      "pageStart": 1267,
+      "pageEnd": 1282,
+      "matchedTerm": "부록"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "4-2009-7-1-시행-특허법-실용신안법-개정내용",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 1267,
+      "pageEnd": 1282,
+      "matchedTerm": "부록"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "5-2009-7-1-시행-디자인보호법-개정내용",
+      "title": "5. 2009. 7 .1 시행 디자인보호법 개정내용",
+      "pageStart": 1283,
+      "pageEnd": 1296,
+      "matchedTerm": "부록"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "5-2009-7-1-시행-디자인보호법-개정내용",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 1283,
+      "pageEnd": 1296,
+      "matchedTerm": "부록"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "6-2014-7-1-시행-디자인보호법-개정내용",
+      "title": "6. 2014. 7 .1 시행 디자인보호법 개정내용",
+      "pageStart": 1297,
+      "pageEnd": 1304,
+      "matchedTerm": "부록"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "6-2014-7-1-시행-디자인보호법-개정내용",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 1297,
+      "pageEnd": 1304,
+      "matchedTerm": "부록"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "6-2014-7-1-시행-디자인보호법-개정내용",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 1297,
+      "pageEnd": 1304,
+      "matchedTerm": "부칙"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "7-2016-9-1-시행-상표법-개정내용",
+      "title": "7. 2016. 9. 1. 시행 상표법 개정내용",
+      "pageStart": 1305,
+      "pageEnd": 1310,
+      "matchedTerm": "부록"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "7-2016-9-1-시행-상표법-개정내용",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 1305,
+      "pageEnd": 1310,
+      "matchedTerm": "부록"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "7-2016-9-1-시행-상표법-개정내용",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 1305,
+      "pageEnd": 1310,
+      "matchedTerm": "부칙"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "8-2017-3-1-시행-특허법-실용신안법-개정내용",
+      "title": "8. 2017. 3. 1. 시행 특허법 실용신안법 개정내용",
+      "pageStart": 1311,
+      "pageEnd": 1320,
+      "matchedTerm": "부록"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "8-2017-3-1-시행-특허법-실용신안법-개정내용",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 1311,
+      "pageEnd": 1320,
+      "matchedTerm": "부록"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "9-2017-2020년-시행-산업재산권법-개정내용",
+      "title": "9. 2017∼2020년 시행 산업재산권법 개정내용",
+      "pageStart": 1321,
+      "pageEnd": 1332,
+      "matchedTerm": "부록"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "9-2017-2020년-시행-산업재산권법-개정내용",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 1321,
+      "pageEnd": 1332,
+      "matchedTerm": "부록"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "9-2017-2020년-시행-산업재산권법-개정내용",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 1321,
+      "pageEnd": 1332,
+      "matchedTerm": "부칙"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "10-2021-2023년-시행-산업재산권법-개정내용",
+      "title": "10. 2021∼2023년 시행 산업재산권법 개정내용",
+      "pageStart": 1333,
+      "pageEnd": 1354,
+      "matchedTerm": "부록"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "10-2021-2023년-시행-산업재산권법-개정내용",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 1333,
+      "pageEnd": 1354,
+      "matchedTerm": "부록"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "11-산업재산권법의-조문별-적용-기준일-안내",
+      "title": "11. 산업재산권법의 조문별 적용 기준일 안내",
+      "pageStart": 1355,
+      "pageEnd": 1372,
+      "matchedTerm": "부록"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "11-산업재산권법의-조문별-적용-기준일-안내",
+      "title": "11. 산업재산권법의 조문별 적용 기준일 안내",
+      "pageStart": 1355,
+      "pageEnd": 1372,
+      "matchedTerm": "부칙"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "11-산업재산권법의-조문별-적용-기준일-안내",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 1355,
+      "pageEnd": 1372,
+      "matchedTerm": "부록"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "11-산업재산권법의-조문별-적용-기준일-안내",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 1355,
+      "pageEnd": 1372,
+      "matchedTerm": "부칙"
+    }
+  ],
+  "reconsideration_deadline": [],
+  "fta_gi": [
+    {
+      "via": "search-index",
+      "chapterSlug": "제3장-심결분류",
+      "sectionId": "제3절-심결분류표",
+      "sectionTitle": "제3절 심결분류표",
+      "entryType": "item",
+      "pageStart": 461,
+      "pageEnd": 478,
+      "matchedTerm": "지리적 표시"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제4장-권리범위-확인심판의-심리",
+      "sectionId": "제5절-권리범위-속부-판단본안-판단",
+      "sectionTitle": "제5절 권리범위 속부 판단(본안 판단)",
+      "entryType": "item",
+      "pageStart": 665,
+      "pageEnd": 672,
+      "matchedTerm": "지리적 표시"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제1장-의의-및-관련-규정",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 757,
+      "pageEnd": 758,
+      "matchedTerm": "지리적 표시"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제5장-무효심판의-청구대상-및-무효원인",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 767,
+      "pageEnd": 769,
+      "matchedTerm": "지리적 표시"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "제7장-무효사유-존부의-판단기준-시",
+      "title": "제7장 무효사유 존부의 판단기준 시",
+      "pageStart": 774,
+      "pageEnd": 776,
+      "matchedTerm": "지리적 표시"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제7장-무효사유-존부의-판단기준-시",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 774,
+      "pageEnd": 776,
+      "matchedTerm": "지리적 표시"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제2장-지정상품추가등록-상표권존속기간갱신등록-상품분류전환등록의-무효심판",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 843,
+      "pageEnd": 848,
+      "matchedTerm": "지리적 표시"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제1장-상표권자의-부정사용으로-인한-상표등록취소심판-상-119-1",
+      "sectionId": "part-intro",
+      "sectionTitle": "제19편 상표등록취소심판",
+      "entryType": "part-intro",
+      "pageStart": 849,
+      "pageEnd": 851,
+      "matchedTerm": "지리적 표시"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제8장-단체표장의-등록취소심판상-119-7-가목-나목-다목",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 888,
+      "pageEnd": 889,
+      "matchedTerm": "지리적 표시"
+    },
+    {
+      "via": "document-data",
+      "chapterSlug": "제9장-지리적-표시-단체표장의-등록취소심판상-119-8",
+      "title": "제9장 지리적 표시 단체표장의 등록취소심판(상§119①8)",
+      "pageStart": 890,
+      "pageEnd": 891,
+      "matchedTerm": "지리적 표시"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제9장-지리적-표시-단체표장의-등록취소심판상-119-8",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 890,
+      "pageEnd": 891,
+      "matchedTerm": "지리적 표시"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제10장-증명표장의-등록취소심판상-119-9",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 892,
+      "pageEnd": 894,
+      "matchedTerm": "지리적 표시"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제5장-거절이유",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 911,
+      "pageEnd": 916,
+      "matchedTerm": "지리적 표시"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "제4장-요지변경-기준",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 952,
+      "pageEnd": 963,
+      "matchedTerm": "지리적 표시"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "9-2017-2020년-시행-산업재산권법-개정내용",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 1321,
+      "pageEnd": 1332,
+      "matchedTerm": "지리적 표시"
+    },
+    {
+      "via": "search-index",
+      "chapterSlug": "11-산업재산권법의-조문별-적용-기준일-안내",
+      "sectionId": "overview",
+      "sectionTitle": "개요",
+      "entryType": "overview",
+      "pageStart": 1355,
+      "pageEnd": 1372,
+      "matchedTerm": "지리적 표시"
+    }
+  ]
+}
