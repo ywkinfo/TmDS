@@ -26,6 +26,7 @@ exploration index, inline image asset을 재현 가능한 방식으로 생성하
 - `npm run content:qa`: 구조 및 coverage QA
 - `npm run content:prepare`: 전체 content pipeline 실행
 - `npm run content:notebooklm`: `content:prepare` 실행 후 NotebookLM용 Markdown(`data/notebooklm/parts/*.md`, `data/notebooklm/chapters/*.md`) 생성
+- `npm run audit:r2-bundle`: `data/generated/`를 source of truth로 사용해 `data/research/pdf-web-audit/<today>-r2/` 오프라인 R2 audit bundle(`page-coverage-ledger`, `special-sections`, `search-checks`, truthful first-pass `content-fidelity-diff` 등) 생성
 - `npm run web:sync`: generated JSON과 image asset을 `web/public/generated/`로 동기화
 - `npm run web:prepare`: content pipeline 실행 후 웹 리더 산출물 동기화
 - `npm run web:dev`: 개발 서버 실행
