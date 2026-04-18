@@ -1,0 +1,126 @@
+{
+  "scope": "limited-manual-browser-verification",
+  "baseUrl": "http://127.0.0.1:4317",
+  "notes": [
+    "This artifact captures a narrow browser verification pass after the offline R2 bundle build.",
+    "Search checks were validated against the live reader UI, not by direct route comparison alone.",
+    "Representative fidelity pages were checked as reader route plus paired QA route, with screenshots saved under screenshots/."
+  ],
+  "searchChecks": [
+    {
+      "query": "머리말",
+      "expectedRoute": "#/chapter/front-preface",
+      "observedUrl": "http://127.0.0.1:4317/#/chapter/front-preface",
+      "result": "match",
+      "notes": [
+        "The reader navigated successfully from the search dropdown.",
+        "The offline search-check expectation was updated to the runtime canonical chapter-root route."
+      ],
+      "artifacts": [
+        "screenshots/search-headword-preface.png",
+        "screenshots/route-headword-preface.png"
+      ]
+    },
+    {
+      "query": "개정 연혁",
+      "expectedRoute": "#/chapter/1-심판관계서식례-및-기재례/part-intro",
+      "observedUrl": "http://127.0.0.1:4317/#/chapter/1-%EC%8B%AC%ED%8C%90%EA%B4%80%EA%B3%84%EC%84%9C%EC%8B%9D%EB%A1%80-%EB%B0%8F-%EA%B8%B0%EC%9E%AC%EB%A1%80/part-intro",
+      "result": "match",
+      "notes": [
+        "The reader navigated from the search dropdown to the expected chapter part-intro route.",
+        "The observed URL is percent-encoded but semantically matches the expected route."
+      ],
+      "artifacts": [
+        "screenshots/search-revision-history.png",
+        "screenshots/route-revision-history.png"
+      ]
+    },
+    {
+      "query": "FTA",
+      "expectedRoute": null,
+      "observedUrl": null,
+      "result": "empty",
+      "notes": [
+        "The search dropdown rendered the empty-card state for an expected-empty query.",
+        "No navigation was triggered."
+      ],
+      "artifacts": [
+        "screenshots/search-fta-empty.png"
+      ]
+    },
+    {
+      "query": "일러두기",
+      "expectedRoute": "#/chapter/front-notes",
+      "observedUrl": "http://127.0.0.1:4317/#/chapter/front-notes",
+      "result": "match",
+      "notes": [
+        "The reader navigated successfully from the search dropdown.",
+        "The final route matched the canonical chapter-root expectation for the overview search hit."
+      ],
+      "artifacts": [
+        "screenshots/search-front-notes.png",
+        "screenshots/route-front-notes.png"
+      ]
+    },
+    {
+      "query": "지리적 표시",
+      "expectedRoute": "#/chapter/제9장-지리적-표시-단체표장의-등록취소심판상-119-8",
+      "observedUrl": "http://127.0.0.1:4317/#/chapter/%EC%A0%9C9%EC%9E%A5-%EC%A7%80%EB%A6%AC%EC%A0%81-%ED%91%9C%EC%8B%9C-%EB%8B%A8%EC%B2%B4%ED%91%9C%EC%9E%A5%EC%9D%98-%EB%93%B1%EB%A1%9D%EC%B7%A8%EC%86%8C%EC%8B%AC%ED%8C%90%EC%83%81-119-8",
+      "result": "match",
+      "notes": [
+        "The active top search result was selected because this query returns multiple results.",
+        "The observed URL is percent-encoded but semantically matches the canonical expected route."
+      ],
+      "artifacts": [
+        "screenshots/search-gi.png",
+        "screenshots/route-gi.png"
+      ]
+    }
+  ],
+  "pageChecks": [
+    {
+      "pageNumber": 35,
+      "comparisonStatus": "candidate-backed",
+      "readerRoute": "#/chapter/제3장-특허심판의-종류/제1절-결정계-심판",
+      "qaRoute": "#/qa/page/35",
+      "flags": [
+        "korean-linebreak-residue"
+      ],
+      "result": "rendered-and-qa-visible",
+      "artifacts": [
+        "screenshots/page-0035-reader.png",
+        "screenshots/page-0035-qa.png"
+      ]
+    },
+    {
+      "pageNumber": 45,
+      "comparisonStatus": "ambiguous",
+      "readerRoute": "#/chapter/제2장-심판청구서-접수-후-절차-심판정책과/제3절-심판처리부-기재",
+      "qaRoute": "#/qa/page/45",
+      "flags": [
+        "multi-section-page",
+        "korean-linebreak-residue"
+      ],
+      "result": "rendered-and-qa-visible",
+      "artifacts": [
+        "screenshots/page-0045-reader.png",
+        "screenshots/page-0045-qa.png"
+      ]
+    },
+    {
+      "pageNumber": 46,
+      "comparisonStatus": "ambiguous",
+      "readerRoute": "#/chapter/제2장-심판청구서-접수-후-절차-심판정책과/제7절-심판관지정-변경-통지서의-작성-및-통지",
+      "qaRoute": "#/qa/page/46",
+      "flags": [
+        "multi-section-page",
+        "page-merge"
+      ],
+      "result": "rendered-and-qa-visible",
+      "artifacts": [
+        "screenshots/page-0046-reader.png",
+        "screenshots/page-0046-qa.png"
+      ]
+    }
+  ]
+}
